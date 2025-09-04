@@ -1,0 +1,1790 @@
+{
+    "chunks": [
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 0.0,
+            "end": 1.72,
+            "text": " Guys, I read the box model of my CSS."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 1.72,
+            "end": 4.64,
+            "text": " You saw that if the width of any element is less"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 4.64,
+            "end": 6.24,
+            "text": " and the content inside it is more,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 6.24,
+            "end": 8.44,
+            "text": " then the items inside it overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 8.44,
+            "end": 12.72,
+            "text": " We can manage this overflow by using the CSS overflow property."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 12.72,
+            "end": 17.0,
+            "text": " We can bring a scroll bar inside CSS horizontally and vertically."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 17.0,
+            "end": 18.76,
+            "text": " We will learn these things in this video."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 18.76,
+            "end": 21.64,
+            "text": " And we will also use it practically in the coming projects."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 21.64,
+            "end": 23.8,
+            "text": " I want you to keep high energy."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 23.8,
+            "end": 26.48,
+            "text": " Do write Sigma batch OP in the comment section below."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 26.48,
+            "end": 28.080000000000002,
+            "text": " Let's go to the computer screen."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 28.080000000000002,
+            "end": 29.52,
+            "text": " Let's roll the intro."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 30.0,
+            "end": 39.84,
+            "text": " So guys, I have come to my computer screen."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 39.84,
+            "end": 42.8,
+            "text": " As you can see, the first thing I am going to do here is"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 42.8,
+            "end": 43.96,
+            "text": " to make a new folder."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 43.96,
+            "end": 46.24,
+            "text": " And I am going to name it video 26."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 46.24,
+            "end": 49.400000000000006,
+            "text": " And today's video is on our overflow property."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 49.400000000000006,
+            "end": 50.84,
+            "text": " What is this overflow property?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 50.84,
+            "end": 52.400000000000006,
+            "text": " Look, you have a box."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 52.400000000000006,
+            "end": 55.400000000000006,
+            "text": " You put such an item inside that box."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 55.400000000000006,
+            "end": 56.8,
+            "text": " Because it is bigger than that box."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 56.8,
+            "end": 58.120000000000005,
+            "text": " What will it do? It will overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 58.120000000000005,
+            "end": 59.04,
+            "text": " It is obvious."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 59.24,
+            "end": 63.04,
+            "text": " Now how do you want the overflow to be handled in this way?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 63.04,
+            "end": 64.48,
+            "text": " It's up to you."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 64.48,
+            "end": 65.88,
+            "text": " For example, I have this box."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 65.88,
+            "end": 72.32,
+            "text": " It says, I am a good boy and I love to write lorem 45."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 72.32,
+            "end": 72.92,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 72.92,
+            "end": 74.16,
+            "text": " Assume I wrote this."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 74.16,
+            "end": 75.72,
+            "text": " Obviously, you will write something good."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 75.72,
+            "end": 78.08,
+            "text": " Your meaningful content will be in the box."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 78.08,
+            "end": 82.24,
+            "text": " And by correcting it here and by putting a style tag,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 82.24,
+            "end": 84.72,
+            "text": " I will write a CSS in the dot box here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 84.72,
+            "end": 86.68,
+            "text": " And I will tell you what that CSS will be."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 86.68,
+            "end": 87.92,
+            "text": " First of all, I will give it a width."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 87.92,
+            "end": 90.56,
+            "text": " Let's say I give it a width of 40bw."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 90.56,
+            "end": 90.88,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 90.88,
+            "end": 93.76,
+            "text": " It got 40% width of their viewport width."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 93.76,
+            "end": 96.36,
+            "text": " And I will give it a height of 40bh."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 96.36,
+            "end": 96.8,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 96.8,
+            "end": 99.6,
+            "text": " It got 40% of the viewport height."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 99.6,
+            "end": 100.36,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 100.36,
+            "end": 102.12,
+            "text": " Now after this, I will give a border in it."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 102.12,
+            "end": 104.2,
+            "text": " And that will be 2px solid black."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 104.2,
+            "end": 106.72,
+            "text": " And the rest of you can see its preview here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 106.72,
+            "end": 107.4,
+            "text": " How is it looking?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 107.4,
+            "end": 107.6,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 107.6,
+            "end": 109.48,
+            "text": " Obviously, I will show you in the browser."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 109.48,
+            "end": 111.44,
+            "text": " Hey, this is not overflowed."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 111.44,
+            "end": 113.16,
+            "text": " So what will I do to make it overflow?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 113.16,
+            "end": 114.92,
+            "text": " I will make it 10bh 10bw."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 114.92,
+            "end": 116.2,
+            "text": " I will make it 10."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 116.2,
+            "end": 117.56,
+            "text": " Now I made it 10."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 117.56,
+            "end": 119.56,
+            "text": " So obviously it will overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 119.56,
+            "end": 121.0,
+            "text": " Or if I make it 30bh 10bh,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 121.0,
+            "end": 122.88,
+            "text": " then see it is overflowing below."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 122.88,
+            "end": 124.4,
+            "text": " Now because it is overflowing,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 124.4,
+            "end": 127.64,
+            "text": " what will I do to fix it?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 127.64,
+            "end": 129.56,
+            "text": " So how can it be fixed?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 129.56,
+            "end": 131.32,
+            "text": " See it can be fixed in two ways."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 131.32,
+            "end": 133.96,
+            "text": " The first way to fix it is"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 133.96,
+            "end": 137.08,
+            "text": " that I use the overflow property here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 137.08,
+            "end": 138.96,
+            "text": " I say something like this overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 138.96,
+            "end": 140.52,
+            "text": " And here I say scroll."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 140.52,
+            "end": 141.16,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 141.16,
+            "end": 142.84,
+            "text": " So if I make it overflow scroll,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 142.84,
+            "end": 145.0,
+            "text": " then a horizontal scroll bar will come here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 145.04,
+            "end": 147.48,
+            "text": " And the things that were overflowing from this box"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 147.48,
+            "end": 148.44,
+            "text": " will not overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 148.44,
+            "end": 150.12,
+            "text": " And obviously it will come here too."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 150.12,
+            "end": 152.4,
+            "text": " And you can see here that your work is done."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 152.4,
+            "end": 154.44,
+            "text": " So to put such a scroll bar,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 154.44,
+            "end": 156.64,
+            "text": " you can use overflow scroll."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 156.64,
+            "end": 158.84,
+            "text": " Now there are many other properties related to overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 158.84,
+            "end": 161.08,
+            "text": " Like suppose if you have"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 161.08,
+            "end": 162.4,
+            "text": " made overflow auto here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 162.4,
+            "end": 164.08,
+            "text": " I can make it overflow auto here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 164.08,
+            "end": 166.08,
+            "text": " And by making overflow auto,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 166.08,
+            "end": 167.84,
+            "text": " if it overflows,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 167.84,
+            "end": 170.32,
+            "text": " then you will see this scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 170.32,
+            "end": 171.52,
+            "text": " And if it doesn't overflow,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 171.52,
+            "end": 173.4,
+            "text": " then you won't see the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 173.4,
+            "end": 175.88,
+            "text": " For example, if its viewport width is this much"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 175.88,
+            "end": 177.56,
+            "text": " and its viewport height is this much,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 177.56,
+            "end": 179.36,
+            "text": " then there is no chance of overflow here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 179.36,
+            "end": 181.16,
+            "text": " So by making overflow auto,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 181.16,
+            "end": 182.36,
+            "text": " overflow auto says that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 182.36,
+            "end": 184.16,
+            "text": " brother, if it overflows,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 184.16,
+            "end": 185.44,
+            "text": " then show the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 185.44,
+            "end": 187.64000000000001,
+            "text": " And if it is not overflowing,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 187.64000000000001,
+            "end": 190.28,
+            "text": " then you don't need to show the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 190.28,
+            "end": 191.8,
+            "text": " Let the element remain normal."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 191.8,
+            "end": 193.72,
+            "text": " This is our overflow auto."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 193.72,
+            "end": 195.92000000000002,
+            "text": " And if I say overflow scroll here,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 195.92000000000002,
+            "end": 199.0,
+            "text": " then even if everything is fine here,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 199.0,
+            "end": 200.72,
+            "text": " then what will happen here?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 200.72,
+            "end": 202.8,
+            "text": " You will get this scroll bar here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 202.8,
+            "end": 204.4,
+            "text": " You will get to see this kind of scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 204.4,
+            "end": 206.84,
+            "text": " That's why it's always a good idea to put a scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 206.84,
+            "end": 208.64000000000001,
+            "text": " Okay, so I hope you understood this thing"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 208.64000000000001,
+            "end": 210.28,
+            "text": " that why to put a scroll bar here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 210.28,
+            "end": 211.76000000000002,
+            "text": " Now here if I had"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 211.76000000000002,
+            "end": 213.84,
+            "text": " no wrapped its white space, let us say."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 213.84,
+            "end": 215.44,
+            "text": " That is, if I come to my code"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 215.44,
+            "end": 217.36,
+            "text": " and write it here for you,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 217.36,
+            "end": 219.24,
+            "text": " I will make the white space no wrap."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 219.24,
+            "end": 221.16000000000003,
+            "text": " Okay, so what will happen by no wrapping?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 221.16000000000003,
+            "end": 223.16000000000003,
+            "text": " That by no wrapping the white space,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 223.16000000000003,
+            "end": 225.96,
+            "text": " it will take the whole space horizontally"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 225.96,
+            "end": 228.28,
+            "text": " and the text will not fall vertically below."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 228.28,
+            "end": 229.24,
+            "text": " And if I do this"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 229.24,
+            "end": 231.36,
+            "text": " and I will do a little less here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 231.36,
+            "end": 233.12,
+            "text": " Let's say I do it a little 40."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 233.12,
+            "end": 234.72000000000003,
+            "text": " If I do 40, it will be so big"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 234.72000000000003,
+            "end": 236.20000000000002,
+            "text": " and you can see the scroll bar here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 236.20000000000002,
+            "end": 238.4,
+            "text": " That is, when I do no wrap the white space,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 238.4,
+            "end": 241.24,
+            "text": " it means that don't drop the text below."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 241.24,
+            "end": 242.16000000000003,
+            "text": " Now you see here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 242.16000000000003,
+            "end": 243.84,
+            "text": " if I put ellipses in overflow,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 243.84,
+            "end": 245.8,
+            "text": " I will show you by putting it here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 245.8,
+            "end": 247.88000000000002,
+            "text": " Ellipses."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 247.88000000000002,
+            "end": 249.08,
+            "text": " Then you see here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 249.08,
+            "end": 251.44000000000003,
+            "text": " I have put ellipses in overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 251.44000000000003,
+            "end": 252.4,
+            "text": " So after doing this,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 252.4,
+            "end": 253.88000000000002,
+            "text": " I can set one more property"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 253.88000000000002,
+            "end": 255.76000000000002,
+            "text": " whose name is text overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 255.76000000000002,
+            "end": 258.44,
+            "text": " And there is a value called ellipses in it"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 258.44,
+            "end": 259.64,
+            "text": " by which these dots come."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 259.64,
+            "end": 261.08000000000004,
+            "text": " Like you can see here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 261.08,
+            "end": 262.64,
+            "text": " So this happens by doing white space, no wrap"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 262.64,
+            "end": 265.2,
+            "text": " and text overflow ellipses."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 265.2,
+            "end": 266.12,
+            "text": " Okay."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 266.12,
+            "end": 267.4,
+            "text": " I hope you understood this thing."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 267.4,
+            "end": 269.0,
+            "text": " Okay, so I will remove it once."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 269.0,
+            "end": 270.0,
+            "text": " I will do the format document"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 270.0,
+            "end": 271.15999999999997,
+            "text": " and you understood."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 271.15999999999997,
+            "end": 272.96,
+            "text": " One thing to note here is that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 272.96,
+            "end": 275.12,
+            "text": " this is not overflow, it is text overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 275.12,
+            "end": 276.4,
+            "text": " So you have to take care of this thing"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 276.4,
+            "end": 277.44,
+            "text": " that overflow is different."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 277.44,
+            "end": 279.08,
+            "text": " Text overflow property is different."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 279.08,
+            "end": 280.96,
+            "text": " Here I have auto overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 280.96,
+            "end": 283.59999999999997,
+            "text": " So that's why I am getting three dots here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 283.59999999999997,
+            "end": 285.68,
+            "text": " If I would have hidden overflow,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 285.68,
+            "end": 287.76,
+            "text": " okay, then I would have seen three dots."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 287.76,
+            "end": 289.71999999999997,
+            "text": " And if I would have scrolled overflow,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 289.72,
+            "end": 291.64000000000004,
+            "text": " then I would have seen three dots here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 291.64000000000004,
+            "end": 292.48,
+            "text": " You can see."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 292.48,
+            "end": 293.92,
+            "text": " Because I have told text overflow"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 293.92,
+            "end": 296.52000000000004,
+            "text": " that do ellipses here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 296.52000000000004,
+            "end": 298.08000000000004,
+            "text": " And if I remove ellipses from here,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 298.08000000000004,
+            "end": 298.8,
+            "text": " then you can see that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 298.8,
+            "end": 300.36,
+            "text": " this scroll bar has come here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 300.36,
+            "end": 301.88000000000005,
+            "text": " I hope this thing is clear to you"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 301.88000000000005,
+            "end": 304.92,
+            "text": " that how can you use text overflow property."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 304.92,
+            "end": 306.24,
+            "text": " After this, there is another value"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 306.24,
+            "end": 307.04,
+            "text": " overflow clip,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 307.04,
+            "end": 308.52000000000004,
+            "text": " which you can use."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 308.52000000000004,
+            "end": 310.32000000000005,
+            "text": " This is a lot of hidden stuff."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 310.32000000000005,
+            "end": 312.48,
+            "text": " Overflow clip and overflow hidden"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 312.48,
+            "end": 313.88000000000005,
+            "text": " are almost the same."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 313.88000000000005,
+            "end": 315.12,
+            "text": " The only difference is that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 315.12,
+            "end": 317.40000000000003,
+            "text": " the clip is programmatically scrolling"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 317.40000000000003,
+            "end": 319.0,
+            "text": " which is also disabled."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 319.04,
+            "end": 320.92,
+            "text": " If you have put overflow clip,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 320.92,
+            "end": 323.0,
+            "text": " then you can't scroll programmatically."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 323.0,
+            "end": 325.68,
+            "text": " Now overflow can be handled individually."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 325.68,
+            "end": 326.96,
+            "text": " Like what I will do here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 326.96,
+            "end": 328.2,
+            "text": " is I will increase the text a little."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 328.2,
+            "end": 330.32,
+            "text": " And in fact, I will do one thing here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 330.32,
+            "end": 332.84,
+            "text": " that I will remove this white space"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 332.84,
+            "end": 334.48,
+            "text": " that I had made."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 334.48,
+            "end": 336.16,
+            "text": " Because I want my content"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 336.16,
+            "end": 337.16,
+            "text": " to look something like this."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 337.16,
+            "end": 338.16,
+            "text": " And you can see that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 338.16,
+            "end": 339.96,
+            "text": " I have just auto overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 339.96,
+            "end": 342.28,
+            "text": " That is, my content is not overflowing."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 342.28,
+            "end": 343.16,
+            "text": " To make overflow,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 343.16,
+            "end": 344.72,
+            "text": " I will make its height a little smaller."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 344.72,
+            "end": 346.96,
+            "text": " I will also make its width a little smaller."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 346.96,
+            "end": 348.28,
+            "text": " I will make both 30x30."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 348.32,
+            "end": 350.71999999999997,
+            "text": " If I do 30x30, then it will overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 350.71999999999997,
+            "end": 352.23999999999995,
+            "text": " Now I can control overflow x"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 352.23999999999995,
+            "end": 355.0,
+            "text": " and overflow y separately."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 355.0,
+            "end": 355.88,
+            "text": " So I can say that"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 355.88,
+            "end": 357.84,
+            "text": " make overflow x hidden."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 357.84,
+            "end": 359.76,
+            "text": " But if you do overflow in y,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 359.76,
+            "end": 363.32,
+            "text": " then scroll it."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 363.32,
+            "end": 365.4,
+            "text": " So I can put these properties individually."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 365.4,
+            "end": 366.84,
+            "text": " If I put these properties individually,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 366.84,
+            "end": 367.55999999999995,
+            "text": " then you can see"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 367.55999999999995,
+            "end": 369.55999999999995,
+            "text": " overflow x, overflow y, by doing this,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 369.55999999999995,
+            "end": 371.47999999999996,
+            "text": " I am making overflow x hidden"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 371.47999999999996,
+            "end": 373.28,
+            "text": " and scrolling overflow y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 373.28,
+            "end": 375.32,
+            "text": " If I make overflow y hidden too,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 375.32,
+            "end": 376.71999999999997,
+            "text": " then it will hide here."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 376.76000000000005,
+            "end": 378.20000000000005,
+            "text": " So whatever was below it"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 378.20000000000005,
+            "end": 379.64000000000004,
+            "text": " will be hidden."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 379.64000000000004,
+            "end": 381.64000000000004,
+            "text": " If I hide overflow y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 381.64000000000004,
+            "end": 383.8,
+            "text": " Overflow x and overflow y"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 383.8,
+            "end": 386.20000000000005,
+            "text": " can be written with the help of overflow shorthand."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 386.20000000000005,
+            "end": 388.84000000000003,
+            "text": " If I do not write all three,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 388.84000000000003,
+            "end": 389.84000000000003,
+            "text": " I will write it in this way"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 389.84000000000003,
+            "end": 391.96000000000004,
+            "text": " that the overflow"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 391.96000000000004,
+            "end": 394.88000000000005,
+            "text": " is hidden in x"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 394.88000000000005,
+            "end": 396.92,
+            "text": " and auto in y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 396.92,
+            "end": 398.40000000000003,
+            "text": " So you can see here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 398.40000000000003,
+            "end": 400.04,
+            "text": " that it is auto in y"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 400.04,
+            "end": 401.32000000000005,
+            "text": " and hidden in x."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 401.32000000000005,
+            "end": 402.56,
+            "text": " But if I do it the other way around,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 402.56,
+            "end": 403.40000000000003,
+            "text": " that is, I say"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 403.4,
+            "end": 406.15999999999997,
+            "text": " auto in y and hidden in x."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 406.15999999999997,
+            "end": 408.28,
+            "text": " Sorry, auto in x and hidden in y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 408.28,
+            "end": 409.71999999999997,
+            "text": " So you can see here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 409.71999999999997,
+            "end": 412.4,
+            "text": " that it is hidden in y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 412.4,
+            "end": 414.91999999999996,
+            "text": " So it is auto in x and hidden in y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 414.91999999999996,
+            "end": 417.28,
+            "text": " So the first one is x and the second one is y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 417.28,
+            "end": 418.52,
+            "text": " Now many people will ask"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 418.52,
+            "end": 420.03999999999996,
+            "text": " how can I remember"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 420.03999999999996,
+            "end": 421.96,
+            "text": " which is x and which is y."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 421.96,
+            "end": 424.35999999999996,
+            "text": " So you will do it."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 424.35999999999996,
+            "end": 426.23999999999995,
+            "text": " There is no need to remember anything like this."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 426.23999999999995,
+            "end": 428.71999999999997,
+            "text": " If you scroll it here"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 428.71999999999997,
+            "end": 430.23999999999995,
+            "text": " and then hide it here,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 430.23999999999995,
+            "end": 431.84,
+            "text": " then you have scrolled overflow x."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 431.84,
+            "end": 433.23999999999995,
+            "text": " See, the scroll bar is visible."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 433.24,
+            "end": 435.12,
+            "text": " And if you scroll here too,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 435.12,
+            "end": 437.36,
+            "text": " then you will see the scroll bar here too."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 437.36,
+            "end": 438.72,
+            "text": " I will always recommend auto"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 438.72,
+            "end": 440.16,
+            "text": " that you use it as much as possible"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 440.16,
+            "end": 441.64,
+            "text": " because what happens by doing auto?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 441.64,
+            "end": 442.96000000000004,
+            "text": " If the scroll bar is needed,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 442.96000000000004,
+            "end": 444.68,
+            "text": " then it puts the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 444.68,
+            "end": 447.40000000000003,
+            "text": " Otherwise it does not put the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 447.40000000000003,
+            "end": 448.40000000000003,
+            "text": " What does it not do?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 448.40000000000003,
+            "end": 450.36,
+            "text": " It does not put the scroll bar."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 450.36,
+            "end": 452.12,
+            "text": " Okay, I hope you understood this thing."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 452.12,
+            "end": 453.2,
+            "text": " So that was all about"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 453.2,
+            "end": 454.72,
+            "text": " the scrolling and overflow."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 454.72,
+            "end": 456.04,
+            "text": " I hope you understood"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 456.04,
+            "end": 458.2,
+            "text": " how to add scroll bars."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 458.2,
+            "end": 459.76,
+            "text": " We will use it a lot"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 459.76,
+            "end": 461.16,
+            "text": " when we make real-world websites."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 461.16,
+            "end": 461.92,
+            "text": " If you have not yet seen"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 461.92,
+            "end": 463.28000000000003,
+            "text": " the playlist of the Sigma web development course,"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 463.28000000000003,
+            "end": 465.28000000000003,
+            "text": " then do it."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 465.28000000000003,
+            "end": 465.8,
+            "text": " When will you do it?"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 465.8,
+            "end": 466.8,
+            "text": " Click here to bookmark"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 466.8,
+            "end": 468.32,
+            "text": " and click here to save."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 468.32,
+            "end": 469.76,
+            "text": " And the source code on GitHub"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 469.76,
+            "end": 471.6,
+            "text": " I am updating regularly."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 471.6,
+            "end": 473.44,
+            "text": " I hope you are getting it."
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 473.44,
+            "end": 474.52000000000004,
+            "text": " Thank you so much guys"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 474.52000000000004,
+            "end": 475.72,
+            "text": " for watching this video"
+        },
+        {
+            "number": "26",
+            "title": "CSS Overflow Property",
+            "start": 475.72,
+            "end": 478.56,
+            "text": " and I will see you next time."
+        }
+    ],
+    "text": " Guys, I read the box model of my CSS. You saw that if the width of any element is less and the content inside it is more, then the items inside it overflow. We can manage this overflow by using the CSS overflow property. We can bring a scroll bar inside CSS horizontally and vertically. We will learn these things in this video. And we will also use it practically in the coming projects. I want you to keep high energy. Do write Sigma batch OP in the comment section below. Let's go to the computer screen. Let's roll the intro. So guys, I have come to my computer screen. As you can see, the first thing I am going to do here is to make a new folder. And I am going to name it video 26. And today's video is on our overflow property. What is this overflow property? Look, you have a box. You put such an item inside that box. Because it is bigger than that box. What will it do? It will overflow. It is obvious. Now how do you want the overflow to be handled in this way? It's up to you. For example, I have this box. It says, I am a good boy and I love to write lorem 45. Okay. Assume I wrote this. Obviously, you will write something good. Your meaningful content will be in the box. And by correcting it here and by putting a style tag, I will write a CSS in the dot box here. And I will tell you what that CSS will be. First of all, I will give it a width. Let's say I give it a width of 40bw. Okay. It got 40% width of their viewport width. And I will give it a height of 40bh. Okay. It got 40% of the viewport height. Okay. Now after this, I will give a border in it. And that will be 2px solid black. And the rest of you can see its preview here. How is it looking? Okay. Obviously, I will show you in the browser. Hey, this is not overflowed. So what will I do to make it overflow? I will make it 10bh 10bw. I will make it 10. Now I made it 10. So obviously it will overflow. Or if I make it 30bh 10bh, then see it is overflowing below. Now because it is overflowing, what will I do to fix it? So how can it be fixed? See it can be fixed in two ways. The first way to fix it is that I use the overflow property here. I say something like this overflow. And here I say scroll. Okay. So if I make it overflow scroll, then a horizontal scroll bar will come here. And the things that were overflowing from this box will not overflow. And obviously it will come here too. And you can see here that your work is done. So to put such a scroll bar, you can use overflow scroll. Now there are many other properties related to overflow. Like suppose if you have made overflow auto here. I can make it overflow auto here. And by making overflow auto, if it overflows, then you will see this scroll bar. And if it doesn't overflow, then you won't see the scroll bar. For example, if its viewport width is this much and its viewport height is this much, then there is no chance of overflow here. So by making overflow auto, overflow auto says that brother, if it overflows, then show the scroll bar. And if it is not overflowing, then you don't need to show the scroll bar. Let the element remain normal. This is our overflow auto. And if I say overflow scroll here, then even if everything is fine here, then what will happen here? You will get this scroll bar here. You will get to see this kind of scroll bar. That's why it's always a good idea to put a scroll bar. Okay, so I hope you understood this thing that why to put a scroll bar here. Now here if I had no wrapped its white space, let us say. That is, if I come to my code and write it here for you, I will make the white space no wrap. Okay, so what will happen by no wrapping? That by no wrapping the white space, it will take the whole space horizontally and the text will not fall vertically below. And if I do this and I will do a little less here. Let's say I do it a little 40. If I do 40, it will be so big and you can see the scroll bar here. That is, when I do no wrap the white space, it means that don't drop the text below. Now you see here if I put ellipses in overflow, I will show you by putting it here. Ellipses. Then you see here I have put ellipses in overflow. So after doing this, I can set one more property whose name is text overflow. And there is a value called ellipses in it by which these dots come. Like you can see here. So this happens by doing white space, no wrap and text overflow ellipses. Okay. I hope you understood this thing. Okay, so I will remove it once. I will do the format document and you understood. One thing to note here is that this is not overflow, it is text overflow. So you have to take care of this thing that overflow is different. Text overflow property is different. Here I have auto overflow. So that's why I am getting three dots here. If I would have hidden overflow, okay, then I would have seen three dots. And if I would have scrolled overflow, then I would have seen three dots here. You can see. Because I have told text overflow that do ellipses here. And if I remove ellipses from here, then you can see that this scroll bar has come here. I hope this thing is clear to you that how can you use text overflow property. After this, there is another value overflow clip, which you can use. This is a lot of hidden stuff. Overflow clip and overflow hidden are almost the same. The only difference is that the clip is programmatically scrolling which is also disabled. If you have put overflow clip, then you can't scroll programmatically. Now overflow can be handled individually. Like what I will do here is I will increase the text a little. And in fact, I will do one thing here that I will remove this white space that I had made. Because I want my content to look something like this. And you can see that I have just auto overflow. That is, my content is not overflowing. To make overflow, I will make its height a little smaller. I will also make its width a little smaller. I will make both 30x30. If I do 30x30, then it will overflow. Now I can control overflow x and overflow y separately. So I can say that make overflow x hidden. But if you do overflow in y, then scroll it. So I can put these properties individually. If I put these properties individually, then you can see overflow x, overflow y, by doing this, I am making overflow x hidden and scrolling overflow y. If I make overflow y hidden too, then it will hide here. So whatever was below it will be hidden. If I hide overflow y. Overflow x and overflow y can be written with the help of overflow shorthand. If I do not write all three, I will write it in this way that the overflow is hidden in x and auto in y. So you can see here that it is auto in y and hidden in x. But if I do it the other way around, that is, I say auto in y and hidden in x. Sorry, auto in x and hidden in y. So you can see here that it is hidden in y. So it is auto in x and hidden in y. So the first one is x and the second one is y. Now many people will ask how can I remember which is x and which is y. So you will do it. There is no need to remember anything like this. If you scroll it here and then hide it here, then you have scrolled overflow x. See, the scroll bar is visible. And if you scroll here too, then you will see the scroll bar here too. I will always recommend auto that you use it as much as possible because what happens by doing auto? If the scroll bar is needed, then it puts the scroll bar. Otherwise it does not put the scroll bar. What does it not do? It does not put the scroll bar. Okay, I hope you understood this thing. So that was all about the scrolling and overflow. I hope you understood how to add scroll bars. We will use it a lot when we make real-world websites. If you have not yet seen the playlist of the Sigma web development course, then do it. When will you do it? Click here to bookmark and click here to save. And the source code on GitHub I am updating regularly. I hope you are getting it. Thank you so much guys for watching this video and I will see you next time."
+}

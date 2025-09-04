@@ -1,0 +1,2609 @@
+{
+    "chunks": [
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 0.0,
+            "end": 3.16,
+            "text": " Guys, we saw about margin and padding."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 3.16,
+            "end": 6.66,
+            "text": " In today's video, I'll tell you about outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 6.66,
+            "end": 11.200000000000001,
+            "text": " And also, I'll tell you how you can add shadows in CSS."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 11.200000000000001,
+            "end": 14.280000000000001,
+            "text": " We understood everything from the CSS box model."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 14.280000000000001,
+            "end": 18.12,
+            "text": " What is border, margin, padding and actual content."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 18.12,
+            "end": 20.54,
+            "text": " In this video, we'll explore shadows and outlines."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 20.54,
+            "end": 22.28,
+            "text": " It's fun throughout the course."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 22.28,
+            "end": 25.54,
+            "text": " You can write down Sigma patch op in the comment section."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 25.54,
+            "end": 27.12,
+            "text": " Let's go to the computer screen."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 27.12,
+            "end": 28.62,
+            "text": " Let's roll the intro."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 30.0,
+            "end": 37.0,
+            "text": " Intro"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 37.0,
+            "end": 39.0,
+            "text": " So guys, I'm in my computer screen."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 39.0,
+            "end": 40.42,
+            "text": " As you can see."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 40.42,
+            "end": 44.620000000000005,
+            "text": " I'll do the same thing that I've been doing for the last 23 videos."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 44.620000000000005,
+            "end": 48.620000000000005,
+            "text": " I'll make a folder named video24 to organize things."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 48.620000000000005,
+            "end": 50.0,
+            "text": " And I'll open it in VS Code."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 50.0,
+            "end": 53.379999999999995,
+            "text": " And today's topic is about shadows."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 53.379999999999995,
+            "end": 55.0,
+            "text": " How to add shadows."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 55.0,
+            "end": 57.66,
+            "text": " You can add shadows to any element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 57.66,
+            "end": 62.66,
+            "text": " I'll quickly make an index.html file."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 62.66,
+            "end": 64.66,
+            "text": " And you can also add outlines."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 64.66,
+            "end": 69.66,
+            "text": " To add outlines, you have to use outline property."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 69.66,
+            "end": 72.66,
+            "text": " How is this outline different from border?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 72.66,
+            "end": 74.16,
+            "text": " Why will we use outline?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 74.16,
+            "end": 76.16,
+            "text": " So let's start with box shadows."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 76.16,
+            "end": 77.66,
+            "text": " First, we'll talk about shadows."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 77.66,
+            "end": 78.66,
+            "text": " What is in CSS?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 78.66,
+            "end": 81.66,
+            "text": " So, shadows are used in CSS."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 81.66,
+            "end": 84.66,
+            "text": " To add a shadow to any element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 84.66,
+            "end": 86.66,
+            "text": " So, if I show you an example of this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 86.66,
+            "end": 87.66,
+            "text": " It will look like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 87.66,
+            "end": 89.66,
+            "text": " I'll make a div here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 89.66,
+            "end": 91.66,
+            "text": " div.box"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 91.66,
+            "end": 94.66,
+            "text": " And I'll write I am a box in it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 94.66,
+            "end": 98.66,
+            "text": " And I'll simply put style tag here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 98.66,
+            "end": 100.66,
+            "text": " And I'll write .box here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 100.66,
+            "end": 102.66,
+            "text": " And I'll write simply here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 102.66,
+            "end": 104.66,
+            "text": " Border 2px"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 104.66,
+            "end": 106.66,
+            "text": " Solid black let us say."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 106.66,
+            "end": 108.66,
+            "text": " And that's about it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 108.66,
+            "end": 110.66,
+            "text": " I'll give a little padding."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 110.66,
+            "end": 112.66,
+            "text": " 34px"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 112.66,
+            "end": 114.66,
+            "text": " And you can see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 114.66,
+            "end": 116.66,
+            "text": " It will look like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 116.66,
+            "end": 118.66,
+            "text": " Where is my preview button?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 118.66,
+            "end": 120.66,
+            "text": " I'll open it in the browser."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 120.66,
+            "end": 122.66,
+            "text": " And see, it will look like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 122.66,
+            "end": 123.66,
+            "text": " No surprises whatsoever."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 123.66,
+            "end": 124.66,
+            "text": " We did this much."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 124.66,
+            "end": 126.66,
+            "text": " And you all know about it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 126.66,
+            "end": 128.66,
+            "text": " Now if I want to give a shadow in this box."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 128.66,
+            "end": 130.66,
+            "text": " So I'll use box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 130.66,
+            "end": 132.66,
+            "text": " And the syntax of box shadow is like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 132.66,
+            "end": 134.66,
+            "text": " Here you put horizontal offset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 134.66,
+            "end": 136.66,
+            "text": " Here you put vertical offset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 136.66,
+            "end": 138.66,
+            "text": " Here you put blur."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 138.66,
+            "end": 140.66,
+            "text": " Here you put spread."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 140.66,
+            "end": 142.66,
+            "text": " Then you put color."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 142.66,
+            "end": 144.66,
+            "text": " Then you put insert."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 144.66,
+            "end": 146.66,
+            "text": " Now what is this? Horizontal and vertical offset means"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 146.66,
+            "end": 148.66,
+            "text": " how far the shadow will be."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 148.66,
+            "end": 150.66,
+            "text": " Then there is blur."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 150.66,
+            "end": 152.66,
+            "text": " The more value you give here,"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 152.66,
+            "end": 154.66,
+            "text": " the more blur it will be."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 154.66,
+            "end": 156.66,
+            "text": " Then after this, you see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 156.66,
+            "end": 158.66,
+            "text": " Shadow size with expand and shrink."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 158.66,
+            "end": 160.66,
+            "text": " If you increase the spread,"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 160.66,
+            "end": 162.66,
+            "text": " then the size of your shadow will be increased or decreased."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 162.66,
+            "end": 164.66,
+            "text": " Then you can define the color of the shadow here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 164.66,
+            "end": 166.66,
+            "text": " And after this, how much you want to keep the shadow inside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 166.66,
+            "end": 168.66,
+            "text": " That defines your insert."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 168.66,
+            "end": 170.66,
+            "text": " So if I copy it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 170.66,
+            "end": 172.66,
+            "text": " And paste it here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 172.66,
+            "end": 174.66,
+            "text": " I'll show you the shadow here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 174.66,
+            "end": 176.66,
+            "text": " So you can see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 176.66,
+            "end": 178.66,
+            "text": " Box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 178.66,
+            "end": 180.66,
+            "text": " Box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 180.66,
+            "end": 182.66,
+            "text": " You can see here 5 pixels."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 182.66,
+            "end": 184.66,
+            "text": " 15 pixels. 5 pixels."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 184.66,
+            "end": 186.66,
+            "text": " And I have given this color here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 186.66,
+            "end": 188.66,
+            "text": " If I make this color red."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 188.66,
+            "end": 190.66,
+            "text": " Or let's say I make it green."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 190.66,
+            "end": 192.66,
+            "text": " Then it will be green."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 192.66,
+            "end": 194.66,
+            "text": " If I show you here, then this is how box shadow looks."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 194.66,
+            "end": 196.66,
+            "text": " Now what I will do here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 196.66,
+            "end": 198.66,
+            "text": " And I will request you too."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 198.66,
+            "end": 200.66,
+            "text": " If you want to preview changes."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 200.66,
+            "end": 202.66,
+            "text": " Then what you have to do is inspect."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 202.66,
+            "end": 204.66,
+            "text": " And here directly."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 204.66,
+            "end": 206.66,
+            "text": " I'll move my face away."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 206.66,
+            "end": 208.66,
+            "text": " So that you can see this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 208.66,
+            "end": 210.66,
+            "text": " And focus here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 210.66,
+            "end": 212.66,
+            "text": " Now you want to see inside this particular element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 212.66,
+            "end": 214.66,
+            "text": " That my box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 214.66,
+            "end": 216.66,
+            "text": " I have given here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 216.66,
+            "end": 218.66,
+            "text": " How do I handle it?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 218.66,
+            "end": 220.66,
+            "text": " Now you can see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 220.66,
+            "end": 222.66,
+            "text": " You can change all these values."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 222.66,
+            "end": 224.66,
+            "text": " And see, by changing them, your shadow is changing."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 224.66,
+            "end": 226.66,
+            "text": " You can see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 226.66,
+            "end": 228.66,
+            "text": " Now what I have done here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 228.66,
+            "end": 230.66,
+            "text": " I have given Y offset and X offset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 230.66,
+            "end": 232.66,
+            "text": " Now see, if I do this, it will go here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 232.66,
+            "end": 234.66,
+            "text": " If I do this, it will go here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 234.66,
+            "end": 236.66,
+            "text": " Now it's up to you where you want to put this shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 236.66,
+            "end": 238.66,
+            "text": " Now when does shadow appear?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 238.66,
+            "end": 240.66,
+            "text": " Shadow appears when our light"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 240.66,
+            "end": 242.66,
+            "text": " falls from one direction."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 242.66,
+            "end": 244.66,
+            "text": " That is, if the source of light is here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 244.66,
+            "end": 246.66,
+            "text": " And let's say this is my object."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 246.66,
+            "end": 248.66,
+            "text": " So shadow will be made here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 248.66,
+            "end": 250.66,
+            "text": " So if you want something like that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 250.66,
+            "end": 252.66,
+            "text": " So you guys have to see shadow here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 252.66,
+            "end": 254.66,
+            "text": " To see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 254.66,
+            "end": 256.65999999999997,
+            "text": " These values have to be adjusted in the same way."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 256.65999999999997,
+            "end": 258.65999999999997,
+            "text": " You don't confuse the shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 258.65999999999997,
+            "end": 260.65999999999997,
+            "text": " You are from the border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 260.65999999999997,
+            "end": 262.65999999999997,
+            "text": " You put it like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 262.65999999999997,
+            "end": 264.65999999999997,
+            "text": " So that you look like a shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 264.65999999999997,
+            "end": 266.65999999999997,
+            "text": " Shadow means shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 266.65999999999997,
+            "end": 268.65999999999997,
+            "text": " Now here you will come to the inset value."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 268.65999999999997,
+            "end": 270.65999999999997,
+            "text": " So you can change the inset value too."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 270.65999999999997,
+            "end": 272.65999999999997,
+            "text": " If you want a shadow inside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 272.65999999999997,
+            "end": 274.65999999999997,
+            "text": " So you can do it like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 274.65999999999997,
+            "end": 276.65999999999997,
+            "text": " Now you see, as you do."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 276.65999999999997,
+            "end": 278.65999999999997,
+            "text": " By the way, the syntax of this will change."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 278.65999999999997,
+            "end": 280.65999999999997,
+            "text": " You have written here inset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 280.65999999999997,
+            "end": 282.65999999999997,
+            "text": " 10 pixels, 8 pixels, 5 pixels."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 282.66,
+            "end": 284.66,
+            "text": " So this is the color of the shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 284.66,
+            "end": 286.66,
+            "text": " So usually you can increase or decrease the blur from here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 286.66,
+            "end": 288.66,
+            "text": " And this syntax will change."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 288.66,
+            "end": 290.66,
+            "text": " And what will happen by increasing the spread?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 290.66,
+            "end": 292.66,
+            "text": " It will spread as much as you increase the spread."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 292.66,
+            "end": 294.66,
+            "text": " Ideally, you would definitely want to keep the spread less."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 294.66,
+            "end": 296.66,
+            "text": " Because the shadow"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 296.66,
+            "end": 298.66,
+            "text": " does not look natural."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 298.66,
+            "end": 300.66,
+            "text": " If you make the spread very unnatural."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 300.66,
+            "end": 302.66,
+            "text": " You don't need to keep this syntax."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 302.66,
+            "end": 304.66,
+            "text": " You can see here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 304.66,
+            "end": 306.66,
+            "text": " That our syntax was."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 306.66,
+            "end": 308.66,
+            "text": " Horizontal offset, vertical offset,"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 308.66,
+            "end": 310.66,
+            "text": " blur, spread, color and inset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 310.66,
+            "end": 312.66,
+            "text": " Now let's talk about the text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 312.66,
+            "end": 314.66,
+            "text": " You can write this syntax like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 314.66,
+            "end": 316.66,
+            "text": " Now, along with the box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 316.66,
+            "end": 318.66,
+            "text": " You can also give text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 318.66,
+            "end": 320.66,
+            "text": " The way you have given the box shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 320.66,
+            "end": 322.66,
+            "text": " You can also give text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 322.66,
+            "end": 324.66,
+            "text": " And here if I do the text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 324.66,
+            "end": 326.66,
+            "text": " In any text element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 326.66,
+            "end": 328.66,
+            "text": " I will copy it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 328.66,
+            "end": 330.66,
+            "text": " And I will copy the whole CSS."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 330.66,
+            "end": 332.66,
+            "text": " And here I will show you."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 332.66,
+            "end": 334.66,
+            "text": " If I have a paragraph."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 334.66,
+            "end": 336.66,
+            "text": " And I say text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 336.66,
+            "end": 338.66,
+            "text": " And I write lorem 34."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 338.66,
+            "end": 340.66,
+            "text": " And I write the CSS."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 340.66,
+            "end": 342.66,
+            "text": " So what will happen here?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 342.66,
+            "end": 344.66,
+            "text": " Text shadow will come."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 344.66,
+            "end": 346.66,
+            "text": " I have made a class."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 346.66,
+            "end": 348.66,
+            "text": " I made a class named text element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 348.66,
+            "end": 350.66,
+            "text": " I made it with the name of text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 350.66,
+            "end": 352.66,
+            "text": " And here you see."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 352.66,
+            "end": 354.66,
+            "text": " The shadow has come in the text."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 354.66,
+            "end": 356.66,
+            "text": " I make this color red."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 356.66,
+            "end": 358.66,
+            "text": " So that you know what happens with the text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 358.66,
+            "end": 360.66,
+            "text": " Sometimes we want to visually."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 360.66,
+            "end": 362.66,
+            "text": " That our shadow comes in the text."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 362.66,
+            "end": 364.66,
+            "text": " And definitely if you want to change it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 364.66,
+            "end": 366.66,
+            "text": " Then you can change it from here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 366.66,
+            "end": 368.66,
+            "text": " For example, if I want."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 368.66,
+            "end": 370.66,
+            "text": " My text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 370.66,
+            "end": 372.66,
+            "text": " It is of purple type."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 372.66,
+            "end": 374.66,
+            "text": " And along with that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 374.66,
+            "end": 376.66,
+            "text": " I want to hit a purple shade."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 376.66,
+            "end": 378.66,
+            "text": " Along with that my text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 378.66,
+            "end": 380.66,
+            "text": " It has come a little down."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 380.66,
+            "end": 382.66,
+            "text": " Something like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 382.66,
+            "end": 384.66,
+            "text": " You can see that it looks exactly like a shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 384.66,
+            "end": 386.66,
+            "text": " And let's say I want to increase its blur."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 386.66,
+            "end": 388.66,
+            "text": " Or I want to keep the blur so much."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 388.66,
+            "end": 390.66,
+            "text": " That it is just seen a little."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 390.66,
+            "end": 392.66,
+            "text": " So I can set the value from here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 392.66,
+            "end": 394.66,
+            "text": " And whoever will generate the syntax."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 394.66,
+            "end": 396.66,
+            "text": " I will take it back here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 396.66,
+            "end": 398.66,
+            "text": " By copying."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 398.66,
+            "end": 400.66,
+            "text": " I never focus on running."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 400.66,
+            "end": 402.66,
+            "text": " Nor did I ever do it myself."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 402.66,
+            "end": 404.66,
+            "text": " I want to tell you that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 404.66,
+            "end": 406.66,
+            "text": " There are tools in Google Chrome."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 406.66,
+            "end": 408.66,
+            "text": " See in the coming time."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 408.66,
+            "end": 410.66,
+            "text": " Whoever will learn to use tools."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 410.66,
+            "end": 412.66,
+            "text": " He will become a good web developer."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 412.66,
+            "end": 414.66,
+            "text": " Whether it is chat gbd or github copilot."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 414.66,
+            "end": 416.66,
+            "text": " Whatever the AI of the applet."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 416.66,
+            "end": 418.66,
+            "text": " You should know when to use which tool."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 418.66,
+            "end": 420.66,
+            "text": " And how to do it as much as possible in the shortest time."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 420.66,
+            "end": 422.66,
+            "text": " And it will define your value."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 422.66,
+            "end": 424.66,
+            "text": " Many people ask if AI will replace."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 424.66,
+            "end": 426.66,
+            "text": " It will not."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 426.66,
+            "end": 428.66,
+            "text": " But AI will replace those who do not know the tools."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 428.66,
+            "end": 430.66,
+            "text": " Know how to use."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 430.66,
+            "end": 432.66,
+            "text": " And indirectly AI will replace."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 432.66,
+            "end": 434.66,
+            "text": " I want to end this debate."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 434.66,
+            "end": 436.66,
+            "text": " AI will not replace directly."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 436.66,
+            "end": 438.66,
+            "text": " It will indirectly do it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 438.66,
+            "end": 440.66,
+            "text": " Through smart people."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 440.66,
+            "end": 442.66,
+            "text": " AI will help smart people so much."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 442.66,
+            "end": 444.66,
+            "text": " That those who are not smart."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 444.66,
+            "end": 446.66,
+            "text": " Their work will be finished."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 446.66,
+            "end": 448.66,
+            "text": " I am just telling you the reality."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 448.66,
+            "end": 450.66,
+            "text": " What is there is there."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 450.66,
+            "end": 452.66,
+            "text": " AI will not replace anyone."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 452.66,
+            "end": 454.66,
+            "text": " AI is not a human."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 454.66,
+            "end": 456.66,
+            "text": " It has not happened yet."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 456.66,
+            "end": 458.66,
+            "text": " It will be seen sometime."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 458.66,
+            "end": 460.66,
+            "text": " See here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 460.66,
+            "end": 462.66,
+            "text": " Text shadow has come."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 462.66,
+            "end": 464.66,
+            "text": " If I want to generate the text shadow."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 464.66,
+            "end": 466.66,
+            "text": " Because I did it with purple color."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 466.66,
+            "end": 468.66,
+            "text": " If it comes."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 468.66,
+            "end": 470.66,
+            "text": " Then I can do it like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 470.66,
+            "end": 472.66,
+            "text": " And whatever syntax is being generated here."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 472.66,
+            "end": 474.66,
+            "text": " I can use it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 474.66,
+            "end": 476.66,
+            "text": " If I want to increase it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 476.66,
+            "end": 478.66,
+            "text": " And if I want to increase the blur."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 478.66,
+            "end": 480.66,
+            "text": " Text shadow is not used much."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 480.66,
+            "end": 482.66,
+            "text": " I have seen it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 482.66,
+            "end": 484.66,
+            "text": " People use it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 484.66,
+            "end": 486.66,
+            "text": " It looks good."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 486.66,
+            "end": 488.66,
+            "text": " But yes."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 488.66,
+            "end": 490.66,
+            "text": " I have not seen much usage."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 490.66,
+            "end": 492.66,
+            "text": " To be honest."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 492.66,
+            "end": 494.66,
+            "text": " But you should know about this property."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 494.66,
+            "end": 496.66,
+            "text": " Now last but not the least."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 496.66,
+            "end": 498.66,
+            "text": " Outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 498.66,
+            "end": 500.66,
+            "text": " You put the width."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 500.66,
+            "end": 502.66,
+            "text": " You put the style."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 502.66,
+            "end": 504.66,
+            "text": " You put the color."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 504.66,
+            "end": 506.66,
+            "text": " Just like we say to make a border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 506.66,
+            "end": 508.66,
+            "text": " What is the difference in border?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 508.66,
+            "end": 510.66,
+            "text": " Assume this is my element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 510.66,
+            "end": 512.6600000000001,
+            "text": " I will put outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 512.6600000000001,
+            "end": 514.6600000000001,
+            "text": " I will say outline 2px solid black."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 514.6600000000001,
+            "end": 516.6600000000001,
+            "text": " It looks like a border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 516.6600000000001,
+            "end": 518.6600000000001,
+            "text": " What is this?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 518.6600000000001,
+            "end": 520.6600000000001,
+            "text": " I will put border also."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 520.6600000000001,
+            "end": 522.6600000000001,
+            "text": " 2px solid green."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 522.6600000000001,
+            "end": 524.6600000000001,
+            "text": " Border will be inside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 524.6600000000001,
+            "end": 526.6600000000001,
+            "text": " Outline will be outside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 526.6600000000001,
+            "end": 528.6600000000001,
+            "text": " There is a basic difference between border and outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 528.6600000000001,
+            "end": 530.6600000000001,
+            "text": " What is it?"
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 530.6600000000001,
+            "end": 532.6600000000001,
+            "text": " Outline does not take your space."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 532.6600000000001,
+            "end": 534.6600000000001,
+            "text": " It is not a part of the box model."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 534.66,
+            "end": 536.66,
+            "text": " Border is there."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 536.66,
+            "end": 538.66,
+            "text": " You can use outline offset property."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 538.66,
+            "end": 540.66,
+            "text": " Outline offset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 540.66,
+            "end": 542.66,
+            "text": " Like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 544.66,
+            "end": 546.66,
+            "text": " You can increase the outline offset."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 546.66,
+            "end": 548.66,
+            "text": " Like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 548.66,
+            "end": 550.66,
+            "text": " The distance of the outline will increase."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 550.66,
+            "end": 552.66,
+            "text": " But you can not increase the distance of the border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 552.66,
+            "end": 554.66,
+            "text": " Yes there is a margin."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 554.66,
+            "end": 556.66,
+            "text": " There is padding."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 556.66,
+            "end": 558.66,
+            "text": " It will affect the box model of the element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 558.66,
+            "end": 560.66,
+            "text": " But like this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 560.66,
+            "end": 562.66,
+            "text": " Like I am playing."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 562.66,
+            "end": 564.66,
+            "text": " You can not play with the border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 564.66,
+            "end": 566.66,
+            "text": " You can not reduce it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 566.66,
+            "end": 568.66,
+            "text": " You can not do inside and outside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 568.66,
+            "end": 570.66,
+            "text": " You can do inside and outside."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 570.66,
+            "end": 572.66,
+            "text": " Sometimes you have to use outline to cover an element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 572.66,
+            "end": 574.66,
+            "text": " Sometimes you have to use outline to cover an element."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 574.66,
+            "end": 576.66,
+            "text": " These are the basic differences."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 576.66,
+            "end": 578.66,
+            "text": " Outline is given in extra."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 578.66,
+            "end": 580.66,
+            "text": " If you have set the border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 580.66,
+            "end": 582.66,
+            "text": " If you have set everything."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 582.66,
+            "end": 584.66,
+            "text": " If you want an outline after that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 584.66,
+            "end": 586.66,
+            "text": " You can use outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 586.66,
+            "end": 588.66,
+            "text": " Then borders can have varying widths."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 588.66,
+            "end": 590.66,
+            "text": " Outlines have uniform width."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 590.66,
+            "end": 592.66,
+            "text": " You can not change the width of the outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 592.66,
+            "end": 594.66,
+            "text": " Then you can."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 594.66,
+            "end": 596.66,
+            "text": " You can use border radius."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 596.66,
+            "end": 598.66,
+            "text": " I am using border radius property."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 598.66,
+            "end": 600.66,
+            "text": " Because this is a property."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 600.66,
+            "end": 602.66,
+            "text": " Border radius."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 602.66,
+            "end": 604.66,
+            "text": " Suppose I do 34 pixels."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 604.66,
+            "end": 606.66,
+            "text": " Then you can see."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 606.66,
+            "end": 608.66,
+            "text": " As soon as I set the border radius."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 608.66,
+            "end": 610.66,
+            "text": " It became curvy."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 610.66,
+            "end": 612.66,
+            "text": " You can not curve the outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 612.66,
+            "end": 614.66,
+            "text": " Outline will follow the border."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 614.66,
+            "end": 616.66,
+            "text": " As soon as you set the border radius."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 616.66,
+            "end": 618.66,
+            "text": " Outline will take the curve."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 618.66,
+            "end": 620.66,
+            "text": " I hope you understood this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 620.66,
+            "end": 622.66,
+            "text": " This was a very basic concept."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 622.66,
+            "end": 624.66,
+            "text": " Box shadow, text shadow and outline."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 624.66,
+            "end": 626.66,
+            "text": " I hope you understood."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 626.66,
+            "end": 628.66,
+            "text": " If you have not yet accessed."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 628.66,
+            "end": 630.66,
+            "text": " The sigma web development playlist."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 630.66,
+            "end": 632.66,
+            "text": " Then do access it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 632.66,
+            "end": 634.66,
+            "text": " If you are not accessing the source code."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 634.66,
+            "end": 636.66,
+            "text": " Then I will recommend you."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 636.66,
+            "end": 638.66,
+            "text": " If you are coding together."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 638.66,
+            "end": 640.66,
+            "text": " Nothing can be better than that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 640.66,
+            "end": 642.66,
+            "text": " But if you need code."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 642.66,
+            "end": 644.66,
+            "text": " Or if nothing is working."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 644.66,
+            "end": 646.66,
+            "text": " Then you can visit this repository."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 646.66,
+            "end": 648.66,
+            "text": " You can visit this repository."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 648.66,
+            "end": 650.66,
+            "text": " And it will help you a lot."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 650.66,
+            "end": 652.66,
+            "text": " Since I started this course."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 652.66,
+            "end": 654.66,
+            "text": " Many people from the industry."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 654.66,
+            "end": 656.66,
+            "text": " What can I say."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 656.66,
+            "end": 658.66,
+            "text": " They have felt bad."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 658.66,
+            "end": 660.66,
+            "text": " Many people approached me."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 660.66,
+            "end": 662.66,
+            "text": " To make it paid from the middle."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 662.66,
+            "end": 664.66,
+            "text": " But I am never going to do that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 664.66,
+            "end": 666.66,
+            "text": " This sigma course will be free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 666.66,
+            "end": 668.66,
+            "text": " So don't worry."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 668.66,
+            "end": 670.66,
+            "text": " But I want to tell you one thing."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 670.66,
+            "end": 672.66,
+            "text": " We are going to raise the bar like anything."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 672.66,
+            "end": 674.66,
+            "text": " Once we start making projects."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 674.66,
+            "end": 676.66,
+            "text": " You will enjoy it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 676.66,
+            "end": 678.66,
+            "text": " And I can proudly say."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 678.66,
+            "end": 680.66,
+            "text": " Based on your feedback."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 680.66,
+            "end": 682.66,
+            "text": " And people from the industry also contacted me."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 682.66,
+            "end": 684.66,
+            "text": " That what have you made."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 684.66,
+            "end": 686.66,
+            "text": " Our sales have stopped."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 686.66,
+            "end": 688.66,
+            "text": " I am not against paid courses."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 688.66,
+            "end": 690.66,
+            "text": " If I am able to bring this course free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 690.66,
+            "end": 692.66,
+            "text": " Then it is my good luck."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 692.66,
+            "end": 694.66,
+            "text": " And I will say that if anyone in the industry."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 694.66,
+            "end": 696.66,
+            "text": " Is giving you 99% paid."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 696.66,
+            "end": 698.66,
+            "text": " And 1% free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 698.66,
+            "end": 700.66,
+            "text": " Then respect them."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 700.66,
+            "end": 702.66,
+            "text": " I want to give a shout out to everyone."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 702.66,
+            "end": 704.66,
+            "text": " You should actually be supportive."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 704.66,
+            "end": 706.66,
+            "text": " You should support them."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 706.66,
+            "end": 708.66,
+            "text": " Instead of saying that he is giving free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 708.66,
+            "end": 710.66,
+            "text": " Then you should also do it."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 710.66,
+            "end": 712.66,
+            "text": " We all have to understand this."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 712.66,
+            "end": 714.66,
+            "text": " But the sigma web development course is free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 714.66,
+            "end": 716.66,
+            "text": " And we are going to raise the bar like anything."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 716.66,
+            "end": 718.66,
+            "text": " We are going to make amazing projects."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 718.66,
+            "end": 720.66,
+            "text": " And it will be free till the end."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 720.66,
+            "end": 722.66,
+            "text": " I will not break my promise."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 722.66,
+            "end": 724.66,
+            "text": " Because I had promised from the first video."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 724.66,
+            "end": 726.66,
+            "text": " That this course is free."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 726.66,
+            "end": 728.66,
+            "text": " That is my promise."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 728.66,
+            "end": 730.66,
+            "text": " If I break that then it is wrong."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 730.66,
+            "end": 732.66,
+            "text": " I hope that if anyone is giving paid course."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 732.66,
+            "end": 734.66,
+            "text": " Then nothing wrong in that."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 734.66,
+            "end": 736.66,
+            "text": " In my opinion."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 736.66,
+            "end": 738.66,
+            "text": " I hope you also think the same."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 738.66,
+            "end": 740.66,
+            "text": " So that's it for this video."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 740.66,
+            "end": 742.66,
+            "text": " In the coming videos."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 742.66,
+            "end": 744.66,
+            "text": " We are going to see a lot of things."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 744.66,
+            "end": 746.66,
+            "text": " And the best is yet to come."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 746.66,
+            "end": 748.66,
+            "text": " We have not raised our bar yet."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 748.66,
+            "end": 750.66,
+            "text": " We will make good projects."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 750.66,
+            "end": 752.66,
+            "text": " I will tell you new things."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 752.66,
+            "end": 754.66,
+            "text": " I have learned from years of experience."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 754.66,
+            "end": 756.66,
+            "text": " I wish someone would have told me."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 756.66,
+            "end": 758.66,
+            "text": " I wasted so many years."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 758.66,
+            "end": 760.66,
+            "text": " You can guess the result."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 760.66,
+            "end": 762.66,
+            "text": " So that's it for this video."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 762.66,
+            "end": 764.66,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 764.66,
+            "end": 766.66,
+            "text": " And I will see you next time."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 788.66,
+            "end": 790.66,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 790.66,
+            "end": 792.66,
+            "text": " And I will see you next time."
+        },
+        {
+            "number": "24",
+            "title": "CSS Shadows and Outlines",
+            "start": 792.66,
+            "end": 794.66,
+            "text": " Till then bye."
+        }
+    ],
+    "text": " Guys, we saw about margin and padding. In today's video, I'll tell you about outline. And also, I'll tell you how you can add shadows in CSS. We understood everything from the CSS box model. What is border, margin, padding and actual content. In this video, we'll explore shadows and outlines. It's fun throughout the course. You can write down Sigma patch op in the comment section. Let's go to the computer screen. Let's roll the intro. Intro So guys, I'm in my computer screen. As you can see. I'll do the same thing that I've been doing for the last 23 videos. I'll make a folder named video24 to organize things. And I'll open it in VS Code. And today's topic is about shadows. How to add shadows. You can add shadows to any element. I'll quickly make an index.html file. And you can also add outlines. To add outlines, you have to use outline property. How is this outline different from border? Why will we use outline? So let's start with box shadows. First, we'll talk about shadows. What is in CSS? So, shadows are used in CSS. To add a shadow to any element. So, if I show you an example of this. It will look like this. I'll make a div here. div.box And I'll write I am a box in it. And I'll simply put style tag here. And I'll write .box here. And I'll write simply here. Border 2px Solid black let us say. And that's about it. I'll give a little padding. 34px And you can see here. It will look like this. Where is my preview button? I'll open it in the browser. And see, it will look like this. No surprises whatsoever. We did this much. And you all know about it. Now if I want to give a shadow in this box. So I'll use box shadow. And the syntax of box shadow is like this. Here you put horizontal offset. Here you put vertical offset. Here you put blur. Here you put spread. Then you put color. Then you put insert. Now what is this? Horizontal and vertical offset means how far the shadow will be. Then there is blur. The more value you give here, the more blur it will be. Then after this, you see here. Shadow size with expand and shrink. If you increase the spread, then the size of your shadow will be increased or decreased. Then you can define the color of the shadow here. And after this, how much you want to keep the shadow inside. That defines your insert. So if I copy it. And paste it here. I'll show you the shadow here. So you can see here. Box shadow. Box shadow. You can see here 5 pixels. 15 pixels. 5 pixels. And I have given this color here. If I make this color red. Or let's say I make it green. Then it will be green. If I show you here, then this is how box shadow looks. Now what I will do here. And I will request you too. If you want to preview changes. Then what you have to do is inspect. And here directly. I'll move my face away. So that you can see this. And focus here. Now you want to see inside this particular element. That my box shadow. I have given here. How do I handle it? Now you can see here. You can change all these values. And see, by changing them, your shadow is changing. You can see here. Now what I have done here. I have given Y offset and X offset. Now see, if I do this, it will go here. If I do this, it will go here. Now it's up to you where you want to put this shadow. Now when does shadow appear? Shadow appears when our light falls from one direction. That is, if the source of light is here. And let's say this is my object. So shadow will be made here. So if you want something like that. So you guys have to see shadow here. To see here. These values have to be adjusted in the same way. You don't confuse the shadow. You are from the border. You put it like this. So that you look like a shadow. Shadow means shadow. Now here you will come to the inset value. So you can change the inset value too. If you want a shadow inside. So you can do it like this. Now you see, as you do. By the way, the syntax of this will change. You have written here inset. 10 pixels, 8 pixels, 5 pixels. So this is the color of the shadow. So usually you can increase or decrease the blur from here. And this syntax will change. And what will happen by increasing the spread? It will spread as much as you increase the spread. Ideally, you would definitely want to keep the spread less. Because the shadow does not look natural. If you make the spread very unnatural. You don't need to keep this syntax. You can see here. That our syntax was. Horizontal offset, vertical offset, blur, spread, color and inset. Now let's talk about the text shadow. You can write this syntax like this. Now, along with the box shadow. You can also give text shadow. The way you have given the box shadow. You can also give text shadow. And here if I do the text shadow. In any text element. I will copy it. And I will copy the whole CSS. And here I will show you. If I have a paragraph. And I say text shadow. And I write lorem 34. And I write the CSS. So what will happen here? Text shadow will come. I have made a class. I made a class named text element. I made it with the name of text shadow. And here you see. The shadow has come in the text. I make this color red. So that you know what happens with the text shadow. Sometimes we want to visually. That our shadow comes in the text. And definitely if you want to change it. Then you can change it from here. For example, if I want. My text shadow. It is of purple type. And along with that. I want to hit a purple shade. Along with that my text shadow. It has come a little down. Something like this. You can see that it looks exactly like a shadow. And let's say I want to increase its blur. Or I want to keep the blur so much. That it is just seen a little. So I can set the value from here. And whoever will generate the syntax. I will take it back here. By copying. I never focus on running. Nor did I ever do it myself. I want to tell you that. There are tools in Google Chrome. See in the coming time. Whoever will learn to use tools. He will become a good web developer. Whether it is chat gbd or github copilot. Whatever the AI of the applet. You should know when to use which tool. And how to do it as much as possible in the shortest time. And it will define your value. Many people ask if AI will replace. It will not. But AI will replace those who do not know the tools. Know how to use. And indirectly AI will replace. I want to end this debate. AI will not replace directly. It will indirectly do it. Through smart people. AI will help smart people so much. That those who are not smart. Their work will be finished. I am just telling you the reality. What is there is there. AI will not replace anyone. AI is not a human. It has not happened yet. It will be seen sometime. See here. Text shadow has come. If I want to generate the text shadow. Because I did it with purple color. If it comes. Then I can do it like this. And whatever syntax is being generated here. I can use it. If I want to increase it. And if I want to increase the blur. Text shadow is not used much. I have seen it. People use it. It looks good. But yes. I have not seen much usage. To be honest. But you should know about this property. Now last but not the least. Outline. You put the width. You put the style. You put the color. Just like we say to make a border. What is the difference in border? Assume this is my element. I will put outline. I will say outline 2px solid black. It looks like a border. What is this? I will put border also. 2px solid green. Border will be inside. Outline will be outside. There is a basic difference between border and outline. What is it? Outline does not take your space. It is not a part of the box model. Border is there. You can use outline offset property. Outline offset. Like this. You can increase the outline offset. Like this. The distance of the outline will increase. But you can not increase the distance of the border. Yes there is a margin. There is padding. It will affect the box model of the element. But like this. Like I am playing. You can not play with the border. You can not reduce it. You can not do inside and outside. You can do inside and outside. Sometimes you have to use outline to cover an element. Sometimes you have to use outline to cover an element. These are the basic differences. Outline is given in extra. If you have set the border. If you have set everything. If you want an outline after that. You can use outline. Then borders can have varying widths. Outlines have uniform width. You can not change the width of the outline. Then you can. You can use border radius. I am using border radius property. Because this is a property. Border radius. Suppose I do 34 pixels. Then you can see. As soon as I set the border radius. It became curvy. You can not curve the outline. Outline will follow the border. As soon as you set the border radius. Outline will take the curve. I hope you understood this. This was a very basic concept. Box shadow, text shadow and outline. I hope you understood. If you have not yet accessed. The sigma web development playlist. Then do access it. If you are not accessing the source code. Then I will recommend you. If you are coding together. Nothing can be better than that. But if you need code. Or if nothing is working. Then you can visit this repository. You can visit this repository. And it will help you a lot. Since I started this course. Many people from the industry. What can I say. They have felt bad. Many people approached me. To make it paid from the middle. But I am never going to do that. This sigma course will be free. So don't worry. But I want to tell you one thing. We are going to raise the bar like anything. Once we start making projects. You will enjoy it. And I can proudly say. Based on your feedback. And people from the industry also contacted me. That what have you made. Our sales have stopped. I am not against paid courses. If I am able to bring this course free. Then it is my good luck. And I will say that if anyone in the industry. Is giving you 99% paid. And 1% free. Then respect them. I want to give a shout out to everyone. You should actually be supportive. You should support them. Instead of saying that he is giving free. Then you should also do it. We all have to understand this. But the sigma web development course is free. And we are going to raise the bar like anything. We are going to make amazing projects. And it will be free till the end. I will not break my promise. Because I had promised from the first video. That this course is free. That is my promise. If I break that then it is wrong. I hope that if anyone is giving paid course. Then nothing wrong in that. In my opinion. I hope you also think the same. So that's it for this video. In the coming videos. We are going to see a lot of things. And the best is yet to come. We have not raised our bar yet. We will make good projects. I will tell you new things. I have learned from years of experience. I wish someone would have told me. I wasted so many years. You can guess the result. So that's it for this video. Thank you so much for watching this video. And I will see you next time. Thank you so much for watching this video. And I will see you next time. Till then bye."
+}

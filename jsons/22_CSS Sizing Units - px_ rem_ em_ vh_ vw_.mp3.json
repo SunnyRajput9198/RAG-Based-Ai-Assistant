@@ -1,0 +1,5318 @@
+{
+    "chunks": [
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 0.0,
+            "end": 3.22,
+            "text": " In CSS, you will get to see different types of sizing units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 3.22,
+            "end": 6.72,
+            "text": " Sometimes you will get to see pixels, sometimes you will get to see VH,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 6.72,
+            "end": 9.68,
+            "text": " sometimes you will get to see VW, sometimes you will get to see RAM,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 9.68,
+            "end": 10.76,
+            "text": " you will get to see M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 10.76,
+            "end": 13.8,
+            "text": " Which unit do you want to use? Which is the best among these?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 13.8,
+            "end": 15.18,
+            "text": " Which one do you want to avoid?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 15.18,
+            "end": 16.88,
+            "text": " And what do these units mean?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 16.88,
+            "end": 18.56,
+            "text": " This will be the topic of this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 18.56,
+            "end": 20.02,
+            "text": " Let's go to the computer screen."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 20.02,
+            "end": 21.56,
+            "text": " I am really very excited."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 21.56,
+            "end": 23.02,
+            "text": " Let's roll the intro."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 30.28,
+            "end": 32.08,
+            "text": " So guys, I am in my computer screen."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 32.08,
+            "end": 35.2,
+            "text": " And the thing I am going to tell you today is very dangerous."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 35.2,
+            "end": 37.0,
+            "text": " And you will enjoy it after learning it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 37.0,
+            "end": 40.0,
+            "text": " Because it is so much used for sizing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 40.0,
+            "end": 42.42,
+            "text": " It is so much used that you can make any website."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 42.42,
+            "end": 46.3,
+            "text": " It will always be good to know about sizing for you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 46.3,
+            "end": 47.8,
+            "text": " Here I will do shift right click."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 47.8,
+            "end": 51.42,
+            "text": " And after doing shift right click, I will make a new folder here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 51.42,
+            "end": 54.64,
+            "text": " In fact, to make a new folder, I will do something like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 54.64,
+            "end": 56.879999999999995,
+            "text": " And after this, I will do shift right click, open with code,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 56.88,
+            "end": 58.720000000000006,
+            "text": " and after this, I will do shift right click, open with code,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 58.720000000000006,
+            "end": 60.72,
+            "text": " I will make a file named index.html."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 60.72,
+            "end": 62.56,
+            "text": " And I will tell you here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 62.56,
+            "end": 64.94,
+            "text": " So see, if you have a box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 64.94,
+            "end": 66.64,
+            "text": " I wrote div.box here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 66.64,
+            "end": 68.94,
+            "text": " And here it is written, this is a box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 68.94,
+            "end": 69.44,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 69.44,
+            "end": 72.64,
+            "text": " And suppose I gave a very basic style to it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 72.64,
+            "end": 76.24000000000001,
+            "text": " I said, brother, give the border to my box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 76.24000000000001,
+            "end": 78.24000000000001,
+            "text": " 2 pixels, solid black."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 78.24000000000001,
+            "end": 81.24000000000001,
+            "text": " And make its width 233 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 81.24000000000001,
+            "end": 82.44,
+            "text": " So what are pixels?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 82.44,
+            "end": 85.04,
+            "text": " Pixels are units that I used here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 85.12,
+            "end": 86.82000000000001,
+            "text": " Is there only a unit called pixel?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 86.82000000000001,
+            "end": 87.32000000000001,
+            "text": " No."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 87.32000000000001,
+            "end": 90.82000000000001,
+            "text": " We have a lot of units to use in CSS."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 90.82000000000001,
+            "end": 93.9,
+            "text": " You can use any type of unit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 93.9,
+            "end": 96.62,
+            "text": " And which unit to use when?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 96.62,
+            "end": 98.62,
+            "text": " It will depend on what you are doing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 98.62,
+            "end": 104.92,
+            "text": " For example, if you want to set your height according to viewport height of an element,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 104.92,
+            "end": 106.38000000000001,
+            "text": " then you can do that too."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 106.38000000000001,
+            "end": 108.38000000000001,
+            "text": " And I will tell you this thing here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 108.38000000000001,
+            "end": 111.22,
+            "text": " So first of all, if you don't want to access the playlist, then do it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 111.22,
+            "end": 114.0,
+            "text": " Very few people have accessed the playlist from those who are watching."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 114.0,
+            "end": 115.22,
+            "text": " That's why I'm saying this again and again."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 115.22,
+            "end": 117.22,
+            "text": " And a lot of people also write source code."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 117.22,
+            "end": 118.22,
+            "text": " Where is it? Where is it?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 118.22,
+            "end": 120.22,
+            "text": " You guys watch the video, that's why I'm telling you again and again."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 120.22,
+            "end": 122.72,
+            "text": " I hope you guys have also got the source code."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 122.72,
+            "end": 124.22,
+            "text": " Now let's preview it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 124.22,
+            "end": 125.72,
+            "text": " So this is the box I wrote."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 125.72,
+            "end": 127.22,
+            "text": " I said, brother, its width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 127.22,
+            "end": 128.72,
+            "text": " Make it 200 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 128.72,
+            "end": 130.72,
+            "text": " If you want, you can also put background black in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 130.72,
+            "end": 134.72,
+            "text": " Sorry, let's say you put aquamarine in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 134.72,
+            "end": 135.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 135.22,
+            "end": 138.22,
+            "text": " Now one unit is our pixel."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 138.22,
+            "end": 140.72,
+            "text": " I will tell you about some more units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 140.72,
+            "end": 144.72,
+            "text": " The pixel is 196th of an inch."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 144.72,
+            "end": 147.22,
+            "text": " So if I wrote 233 pixels here,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 147.22,
+            "end": 151.22,
+            "text": " then you can see here that its width will be set accordingly."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 151.22,
+            "end": 152.22,
+            "text": " Now I will do one thing here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 152.22,
+            "end": 153.72,
+            "text": " I will put a universal selector here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 153.72,
+            "end": 155.22,
+            "text": " And by putting a universal selector,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 155.22,
+            "end": 157.22,
+            "text": " I will make M0 here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 157.22,
+            "end": 158.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 158.22,
+            "end": 160.22,
+            "text": " Writing M0 makes the margin zero."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 160.22,
+            "end": 162.22,
+            "text": " And writing P0 makes the padding zero."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 162.22,
+            "end": 165.22,
+            "text": " So here the margin padding by default is zero."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 165.22,
+            "end": 167.72,
+            "text": " Now my monitor is a 2K monitor."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 167.72,
+            "end": 169.72,
+            "text": " 2K monitor resolution."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 169.72,
+            "end": 171.72,
+            "text": " If I see the resolution of the 2K monitor here,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 171.72,
+            "end": 172.72,
+            "text": " how much is it?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 172.72,
+            "end": 174.72,
+            "text": " Its width is 2048 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 174.72,
+            "end": 175.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 175.22,
+            "end": 177.22,
+            "text": " So if I make it 2048 pixels,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 177.22,
+            "end": 179.72,
+            "text": " 2048 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 179.72,
+            "end": 182.72,
+            "text": " So you guys see here that it has taken the full width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 182.72,
+            "end": 185.22,
+            "text": " And a little bit of a scroll bar has also come."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 185.22,
+            "end": 187.72,
+            "text": " Maybe a little bit of a very light border."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 187.72,
+            "end": 188.72,
+            "text": " Because of that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 188.72,
+            "end": 190.72,
+            "text": " If I do box sizing border box here,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 190.72,
+            "end": 193.72,
+            "text": " box sizing border box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 193.72,
+            "end": 194.72,
+            "text": " And if I show you,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 194.72,
+            "end": 197.22,
+            "text": " then see this horizontal scroll bar also went."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 197.22,
+            "end": 197.72,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 197.72,
+            "end": 200.72,
+            "text": " Now if I show you by inspecting it rightly."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 200.72,
+            "end": 202.72,
+            "text": " And if I increase it by one pixel."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 202.72,
+            "end": 204.72,
+            "text": " So see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 204.72,
+            "end": 206.72,
+            "text": " A horizontal scroll bar has come."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 206.72,
+            "end": 210.72,
+            "text": " So exactly my width of 2048 pixels is here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 210.72,
+            "end": 211.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 211.22,
+            "end": 212.72,
+            "text": " I hope you guys understood this thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 212.72,
+            "end": 214.72,
+            "text": " So this is what the pixel means."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 214.72,
+            "end": 217.72,
+            "text": " Now if you said that the width is 2048 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 217.72,
+            "end": 218.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 218.22,
+            "end": 219.72,
+            "text": " And you go to a small device,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 219.72,
+            "end": 221.72,
+            "text": " which does not have such a big monitor."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 221.72,
+            "end": 222.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 222.22,
+            "end": 223.72,
+            "text": " Suppose you have a 1080p monitor,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 223.72,
+            "end": 227.22,
+            "text": " whose default width is I think 1920x1080."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 227.22,
+            "end": 230.22,
+            "text": " That is, its height is 1080 and width is 1920."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 230.22,
+            "end": 231.22,
+            "text": " What will happen in this?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 231.22,
+            "end": 234.22,
+            "text": " In that, your website code will burst."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 234.22,
+            "end": 236.22,
+            "text": " So you don't want your website code to burst."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 236.22,
+            "end": 239.22,
+            "text": " That's why you will use a responsive unit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 239.22,
+            "end": 241.22,
+            "text": " So I told you a unit in pixel."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 241.22,
+            "end": 242.22,
+            "text": " We will not use this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 242.22,
+            "end": 245.22,
+            "text": " We will say that its width is 100vw."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 245.22,
+            "end": 247.22,
+            "text": " Vw means viewport width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 247.22,
+            "end": 251.22,
+            "text": " That is, it will take the width of your viewport."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 251.22,
+            "end": 253.22,
+            "text": " What will happen if I increase it?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 253.22,
+            "end": 254.22,
+            "text": " Obviously, if I increase it,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 254.22,
+            "end": 255.22,
+            "text": " then a horizontal scroll bar will come."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 255.22,
+            "end": 256.22,
+            "text": " You can see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 256.22,
+            "end": 258.22,
+            "text": " And let me show you one thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 258.22,
+            "end": 260.22,
+            "text": " As I told you in some of the initial videos,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 260.22,
+            "end": 263.22,
+            "text": " that you can right click, inspect and click here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 263.22,
+            "end": 265.22,
+            "text": " You can click on this TV that you can see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 265.22,
+            "end": 266.22,
+            "text": " And as soon as you click on it,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 266.22,
+            "end": 268.22,
+            "text": " and if you choose responsive from here,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 268.22,
+            "end": 270.22,
+            "text": " then you will do it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 270.22,
+            "end": 271.22,
+            "text": " You can't see the scroll bar."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 271.22,
+            "end": 275.22,
+            "text": " Because its width has been measured in the unit of vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 275.22,
+            "end": 277.22,
+            "text": " Because its width has been measured in the unit of vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 277.22,
+            "end": 280.22,
+            "text": " That's why you didn't see the horizontal scroll bar here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 280.22,
+            "end": 281.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 281.22,
+            "end": 282.22,
+            "text": " So you can do this thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 282.22,
+            "end": 284.22,
+            "text": " Now if I don't want to use vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 284.22,
+            "end": 287.22,
+            "text": " You can see a big advantage of using vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 287.22,
+            "end": 289.22,
+            "text": " That the horizontal scroll bar does not come here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 289.22,
+            "end": 290.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 290.22,
+            "end": 294.22,
+            "text": " So sometimes you want your element to be equal to its viewport width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 294.22,
+            "end": 298.22,
+            "text": " Or let's say you want it to be 80vw."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 298.22,
+            "end": 300.22,
+            "text": " If I do 80vw, then you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 300.22,
+            "end": 302.22,
+            "text": " Your container will come like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 302.22,
+            "end": 304.22,
+            "text": " Many times you have to do this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 304.22,
+            "end": 306.22,
+            "text": " You want to center a particular thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 306.22,
+            "end": 308.22,
+            "text": " Like let's say I want to center this div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 308.22,
+            "end": 312.22,
+            "text": " And I want to make it 80vw here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 312.22,
+            "end": 315.22,
+            "text": " So what I will do in this case is I will auto its margin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 315.22,
+            "end": 316.22,
+            "text": " What does margin auto mean?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 316.22,
+            "end": 318.22,
+            "text": " If I do margin auto."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 318.22,
+            "end": 320.22,
+            "text": " Margin auto."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 320.22,
+            "end": 324.22,
+            "text": " Margin auto means that I want to automatically apply margin from left and right."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 324.22,
+            "end": 326.22,
+            "text": " And from margin auto,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 326.22,
+            "end": 329.22,
+            "text": " your div will automatically apply margin from left and right."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 329.22,
+            "end": 331.22,
+            "text": " So your div will be centered."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 331.22,
+            "end": 332.22,
+            "text": " Now look here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 332.22,
+            "end": 334.22,
+            "text": " By doing margin auto, it will be centered."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 334.22,
+            "end": 336.22,
+            "text": " But you have to keep one thing in mind."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 336.22,
+            "end": 338.22,
+            "text": " If you apply margin auto on it,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 338.22,
+            "end": 341.22,
+            "text": " it will be centered only when it is a block level element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 341.22,
+            "end": 343.22,
+            "text": " If it is an inline element, then it will not be centered."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 343.22,
+            "end": 345.22,
+            "text": " I will show you by doing it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 345.22,
+            "end": 347.22,
+            "text": " Let's say this box is a span."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 347.22,
+            "end": 349.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 349.22,
+            "end": 351.22,
+            "text": " Let's say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 351.22,
+            "end": 354.22,
+            "text": " So first of all, you can't apply width on it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 354.22,
+            "end": 358.22,
+            "text": " And the second thing is that you can't do anything like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 358.22,
+            "end": 360.22,
+            "text": " You can't say that its margin auto."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 360.22,
+            "end": 363.22,
+            "text": " So I will tell you the solution to this problem in the coming videos."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 363.22,
+            "end": 365.22,
+            "text": " But you can center it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 365.22,
+            "end": 367.22,
+            "text": " Let's say I want to make another box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 367.22,
+            "end": 369.22,
+            "text": " I want to say that this was my nav bar."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 369.22,
+            "end": 371.22,
+            "text": " Now I want to make a container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 371.22,
+            "end": 375.22,
+            "text": " And I want to give the same width to this container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 375.22,
+            "end": 377.22,
+            "text": " Which I gave above."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 377.22,
+            "end": 379.22,
+            "text": " So if you see here, if I want to give the same width to it,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 379.22,
+            "end": 381.22,
+            "text": " then obviously I will do one thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 381.22,
+            "end": 383.22,
+            "text": " I will apply exactly the same thing on it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 383.22,
+            "end": 387.22,
+            "text": " And maybe I want to give the margin top of 23 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 387.22,
+            "end": 391.22,
+            "text": " So whenever you want to separate the horizontal and vertical margin,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 391.22,
+            "end": 394.22,
+            "text": " then you can use margin shorthand property by giving a space."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 394.22,
+            "end": 397.22,
+            "text": " The 23 pixels here are the margin of the top and bottom."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 397.22,
+            "end": 399.22,
+            "text": " And auto means auto from left and right."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 399.22,
+            "end": 401.22,
+            "text": " So you see, 23 pixels are applied to the top and bottom."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 401.22,
+            "end": 403.22,
+            "text": " Now because there is nothing in the container,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 403.22,
+            "end": 408.22,
+            "text": " I will write 56 and you will tell me in the comment why I wrote 56."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 408.22,
+            "end": 410.22,
+            "text": " What was the reason to write 56."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 410.22,
+            "end": 412.22,
+            "text": " I will do it in the format document."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 412.22,
+            "end": 415.22,
+            "text": " And here you see that I have made two boxes."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 415.22,
+            "end": 417.22,
+            "text": " And exactly the width of these is the same."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 417.22,
+            "end": 419.22,
+            "text": " If I see this in an iPhone,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 419.22,
+            "end": 421.22,
+            "text": " suppose in iPhone 12 Pro."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 421.22,
+            "end": 423.22,
+            "text": " Actually I don't have 12 Pro."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 423.22,
+            "end": 425.22,
+            "text": " I have 13."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 425.22,
+            "end": 427.22,
+            "text": " And 15 is also coming."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 427.22,
+            "end": 429.22,
+            "text": " Many people were asking for an update for that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 429.22,
+            "end": 431.22,
+            "text": " They are not giving it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 431.22,
+            "end": 433.22,
+            "text": " It's been so long since I ordered it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 433.22,
+            "end": 435.22,
+            "text": " I don't know what will happen."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 435.22,
+            "end": 437.22,
+            "text": " Now you can see that this is what it looks like on the phone."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 437.22,
+            "end": 439.22,
+            "text": " If I make it responsive,"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 439.22,
+            "end": 441.22,
+            "text": " then it will adapt like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 441.22,
+            "end": 443.22,
+            "text": " So we have seen a very small taste of responsive design."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 443.22,
+            "end": 445.22,
+            "text": " But a lot is yet to come."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 445.22,
+            "end": 448.22,
+            "text": " We are going to do a lot of things from the perspective of responsive design."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 448.22,
+            "end": 450.22,
+            "text": " So this is not all."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 450.22,
+            "end": 452.22,
+            "text": " We will see more things in the coming videos."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 452.22,
+            "end": 454.22,
+            "text": " Now after this, I want to tell you about VH."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 454.22,
+            "end": 456.22,
+            "text": " If I want the height of this container"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 456.22,
+            "end": 460.22,
+            "text": " to be 80% of the height of my viewport."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 460.22,
+            "end": 462.22,
+            "text": " So I will make it 80 VH."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 462.22,
+            "end": 464.22,
+            "text": " So it took 80% of the height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 464.22,
+            "end": 466.22,
+            "text": " And if I want it to take 10% of the height of the viewport."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 466.22,
+            "end": 468.22,
+            "text": " So what will I do to it?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 468.22,
+            "end": 470.22,
+            "text": " I will make the height 10 VH."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 470.22,
+            "end": 472.22,
+            "text": " So this is 10 VH height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 472.22,
+            "end": 474.22,
+            "text": " And this is 80% of the viewport height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 474.22,
+            "end": 476.22,
+            "text": " Now if I change the height of the viewport."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 476.22,
+            "end": 478.22,
+            "text": " If I change the height of the viewport."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 478.22,
+            "end": 480.22,
+            "text": " Something like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 480.22,
+            "end": 482.22,
+            "text": " Suppose I make it smaller."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 482.22,
+            "end": 484.22,
+            "text": " So it will take 80% of the viewport height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 484.22,
+            "end": 486.22,
+            "text": " And the one below will take 80% of the viewport height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 486.22,
+            "end": 488.22,
+            "text": " So VH and VW are very important units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 488.22,
+            "end": 490.22,
+            "text": " Pixel is our universal unit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 490.22,
+            "end": 492.22,
+            "text": " Which we will keep using."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 492.22,
+            "end": 494.22,
+            "text": " And you can't avoid it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 494.22,
+            "end": 496.22,
+            "text": " You have to use it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 496.22,
+            "end": 498.22,
+            "text": " After this, Rem and M are very important units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 498.22,
+            "end": 500.22,
+            "text": " So what is M?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 500.22,
+            "end": 502.22,
+            "text": " EM and Rem."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 502.22,
+            "end": 504.22,
+            "text": " So first of all I tell you about M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 504.22,
+            "end": 506.22,
+            "text": " EM."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 506.22,
+            "end": 508.22,
+            "text": " Now let's say the font size of this container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 508.22,
+            "end": 510.22,
+            "text": " I say font size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 510.22,
+            "end": 512.22,
+            "text": " Let's say 1M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 512.22,
+            "end": 514.22,
+            "text": " Now suppose the font size of this container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 514.22,
+            "end": 516.22,
+            "text": " Is 16 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 516.22,
+            "end": 518.22,
+            "text": " Which is the default."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 518.22,
+            "end": 520.22,
+            "text": " It was going to be computed."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 520.22,
+            "end": 522.22,
+            "text": " I will make it a little more interesting."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 522.22,
+            "end": 524.22,
+            "text": " I will put a paragraph in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 524.22,
+            "end": 526.22,
+            "text": " And I will put this lorem in this paragraph."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 526.22,
+            "end": 528.22,
+            "text": " And you will know why I did this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 528.22,
+            "end": 530.22,
+            "text": " Now I will put this font size in the paragraph."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 530.22,
+            "end": 532.22,
+            "text": " I will say the paragraph of the container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 532.22,
+            "end": 534.22,
+            "text": " Font size of that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 534.22,
+            "end": 536.22,
+            "text": " 1M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 536.22,
+            "end": 538.22,
+            "text": " And I will do the font size of this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 538.22,
+            "end": 540.22,
+            "text": " Font size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 540.22,
+            "end": 542.22,
+            "text": " I will make it 16 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 542.22,
+            "end": 544.22,
+            "text": " Now you see carefully where things are going."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 544.22,
+            "end": 546.22,
+            "text": " Now see its font size is 16 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 546.22,
+            "end": 548.22,
+            "text": " So the paragraph will also inherit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 548.22,
+            "end": 550.22,
+            "text": " Its font size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 550.22,
+            "end": 552.22,
+            "text": " If I don't write this here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 552.22,
+            "end": 554.22,
+            "text": " So here it is obvious that its font size will also be 16 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 554.22,
+            "end": 556.22,
+            "text": " Which is the default."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 556.22,
+            "end": 558.22,
+            "text": " If I make it 18 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 558.22,
+            "end": 560.22,
+            "text": " You see it is a little big."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 560.22,
+            "end": 562.22,
+            "text": " You can see it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 562.22,
+            "end": 564.22,
+            "text": " So I changed its size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 564.22,
+            "end": 566.22,
+            "text": " Now here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 566.22,
+            "end": 568.22,
+            "text": " I will make its font size 1M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 568.22,
+            "end": 570.22,
+            "text": " What will be its computed font size?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 570.22,
+            "end": 572.22,
+            "text": " You have to listen to me very carefully."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 572.22,
+            "end": 574.22,
+            "text": " Because understanding the m and m is very important."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 574.22,
+            "end": 576.22,
+            "text": " I will go to computed and search here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 576.22,
+            "end": 578.22,
+            "text": " Font size. Now see here 18 pixels are coming."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 578.22,
+            "end": 580.22,
+            "text": " The size of the paragraph is 18 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 580.22,
+            "end": 582.22,
+            "text": " Because it will inherit from the container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 582.22,
+            "end": 584.22,
+            "text": " Some properties inherit in CSS."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 584.22,
+            "end": 586.22,
+            "text": " And the font size is one of them."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 586.22,
+            "end": 588.22,
+            "text": " Property."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 588.22,
+            "end": 590.22,
+            "text": " So this property will inherit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 590.22,
+            "end": 592.22,
+            "text": " And you can see here that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 592.22,
+            "end": 594.22,
+            "text": " My font size is 18."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 594.22,
+            "end": 596.22,
+            "text": " So far so good."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 596.22,
+            "end": 598.22,
+            "text": " Now I tell you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 598.22,
+            "end": 600.22,
+            "text": " If I write 1M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 600.22,
+            "end": 602.22,
+            "text": " What will be the difference?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 602.22,
+            "end": 604.22,
+            "text": " There is no difference."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 604.22,
+            "end": 606.22,
+            "text": " Now if I make it 1.2M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 606.22,
+            "end": 608.22,
+            "text": " Or let's say 1.5M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 608.22,
+            "end": 610.22,
+            "text": " So the font size of this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 610.22,
+            "end": 612.22,
+            "text": " It will be 1.5 times."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 612.22,
+            "end": 614.22,
+            "text": " That is, the value that was going to be inherited."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 614.22,
+            "end": 616.22,
+            "text": " 1.5 times."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 616.22,
+            "end": 618.22,
+            "text": " So you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 618.22,
+            "end": 620.22,
+            "text": " 1.5 times 18."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 620.22,
+            "end": 622.22,
+            "text": " 27."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 622.22,
+            "end": 624.22,
+            "text": " So you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 624.22,
+            "end": 626.22,
+            "text": " 36."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 626.22,
+            "end": 628.22,
+            "text": " So if I do 2."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 628.22,
+            "end": 630.22,
+            "text": " You see 36."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 630.22,
+            "end": 632.22,
+            "text": " I hope you understood this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 632.22,
+            "end": 634.22,
+            "text": " What will be the font size of the container?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 634.22,
+            "end": 636.22,
+            "text": " Font size of the container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 636.22,
+            "end": 638.22,
+            "text": " Will be the same as we have given."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 638.22,
+            "end": 640.22,
+            "text": " 18 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 640.22,
+            "end": 642.22,
+            "text": " So what does m mean?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 642.22,
+            "end": 644.22,
+            "text": " The font size that was going to be inherited."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 644.22,
+            "end": 646.22,
+            "text": " Its this much."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 646.22,
+            "end": 648.22,
+            "text": " Like if I do 1.5M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 648.22,
+            "end": 650.22,
+            "text": " Or 2M."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 650.22,
+            "end": 652.22,
+            "text": " So the font size that was going to be inherited."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 652.22,
+            "end": 654.22,
+            "text": " Its 2 times."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 654.22,
+            "end": 656.22,
+            "text": " Now if I remove 18 pixels from here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 656.22,
+            "end": 658.22,
+            "text": " So what will happen?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 658.22,
+            "end": 660.22,
+            "text": " It will be 2 times of 16."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 660.22,
+            "end": 662.22,
+            "text": " Because it was going to get 16 by default."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 662.22,
+            "end": 664.22,
+            "text": " So now the font size will be 32."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 664.22,
+            "end": 666.22,
+            "text": " So if you see the value in computed."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 666.22,
+            "end": 668.22,
+            "text": " You will get to see 32."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 668.22,
+            "end": 670.22,
+            "text": " I hope it is clear."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 670.22,
+            "end": 672.22,
+            "text": " Now I tell you the m."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 672.22,
+            "end": 674.22,
+            "text": " Now for some weird reason."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 674.22,
+            "end": 676.22,
+            "text": " Or for some good reason."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 676.22,
+            "end": 678.22,
+            "text": " I am making my website."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 678.22,
+            "end": 680.22,
+            "text": " Font size of the website."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 680.22,
+            "end": 682.22,
+            "text": " Let us say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 682.22,
+            "end": 684.22,
+            "text": " Let us say I make my font size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 684.22,
+            "end": 686.22,
+            "text": " 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 686.22,
+            "end": 688.22,
+            "text": " I said the font size of html is 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 688.22,
+            "end": 690.22,
+            "text": " So what will happen?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 690.22,
+            "end": 692.22,
+            "text": " Everything will be 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 692.22,
+            "end": 694.22,
+            "text": " See the font size of this is a box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 694.22,
+            "end": 696.22,
+            "text": " It is inherited from html and it is 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 696.22,
+            "end": 698.22,
+            "text": " Now assume the font size of this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 698.22,
+            "end": 700.22,
+            "text": " I want the font size of the root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 700.22,
+            "end": 702.22,
+            "text": " Which is html."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 702.22,
+            "end": 704.22,
+            "text": " By the way html is the root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 704.22,
+            "end": 706.22,
+            "text": " I want the font size of the root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 706.22,
+            "end": 708.22,
+            "text": " To double the font size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 708.22,
+            "end": 710.22,
+            "text": " So how will I do this?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 710.22,
+            "end": 712.22,
+            "text": " I will write the rem."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 712.22,
+            "end": 714.22,
+            "text": " Rem means the amount of root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 714.22,
+            "end": 716.22,
+            "text": " That will be doubled."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 716.22,
+            "end": 718.22,
+            "text": " So if I will make it 2rem."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 718.22,
+            "end": 720.22,
+            "text": " Then what will happen?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 720.22,
+            "end": 722.22,
+            "text": " It will be 12 or 24 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 722.22,
+            "end": 724.22,
+            "text": " You can see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 724.22,
+            "end": 726.22,
+            "text": " I got 24 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 726.22,
+            "end": 728.22,
+            "text": " Rem means the amount of root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 728.22,
+            "end": 730.22,
+            "text": " That will be doubled."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 730.22,
+            "end": 732.22,
+            "text": " Em means the amount of root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 732.22,
+            "end": 734.22,
+            "text": " That will be doubled."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 734.22,
+            "end": 736.22,
+            "text": " See I said paragraph."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 736.22,
+            "end": 738.22,
+            "text": " That how much should I give?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 738.22,
+            "end": 740.22,
+            "text": " 2rem."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 740.22,
+            "end": 742.22,
+            "text": " Which is the double of the font size of the root element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 742.22,
+            "end": 744.22,
+            "text": " By default it is 16."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 744.22,
+            "end": 746.22,
+            "text": " But I made it 12."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 746.22,
+            "end": 748.22,
+            "text": " So I got 24."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 748.22,
+            "end": 750.22,
+            "text": " If I make this rem as m."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 750.22,
+            "end": 752.22,
+            "text": " Then tell me in the comment section."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 752.22,
+            "end": 754.22,
+            "text": " How much font size will you get?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 754.22,
+            "end": 756.22,
+            "text": " And please keep 2 way interaction."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 756.22,
+            "end": 758.22,
+            "text": " You have to comment below."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 758.22,
+            "end": 760.22,
+            "text": " I am waiting for you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 760.22,
+            "end": 762.22,
+            "text": " Now all the people commented 24."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 762.22,
+            "end": 764.22,
+            "text": " I said we will raise the bar."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 764.22,
+            "end": 766.22,
+            "text": " But many people commented wrong."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 766.22,
+            "end": 768.22,
+            "text": " I know."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 768.22,
+            "end": 770.22,
+            "text": " I will tell you where 24 came from."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 770.22,
+            "end": 772.22,
+            "text": " Font size property is inherent."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 772.22,
+            "end": 774.22,
+            "text": " So first of all."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 774.22,
+            "end": 776.22,
+            "text": " Head will get from html."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 776.22,
+            "end": 778.22,
+            "text": " Body will get from html."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 778.22,
+            "end": 780.22,
+            "text": " This div will get from body."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 780.22,
+            "end": 782.22,
+            "text": " What will be the font size of this div?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 782.22,
+            "end": 784.22,
+            "text": " 12."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 784.22,
+            "end": 786.22,
+            "text": " 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 786.22,
+            "end": 788.22,
+            "text": " What will happen to this paragraph?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 788.22,
+            "end": 790.22,
+            "text": " Because it was 12 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 790.22,
+            "end": 792.22,
+            "text": " So if I make it 2m."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 792.22,
+            "end": 794.22,
+            "text": " Then it will be 24."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 794.22,
+            "end": 796.22,
+            "text": " But if I make it 18."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 796.22,
+            "end": 798.22,
+            "text": " Now tell me in the comment section."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 798.22,
+            "end": 800.22,
+            "text": " What will be the font size of this div?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 800.22,
+            "end": 802.22,
+            "text": " And I am telling you the answer."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 802.22,
+            "end": 804.22,
+            "text": " The answer is 18x2."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 804.22,
+            "end": 806.22,
+            "text": " It will be 36."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 806.22,
+            "end": 808.22,
+            "text": " Because now it was going to get 36."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 808.22,
+            "end": 810.22,
+            "text": " But its double."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 810.22,
+            "end": 812.22,
+            "text": " If you still don't understand."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 812.22,
+            "end": 814.22,
+            "text": " Then I will tell you to watch the video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 814.22,
+            "end": 816.22,
+            "text": " If you watch it twice."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 816.22,
+            "end": 818.22,
+            "text": " You will definitely understand."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 818.22,
+            "end": 820.22,
+            "text": " Are these the units?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 820.22,
+            "end": 822.22,
+            "text": " No, there are many other units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 822.22,
+            "end": 824.22,
+            "text": " But what happens is that this is the most used unit."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 824.22,
+            "end": 826.22,
+            "text": " And if I tell you personally."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 826.22,
+            "end": 828.22,
+            "text": " Then I use these units to make my websites."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 828.22,
+            "end": 830.22,
+            "text": " Yes, there are two more units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 830.22,
+            "end": 832.22,
+            "text": " Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 832.22,
+            "end": 834.22,
+            "text": " You must have known from their name."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 834.22,
+            "end": 836.22,
+            "text": " But I will tell you practically."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 836.22,
+            "end": 838.22,
+            "text": " What is Vmin and Vmax?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 838.22,
+            "end": 840.22,
+            "text": " Sometimes what will happen is that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 840.22,
+            "end": 842.22,
+            "text": " Your width will be greater than height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 842.22,
+            "end": 844.22,
+            "text": " But in the phone, your height is greater than width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 844.22,
+            "end": 846.22,
+            "text": " Is it or not?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 846.22,
+            "end": 848.22,
+            "text": " So if you are in the phone."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 848.22,
+            "end": 850.22,
+            "text": " Then your Vmin will be width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 850.22,
+            "end": 852.22,
+            "text": " But if you are in the computer."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 852.22,
+            "end": 854.22,
+            "text": " Then your Vmin will be height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 854.22,
+            "end": 856.22,
+            "text": " Because the height of the monitor is small."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 856.22,
+            "end": 858.22,
+            "text": " But the width of the phone is small."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 858.22,
+            "end": 860.22,
+            "text": " Do you understand?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 860.22,
+            "end": 862.22,
+            "text": " So what is the meaning of Vmin and Vmax?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 862.22,
+            "end": 864.22,
+            "text": " I tell you this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 864.22,
+            "end": 866.22,
+            "text": " So if I say 100 Vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 866.22,
+            "end": 868.22,
+            "text": " It means."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 868.22,
+            "end": 870.22,
+            "text": " 100 of whatever height and width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 870.22,
+            "end": 872.22,
+            "text": " Will be the minimum."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 872.22,
+            "end": 874.22,
+            "text": " This minimum is this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 874.22,
+            "end": 876.22,
+            "text": " If you are not understanding."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 876.22,
+            "end": 878.22,
+            "text": " I will do it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 878.22,
+            "end": 880.22,
+            "text": " I will make another container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 880.22,
+            "end": 882.22,
+            "text": " I will write here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 882.22,
+            "end": 884.22,
+            "text": " I made a container in the name of mycont."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 884.22,
+            "end": 886.22,
+            "text": " I will write another container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 886.22,
+            "end": 888.22,
+            "text": " And here I will style mycont."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 888.22,
+            "end": 890.22,
+            "text": " So I will write here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 890.22,
+            "end": 892.22,
+            "text": " And here I will give it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 892.22,
+            "end": 894.22,
+            "text": " Background color red."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 894.22,
+            "end": 896.22,
+            "text": " And I will give it color."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 896.22,
+            "end": 898.22,
+            "text": " What should I give? Yellow?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 898.22,
+            "end": 900.22,
+            "text": " I will give it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 900.22,
+            "end": 902.22,
+            "text": " I will give it font size 22 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 902.22,
+            "end": 904.22,
+            "text": " You see that I made another container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 904.22,
+            "end": 906.22,
+            "text": " Now I want to give"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 906.22,
+            "end": 908.22,
+            "text": " its width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 908.22,
+            "end": 910.22,
+            "text": " So I will say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 910.22,
+            "end": 912.22,
+            "text": " Width is 100 Vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 912.22,
+            "end": 914.22,
+            "text": " So if I do 100 Vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 914.22,
+            "end": 916.22,
+            "text": " What will be the height?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 916.22,
+            "end": 918.22,
+            "text": " What is Vmin?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 918.22,
+            "end": 920.22,
+            "text": " Is Vmin height or width?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 920.22,
+            "end": 922.22,
+            "text": " Min will be for this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 922.22,
+            "end": 924.22,
+            "text": " In my device."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 924.22,
+            "end": 926.22,
+            "text": " In the device I am making a video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 926.22,
+            "end": 928.22,
+            "text": " What is Vmin?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 928.22,
+            "end": 930.22,
+            "text": " Vmin is height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 930.22,
+            "end": 932.22,
+            "text": " 100 Vmin means 100 Vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 932.22,
+            "end": 934.22,
+            "text": " For this device."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 934.22,
+            "end": 936.22,
+            "text": " So you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 936.22,
+            "end": 938.22,
+            "text": " It is 100 Vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 938.22,
+            "end": 940.22,
+            "text": " So should I write 100 Vmin or 100 Vh?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 940.22,
+            "end": 942.22,
+            "text": " Not always."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 942.22,
+            "end": 944.22,
+            "text": " In this device."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 944.22,
+            "end": 946.22,
+            "text": " Now what happens."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 946.22,
+            "end": 948.22,
+            "text": " If you want Vh in the phone."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 948.22,
+            "end": 950.22,
+            "text": " Vh in the phone."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 950.22,
+            "end": 952.22,
+            "text": " Vw in the computer."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 952.22,
+            "end": 954.22,
+            "text": " You are looking for Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 954.22,
+            "end": 956.22,
+            "text": " It is used in complex scenarios."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 956.22,
+            "end": 958.22,
+            "text": " Don't get confused."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 958.22,
+            "end": 960.22,
+            "text": " You should know Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 960.22,
+            "end": 962.22,
+            "text": " So if I"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 962.22,
+            "end": 964.22,
+            "text": " Here I have"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 964.22,
+            "end": 966.22,
+            "text": " MyCont."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 966.22,
+            "end": 968.22,
+            "text": " It is 100 Vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 968.22,
+            "end": 970.22,
+            "text": " If I write 100 Vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 970.22,
+            "end": 972.22,
+            "text": " Will it make any difference?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 972.22,
+            "end": 974.22,
+            "text": " No."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 974.22,
+            "end": 976.22,
+            "text": " Or I write 100 Vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 976.22,
+            "end": 978.22,
+            "text": " In this device Vmin and Vmax"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 978.22,
+            "end": 980.22,
+            "text": " are the same."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 980.22,
+            "end": 982.22,
+            "text": " And what will be my Vmin in my phone?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 982.22,
+            "end": 984.22,
+            "text": " Will it be Vh or Vw?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 984.22,
+            "end": 986.22,
+            "text": " Tell me in the comment section."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 986.22,
+            "end": 988.22,
+            "text": " I hope you have understood the concept of Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 988.22,
+            "end": 990.22,
+            "text": " So this was about Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 990.22,
+            "end": 992.22,
+            "text": " There are many more complex units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 992.22,
+            "end": 994.22,
+            "text": " I am using the word complex."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 994.22,
+            "end": 996.22,
+            "text": " Because it is not used much."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 996.22,
+            "end": 998.22,
+            "text": " Your websites will be made of these units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 998.22,
+            "end": 1000.22,
+            "text": " And the rest."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1000.22,
+            "end": 1002.22,
+            "text": " If I open the MDN docs."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1002.22,
+            "end": 1004.22,
+            "text": " CSS MDN Docs."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1004.22,
+            "end": 1006.22,
+            "text": " Reference for Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1006.22,
+            "end": 1008.22,
+            "text": " And I am writing here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1008.22,
+            "end": 1010.22,
+            "text": " Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1010.22,
+            "end": 1012.22,
+            "text": " And I am writing here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1012.22,
+            "end": 1014.22,
+            "text": " Vmin and Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1014.22,
+            "end": 1016.22,
+            "text": " And I am writing here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1016.22,
+            "end": 1018.22,
+            "text": " Vmax."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1018.22,
+            "end": 1020.22,
+            "text": " Reference for units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1020.22,
+            "end": 1022.22,
+            "text": " You will get to see many units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1022.22,
+            "end": 1024.22,
+            "text": " Here is Q, In, PC, PT."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1024.22,
+            "end": 1026.22,
+            "text": " You will not remember all these units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1026.22,
+            "end": 1028.22,
+            "text": " But in this video I have told you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1028.22,
+            "end": 1030.22,
+            "text": " That matters."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1030.22,
+            "end": 1032.22,
+            "text": " You are going to learn that matters."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1032.22,
+            "end": 1034.22,
+            "text": " And if you need a reference."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1034.22,
+            "end": 1036.22,
+            "text": " In which all the units are there."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1036.22,
+            "end": 1038.22,
+            "text": " Here is the reference in front of you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1038.22,
+            "end": 1040.22,
+            "text": " You can screenshot it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1040.22,
+            "end": 1042.22,
+            "text": " What is M?"
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1042.22,
+            "end": 1044.22,
+            "text": " There are many more units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1044.22,
+            "end": 1046.22,
+            "text": " But the most important."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1046.22,
+            "end": 1048.22,
+            "text": " And that is the most useful."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1048.22,
+            "end": 1050.22,
+            "text": " But in case you are looking for a comprehensive list."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1050.22,
+            "end": 1052.22,
+            "text": " Here is the comprehensive list for you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1052.22,
+            "end": 1054.22,
+            "text": " And I will give you the link of this MDN."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1054.22,
+            "end": 1056.22,
+            "text": " In this source code."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1056.22,
+            "end": 1058.22,
+            "text": " So you have got the link of this MDN."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1058.22,
+            "end": 1060.22,
+            "text": " So you have got the link of this MDN."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1060.22,
+            "end": 1062.22,
+            "text": " So you have got the comprehensive list."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1062.22,
+            "end": 1064.22,
+            "text": " But do not read this comprehensive list."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1064.22,
+            "end": 1066.22,
+            "text": " I will recommend you this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1066.22,
+            "end": 1068.22,
+            "text": " My suggestion is that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1068.22,
+            "end": 1070.22,
+            "text": " You are getting this because."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1070.22,
+            "end": 1072.22,
+            "text": " Do as much as I have told you in this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1072.22,
+            "end": 1074.22,
+            "text": " As a beginner."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1074.22,
+            "end": 1076.22,
+            "text": " Remembering so many units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1076.22,
+            "end": 1078.22,
+            "text": " Is not possible for a normal person."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1078.22,
+            "end": 1080.22,
+            "text": " But if you take the challenge."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1080.22,
+            "end": 1082.22,
+            "text": " You can do it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1082.22,
+            "end": 1084.22,
+            "text": " I am saying in normal scenarios."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1084.22,
+            "end": 1086.22,
+            "text": " That it is not possible."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1086.22,
+            "end": 1088.22,
+            "text": " I get a lot of people in the comments."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1088.22,
+            "end": 1090.22,
+            "text": " Who are arguing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1090.22,
+            "end": 1092.22,
+            "text": " But you got the point."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1092.22,
+            "end": 1094.22,
+            "text": " About what I am talking about."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1094.22,
+            "end": 1096.22,
+            "text": " So this was all about units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1096.22,
+            "end": 1098.22,
+            "text": " I hope you are enjoying."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1098.22,
+            "end": 1100.22,
+            "text": " Now I want to tell you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1100.22,
+            "end": 1102.22,
+            "text": " The concept of max width and min width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1102.22,
+            "end": 1104.22,
+            "text": " Or the concept of max height and min height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1104.22,
+            "end": 1106.22,
+            "text": " So if I come here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1106.22,
+            "end": 1108.22,
+            "text": " And I say that this is my container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1108.22,
+            "end": 1110.22,
+            "text": " And I want to make this container beautiful."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1110.22,
+            "end": 1112.22,
+            "text": " First of all, I want to remove this background color."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1112.22,
+            "end": 1114.22,
+            "text": " From reddish."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1114.22,
+            "end": 1116.22,
+            "text": " And I will do box sizing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1116.22,
+            "end": 1118.22,
+            "text": " And along with that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1118.22,
+            "end": 1120.22,
+            "text": " The way I put this border."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1120.22,
+            "end": 1122.22,
+            "text": " I will put it here too."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1122.22,
+            "end": 1124.22,
+            "text": " And I will give the margin too."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1124.22,
+            "end": 1126.22,
+            "text": " So that it becomes the center."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1126.22,
+            "end": 1128.22,
+            "text": " And now it looks like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1128.22,
+            "end": 1130.22,
+            "text": " As you can see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1130.22,
+            "end": 1132.22,
+            "text": " I will put the border here too."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1132.22,
+            "end": 1134.22,
+            "text": " And I will make the color a little dark."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1134.22,
+            "end": 1136.22,
+            "text": " I will make it black."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1136.22,
+            "end": 1138.22,
+            "text": " And here you see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1138.22,
+            "end": 1140.22,
+            "text": " I will give the border too."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1140.22,
+            "end": 1142.22,
+            "text": " I will copy it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1142.22,
+            "end": 1144.22,
+            "text": " And here I will give the border to this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1144.22,
+            "end": 1146.22,
+            "text": " Mycont container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1146.22,
+            "end": 1148.22,
+            "text": " So I have given the border here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1148.22,
+            "end": 1150.22,
+            "text": " There is no need to do the same."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1150.22,
+            "end": 1152.22,
+            "text": " But again I have made it 100vmin."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1152.22,
+            "end": 1154.22,
+            "text": " Which is fine."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1154.22,
+            "end": 1156.22,
+            "text": " If I change the size."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1156.22,
+            "end": 1158.22,
+            "text": " It will go out a little."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1158.22,
+            "end": 1160.22,
+            "text": " But that's fine."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1160.22,
+            "end": 1162.22,
+            "text": " I will make the width 100vw."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1162.22,
+            "end": 1164.22,
+            "text": " Sorry 80vw."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1164.22,
+            "end": 1166.22,
+            "text": " So that there is no confusion."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1166.22,
+            "end": 1168.22,
+            "text": " And let me do one more thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1168.22,
+            "end": 1170.22,
+            "text": " 80vw."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1170.22,
+            "end": 1172.22,
+            "text": " Okay."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1172.22,
+            "end": 1174.22,
+            "text": " So this is how it is made."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1174.22,
+            "end": 1176.22,
+            "text": " We have made a very basic website."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1176.22,
+            "end": 1178.22,
+            "text": " You can see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1178.22,
+            "end": 1180.22,
+            "text": " This footer and main content."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1180.22,
+            "end": 1182.22,
+            "text": " This website is made."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1182.22,
+            "end": 1184.22,
+            "text": " By the way."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1184.22,
+            "end": 1186.22,
+            "text": " Now you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1186.22,
+            "end": 1188.22,
+            "text": " I have written I am another container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1188.22,
+            "end": 1190.22,
+            "text": " I want to tell you a point."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1190.22,
+            "end": 1192.22,
+            "text": " I want this container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1192.22,
+            "end": 1194.22,
+            "text": " To have some height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1194.22,
+            "end": 1196.22,
+            "text": " Or I will do one thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1196.22,
+            "end": 1198.22,
+            "text": " I will do the same thing in this div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1198.22,
+            "end": 1200.22,
+            "text": " Because this is our main content of the website."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1200.22,
+            "end": 1202.22,
+            "text": " Assume that you are putting some content here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1202.22,
+            "end": 1204.22,
+            "text": " So your website will look like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1204.22,
+            "end": 1206.22,
+            "text": " Its height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1206.22,
+            "end": 1208.22,
+            "text": " If I remove the height from it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1208.22,
+            "end": 1210.22,
+            "text": " So you see what will happen."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1210.22,
+            "end": 1212.22,
+            "text": " You see the footer is completely down."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1212.22,
+            "end": 1214.22,
+            "text": " So you want that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1214.22,
+            "end": 1216.22,
+            "text": " Our box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1216.22,
+            "end": 1218.22,
+            "text": " Minimum height should be constant."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1218.22,
+            "end": 1220.22,
+            "text": " What should be? Minimum height should be constant."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1220.22,
+            "end": 1222.22,
+            "text": " And if I put more content than that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1222.22,
+            "end": 1224.22,
+            "text": " Then more height will be adjusted."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1224.22,
+            "end": 1226.22,
+            "text": " So I will say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1226.22,
+            "end": 1228.22,
+            "text": " Do one thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1228.22,
+            "end": 1230.22,
+            "text": " Minimum height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1230.22,
+            "end": 1232.22,
+            "text": " Min height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1232.22,
+            "end": 1234.22,
+            "text": " Min height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1234.22,
+            "end": 1236.22,
+            "text": " Keep 80vh."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1236.22,
+            "end": 1238.22,
+            "text": " Whether there is content or not."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1238.22,
+            "end": 1240.22,
+            "text": " So this is the height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1240.22,
+            "end": 1242.22,
+            "text": " But there is no limit to the maximum."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1242.22,
+            "end": 1244.22,
+            "text": " Maximum content will increase."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1244.22,
+            "end": 1246.22,
+            "text": " It will increase."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1246.22,
+            "end": 1248.22,
+            "text": " I will show you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1248.22,
+            "end": 1250.22,
+            "text": " If I put a lot of lorems in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1250.22,
+            "end": 1252.22,
+            "text": " In fact I put lorem 122."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1252.22,
+            "end": 1254.22,
+            "text": " I don't know how much text is this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1254.22,
+            "end": 1256.22,
+            "text": " It is very less text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1256.22,
+            "end": 1258.22,
+            "text": " It is less text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1258.22,
+            "end": 1260.22,
+            "text": " So I want to fill it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1260.22,
+            "end": 1262.22,
+            "text": " I do one thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1262.22,
+            "end": 1264.22,
+            "text": " I do lorem 123."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1264.22,
+            "end": 1266.22,
+            "text": " I know it is a lot of text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1266.22,
+            "end": 1268.22,
+            "text": " I know it is a lot of text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1268.22,
+            "end": 1270.22,
+            "text": " It is a lot of text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1270.22,
+            "end": 1272.22,
+            "text": " And see our website is adjusted."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1272.22,
+            "end": 1274.22,
+            "text": " Our website is adjusted."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1274.22,
+            "end": 1276.22,
+            "text": " And see our box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1276.22,
+            "end": 1278.22,
+            "text": " Its height is adjusted."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1278.22,
+            "end": 1280.22,
+            "text": " And as much content I put in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1280.22,
+            "end": 1282.22,
+            "text": " It will keep taking."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1282.22,
+            "end": 1284.22,
+            "text": " I just set its minimum height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1284.22,
+            "end": 1286.22,
+            "text": " And same goes for min width also."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1286.22,
+            "end": 1288.22,
+            "text": " I can say that keep the minimum width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1288.22,
+            "end": 1290.22,
+            "text": " Maximum space."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1290.22,
+            "end": 1292.22,
+            "text": " Give it the width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1292.22,
+            "end": 1294.22,
+            "text": " This way we can do."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1294.22,
+            "end": 1296.22,
+            "text": " I hope you are enjoying."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1296.22,
+            "end": 1298.22,
+            "text": " I will reduce the text."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1298.22,
+            "end": 1300.22,
+            "text": " I think I have done a little more."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1300.22,
+            "end": 1302.22,
+            "text": " I can do it by saying 999."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1302.22,
+            "end": 1304.22,
+            "text": " I can do it by saying 999."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1304.22,
+            "end": 1306.22,
+            "text": " I can do it by saying 999."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1306.22,
+            "end": 1308.22,
+            "text": " I can demonstrate it to you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1308.22,
+            "end": 1310.22,
+            "text": " And in fact if I want to do more."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1310.22,
+            "end": 1312.22,
+            "text": " I can do more."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1312.22,
+            "end": 1314.22,
+            "text": " I will leave it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1314.22,
+            "end": 1316.22,
+            "text": " I will do lorem 999."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1316.22,
+            "end": 1318.22,
+            "text": " You can expand it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1318.22,
+            "end": 1320.22,
+            "text": " If you see lorem 999."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1320.22,
+            "end": 1322.22,
+            "text": " You can expand it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1322.22,
+            "end": 1324.22,
+            "text": " To see that."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1324.22,
+            "end": 1326.22,
+            "text": " This container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1326.22,
+            "end": 1328.22,
+            "text": " Will adjust its height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1328.22,
+            "end": 1330.22,
+            "text": " Will adjust its height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1330.22,
+            "end": 1332.22,
+            "text": " I will put a comment here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1332.22,
+            "end": 1334.22,
+            "text": " You can see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1334.22,
+            "end": 1336.22,
+            "text": " As much text you see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1336.22,
+            "end": 1338.22,
+            "text": " You will see that its height."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1338.22,
+            "end": 1340.22,
+            "text": " Is increasing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1340.22,
+            "end": 1342.22,
+            "text": " And it is adjusting."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1342.22,
+            "end": 1344.22,
+            "text": " I hope you understood."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1344.22,
+            "end": 1346.22,
+            "text": " About sizing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1346.22,
+            "end": 1348.22,
+            "text": " I have also shown you the exhaustive list."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1348.22,
+            "end": 1350.22,
+            "text": " Exhaustive list of units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1350.22,
+            "end": 1352.22,
+            "text": " I will tell you one more thing."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1352.22,
+            "end": 1354.22,
+            "text": " Before going."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1354.22,
+            "end": 1356.22,
+            "text": " Percentage units are very important."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1356.22,
+            "end": 1358.22,
+            "text": " Percentage units means."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1358.22,
+            "end": 1360.22,
+            "text": " If you have a particular box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1360.22,
+            "end": 1362.22,
+            "text": " Width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1362.22,
+            "end": 1364.22,
+            "text": " It means parent's 50% of the width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1364.22,
+            "end": 1366.22,
+            "text": " It means parent's 50% of the width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1366.22,
+            "end": 1368.22,
+            "text": " If I give paragraph width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1368.22,
+            "end": 1370.22,
+            "text": " If I give paragraph width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1370.22,
+            "end": 1372.22,
+            "text": " If I give paragraph width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1372.22,
+            "end": 1374.22,
+            "text": " It means."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1374.22,
+            "end": 1376.22,
+            "text": " It means parent's width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1376.22,
+            "end": 1378.22,
+            "text": " It means parent's width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1378.22,
+            "end": 1380.22,
+            "text": " It means parent's width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1380.22,
+            "end": 1382.22,
+            "text": " It means parent's width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1382.22,
+            "end": 1384.22,
+            "text": " It means parent's width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1384.22,
+            "end": 1386.22,
+            "text": " The percent property."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1386.22,
+            "end": 1388.22,
+            "text": " Is not applicable everywhere."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1388.22,
+            "end": 1390.22,
+            "text": " You have to keep this in mind."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1390.22,
+            "end": 1392.22,
+            "text": " A common mistake people do."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1392.22,
+            "end": 1394.22,
+            "text": " Where the height is not set."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1394.22,
+            "end": 1396.22,
+            "text": " In that container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1396.22,
+            "end": 1398.22,
+            "text": " People put height 100% or 80%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1398.22,
+            "end": 1400.22,
+            "text": " But the height of the parent is not set."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1400.22,
+            "end": 1402.22,
+            "text": " So they have a problem."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1402.22,
+            "end": 1404.22,
+            "text": " So always use VH and VW units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1404.22,
+            "end": 1406.22,
+            "text": " You can use the percentage."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1406.22,
+            "end": 1408.22,
+            "text": " It means the width of the parent is set."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1408.22,
+            "end": 1410.22,
+            "text": " And you want to give."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1410.22,
+            "end": 1412.22,
+            "text": " Half or 25% of the width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1412.22,
+            "end": 1414.22,
+            "text": " For example in this case."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1414.22,
+            "end": 1416.22,
+            "text": " I am giving width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1416.22,
+            "end": 1418.22,
+            "text": " I will put a border."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1418.22,
+            "end": 1420.22,
+            "text": " Border 2 pixels solid red."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1420.22,
+            "end": 1422.22,
+            "text": " And you see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1422.22,
+            "end": 1424.22,
+            "text": " It has taken 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1424.22,
+            "end": 1426.22,
+            "text": " Of the parent."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1426.22,
+            "end": 1428.22,
+            "text": " If I put something inside."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1428.22,
+            "end": 1430.22,
+            "text": " For example I put a span."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1430.22,
+            "end": 1432.22,
+            "text": " And I will say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1432.22,
+            "end": 1434.22,
+            "text": " In the container."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1434.22,
+            "end": 1436.22,
+            "text": " Border 2 pixels."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1436.22,
+            "end": 1438.22,
+            "text": " Solid blue."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1438.22,
+            "end": 1440.22,
+            "text": " And width 50%."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1440.22,
+            "end": 1442.22,
+            "text": " So it will be 50% of the width."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1442.22,
+            "end": 1444.22,
+            "text": " If I put a span in a paragraph."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1444.22,
+            "end": 1446.22,
+            "text": " I will show you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1446.22,
+            "end": 1448.22,
+            "text": " If I put a span."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1448.22,
+            "end": 1450.22,
+            "text": " And I write lorem 23."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1450.22,
+            "end": 1452.22,
+            "text": " So you see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1452.22,
+            "end": 1454.22,
+            "text": " I put a span here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1454.22,
+            "end": 1456.22,
+            "text": " In fact I didn't have to put span."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1456.22,
+            "end": 1458.22,
+            "text": " I had to put div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1458.22,
+            "end": 1460.22,
+            "text": " I had to put a div in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1460.22,
+            "end": 1462.22,
+            "text": " Why am I putting div in it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1462.22,
+            "end": 1464.22,
+            "text": " Because span is an inline element."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1464.22,
+            "end": 1466.22,
+            "text": " So it will be a little difficult."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1466.22,
+            "end": 1468.22,
+            "text": " So if I say here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1468.22,
+            "end": 1470.22,
+            "text": " There is a div inside p."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1470.22,
+            "end": 1472.22,
+            "text": " So I styled it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1472.22,
+            "end": 1474.22,
+            "text": " And the problem here is."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1474.22,
+            "end": 1476.22,
+            "text": " I had to write it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1476.22,
+            "end": 1478.22,
+            "text": " I will write it like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1478.22,
+            "end": 1480.22,
+            "text": " Why will I write like this."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1480.22,
+            "end": 1482.22,
+            "text": " Because I want to write it on the immediate child."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1482.22,
+            "end": 1484.22,
+            "text": " Now see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1484.22,
+            "end": 1486.22,
+            "text": " I wrote border 2 pixels solid blue."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1486.22,
+            "end": 1488.22,
+            "text": " Actually the thing is."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1488.22,
+            "end": 1490.22,
+            "text": " We can't put div in paragraphs."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1490.22,
+            "end": 1492.22,
+            "text": " So I will put div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1492.22,
+            "end": 1494.22,
+            "text": " And inside it."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1494.22,
+            "end": 1496.22,
+            "text": " I will make it div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1496.22,
+            "end": 1498.22,
+            "text": " And let's make it div."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1498.22,
+            "end": 1500.22,
+            "text": " And now you see here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1500.22,
+            "end": 1502.22,
+            "text": " What I want to say."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1502.22,
+            "end": 1504.22,
+            "text": " You will see."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1504.22,
+            "end": 1506.22,
+            "text": " This is 50% of its parent."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1506.22,
+            "end": 1508.22,
+            "text": " And this is also 50% of its parent."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1508.22,
+            "end": 1510.22,
+            "text": " What is the parent of this blue box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1510.22,
+            "end": 1512.22,
+            "text": " Red box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1512.22,
+            "end": 1514.22,
+            "text": " And what is the parent of the red box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1514.22,
+            "end": 1516.22,
+            "text": " This black border box."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1516.22,
+            "end": 1518.22,
+            "text": " I hope things are clear."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1518.22,
+            "end": 1520.22,
+            "text": " You also have to see a little bit about the rest of the units."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1520.22,
+            "end": 1522.22,
+            "text": " And I am telling you."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1522.22,
+            "end": 1524.22,
+            "text": " As much as I have told you in this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1524.22,
+            "end": 1526.22,
+            "text": " It's all that you need to know."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1526.22,
+            "end": 1528.22,
+            "text": " And everything else."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1528.22,
+            "end": 1530.22,
+            "text": " There are so many things here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1530.22,
+            "end": 1532.22,
+            "text": " There is EX, CAP, CH."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1532.22,
+            "end": 1534.22,
+            "text": " Very less."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1534.22,
+            "end": 1536.22,
+            "text": " I will say that 1-2% of the websites are used."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1536.22,
+            "end": 1538.22,
+            "text": " So you are safe."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1538.22,
+            "end": 1540.22,
+            "text": " And as you increase your CSS skills."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1540.22,
+            "end": 1542.22,
+            "text": " To know about all these things."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1542.22,
+            "end": 1544.22,
+            "text": " What is reading."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1544.22,
+            "end": 1546.22,
+            "text": " I hope you are enjoying this course."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1546.22,
+            "end": 1548.22,
+            "text": " If you have not accessed the playlist yet."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1548.22,
+            "end": 1550.22,
+            "text": " Then access the playlist."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1550.22,
+            "end": 1552.22,
+            "text": " Click here."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1552.22,
+            "end": 1554.22,
+            "text": " Click here to bookmark."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1554.22,
+            "end": 1556.22,
+            "text": " Click here to save."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1556.22,
+            "end": 1558.22,
+            "text": " Like the video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1558.22,
+            "end": 1560.22,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1560.22,
+            "end": 1562.22,
+            "text": " I will see you next time."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1576.22,
+            "end": 1578.22,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1578.22,
+            "end": 1580.22,
+            "text": " I will see you next time."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1580.22,
+            "end": 1582.22,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "22",
+            "title": "CSS Sizing Units ",
+            "start": 1582.22,
+            "end": 1584.22,
+            "text": " I will see you next time."
+        }
+    ],
+    "text": " In CSS, you will get to see different types of sizing units. Sometimes you will get to see pixels, sometimes you will get to see VH, sometimes you will get to see VW, sometimes you will get to see RAM, you will get to see M. Which unit do you want to use? Which is the best among these? Which one do you want to avoid? And what do these units mean? This will be the topic of this video. Let's go to the computer screen. I am really very excited. Let's roll the intro. So guys, I am in my computer screen. And the thing I am going to tell you today is very dangerous. And you will enjoy it after learning it. Because it is so much used for sizing. It is so much used that you can make any website. It will always be good to know about sizing for you. Here I will do shift right click. And after doing shift right click, I will make a new folder here. In fact, to make a new folder, I will do something like this. And after this, I will do shift right click, open with code, and after this, I will do shift right click, open with code, I will make a file named index.html. And I will tell you here. So see, if you have a box. I wrote div.box here. And here it is written, this is a box. Okay. And suppose I gave a very basic style to it. I said, brother, give the border to my box. 2 pixels, solid black. And make its width 233 pixels. So what are pixels? Pixels are units that I used here. Is there only a unit called pixel? No. We have a lot of units to use in CSS. You can use any type of unit. And which unit to use when? It will depend on what you are doing. For example, if you want to set your height according to viewport height of an element, then you can do that too. And I will tell you this thing here. So first of all, if you don't want to access the playlist, then do it. Very few people have accessed the playlist from those who are watching. That's why I'm saying this again and again. And a lot of people also write source code. Where is it? Where is it? You guys watch the video, that's why I'm telling you again and again. I hope you guys have also got the source code. Now let's preview it. So this is the box I wrote. I said, brother, its width. Make it 200 pixels. If you want, you can also put background black in it. Sorry, let's say you put aquamarine in it. Okay. Now one unit is our pixel. I will tell you about some more units. The pixel is 196th of an inch. So if I wrote 233 pixels here, then you can see here that its width will be set accordingly. Now I will do one thing here. I will put a universal selector here. And by putting a universal selector, I will make M0 here. Okay. Writing M0 makes the margin zero. And writing P0 makes the padding zero. So here the margin padding by default is zero. Now my monitor is a 2K monitor. 2K monitor resolution. If I see the resolution of the 2K monitor here, how much is it? Its width is 2048 pixels. Okay. So if I make it 2048 pixels, 2048 pixels. So you guys see here that it has taken the full width. And a little bit of a scroll bar has also come. Maybe a little bit of a very light border. Because of that. If I do box sizing border box here, box sizing border box. And if I show you, then see this horizontal scroll bar also went. Okay. Now if I show you by inspecting it rightly. And if I increase it by one pixel. So see here. A horizontal scroll bar has come. So exactly my width of 2048 pixels is here. Okay. I hope you guys understood this thing. So this is what the pixel means. Now if you said that the width is 2048 pixels. Okay. And you go to a small device, which does not have such a big monitor. Okay. Suppose you have a 1080p monitor, whose default width is I think 1920x1080. That is, its height is 1080 and width is 1920. What will happen in this? In that, your website code will burst. So you don't want your website code to burst. That's why you will use a responsive unit. So I told you a unit in pixel. We will not use this. We will say that its width is 100vw. Vw means viewport width. That is, it will take the width of your viewport. What will happen if I increase it? Obviously, if I increase it, then a horizontal scroll bar will come. You can see. And let me show you one thing. As I told you in some of the initial videos, that you can right click, inspect and click here. You can click on this TV that you can see here. And as soon as you click on it, and if you choose responsive from here, then you will do it like this. You can't see the scroll bar. Because its width has been measured in the unit of vh. Because its width has been measured in the unit of vh. That's why you didn't see the horizontal scroll bar here. Okay. So you can do this thing. Now if I don't want to use vh. You can see a big advantage of using vh. That the horizontal scroll bar does not come here. Okay. So sometimes you want your element to be equal to its viewport width. Or let's say you want it to be 80vw. If I do 80vw, then you see here. Your container will come like this. Many times you have to do this. You want to center a particular thing. Like let's say I want to center this div. And I want to make it 80vw here. So what I will do in this case is I will auto its margin. What does margin auto mean? If I do margin auto. Margin auto. Margin auto means that I want to automatically apply margin from left and right. And from margin auto, your div will automatically apply margin from left and right. So your div will be centered. Now look here. By doing margin auto, it will be centered. But you have to keep one thing in mind. If you apply margin auto on it, it will be centered only when it is a block level element. If it is an inline element, then it will not be centered. I will show you by doing it. Let's say this box is a span. Okay. Let's say. So first of all, you can't apply width on it. And the second thing is that you can't do anything like this. You can't say that its margin auto. So I will tell you the solution to this problem in the coming videos. But you can center it like this. Let's say I want to make another box. I want to say that this was my nav bar. Now I want to make a container. And I want to give the same width to this container. Which I gave above. So if you see here, if I want to give the same width to it, then obviously I will do one thing. I will apply exactly the same thing on it. And maybe I want to give the margin top of 23 pixels. So whenever you want to separate the horizontal and vertical margin, then you can use margin shorthand property by giving a space. The 23 pixels here are the margin of the top and bottom. And auto means auto from left and right. So you see, 23 pixels are applied to the top and bottom. Now because there is nothing in the container, I will write 56 and you will tell me in the comment why I wrote 56. What was the reason to write 56. I will do it in the format document. And here you see that I have made two boxes. And exactly the width of these is the same. If I see this in an iPhone, suppose in iPhone 12 Pro. Actually I don't have 12 Pro. I have 13. And 15 is also coming. Many people were asking for an update for that. They are not giving it. It's been so long since I ordered it. I don't know what will happen. Now you can see that this is what it looks like on the phone. If I make it responsive, then it will adapt like this. So we have seen a very small taste of responsive design. But a lot is yet to come. We are going to do a lot of things from the perspective of responsive design. So this is not all. We will see more things in the coming videos. Now after this, I want to tell you about VH. If I want the height of this container to be 80% of the height of my viewport. So I will make it 80 VH. So it took 80% of the height. And if I want it to take 10% of the height of the viewport. So what will I do to it? I will make the height 10 VH. So this is 10 VH height. And this is 80% of the viewport height. Now if I change the height of the viewport. If I change the height of the viewport. Something like this. Suppose I make it smaller. So it will take 80% of the viewport height. And the one below will take 80% of the viewport height. So VH and VW are very important units. Pixel is our universal unit. Which we will keep using. And you can't avoid it. You have to use it. After this, Rem and M are very important units. So what is M? EM and Rem. So first of all I tell you about M. EM. Now let's say the font size of this container. I say font size. Let's say 1M. Now suppose the font size of this container. Is 16 pixels. Which is the default. It was going to be computed. I will make it a little more interesting. I will put a paragraph in it. And I will put this lorem in this paragraph. And you will know why I did this. Now I will put this font size in the paragraph. I will say the paragraph of the container. Font size of that. 1M. And I will do the font size of this. Font size. I will make it 16 pixels. Now you see carefully where things are going. Now see its font size is 16 pixels. So the paragraph will also inherit. Its font size. If I don't write this here. So here it is obvious that its font size will also be 16 pixels. Which is the default. If I make it 18 pixels. You see it is a little big. You can see it. So I changed its size. Now here. I will make its font size 1M. What will be its computed font size? You have to listen to me very carefully. Because understanding the m and m is very important. I will go to computed and search here. Font size. Now see here 18 pixels are coming. The size of the paragraph is 18 pixels. Because it will inherit from the container. Some properties inherit in CSS. And the font size is one of them. Property. So this property will inherit. And you can see here that. My font size is 18. So far so good. Now I tell you. If I write 1M. What will be the difference? There is no difference. Now if I make it 1.2M. Or let's say 1.5M. So the font size of this. It will be 1.5 times. That is, the value that was going to be inherited. 1.5 times. So you see here. 1.5 times 18. 27. So you see here. 36. So if I do 2. You see 36. I hope you understood this. What will be the font size of the container? Font size of the container. Will be the same as we have given. 18 pixels. So what does m mean? The font size that was going to be inherited. Its this much. Like if I do 1.5M. Or 2M. So the font size that was going to be inherited. Its 2 times. Now if I remove 18 pixels from here. So what will happen? It will be 2 times of 16. Because it was going to get 16 by default. So now the font size will be 32. So if you see the value in computed. You will get to see 32. I hope it is clear. Now I tell you the m. Now for some weird reason. Or for some good reason. I am making my website. Font size of the website. Let us say. Let us say I make my font size. 12 pixels. I said the font size of html is 12 pixels. So what will happen? Everything will be 12 pixels. See the font size of this is a box. It is inherited from html and it is 12 pixels. Now assume the font size of this. I want the font size of the root element. Which is html. By the way html is the root element. I want the font size of the root element. To double the font size. So how will I do this? I will write the rem. Rem means the amount of root element. That will be doubled. So if I will make it 2rem. Then what will happen? It will be 12 or 24 pixels. You can see here. I got 24 pixels. Rem means the amount of root element. That will be doubled. Em means the amount of root element. That will be doubled. See I said paragraph. That how much should I give? 2rem. Which is the double of the font size of the root element. By default it is 16. But I made it 12. So I got 24. If I make this rem as m. Then tell me in the comment section. How much font size will you get? And please keep 2 way interaction. You have to comment below. I am waiting for you. Now all the people commented 24. I said we will raise the bar. But many people commented wrong. I know. I will tell you where 24 came from. Font size property is inherent. So first of all. Head will get from html. Body will get from html. This div will get from body. What will be the font size of this div? 12. 12 pixels. What will happen to this paragraph? Because it was 12 pixels. So if I make it 2m. Then it will be 24. But if I make it 18. Now tell me in the comment section. What will be the font size of this div? And I am telling you the answer. The answer is 18x2. It will be 36. Because now it was going to get 36. But its double. If you still don't understand. Then I will tell you to watch the video. If you watch it twice. You will definitely understand. Are these the units? No, there are many other units. But what happens is that this is the most used unit. And if I tell you personally. Then I use these units to make my websites. Yes, there are two more units. Vmin and Vmax. You must have known from their name. But I will tell you practically. What is Vmin and Vmax? Sometimes what will happen is that. Your width will be greater than height. But in the phone, your height is greater than width. Is it or not? So if you are in the phone. Then your Vmin will be width. But if you are in the computer. Then your Vmin will be height. Because the height of the monitor is small. But the width of the phone is small. Do you understand? So what is the meaning of Vmin and Vmax? I tell you this. So if I say 100 Vmin. It means. 100 of whatever height and width. Will be the minimum. This minimum is this. If you are not understanding. I will do it. I will make another container. I will write here. I made a container in the name of mycont. I will write another container. And here I will style mycont. So I will write here. And here I will give it. Background color red. And I will give it color. What should I give? Yellow? I will give it. I will give it font size 22 pixels. You see that I made another container. Now I want to give its width. So I will say. Width is 100 Vmin. So if I do 100 Vmin. What will be the height? What is Vmin? Is Vmin height or width? Min will be for this. In my device. In the device I am making a video. What is Vmin? Vmin is height. 100 Vmin means 100 Vh. For this device. So you see here. It is 100 Vh. So should I write 100 Vmin or 100 Vh? Not always. In this device. Now what happens. If you want Vh in the phone. Vh in the phone. Vw in the computer. You are looking for Vmax. It is used in complex scenarios. Don't get confused. You should know Vmin and Vmax. So if I Here I have MyCont. It is 100 Vmin. If I write 100 Vh. Will it make any difference? No. Or I write 100 Vmin. In this device Vmin and Vmax are the same. And what will be my Vmin in my phone? Will it be Vh or Vw? Tell me in the comment section. I hope you have understood the concept of Vmin and Vmax. So this was about Vmin and Vmax. There are many more complex units. I am using the word complex. Because it is not used much. Your websites will be made of these units. And the rest. If I open the MDN docs. CSS MDN Docs. Reference for Vmin and Vmax. And I am writing here. Vmin and Vmax. And I am writing here. Vmin and Vmax. And I am writing here. Vmax. Reference for units. You will get to see many units. Here is Q, In, PC, PT. You will not remember all these units. But in this video I have told you. That matters. You are going to learn that matters. And if you need a reference. In which all the units are there. Here is the reference in front of you. You can screenshot it. What is M? There are many more units. But the most important. And that is the most useful. But in case you are looking for a comprehensive list. Here is the comprehensive list for you. And I will give you the link of this MDN. In this source code. So you have got the link of this MDN. So you have got the link of this MDN. So you have got the comprehensive list. But do not read this comprehensive list. I will recommend you this. My suggestion is that. You are getting this because. Do as much as I have told you in this video. As a beginner. Remembering so many units. Is not possible for a normal person. But if you take the challenge. You can do it. I am saying in normal scenarios. That it is not possible. I get a lot of people in the comments. Who are arguing. But you got the point. About what I am talking about. So this was all about units. I hope you are enjoying. Now I want to tell you. The concept of max width and min width. Or the concept of max height and min height. So if I come here. And I say that this is my container. And I want to make this container beautiful. First of all, I want to remove this background color. From reddish. And I will do box sizing. And along with that. The way I put this border. I will put it here too. And I will give the margin too. So that it becomes the center. And now it looks like this. As you can see. I will put the border here too. And I will make the color a little dark. I will make it black. And here you see. I will give the border too. I will copy it. And here I will give the border to this. Mycont container. So I have given the border here. There is no need to do the same. But again I have made it 100vmin. Which is fine. If I change the size. It will go out a little. But that's fine. I will make the width 100vw. Sorry 80vw. So that there is no confusion. And let me do one more thing. 80vw. Okay. So this is how it is made. We have made a very basic website. You can see here. This footer and main content. This website is made. By the way. Now you see here. I have written I am another container. I want to tell you a point. I want this container. To have some height. Or I will do one thing. I will do the same thing in this div. Because this is our main content of the website. Assume that you are putting some content here. So your website will look like this. Its height. If I remove the height from it. So you see what will happen. You see the footer is completely down. So you want that. Our box. Minimum height should be constant. What should be? Minimum height should be constant. And if I put more content than that. Then more height will be adjusted. So I will say. Do one thing. Minimum height. Min height. Min height. Keep 80vh. Whether there is content or not. So this is the height. But there is no limit to the maximum. Maximum content will increase. It will increase. I will show you. If I put a lot of lorems in it. In fact I put lorem 122. I don't know how much text is this. It is very less text. It is less text. So I want to fill it. I do one thing. I do lorem 123. I know it is a lot of text. I know it is a lot of text. It is a lot of text. And see our website is adjusted. Our website is adjusted. And see our box. Its height is adjusted. And as much content I put in it. It will keep taking. I just set its minimum height. And same goes for min width also. I can say that keep the minimum width. Maximum space. Give it the width. This way we can do. I hope you are enjoying. I will reduce the text. I think I have done a little more. I can do it by saying 999. I can do it by saying 999. I can do it by saying 999. I can demonstrate it to you. And in fact if I want to do more. I can do more. I will leave it like this. I will do lorem 999. You can expand it. If you see lorem 999. You can expand it. To see that. This container. Will adjust its height. Will adjust its height. I will put a comment here. You can see here. As much text you see. You will see that its height. Is increasing. And it is adjusting. I hope you understood. About sizing. I have also shown you the exhaustive list. Exhaustive list of units. I will tell you one more thing. Before going. Percentage units are very important. Percentage units means. If you have a particular box. Width 50%. It means parent's 50% of the width. It means parent's 50% of the width. If I give paragraph width 50%. If I give paragraph width 50%. If I give paragraph width 50%. It means. It means parent's width 50%. It means parent's width 50%. It means parent's width 50%. It means parent's width 50%. It means parent's width 50%. The percent property. Is not applicable everywhere. You have to keep this in mind. A common mistake people do. Where the height is not set. In that container. People put height 100% or 80%. But the height of the parent is not set. So they have a problem. So always use VH and VW units. You can use the percentage. It means the width of the parent is set. And you want to give. Half or 25% of the width. For example in this case. I am giving width 50%. I will put a border. Border 2 pixels solid red. And you see. It has taken 50%. Of the parent. If I put something inside. For example I put a span. And I will say. In the container. Border 2 pixels. Solid blue. And width 50%. So it will be 50% of the width. If I put a span in a paragraph. I will show you. If I put a span. And I write lorem 23. So you see. I put a span here. In fact I didn't have to put span. I had to put div. I had to put a div in it. Why am I putting div in it. Because span is an inline element. So it will be a little difficult. So if I say here. There is a div inside p. So I styled it like this. And the problem here is. I had to write it like this. I will write it like this. Why will I write like this. Because I want to write it on the immediate child. Now see here. I wrote border 2 pixels solid blue. Actually the thing is. We can't put div in paragraphs. So I will put div. And inside it. I will make it div. And let's make it div. And now you see here. What I want to say. You will see. This is 50% of its parent. And this is also 50% of its parent. What is the parent of this blue box. Red box. And what is the parent of the red box. This black border box. I hope things are clear. You also have to see a little bit about the rest of the units. And I am telling you. As much as I have told you in this video. It's all that you need to know. And everything else. There are so many things here. There is EX, CAP, CH. Very less. I will say that 1-2% of the websites are used. So you are safe. And as you increase your CSS skills. To know about all these things. What is reading. I hope you are enjoying this course. If you have not accessed the playlist yet. Then access the playlist. Click here. Click here to bookmark. Click here to save. Like the video. Thank you so much for watching this video. I will see you next time. Thank you so much for watching this video. I will see you next time. Thank you so much for watching this video. I will see you next time."
+}

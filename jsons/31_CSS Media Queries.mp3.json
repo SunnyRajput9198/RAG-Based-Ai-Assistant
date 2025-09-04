@@ -1,0 +1,1874 @@
+{
+    "chunks": [
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 0.0,
+            "end": 3.0,
+            "text": " There was a time when you were making a website for a client,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 3.0,
+            "end": 8.0,
+            "text": " then you had to specifically tell that client that I have to make my website responsive."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 8.0,
+            "end": 11.0,
+            "text": " But today, by default, if anyone makes a website from you,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 11.0,
+            "end": 14.0,
+            "text": " then you have to make it responsive. This is the default setting."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 14.0,
+            "end": 18.0,
+            "text": " The most important thing for responsiveness is media query"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 18.0,
+            "end": 21.0,
+            "text": " for which you have to write some additional code"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 21.0,
+            "end": 25.0,
+            "text": " and your website that looks good on the desktop will also adapt for mobile phones."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 25.0,
+            "end": 31.0,
+            "text": " To make your website look good on mobile, you will have to use media queries"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 31.0,
+            "end": 34.0,
+            "text": " which are very simple and have a very straightforward syntax."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 34.0,
+            "end": 38.0,
+            "text": " Like the video in the comment section below and write Sigma batch O."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 38.0,
+            "end": 42.0,
+            "text": " I am very excited as always. Let's go to the computer stream."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " Let's roll the intro."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 44.0,
+            "end": 56.0,
+            "text": " So guys, to save time, I have opened my VS code here"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 56.0,
+            "end": 59.0,
+            "text": " and I have already made a file with the name index.html."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 59.0,
+            "end": 63.0,
+            "text": " I have given a title to this page with the name CSS Media Query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 63.0,
+            "end": 66.0,
+            "text": " And here I will tell you what is media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 66.0,
+            "end": 68.0,
+            "text": " I will put a very strange style here and I will say,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 68.0,
+            "end": 69.0,
+            "text": " I will say,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 71.0,
+            "end": 72.0,
+            "text": " And you will say,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 74.0,
+            "end": 76.0,
+            "text": " And in the div, I will write,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 79.0,
+            "end": 80.0,
+            "text": " Who am I? Red body guy."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 80.0,
+            "end": 83.0,
+            "text": " I mean, not the red body, but the body tag is red."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 83.0,
+            "end": 85.0,
+            "text": " So this is what it means."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 85.0,
+            "end": 87.0,
+            "text": " If you have not accessed the playlist of Sigma Web Development,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 87.0,
+            "end": 88.0,
+            "text": " then access the playlist."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 88.0,
+            "end": 90.0,
+            "text": " Click here and save it."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 90.0,
+            "end": 93.0,
+            "text": " And most of the time, you can access the GitHub code."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 93.0,
+            "end": 95.0,
+            "text": " Now see what we have to do."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 95.0,
+            "end": 98.0,
+            "text": " Preview it and you will say,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 98.0,
+            "end": 100.0,
+            "text": " Yes, it's okay, what is the time pass?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 100.0,
+            "end": 101.0,
+            "text": " The body has turned red."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 101.0,
+            "end": 102.0,
+            "text": " It's a very good thing."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 102.0,
+            "end": 105.0,
+            "text": " But what I have come to tell you today is that"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 105.0,
+            "end": 110.0,
+            "text": " you can change the styles on the basis of which device you are on."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 110.0,
+            "end": 112.0,
+            "text": " I will tell you a little story."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 112.0,
+            "end": 115.0,
+            "text": " I will tell you a story like Dadaji tells his grandchildren."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 115.0,
+            "end": 116.0,
+            "text": " It used to happen in our time."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 116.0,
+            "end": 120.0,
+            "text": " I don't know about my time, but when CSS2 came a long time ago,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 120.0,
+            "end": 124.0,
+            "text": " a query named media was introduced."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 124.0,
+            "end": 128.0,
+            "text": " And its purpose was only that the media query used to tell"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 128.0,
+            "end": 132.0,
+            "text": " that if any person is accessing the website on another device,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 132.0,
+            "end": 134.0,
+            "text": " then the styles can be changed."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 134.0,
+            "end": 135.0,
+            "text": " It was just this purpose."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 135.0,
+            "end": 138.0,
+            "text": " It was called media rule, which was introduced in CSS2."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " In CSS3, the name of this media rule was changed and media query was done."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 142.0,
+            "end": 145.0,
+            "text": " So forget how the media rule worked in CSS2."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 145.0,
+            "end": 148.0,
+            "text": " In CSS3, I will tell you how media query works."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 148.0,
+            "end": 152.0,
+            "text": " So what is the syntax of media query in CSS3?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 152.0,
+            "end": 156.0,
+            "text": " First of all, you write at the rate media."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 156.0,
+            "end": 159.0,
+            "text": " This means that you are writing a media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 159.0,
+            "end": 163.0,
+            "text": " Now after this, you tell me which device you want to write the media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " And before that, a not or only comes."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " That is, I can write here media only screen."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 168.0,
+            "end": 172.0,
+            "text": " That is, it will be applied here only if it is on the screen."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 172.0,
+            "end": 175.0,
+            "text": " So a typical syntax of media query looks like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " We write media not or only."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 177.0,
+            "end": 181.0,
+            "text": " Either don't show it on this media type or show it only if it is this media type."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 181.0,
+            "end": 184.0,
+            "text": " And after that, we write some expressions here, which I will tell you about."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 184.0,
+            "end": 189.0,
+            "text": " And we write CSS code in it, which will be applied only when this thing is satisfied."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 189.0,
+            "end": 193.0,
+            "text": " Okay, now I will tell you how you can use it."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 193.0,
+            "end": 197.0,
+            "text": " So here I will write media, in most of the cases we write only."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 197.0,
+            "end": 201.0,
+            "text": " Because we want that this media query matches only when we are on the screen."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 201.0,
+            "end": 203.0,
+            "text": " When the media type is screen."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 203.0,
+            "end": 205.0,
+            "text": " What other media types are there, you can put all."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 205.0,
+            "end": 207.0,
+            "text": " That is, all media types."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 207.0,
+            "end": 208.0,
+            "text": " Then you can put print."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 208.0,
+            "end": 209.0,
+            "text": " Which is the printer, etc."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 209.0,
+            "end": 212.0,
+            "text": " But if the website is being viewed, then you will see it."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 212.0,
+            "end": 214.0,
+            "text": " Another media type is screen, which is the most common."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 214.0,
+            "end": 218.0,
+            "text": " In the phone, laptop, or in your iPad, etc."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 218.0,
+            "end": 220.0,
+            "text": " If you are showing, then it is a screen."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 220.0,
+            "end": 223.0,
+            "text": " Another is speech devices, which are used for those people who cannot see."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 223.0,
+            "end": 225.0,
+            "text": " So here speech is put."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 225.0,
+            "end": 230.0,
+            "text": " If you want this CSS style to be applied only when there is a speech device here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 230.0,
+            "end": 231.0,
+            "text": " Then you will write speech here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 231.0,
+            "end": 233.0,
+            "text": " But in most of the cases, you will write screen here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 233.0,
+            "end": 235.0,
+            "text": " And after that, you will write end here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " And you will write a condition like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 237.0,
+            "end": 241.0,
+            "text": " For example, I will write max width should be 455 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 241.0,
+            "end": 245.0,
+            "text": " And suppose I want that if this happens, then I will make the background color red."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 245.0,
+            "end": 249.0,
+            "text": " So I will do one thing, I will write body here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 249.0,
+            "end": 251.0,
+            "text": " And I will write in the body, I will make the background color blue."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 251.0,
+            "end": 254.0,
+            "text": " I will make the background color blue here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 254.0,
+            "end": 257.0,
+            "text": " So if the max width is 45 pixels, then the background color will be blue."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " So I will show you what it means."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " I will make it smaller, smaller, smaller."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 261.0,
+            "end": 262.0,
+            "text": " Here you can see the width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 262.0,
+            "end": 264.0,
+            "text": " I will make it smaller, smaller, smaller."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 264.0,
+            "end": 268.0,
+            "text": " Now you see, if its max width is here,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 268.0,
+            "end": 271.0,
+            "text": " This CSS style will be applied up to 455 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 271.0,
+            "end": 275.0,
+            "text": " That is, if it is smaller than 455, then this style will be applied."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 275.0,
+            "end": 279.0,
+            "text": " And if it is bigger than 455, then the styles written in it will not be applied."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 279.0,
+            "end": 282.0,
+            "text": " So this is how media query works."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 282.0,
+            "end": 285.0,
+            "text": " And this is 90% media query, as far as I have told you."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 285.0,
+            "end": 287.0,
+            "text": " This is the syntax."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 287.0,
+            "end": 290.0,
+            "text": " You will find yourself applying this syntax."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 290.0,
+            "end": 292.0,
+            "text": " In 90 to 95% of the cases."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 292.0,
+            "end": 295.0,
+            "text": " Media only screen and max width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 295.0,
+            "end": 297.0,
+            "text": " 455 or whatever the max width is."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 297.0,
+            "end": 298.0,
+            "text": " I can also give min width here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 298.0,
+            "end": 301.0,
+            "text": " If I make it min width here, then what will happen?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 301.0,
+            "end": 304.0,
+            "text": " If I make it min width, then it will be applied after"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 304.0,
+            "end": 306.0,
+            "text": " How many pixels did I give?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " I guess I gave 455 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 308.0,
+            "end": 312.0,
+            "text": " Now you can see here, this media query has been enabled."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 312.0,
+            "end": 316.0,
+            "text": " Because the width is more than 455 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 316.0,
+            "end": 318.0,
+            "text": " If I reduce it, then this media query is gone."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 318.0,
+            "end": 319.0,
+            "text": " It's gone from here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 319.0,
+            "end": 321.0,
+            "text": " That is, there is no existence of this media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " These CSS styles will not be applied."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 323.0,
+            "end": 324.0,
+            "text": " So this media query is not visible."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 324.0,
+            "end": 327.0,
+            "text": " As soon as I increase it, it says that media query has been activated."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 327.0,
+            "end": 329.0,
+            "text": " So these styles will not work."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 329.0,
+            "end": 331.0,
+            "text": " That's all about media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 331.0,
+            "end": 337.0,
+            "text": " So to summarize, the media query is used to make responsive designs."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 337.0,
+            "end": 339.0,
+            "text": " For example, let's say I have two boxes."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " I make two boxes here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 341.0,
+            "end": 343.0,
+            "text": " And I will do div.boxes."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 343.0,
+            "end": 346.0,
+            "text": " And here I will do div.box."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " And I put some more boxes."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 348.0,
+            "end": 352.0,
+            "text": " Here in the div.box, I will say that the div.box"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 352.0,
+            "end": 356.0,
+            "text": " I want to keep its width, let's say 344 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 356.0,
+            "end": 359.0,
+            "text": " And I want to keep the height, let's say 344 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 359.0,
+            "end": 362.0,
+            "text": " By the way, why did I choose 344 for this example?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 362.0,
+            "end": 366.0,
+            "text": " If you have any idea, then tell me which Isaac Newton's mind I have"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 366.0,
+            "end": 368.0,
+            "text": " Which I used 344 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " Why didn't I do 392?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 370.0,
+            "end": 373.0,
+            "text": " You must tell me in the comment section below."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 373.0,
+            "end": 374.0,
+            "text": " If you know."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 374.0,
+            "end": 378.0,
+            "text": " And you see here that I have only given the width of the box."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " I also give its background color."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " And I give its background color."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 382.0,
+            "end": 384.0,
+            "text": " Let's say steel blue."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 384.0,
+            "end": 386.0,
+            "text": " Okay, I gave its background color steel blue."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 386.0,
+            "end": 388.0,
+            "text": " You will get to see these boxes."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " I also give padding and margin in this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 390.0,
+            "end": 392.0,
+            "text": " So if I give padding 3 pixels,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 392.0,
+            "end": 394.0,
+            "text": " margin 2, 3 pixels"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 394.0,
+            "end": 398.0,
+            "text": " So you can see that after giving padding and margin, it looks like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " Now let's say I want these boxes"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 400.0,
+            "end": 404.0,
+            "text": " As you can see, I want these boxes on small screens"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 404.0,
+            "end": 408.0,
+            "text": " Look like this so that it starts wrapping itself."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 408.0,
+            "end": 411.0,
+            "text": " Let's say I want this to be a flex box."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 411.0,
+            "end": 413.0,
+            "text": " I know I have not told you flex box."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 413.0,
+            "end": 418.0,
+            "text": " Just I am flexing it to give you an example here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " If you don't know what a flex box is, don't worry."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " I will tell you flex box very well."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " But you just understand that by applying display flex,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 424.0,
+            "end": 426.0,
+            "text": " It will come in such a container."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 426.0,
+            "end": 429.0,
+            "text": " Now if I make it smaller, you see it is getting smaller like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 429.0,
+            "end": 432.0,
+            "text": " So I can say that when I am making it smaller,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 432.0,
+            "end": 434.0,
+            "text": " Let's say when this red break point is coming,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 434.0,
+            "end": 436.0,
+            "text": " 388 pixels are coming,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 436.0,
+            "end": 440.0,
+            "text": " So I will say that the flex direction of this is column."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 440.0,
+            "end": 442.0,
+            "text": " This is just an example that I am giving you."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 442.0,
+            "end": 444.0,
+            "text": " This is not the best way to do this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 444.0,
+            "end": 445.0,
+            "text": " I will tell you."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 445.0,
+            "end": 449.0,
+            "text": " I will say that the flex direction of the boxes is what?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 449.0,
+            "end": 451.0,
+            "text": " Flex direction column"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 451.0,
+            "end": 452.0,
+            "text": " So what will happen by doing this?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " As soon as I make it smaller,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 454.0,
+            "end": 456.0,
+            "text": " Now see I did this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 456.0,
+            "end": 458.0,
+            "text": " Oops, I actually messed up here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 458.0,
+            "end": 460.0,
+            "text": " I will make it max width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " I will make it max width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 462.0,
+            "end": 464.0,
+            "text": " I will not make it min width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 464.0,
+            "end": 466.0,
+            "text": " Now see, it looks like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 466.0,
+            "end": 468.0,
+            "text": " Now as soon as it will be small,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 468.0,
+            "end": 470.0,
+            "text": " You see it came like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 470.0,
+            "end": 472.0,
+            "text": " So what can I say?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 472.0,
+            "end": 474.0,
+            "text": " I can say that the phone, that is, the devices smaller than this,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 474.0,
+            "end": 476.0,
+            "text": " Whatever number I gave here,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " Small devices of 455 pixels,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 478.0,
+            "end": 480.0,
+            "text": " Apply this CSS in them."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " Now what happens is that when you are doing responsive design,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 482.0,
+            "end": 485.0,
+            "text": " So you guys understand the concept of break points."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 485.0,
+            "end": 488.0,
+            "text": " We break our website in 2-3 break points."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 488.0,
+            "end": 492.0,
+            "text": " We say that the phone devices are below 455 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 492.0,
+            "end": 494.0,
+            "text": " This is an arbitrary number."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 494.0,
+            "end": 496.0,
+            "text": " You guys take a good approximation of this number."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 496.0,
+            "end": 498.0,
+            "text": " But I am telling you an example."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 498.0,
+            "end": 500.0,
+            "text": " The devices that are bigger than 455 pixels,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 500.0,
+            "end": 503.0,
+            "text": " Let's say from 455 to 750."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 503.0,
+            "end": 505.0,
+            "text": " We consider them as tablets."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 505.0,
+            "end": 507.0,
+            "text": " That they will be like tablets somewhere."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 507.0,
+            "end": 509.0,
+            "text": " And we will apply some more styles in them."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 509.0,
+            "end": 511.0,
+            "text": " Then the devices above that,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 511.0,
+            "end": 513.0,
+            "text": " Let's say up to 1080 pixels."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 513.0,
+            "end": 517.0,
+            "text": " We will say that 1920 or whatever pixels are there,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 517.0,
+            "end": 519.0,
+            "text": " Our white screen,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " A particular style will be applied there."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 521.0,
+            "end": 523.0,
+            "text": " Then there are some ultra wide monitors,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 523.0,
+            "end": 525.0,
+            "text": " Whose width is very high."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 525.0,
+            "end": 528.0,
+            "text": " In them too, we want to show our website in a different way."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 528.0,
+            "end": 531.0,
+            "text": " So we can decorate our website in those ultra wide monitors,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 531.0,
+            "end": 533.0,
+            "text": " Through some other media queries."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 533.0,
+            "end": 535.0,
+            "text": " We can style it."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 535.0,
+            "end": 537.0,
+            "text": " So I hope everyone understood media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 537.0,
+            "end": 540.0,
+            "text": " Now I will use media query when we make projects."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 540.0,
+            "end": 542.0,
+            "text": " And I will use media query a lot."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 542.0,
+            "end": 544.0,
+            "text": " Whenever you are writing raw CSS,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 544.0,
+            "end": 546.0,
+            "text": " You will definitely use media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 546.0,
+            "end": 548.0,
+            "text": " If you are using frameworks,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 548.0,
+            "end": 550.0,
+            "text": " Then while using frameworks,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 550.0,
+            "end": 552.0,
+            "text": " You will not use media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 552.0,
+            "end": 554.0,
+            "text": " Because frameworks are behind the hood."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 554.0,
+            "end": 556.0,
+            "text": " Like tailwind CSS,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " It uses media queries behind the hood."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " But we will write raw CSS."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 560.0,
+            "end": 562.0,
+            "text": " We will make projects in raw CSS."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 562.0,
+            "end": 564.0,
+            "text": " You guys see there,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 564.0,
+            "end": 566.0,
+            "text": " How I will use media query."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 566.0,
+            "end": 568.0,
+            "text": " Now before going, I want to show you one more thing."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 568.0,
+            "end": 570.0,
+            "text": " That there is a media query,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 570.0,
+            "end": 572.0,
+            "text": " Which you guys use."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 572.0,
+            "end": 574.0,
+            "text": " I will write and,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 574.0,
+            "end": 576.0,
+            "text": " And I will write orientation."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 576.0,
+            "end": 578.0,
+            "text": " Orientation."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 578.0,
+            "end": 580.0,
+            "text": " Suppose I will say landscape."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 580.0,
+            "end": 582.0,
+            "text": " When our orientation is landscape,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 582.0,
+            "end": 584.0,
+            "text": " Suppose I want to color the background,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " Purple."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 586.0,
+            "end": 588.0,
+            "text": " Whose background color I want to make purple?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 588.0,
+            "end": 590.0,
+            "text": " Body."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 590.0,
+            "end": 592.0,
+            "text": " Suppose I want to do something like this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 592.0,
+            "end": 594.0,
+            "text": " I will color the body purple."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 594.0,
+            "end": 596.0,
+            "text": " Not background color, I will make color purple."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 596.0,
+            "end": 598.0,
+            "text": " So I made the body color purple."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 598.0,
+            "end": 600.0,
+            "text": " When did I make it purple?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 600.0,
+            "end": 602.0,
+            "text": " I have not written the body color here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 602.0,
+            "end": 604.0,
+            "text": " In fact, I will do one thing."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 604.0,
+            "end": 606.0,
+            "text": " I will put a border in the body."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 606.0,
+            "end": 608.0,
+            "text": " 2 pixels solid purple."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 608.0,
+            "end": 610.0,
+            "text": " Suppose I did this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 610.0,
+            "end": 612.0,
+            "text": " Now see here, 2 pixels solid purple,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 612.0,
+            "end": 614.0,
+            "text": " You are getting to see this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 614.0,
+            "end": 616.0,
+            "text": " You are getting to see this when my orientation is landscape."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 616.0,
+            "end": 618.0,
+            "text": " But if my orientation is landscape,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 618.0,
+            "end": 620.0,
+            "text": " Then the portrait will disappear."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 620.0,
+            "end": 622.0,
+            "text": " What does portrait mean?"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 622.0,
+            "end": 624.0,
+            "text": " Portrait means that,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 624.0,
+            "end": 626.0,
+            "text": " The height,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 626.0,
+            "end": 628.0,
+            "text": " This is a portrait."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 628.0,
+            "end": 630.0,
+            "text": " This height is more than the width."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 630.0,
+            "end": 632.0,
+            "text": " If the width is more than the height, then it is a landscape."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 632.0,
+            "end": 634.0,
+            "text": " So if it is a landscape, then this border is visible."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 634.0,
+            "end": 636.0,
+            "text": " So you can also do orientation, landscape or portrait here."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 636.0,
+            "end": 638.0,
+            "text": " So if I did portrait here,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 638.0,
+            "end": 640.0,
+            "text": " Then this line will be visible in the portrait."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 640.0,
+            "end": 642.0,
+            "text": " You can see that this border is visible only in the portrait."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 642.0,
+            "end": 644.0,
+            "text": " So if you want your styles"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 644.0,
+            "end": 646.0,
+            "text": " To be enabled in landscape or portrait,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 646.0,
+            "end": 648.0,
+            "text": " Then you can use this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 648.0,
+            "end": 650.0,
+            "text": " This media query is also very popular."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 650.0,
+            "end": 652.0,
+            "text": " But I am telling you again,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 652.0,
+            "end": 654.0,
+            "text": " In most of the cases,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 654.0,
+            "end": 656.0,
+            "text": " You will get this media query only by using this."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 656.0,
+            "end": 658.0,
+            "text": " With that said,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 658.0,
+            "end": 660.0,
+            "text": " If you have not done playlist access yet,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 660.0,
+            "end": 662.0,
+            "text": " Then I am coming to your house."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 662.0,
+            "end": 664.0,
+            "text": " So I will update the source code,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 664.0,
+            "end": 666.0,
+            "text": " You can access it."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 666.0,
+            "end": 668.0,
+            "text": " Like the video, share the playlist,"
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 668.0,
+            "end": 670.0,
+            "text": " Share the video and give your village and uncle's land in my name."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 670.0,
+            "end": 672.0,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 672.0,
+            "end": 674.0,
+            "text": " And I will see you next time."
+        },
+        {
+            "number": "31",
+            "title": "CSS Media Queries",
+            "start": 674.0,
+            "end": 696.0,
+            "text": " Outro Music."
+        }
+    ],
+    "text": " There was a time when you were making a website for a client, then you had to specifically tell that client that I have to make my website responsive. But today, by default, if anyone makes a website from you, then you have to make it responsive. This is the default setting. The most important thing for responsiveness is media query for which you have to write some additional code and your website that looks good on the desktop will also adapt for mobile phones. To make your website look good on mobile, you will have to use media queries which are very simple and have a very straightforward syntax. Like the video in the comment section below and write Sigma batch O. I am very excited as always. Let's go to the computer stream. Let's roll the intro. So guys, to save time, I have opened my VS code here and I have already made a file with the name index.html. I have given a title to this page with the name CSS Media Query. And here I will tell you what is media query. I will put a very strange style here and I will say, I will say, And you will say, And in the div, I will write, Who am I? Red body guy. I mean, not the red body, but the body tag is red. So this is what it means. If you have not accessed the playlist of Sigma Web Development, then access the playlist. Click here and save it. And most of the time, you can access the GitHub code. Now see what we have to do. Preview it and you will say, Yes, it's okay, what is the time pass? The body has turned red. It's a very good thing. But what I have come to tell you today is that you can change the styles on the basis of which device you are on. I will tell you a little story. I will tell you a story like Dadaji tells his grandchildren. It used to happen in our time. I don't know about my time, but when CSS2 came a long time ago, a query named media was introduced. And its purpose was only that the media query used to tell that if any person is accessing the website on another device, then the styles can be changed. It was just this purpose. It was called media rule, which was introduced in CSS2. In CSS3, the name of this media rule was changed and media query was done. So forget how the media rule worked in CSS2. In CSS3, I will tell you how media query works. So what is the syntax of media query in CSS3? First of all, you write at the rate media. This means that you are writing a media query. Now after this, you tell me which device you want to write the media query. And before that, a not or only comes. That is, I can write here media only screen. That is, it will be applied here only if it is on the screen. So a typical syntax of media query looks like this. We write media not or only. Either don't show it on this media type or show it only if it is this media type. And after that, we write some expressions here, which I will tell you about. And we write CSS code in it, which will be applied only when this thing is satisfied. Okay, now I will tell you how you can use it. So here I will write media, in most of the cases we write only. Because we want that this media query matches only when we are on the screen. When the media type is screen. What other media types are there, you can put all. That is, all media types. Then you can put print. Which is the printer, etc. But if the website is being viewed, then you will see it. Another media type is screen, which is the most common. In the phone, laptop, or in your iPad, etc. If you are showing, then it is a screen. Another is speech devices, which are used for those people who cannot see. So here speech is put. If you want this CSS style to be applied only when there is a speech device here. Then you will write speech here. But in most of the cases, you will write screen here. And after that, you will write end here. And you will write a condition like this. For example, I will write max width should be 455 pixels. And suppose I want that if this happens, then I will make the background color red. So I will do one thing, I will write body here. And I will write in the body, I will make the background color blue. I will make the background color blue here. So if the max width is 45 pixels, then the background color will be blue. So I will show you what it means. I will make it smaller, smaller, smaller. Here you can see the width. I will make it smaller, smaller, smaller. Now you see, if its max width is here, This CSS style will be applied up to 455 pixels. That is, if it is smaller than 455, then this style will be applied. And if it is bigger than 455, then the styles written in it will not be applied. So this is how media query works. And this is 90% media query, as far as I have told you. This is the syntax. You will find yourself applying this syntax. In 90 to 95% of the cases. Media only screen and max width. 455 or whatever the max width is. I can also give min width here. If I make it min width here, then what will happen? If I make it min width, then it will be applied after How many pixels did I give? I guess I gave 455 pixels. Now you can see here, this media query has been enabled. Because the width is more than 455 pixels. If I reduce it, then this media query is gone. It's gone from here. That is, there is no existence of this media query. These CSS styles will not be applied. So this media query is not visible. As soon as I increase it, it says that media query has been activated. So these styles will not work. That's all about media query. So to summarize, the media query is used to make responsive designs. For example, let's say I have two boxes. I make two boxes here. And I will do div.boxes. And here I will do div.box. And I put some more boxes. Here in the div.box, I will say that the div.box I want to keep its width, let's say 344 pixels. And I want to keep the height, let's say 344 pixels. By the way, why did I choose 344 for this example? If you have any idea, then tell me which Isaac Newton's mind I have Which I used 344 pixels. Why didn't I do 392? You must tell me in the comment section below. If you know. And you see here that I have only given the width of the box. I also give its background color. And I give its background color. Let's say steel blue. Okay, I gave its background color steel blue. You will get to see these boxes. I also give padding and margin in this. So if I give padding 3 pixels, margin 2, 3 pixels So you can see that after giving padding and margin, it looks like this. Now let's say I want these boxes As you can see, I want these boxes on small screens Look like this so that it starts wrapping itself. Let's say I want this to be a flex box. I know I have not told you flex box. Just I am flexing it to give you an example here. If you don't know what a flex box is, don't worry. I will tell you flex box very well. But you just understand that by applying display flex, It will come in such a container. Now if I make it smaller, you see it is getting smaller like this. So I can say that when I am making it smaller, Let's say when this red break point is coming, 388 pixels are coming, So I will say that the flex direction of this is column. This is just an example that I am giving you. This is not the best way to do this. I will tell you. I will say that the flex direction of the boxes is what? Flex direction column So what will happen by doing this? As soon as I make it smaller, Now see I did this. Oops, I actually messed up here. I will make it max width. I will make it max width. I will not make it min width. Now see, it looks like this. Now as soon as it will be small, You see it came like this. So what can I say? I can say that the phone, that is, the devices smaller than this, Whatever number I gave here, Small devices of 455 pixels, Apply this CSS in them. Now what happens is that when you are doing responsive design, So you guys understand the concept of break points. We break our website in 2-3 break points. We say that the phone devices are below 455 pixels. This is an arbitrary number. You guys take a good approximation of this number. But I am telling you an example. The devices that are bigger than 455 pixels, Let's say from 455 to 750. We consider them as tablets. That they will be like tablets somewhere. And we will apply some more styles in them. Then the devices above that, Let's say up to 1080 pixels. We will say that 1920 or whatever pixels are there, Our white screen, A particular style will be applied there. Then there are some ultra wide monitors, Whose width is very high. In them too, we want to show our website in a different way. So we can decorate our website in those ultra wide monitors, Through some other media queries. We can style it. So I hope everyone understood media query. Now I will use media query when we make projects. And I will use media query a lot. Whenever you are writing raw CSS, You will definitely use media query. If you are using frameworks, Then while using frameworks, You will not use media query. Because frameworks are behind the hood. Like tailwind CSS, It uses media queries behind the hood. But we will write raw CSS. We will make projects in raw CSS. You guys see there, How I will use media query. Now before going, I want to show you one more thing. That there is a media query, Which you guys use. I will write and, And I will write orientation. Orientation. Suppose I will say landscape. When our orientation is landscape, Suppose I want to color the background, Purple. Whose background color I want to make purple? Body. Suppose I want to do something like this. I will color the body purple. Not background color, I will make color purple. So I made the body color purple. When did I make it purple? I have not written the body color here. In fact, I will do one thing. I will put a border in the body. 2 pixels solid purple. Suppose I did this. Now see here, 2 pixels solid purple, You are getting to see this. You are getting to see this when my orientation is landscape. But if my orientation is landscape, Then the portrait will disappear. What does portrait mean? Portrait means that, The height, This is a portrait. This height is more than the width. If the width is more than the height, then it is a landscape. So if it is a landscape, then this border is visible. So you can also do orientation, landscape or portrait here. So if I did portrait here, Then this line will be visible in the portrait. You can see that this border is visible only in the portrait. So if you want your styles To be enabled in landscape or portrait, Then you can use this. This media query is also very popular. But I am telling you again, In most of the cases, You will get this media query only by using this. With that said, If you have not done playlist access yet, Then I am coming to your house. So I will update the source code, You can access it. Like the video, share the playlist, Share the video and give your village and uncle's land in my name. Thank you so much guys for watching this video. And I will see you next time. Outro Music."
+}

@@ -1,0 +1,2350 @@
+{
+    "chunks": [
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 0.0,
+            "end": 4.38,
+            "text": " Sometimes when you make templates, you want to put some variables in it."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 4.38,
+            "end": 7.84,
+            "text": " For example, suppose you have made a website whose theme is a little blackish."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 7.84,
+            "end": 13.52,
+            "text": " Now you want to convert it into a red color theme or blue color theme."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 13.52,
+            "end": 17.48,
+            "text": " You can do this by changing the value of just one variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 17.48,
+            "end": 20.6,
+            "text": " This can be possible through CSS variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 20.6,
+            "end": 23.84,
+            "text": " What are variables? Why do we use them? How to use them?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 23.84,
+            "end": 25.6,
+            "text": " I will explain to you in this video."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 25.6,
+            "end": 30.560000000000002,
+            "text": " Like this video with high energy and write Sigma Batchop in the comment section."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 30.560000000000002,
+            "end": 33.68,
+            "text": " Let's go to the computer screen. Let's roll the intro."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 33.68,
+            "end": 41.92,
+            "text": " Intro"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 41.92,
+            "end": 46.08,
+            "text": " So guys, if you have not accessed the playlist of Sigma web development yet, then do it."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 46.08,
+            "end": 49.44,
+            "text": " Because today we are going to learn about CSS variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 49.44,
+            "end": 54.0,
+            "text": " If you do programming, then you must have heard a lot about variables in programming language."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 54.08,
+            "end": 58.0,
+            "text": " And the role of variables is almost the same here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 58.0,
+            "end": 60.16,
+            "text": " So let's make a folder called video 30."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 60.16,
+            "end": 63.6,
+            "text": " So here I will make a folder called video 30."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 63.6,
+            "end": 66.88,
+            "text": " And we are going to open VS Code in it."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 66.88,
+            "end": 72.4,
+            "text": " So the first thing I am going to do is that I will put a boilerplate template here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 72.4,
+            "end": 76.72,
+            "text": " And here I am going to write CSS variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 76.72,
+            "end": 80.64,
+            "text": " And definitely I will put a style tag here. I am writing inline CSS."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 80.64,
+            "end": 84.96000000000001,
+            "text": " Don't write, try not to write inline CSS."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 84.96000000000001,
+            "end": 87.44,
+            "text": " Make external sheets whenever you are making production websites."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 87.44,
+            "end": 90.64,
+            "text": " But worry not, I will also make production websites here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 90.64,
+            "end": 93.92,
+            "text": " From there you will get a better idea how to make websites."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 93.92,
+            "end": 97.92,
+            "text": " So here I have a div and let's say a nav bar."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 97.92,
+            "end": 104.56,
+            "text": " I put a ul in it, put a li, I wrote home here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 104.56,
+            "end": 108.32,
+            "text": " And here I wrote about and wrote contact here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 109.03999999999999,
+            "end": 114.72,
+            "text": " And I will not waste time in making a beautiful website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 114.72,
+            "end": 118.55999999999999,
+            "text": " Because I have come here to tell you one thing."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 118.55999999999999,
+            "end": 123.83999999999999,
+            "text": " And here I will write lorem 45 and you will tell me in the comment section below why I wrote lorem 45."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 123.83999999999999,
+            "end": 125.11999999999999,
+            "text": " What was the logic?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 125.11999999999999,
+            "end": 128.79999999999998,
+            "text": " Was it my Albert Einstein's mind that I wrote lorem 45?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 128.79999999999998,
+            "end": 133.28,
+            "text": " So here I am going to click here and open it in the browser."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 133.28,
+            "end": 136.48,
+            "text": " And you will not be surprised to see that it is coming like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 136.56,
+            "end": 138.56,
+            "text": " Okay, no problem, let's put backgrounds here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 138.56,
+            "end": 144.79999999999998,
+            "text": " So I will say that our div is first child."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 144.79999999999998,
+            "end": 147.83999999999997,
+            "text": " So what to do, let's call the background red."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 147.83999999999997,
+            "end": 151.51999999999998,
+            "text": " It looks very weird, background red."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 151.51999999999998,
+            "end": 154.23999999999998,
+            "text": " If you want, you can choose something else."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 154.23999999999998,
+            "end": 159.35999999999999,
+            "text": " By the way, if I do class is equal to nav here, then there is no need to do this first child circus."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 159.35999999999999,
+            "end": 162.39999999999998,
+            "text": " I can target directly by doing .nav."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 162.72,
+            "end": 167.04,
+            "text": " And here I want to keep its color green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 167.04,
+            "end": 168.48000000000002,
+            "text": " Let's say I want to keep it green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 168.48000000000002,
+            "end": 174.08,
+            "text": " And because I have kept its color green, I want my container to be green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 174.08,
+            "end": 178.8,
+            "text": " So I will say that the color of my container should be a little different from this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 178.8,
+            "end": 181.6,
+            "text": " Slightly different from this, not too different."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 181.6,
+            "end": 183.6,
+            "text": " A little bit different."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 183.6,
+            "end": 186.56,
+            "text": " Like if it is green, then it should be a little light green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 186.56,
+            "end": 189.6,
+            "text": " So mine will look like this, dark green or light green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 189.68,
+            "end": 191.68,
+            "text": " My website is made up of green theme."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 191.68,
+            "end": 193.68,
+            "text": " Basically, you can understand it like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 193.68,
+            "end": 196.48,
+            "text": " Now, let's say I do one more thing here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 196.48,
+            "end": 200.64,
+            "text": " I will write star here and I will write m0 here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 200.64,
+            "end": 206.0,
+            "text": " And I will write p colon 0 here and the padding will be 0 here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 206.0,
+            "end": 207.35999999999999,
+            "text": " So it will look a little like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 207.35999999999999,
+            "end": 210.24,
+            "text": " And when I have done this much, I will do one more thing here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 210.24,
+            "end": 216.32,
+            "text": " I say that the list style type of the li inside the ul should be none."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 216.32,
+            "end": 220.4,
+            "text": " So list style should be none and along with that make ul."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 220.4,
+            "end": 222.4,
+            "text": " What to do?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 222.4,
+            "end": 224.4,
+            "text": " Make ul here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 224.4,
+            "end": 226.4,
+            "text": " Display flex."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 226.4,
+            "end": 228.4,
+            "text": " Now I have not told you about display flex."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 228.4,
+            "end": 230.4,
+            "text": " I know that."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 230.4,
+            "end": 232.4,
+            "text": " But I just want to make it horizontal like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 232.4,
+            "end": 234.4,
+            "text": " If I want, I can also make it inline."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 234.4,
+            "end": 236.4,
+            "text": " But that's not a good idea."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 236.4,
+            "end": 238.4,
+            "text": " So I am not doing it now."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 238.4,
+            "end": 240.4,
+            "text": " What happens with display flex, we will see in the coming videos."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 240.4,
+            "end": 242.4,
+            "text": " But for now, you understand that where the items were falling down,"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 242.4,
+            "end": 244.4,
+            "text": " I have put them horizontally."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 244.48000000000002,
+            "end": 246.48000000000002,
+            "text": " So I have done ul display flex here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 246.48000000000002,
+            "end": 248.48000000000002,
+            "text": " And I will also give padding and margin in li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 248.48000000000002,
+            "end": 250.48000000000002,
+            "text": " And I know you must be thinking that stop styling it."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 250.48000000000002,
+            "end": 252.48000000000002,
+            "text": " Tell me the point."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 252.48000000000002,
+            "end": 254.48000000000002,
+            "text": " So let me tell you the point."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 254.48000000000002,
+            "end": 256.48,
+            "text": " I can declare variables in CSS."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 256.48,
+            "end": 258.48,
+            "text": " And I can say that I have some global variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 258.48,
+            "end": 260.48,
+            "text": " So you will not write global variables in the way you write in JavaScript or C language."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 260.48,
+            "end": 262.48,
+            "text": " That a is equal to 2, a is equal to 3."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 262.48,
+            "end": 264.48,
+            "text": " No, CSS is not a programming language."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 264.48,
+            "end": 266.48,
+            "text": " You first declare the root scope here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 266.48,
+            "end": 268.48,
+            "text": " So you say here that in the root,"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 268.48,
+            "end": 270.48,
+            "text": " margin is equal to 1."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 270.48,
+            "end": 272.48,
+            "text": " And margin is equal to 0."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 272.56,
+            "end": 274.56,
+            "text": " So you say here that in the root,"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 274.56,
+            "end": 276.56,
+            "text": " minus minus color is equal to blue."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 276.56,
+            "end": 278.56,
+            "text": " I have made the color blue like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 278.56,
+            "end": 280.56,
+            "text": " And I have made minus minus sack color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 280.56,
+            "end": 282.56,
+            "text": " Let us say."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 282.56,
+            "end": 284.56,
+            "text": " I will make it blue."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 284.56,
+            "end": 286.56,
+            "text": " But it will be a little light blue."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 286.56,
+            "end": 288.56,
+            "text": " Just a little light blue."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 288.56,
+            "end": 290.56,
+            "text": " You can see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 290.56,
+            "end": 292.56,
+            "text": " So I have declared a variable here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 292.56,
+            "end": 294.56,
+            "text": " And after that I have here"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 294.56,
+            "end": 296.56,
+            "text": " a secondary color of that color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 296.56,
+            "end": 298.56,
+            "text": " Which is the light version."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 298.56,
+            "end": 300.56,
+            "text": " I have declared it here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 300.64,
+            "end": 302.64,
+            "text": " I want my color theme to be here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 302.64,
+            "end": 304.64,
+            "text": " So I will use var function here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 304.64,
+            "end": 306.64,
+            "text": " And I will say minus minus color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 306.64,
+            "end": 308.64,
+            "text": " And here I will use var function."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 308.64,
+            "end": 310.64,
+            "text": " And I will say minus minus secondary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 310.64,
+            "end": 312.64,
+            "text": " And here I will do the same as sack color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 312.64,
+            "end": 314.64,
+            "text": " You can see that it will take the variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 314.64,
+            "end": 316.64,
+            "text": " And what I can do here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 316.64,
+            "end": 318.64,
+            "text": " I can change the colors here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 318.64,
+            "end": 320.64,
+            "text": " Let's say I want primary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 320.64,
+            "end": 322.64,
+            "text": " And I want secondary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 322.64,
+            "end": 324.64,
+            "text": " Let's say this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 324.64,
+            "end": 326.64,
+            "text": " And wherever my primary and secondary color is being used."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 326.64,
+            "end": 328.64,
+            "text": " In the whole website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 328.71999999999997,
+            "end": 330.71999999999997,
+            "text": " So I can change the colors of the whole website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 330.71999999999997,
+            "end": 332.71999999999997,
+            "text": " By changing only two variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 332.71999999999997,
+            "end": 334.71999999999997,
+            "text": " Now this color can be used 50 times."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 334.71999999999997,
+            "end": 336.71999999999997,
+            "text": " In the whole website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 336.71999999999997,
+            "end": 338.71999999999997,
+            "text": " This color can be used in 2, 4, 5, 6 other places."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 338.71999999999997,
+            "end": 340.71999999999997,
+            "text": " So in total,"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 340.71999999999997,
+            "end": 342.71999999999997,
+            "text": " the work that I have to do individually."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 342.71999999999997,
+            "end": 344.71999999999997,
+            "text": " For different elements."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 344.71999999999997,
+            "end": 346.71999999999997,
+            "text": " I have done that work easily."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 346.71999999999997,
+            "end": 348.71999999999997,
+            "text": " How did I do it easily?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 348.71999999999997,
+            "end": 350.71999999999997,
+            "text": " I made a variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 350.71999999999997,
+            "end": 352.71999999999997,
+            "text": " I made a global variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 352.71999999999997,
+            "end": 354.71999999999997,
+            "text": " So we make a global variable in the root."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 354.71999999999997,
+            "end": 356.71999999999997,
+            "text": " Whatever happens in the root is a global variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 356.8,
+            "end": 358.8,
+            "text": " Now I want to change the color of this UL."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 358.8,
+            "end": 360.8,
+            "text": " Just for this UL."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 360.8,
+            "end": 362.8,
+            "text": " I want the color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 362.8,
+            "end": 364.8,
+            "text": " Or let's say the first child of UL."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 364.8,
+            "end": 366.8,
+            "text": " UL LI"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 366.8,
+            "end": 368.8,
+            "text": " If it is the first child."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 368.8,
+            "end": 370.8,
+            "text": " So I want"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 370.8,
+            "end": 372.8,
+            "text": " to change the color of this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 374.8,
+            "end": 376.8,
+            "text": " Let's say the background color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 376.8,
+            "end": 378.8,
+            "text": " For some reason I want"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 378.8,
+            "end": 380.8,
+            "text": " a dark version."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 380.8,
+            "end": 382.8,
+            "text": " So I want to change the color variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 382.8,
+            "end": 384.8,
+            "text": " So I can change the color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 384.88,
+            "end": 386.88,
+            "text": " And I can make it a local variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 386.88,
+            "end": 388.88,
+            "text": " So when I make a local variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 388.88,
+            "end": 390.88,
+            "text": " Then this color will be used."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 390.88,
+            "end": 392.88,
+            "text": " Okay."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 392.88,
+            "end": 394.88,
+            "text": " And if I have declared a global variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 394.88,
+            "end": 396.88,
+            "text": " Then wherever I use this color variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 396.88,
+            "end": 398.88,
+            "text": " This global variable will be used."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 398.88,
+            "end": 400.88,
+            "text": " But because"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 400.88,
+            "end": 402.88,
+            "text": " I have overwrote in this block."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 402.88,
+            "end": 404.88,
+            "text": " My color variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 404.88,
+            "end": 406.88,
+            "text": " You guys see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 406.88,
+            "end": 408.88,
+            "text": " I will make it green."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 408.88,
+            "end": 410.88,
+            "text": " Let's go for orange."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 410.88,
+            "end": 412.88,
+            "text": " I will make it orange."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 412.96,
+            "end": 414.96,
+            "text": " Okay."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 414.96,
+            "end": 416.96,
+            "text": " And you can see the LI first child."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 416.96,
+            "end": 418.96,
+            "text": " The background is orange."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 418.96,
+            "end": 420.96,
+            "text": " So I can do something like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 420.96,
+            "end": 422.96,
+            "text": " LI first child is orange."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 422.96,
+            "end": 424.96,
+            "text": " And if I want to"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 424.96,
+            "end": 426.96,
+            "text": " change the color of this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 426.96,
+            "end": 428.96,
+            "text": " Or change the secondary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 428.96,
+            "end": 430.96,
+            "text": " So I can do that."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 430.96,
+            "end": 432.96,
+            "text": " Let's say I want the color of LI"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 432.96,
+            "end": 434.96,
+            "text": " to be equal to the secondary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 434.96,
+            "end": 436.96,
+            "text": " So I can do that."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 436.96,
+            "end": 438.96,
+            "text": " So in this block, wherever I refer the color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 438.96,
+            "end": 440.96,
+            "text": " The value I have overwrote."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 441.03999999999996,
+            "end": 443.03999999999996,
+            "text": " So this was our global variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 443.03999999999996,
+            "end": 445.03999999999996,
+            "text": " This was our local variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 445.03999999999996,
+            "end": 447.03999999999996,
+            "text": " In total, this is the same thing in CSS variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 447.03999999999996,
+            "end": 449.03999999999996,
+            "text": " Why do we use it?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 449.03999999999996,
+            "end": 451.03999999999996,
+            "text": " If one color is used 50 times in your entire website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 451.03999999999996,
+            "end": 453.03999999999996,
+            "text": " Will you change it one by one?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 453.03999999999996,
+            "end": 455.03999999999996,
+            "text": " No. You will change the color theme."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 455.03999999999996,
+            "end": 457.03999999999996,
+            "text": " Just by changing one."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 457.03999999999996,
+            "end": 459.03999999999996,
+            "text": " This is the concept of variable in CSS."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 459.03999999999996,
+            "end": 461.03999999999996,
+            "text": " There is no big rocket science."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 461.03999999999996,
+            "end": 463.03999999999996,
+            "text": " Now another question is what will happen if"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 463.03999999999996,
+            "end": 465.03999999999996,
+            "text": " the variable is not found?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 465.03999999999996,
+            "end": 467.03999999999996,
+            "text": " If the variable is not found, then for a fallback variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 467.03999999999996,
+            "end": 469.03999999999996,
+            "text": " You guys can give it like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 469.12,
+            "end": 471.12,
+            "text": " So suppose there is no value of color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 471.12,
+            "end": 473.12,
+            "text": " I will remove it here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 473.12,
+            "end": 475.12,
+            "text": " So I will say here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 475.12,
+            "end": 477.12,
+            "text": " Find the variable of color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 477.12,
+            "end": 479.12,
+            "text": " If the variable of color is not found."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 479.12,
+            "end": 481.12,
+            "text": " Then you use blue color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 481.12,
+            "end": 483.12,
+            "text": " So you guys can see here that in my website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 483.12,
+            "end": 485.12,
+            "text": " Blue color will be used."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 485.12,
+            "end": 487.12,
+            "text": " Because here the variable of color is not available."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 487.12,
+            "end": 489.12,
+            "text": " I have commented it out."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 489.12,
+            "end": 491.12,
+            "text": " But as soon as I make it visible here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 491.12,
+            "end": 493.12,
+            "text": " You guys can see here that again."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 493.12,
+            "end": 495.12,
+            "text": " No work of this blue color is left."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 495.12,
+            "end": 497.12,
+            "text": " Because my color property is defined."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 497.2,
+            "end": 499.2,
+            "text": " So these are the properties of CSS."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 499.2,
+            "end": 501.2,
+            "text": " Now if you guys want."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 501.2,
+            "end": 503.2,
+            "text": " You can use it in border."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 503.2,
+            "end": 505.2,
+            "text": " Let us say I decide to."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 505.2,
+            "end": 507.2,
+            "text": " Give border 2px solid."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 507.2,
+            "end": 509.2,
+            "text": " And suppose I want to give."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 509.2,
+            "end": 511.2,
+            "text": " In the name of minus minus color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 511.2,
+            "end": 513.2,
+            "text": " I want to give border to this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 513.2,
+            "end": 515.2,
+            "text": " So I can give border here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 515.2,
+            "end": 517.2,
+            "text": " And because the background is the same."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 517.2,
+            "end": 519.2,
+            "text": " of its li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 519.2,
+            "end": 521.2,
+            "text": " So we have to see the color here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 521.2,
+            "end": 523.2,
+            "text": " 2px solid."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 523.2,
+            "end": 525.2,
+            "text": " And here I have given color to li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 525.2800000000001,
+            "end": 527.2800000000001,
+            "text": " So it should be in every li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 527.2800000000001,
+            "end": 529.2800000000001,
+            "text": " Let me see what the problem is."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 529.2800000000001,
+            "end": 531.2800000000001,
+            "text": " Here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 531.2800000000001,
+            "end": 533.2800000000001,
+            "text": " Why border is not applied."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 533.2800000000001,
+            "end": 535.2800000000001,
+            "text": " 2px solid."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 535.2800000000001,
+            "end": 537.2800000000001,
+            "text": " Actually the border color is same as the color of."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 537.2800000000001,
+            "end": 539.2800000000001,
+            "text": " This element."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 539.2800000000001,
+            "end": 541.2800000000001,
+            "text": " Because of which it is not visible."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 541.2800000000001,
+            "end": 543.2800000000001,
+            "text": " So if I want to see my border color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 543.2800000000001,
+            "end": 545.2800000000001,
+            "text": " So maybe the background color of my li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 545.2800000000001,
+            "end": 547.2800000000001,
+            "text": " I will put something else."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 547.2800000000001,
+            "end": 549.2800000000001,
+            "text": " Or the background color of nav."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 549.2800000000001,
+            "end": 551.2800000000001,
+            "text": " Let us say I make it red."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 551.2800000000001,
+            "end": 553.2800000000001,
+            "text": " Or I set the color here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 553.36,
+            "end": 555.36,
+            "text": " So if I put the border of secondary color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 555.36,
+            "end": 557.36,
+            "text": " So the border will be visible here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 557.36,
+            "end": 559.36,
+            "text": " So I will put the border of secondary color here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 559.36,
+            "end": 561.36,
+            "text": " Minus minus color sec."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 561.36,
+            "end": 563.36,
+            "text": " It was sec color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 563.36,
+            "end": 565.36,
+            "text": " And now see."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 565.36,
+            "end": 567.36,
+            "text": " The border of secondary color is here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 567.36,
+            "end": 569.36,
+            "text": " So what was my secondary color?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 569.36,
+            "end": 571.36,
+            "text": " It was this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 571.36,
+            "end": 573.36,
+            "text": " And I have given a very big border of 12px."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 573.36,
+            "end": 575.36,
+            "text": " So I will make it small."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 575.36,
+            "end": 577.36,
+            "text": " So in total this variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 577.36,
+            "end": 579.36,
+            "text": " It will look like this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 579.36,
+            "end": 581.36,
+            "text": " I hope you understood the concept of variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 581.44,
+            "end": 583.44,
+            "text": " Now one more thing I want to tell you."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 583.44,
+            "end": 585.44,
+            "text": " It is not necessary that CSS variable will hold only colors."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 585.44,
+            "end": 587.44,
+            "text": " CSS variables can hold."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 587.44,
+            "end": 589.44,
+            "text": " Your other properties too."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 589.44,
+            "end": 591.44,
+            "text": " For example if I show."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 591.44,
+            "end": 593.44,
+            "text": " Let's say minus minus."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 593.44,
+            "end": 595.44,
+            "text": " Def pad."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 595.44,
+            "end": 597.44,
+            "text": " Let's say I want to give 23px."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 597.44,
+            "end": 599.44,
+            "text": " So instead of giving a padding."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 599.44,
+            "end": 601.44,
+            "text": " I can use var."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 601.44,
+            "end": 603.44,
+            "text": " And I can use def pad."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 603.44,
+            "end": 605.44,
+            "text": " I said that I want to use this variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 605.44,
+            "end": 607.44,
+            "text": " And if I show you."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 607.44,
+            "end": 609.44,
+            "text": " So the padding is."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 609.5200000000001,
+            "end": 611.5200000000001,
+            "text": " Def pad is given."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 611.5200000000001,
+            "end": 613.5200000000001,
+            "text": " And you can see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 613.5200000000001,
+            "end": 615.5200000000001,
+            "text": " How much padding is given here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 615.5200000000001,
+            "end": 617.5200000000001,
+            "text": " Def pad is 23px."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 617.5200000000001,
+            "end": 619.5200000000001,
+            "text": " So here pixels."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 619.5200000000001,
+            "end": 621.5200000000001,
+            "text": " Or units of length."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 621.5200000000001,
+            "end": 623.5200000000001,
+            "text": " You can use that here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 623.5200000000001,
+            "end": 625.5200000000001,
+            "text": " And along with that."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 625.5200000000001,
+            "end": 627.5200000000001,
+            "text": " You can use other things here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 627.5200000000001,
+            "end": 629.5200000000001,
+            "text": " For example I want to do opacity."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 629.5200000000001,
+            "end": 631.5200000000001,
+            "text": " Let's say."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 631.5200000000001,
+            "end": 633.5200000000001,
+            "text": " I want to say."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 633.5200000000001,
+            "end": 635.5200000000001,
+            "text": " The opacity of this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 635.5200000000001,
+            "end": 637.5200000000001,
+            "text": " It should be 0.3."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 637.6,
+            "end": 639.6,
+            "text": " Let's say I want."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 639.6,
+            "end": 641.6,
+            "text": " The opacity of li should be 0.3."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 641.6,
+            "end": 643.6,
+            "text": " So I can save this opacity."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 643.6,
+            "end": 645.6,
+            "text": " And I can make a variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 645.6,
+            "end": 647.6,
+            "text": " Def minus minus."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 647.6,
+            "end": 649.6,
+            "text": " Def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 649.6,
+            "end": 651.6,
+            "text": " I will say."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 651.6,
+            "end": 653.6,
+            "text": " Def op should be 0.2."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 653.6,
+            "end": 655.6,
+            "text": " And I will use def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 655.6,
+            "end": 657.6,
+            "text": " I will say var."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 657.6,
+            "end": 659.6,
+            "text": " And def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 659.6,
+            "end": 661.6,
+            "text": " And you can see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 661.6,
+            "end": 663.6,
+            "text": " The opacity of this will be 0.2."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 663.6,
+            "end": 665.6,
+            "text": " How will you know that it is 0.2."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 665.6800000000001,
+            "end": 667.6800000000001,
+            "text": " And here the def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 667.6800000000001,
+            "end": 669.6800000000001,
+            "text": " The def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 669.6800000000001,
+            "end": 671.6800000000001,
+            "text": " You can see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 671.6800000000001,
+            "end": 673.6800000000001,
+            "text": " Where I have put the def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 673.6800000000001,
+            "end": 675.6800000000001,
+            "text": " I have put it on li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 675.6800000000001,
+            "end": 677.6800000000001,
+            "text": " So let's select li."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 677.6800000000001,
+            "end": 679.6800000000001,
+            "text": " And you can see here."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 679.6800000000001,
+            "end": 681.6800000000001,
+            "text": " Def op is 0.2."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 681.6800000000001,
+            "end": 683.6800000000001,
+            "text": " So def op is 0.2."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 683.6800000000001,
+            "end": 685.6800000000001,
+            "text": " I hope you understood this."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 685.6800000000001,
+            "end": 687.6800000000001,
+            "text": " If I want."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 687.6800000000001,
+            "end": 689.6800000000001,
+            "text": " The default opacity to change."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 689.6800000000001,
+            "end": 691.6800000000001,
+            "text": " I will make it 0.4."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 691.6800000000001,
+            "end": 693.6800000000001,
+            "text": " Wherever I am using 0.4."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 693.76,
+            "end": 695.76,
+            "text": " And I hope this is clear."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 695.76,
+            "end": 697.76,
+            "text": " If you want to decode."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 697.76,
+            "end": 699.76,
+            "text": " What will be the value of def op."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 699.76,
+            "end": 701.76,
+            "text": " Click on it."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 701.76,
+            "end": 703.76,
+            "text": " So in total."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 703.76,
+            "end": 705.76,
+            "text": " You can use CSS variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 705.76,
+            "end": 707.76,
+            "text": " That's pretty much about CSS variables."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 707.76,
+            "end": 709.76,
+            "text": " It is not necessary to have colors."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 709.76,
+            "end": 711.76,
+            "text": " In the interview, it is asked."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 711.76,
+            "end": 713.76,
+            "text": " Can CSS variables only hold colors?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 713.76,
+            "end": 715.76,
+            "text": " You have to say no."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 715.76,
+            "end": 717.76,
+            "text": " These values can hold any kind."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 717.76,
+            "end": 719.76,
+            "text": " And you have to tell."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 719.76,
+            "end": 721.76,
+            "text": " These background urls."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 721.84,
+            "end": 723.84,
+            "text": " Numbers."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 723.84,
+            "end": 725.84,
+            "text": " These things can hold."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 725.84,
+            "end": 727.84,
+            "text": " So basically you guys."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 727.84,
+            "end": 729.84,
+            "text": " Things that you find changing."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 729.84,
+            "end": 731.84,
+            "text": " In your website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 731.84,
+            "end": 733.84,
+            "text": " 10 places or 50 places."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 733.84,
+            "end": 735.84,
+            "text": " You can make it a variable."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 735.84,
+            "end": 737.84,
+            "text": " And change it at one place."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 737.84,
+            "end": 739.84,
+            "text": " Whenever we make websites."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 739.84,
+            "end": 741.84,
+            "text": " We will use CSS variables very cleverly."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 741.84,
+            "end": 743.84,
+            "text": " We will change it at one place."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 743.84,
+            "end": 745.84,
+            "text": " We will make a color with the name theme."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 745.84,
+            "end": 747.84,
+            "text": " If someone wants the same website."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 747.84,
+            "end": 749.84,
+            "text": " In the purple theme."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 749.9200000000001,
+            "end": 751.9200000000001,
+            "text": " He can choose his color."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 751.9200000000001,
+            "end": 753.9200000000001,
+            "text": " I hope this is clear to you."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 753.9200000000001,
+            "end": 755.9200000000001,
+            "text": " I hope you guys are enjoying this course."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 755.9200000000001,
+            "end": 757.9200000000001,
+            "text": " If you have not accessed the playlist."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 757.9200000000001,
+            "end": 759.9200000000001,
+            "text": " Click here to bookmark."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 759.9200000000001,
+            "end": 761.9200000000001,
+            "text": " And click here to save."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 761.9200000000001,
+            "end": 763.9200000000001,
+            "text": " I hope you have accessed the github code."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 763.9200000000001,
+            "end": 765.9200000000001,
+            "text": " Which I have provided to you."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 765.9200000000001,
+            "end": 767.9200000000001,
+            "text": " Are you enjoying it or not?"
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 767.9200000000001,
+            "end": 769.9200000000001,
+            "text": " Tell me in the comment section below."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 769.9200000000001,
+            "end": 771.9200000000001,
+            "text": " That's all for now."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 771.9200000000001,
+            "end": 773.9200000000001,
+            "text": " Do name your village and uncle's land."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 773.9200000000001,
+            "end": 775.9200000000001,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "30",
+            "title": "CSS Variables",
+            "start": 775.9200000000001,
+            "end": 777.9200000000001,
+            "text": " And I will see you next time."
+        }
+    ],
+    "text": " Sometimes when you make templates, you want to put some variables in it. For example, suppose you have made a website whose theme is a little blackish. Now you want to convert it into a red color theme or blue color theme. You can do this by changing the value of just one variable. This can be possible through CSS variables. What are variables? Why do we use them? How to use them? I will explain to you in this video. Like this video with high energy and write Sigma Batchop in the comment section. Let's go to the computer screen. Let's roll the intro. Intro So guys, if you have not accessed the playlist of Sigma web development yet, then do it. Because today we are going to learn about CSS variables. If you do programming, then you must have heard a lot about variables in programming language. And the role of variables is almost the same here. So let's make a folder called video 30. So here I will make a folder called video 30. And we are going to open VS Code in it. So the first thing I am going to do is that I will put a boilerplate template here. And here I am going to write CSS variables. And definitely I will put a style tag here. I am writing inline CSS. Don't write, try not to write inline CSS. Make external sheets whenever you are making production websites. But worry not, I will also make production websites here. From there you will get a better idea how to make websites. So here I have a div and let's say a nav bar. I put a ul in it, put a li, I wrote home here. And here I wrote about and wrote contact here. And I will not waste time in making a beautiful website. Because I have come here to tell you one thing. And here I will write lorem 45 and you will tell me in the comment section below why I wrote lorem 45. What was the logic? Was it my Albert Einstein's mind that I wrote lorem 45? So here I am going to click here and open it in the browser. And you will not be surprised to see that it is coming like this. Okay, no problem, let's put backgrounds here. So I will say that our div is first child. So what to do, let's call the background red. It looks very weird, background red. If you want, you can choose something else. By the way, if I do class is equal to nav here, then there is no need to do this first child circus. I can target directly by doing .nav. And here I want to keep its color green. Let's say I want to keep it green. And because I have kept its color green, I want my container to be green. So I will say that the color of my container should be a little different from this. Slightly different from this, not too different. A little bit different. Like if it is green, then it should be a little light green. So mine will look like this, dark green or light green. My website is made up of green theme. Basically, you can understand it like this. Now, let's say I do one more thing here. I will write star here and I will write m0 here. And I will write p colon 0 here and the padding will be 0 here. So it will look a little like this. And when I have done this much, I will do one more thing here. I say that the list style type of the li inside the ul should be none. So list style should be none and along with that make ul. What to do? Make ul here. Display flex. Now I have not told you about display flex. I know that. But I just want to make it horizontal like this. If I want, I can also make it inline. But that's not a good idea. So I am not doing it now. What happens with display flex, we will see in the coming videos. But for now, you understand that where the items were falling down, I have put them horizontally. So I have done ul display flex here. And I will also give padding and margin in li. And I know you must be thinking that stop styling it. Tell me the point. So let me tell you the point. I can declare variables in CSS. And I can say that I have some global variables. So you will not write global variables in the way you write in JavaScript or C language. That a is equal to 2, a is equal to 3. No, CSS is not a programming language. You first declare the root scope here. So you say here that in the root, margin is equal to 1. And margin is equal to 0. So you say here that in the root, minus minus color is equal to blue. I have made the color blue like this. And I have made minus minus sack color. Let us say. I will make it blue. But it will be a little light blue. Just a little light blue. You can see here. So I have declared a variable here. And after that I have here a secondary color of that color. Which is the light version. I have declared it here. I want my color theme to be here. So I will use var function here. And I will say minus minus color. And here I will use var function. And I will say minus minus secondary color. And here I will do the same as sack color. You can see that it will take the variable. And what I can do here. I can change the colors here. Let's say I want primary color. And I want secondary color. Let's say this. And wherever my primary and secondary color is being used. In the whole website. So I can change the colors of the whole website. By changing only two variables. Now this color can be used 50 times. In the whole website. This color can be used in 2, 4, 5, 6 other places. So in total, the work that I have to do individually. For different elements. I have done that work easily. How did I do it easily? I made a variable. I made a global variable. So we make a global variable in the root. Whatever happens in the root is a global variable. Now I want to change the color of this UL. Just for this UL. I want the color. Or let's say the first child of UL. UL LI If it is the first child. So I want to change the color of this. Let's say the background color. For some reason I want a dark version. So I want to change the color variable. So I can change the color. And I can make it a local variable. So when I make a local variable. Then this color will be used. Okay. And if I have declared a global variable. Then wherever I use this color variable. This global variable will be used. But because I have overwrote in this block. My color variable. You guys see here. I will make it green. Let's go for orange. I will make it orange. Okay. And you can see the LI first child. The background is orange. So I can do something like this. LI first child is orange. And if I want to change the color of this. Or change the secondary color. So I can do that. Let's say I want the color of LI to be equal to the secondary color. So I can do that. So in this block, wherever I refer the color. The value I have overwrote. So this was our global variable. This was our local variable. In total, this is the same thing in CSS variable. Why do we use it? If one color is used 50 times in your entire website. Will you change it one by one? No. You will change the color theme. Just by changing one. This is the concept of variable in CSS. There is no big rocket science. Now another question is what will happen if the variable is not found? If the variable is not found, then for a fallback variable. You guys can give it like this. So suppose there is no value of color. I will remove it here. So I will say here. Find the variable of color. If the variable of color is not found. Then you use blue color. So you guys can see here that in my website. Blue color will be used. Because here the variable of color is not available. I have commented it out. But as soon as I make it visible here. You guys can see here that again. No work of this blue color is left. Because my color property is defined. So these are the properties of CSS. Now if you guys want. You can use it in border. Let us say I decide to. Give border 2px solid. And suppose I want to give. In the name of minus minus color. I want to give border to this. So I can give border here. And because the background is the same. of its li. So we have to see the color here. 2px solid. And here I have given color to li. So it should be in every li. Let me see what the problem is. Here. Why border is not applied. 2px solid. Actually the border color is same as the color of. This element. Because of which it is not visible. So if I want to see my border color. So maybe the background color of my li. I will put something else. Or the background color of nav. Let us say I make it red. Or I set the color here. So if I put the border of secondary color. So the border will be visible here. So I will put the border of secondary color here. Minus minus color sec. It was sec color. And now see. The border of secondary color is here. So what was my secondary color? It was this. And I have given a very big border of 12px. So I will make it small. So in total this variable. It will look like this. I hope you understood the concept of variable. Now one more thing I want to tell you. It is not necessary that CSS variable will hold only colors. CSS variables can hold. Your other properties too. For example if I show. Let's say minus minus. Def pad. Let's say I want to give 23px. So instead of giving a padding. I can use var. And I can use def pad. I said that I want to use this variable. And if I show you. So the padding is. Def pad is given. And you can see here. How much padding is given here. Def pad is 23px. So here pixels. Or units of length. You can use that here. And along with that. You can use other things here. For example I want to do opacity. Let's say. I want to say. The opacity of this. It should be 0.3. Let's say I want. The opacity of li should be 0.3. So I can save this opacity. And I can make a variable. Def minus minus. Def op. I will say. Def op should be 0.2. And I will use def op. I will say var. And def op. And you can see here. The opacity of this will be 0.2. How will you know that it is 0.2. And here the def op. The def op. You can see here. Where I have put the def op. I have put it on li. So let's select li. And you can see here. Def op is 0.2. So def op is 0.2. I hope you understood this. If I want. The default opacity to change. I will make it 0.4. Wherever I am using 0.4. And I hope this is clear. If you want to decode. What will be the value of def op. Click on it. So in total. You can use CSS variables. That's pretty much about CSS variables. It is not necessary to have colors. In the interview, it is asked. Can CSS variables only hold colors? You have to say no. These values can hold any kind. And you have to tell. These background urls. Numbers. These things can hold. So basically you guys. Things that you find changing. In your website. 10 places or 50 places. You can make it a variable. And change it at one place. Whenever we make websites. We will use CSS variables very cleverly. We will change it at one place. We will make a color with the name theme. If someone wants the same website. In the purple theme. He can choose his color. I hope this is clear to you. I hope you guys are enjoying this course. If you have not accessed the playlist. Click here to bookmark. And click here to save. I hope you have accessed the github code. Which I have provided to you. Are you enjoying it or not? Tell me in the comment section below. That's all for now. Do name your village and uncle's land. Thank you so much for watching this video. And I will see you next time."
+}

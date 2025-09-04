@@ -1,0 +1,4016 @@
+{
+    "chunks": [
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 0.0,
+            "end": 3.5,
+            "text": " In today's video, I will tell you about specificity in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 3.5,
+            "end": 8.0,
+            "text": " Assume you have an element that has been styled in two ways through CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 8.0,
+            "end": 11.4,
+            "text": " That is, we have used two types of selectors to style it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 11.4,
+            "end": 13.700000000000001,
+            "text": " And both styles are saying two different things."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 13.700000000000001,
+            "end": 15.8,
+            "text": " Let's say one style is saying make the background color red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 15.8,
+            "end": 17.900000000000002,
+            "text": " And the other style is saying make the background color yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 17.900000000000002,
+            "end": 19.3,
+            "text": " Which one will be applied?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 19.3,
+            "end": 22.900000000000002,
+            "text": " This thing will be determined with the help of specificity in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 22.900000000000002,
+            "end": 24.5,
+            "text": " In this video, I will tell you all the rules."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 24.5,
+            "end": 27.0,
+            "text": " How does specificity work in CSS?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 27.0,
+            "end": 29.6,
+            "text": " Do write Sigma Batch OP in the comments below."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 29.6,
+            "end": 32.6,
+            "text": " Let's go to the computer screen and let's roll the intro."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 32.6,
+            "end": 41.6,
+            "text": " Intro"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 41.6,
+            "end": 42.6,
+            "text": " I have entered my computer screen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 42.6,
+            "end": 46.6,
+            "text": " And today's video is going to be important because in today's video, I am going to tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 46.6,
+            "end": 51.6,
+            "text": " How is it decided which of the conflicted classes is which?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 51.6,
+            "end": 54.6,
+            "text": " Which property value will be applied in CSS?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 54.6,
+            "end": 57.1,
+            "text": " I will quickly make a folder named video 21 here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 57.1,
+            "end": 60.1,
+            "text": " And I will open it in my VS Code."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 60.1,
+            "end": 62.1,
+            "text": " I will make index.html."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 62.1,
+            "end": 64.1,
+            "text": " And I will start this video with a question."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 64.1,
+            "end": 66.1,
+            "text": " The question I am going to ask you is that,"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 66.1,
+            "end": 68.1,
+            "text": " Let's say you have a div in it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 68.1,
+            "end": 70.1,
+            "text": " You have this h1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 70.1,
+            "end": 72.1,
+            "text": " And in this h1, it is written CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 72.1,
+            "end": 75.1,
+            "text": " Oops, I pressed the control s by mistake."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 75.1,
+            "end": 76.1,
+            "text": " Specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 76.1,
+            "end": 78.1,
+            "text": " Let's say it is written."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 78.1,
+            "end": 80.1,
+            "text": " And I have added two classes in it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 80.1,
+            "end": 81.1,
+            "text": " Let's say yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 81.1,
+            "end": 84.1,
+            "text": " One c red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 84.1,
+            "end": 86.1,
+            "text": " One c purple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 86.1,
+            "end": 87.1,
+            "text": " I have added three classes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 87.1,
+            "end": 89.1,
+            "text": " Now I put style here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 89.1,
+            "end": 92.1,
+            "text": " And I say that the color of h1 is red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 92.1,
+            "end": 94.1,
+            "text": " Or do aqua."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 94.1,
+            "end": 98.1,
+            "text": " And after this, I say that the yellow is our class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 98.1,
+            "end": 100.1,
+            "text": " Dot yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 100.1,
+            "end": 102.1,
+            "text": " On its basis, color it yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 102.1,
+            "end": 105.1,
+            "text": " And along with that, the c red class is ours."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 105.1,
+            "end": 107.1,
+            "text": " Color red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 107.1,
+            "end": 112.1,
+            "text": " And along with that, our c purple is dot c purple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 112.1,
+            "end": 116.1,
+            "text": " According to that, the color is purple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 116.1,
+            "end": 118.1,
+            "text": " So I put it here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 118.1,
+            "end": 120.1,
+            "text": " And I will click here to show you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 120.1,
+            "end": 122.1,
+            "text": " That its color is purple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 122.1,
+            "end": 124.1,
+            "text": " It is applied in it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 124.1,
+            "end": 126.1,
+            "text": " On what basis was purple color applied?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 126.1,
+            "end": 128.1,
+            "text": " Why didn't it turn yellow?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 128.1,
+            "end": 130.1,
+            "text": " Because I gave color aqua in h1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 130.1,
+            "end": 132.1,
+            "text": " I gave color according to dot yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 132.1,
+            "end": 134.1,
+            "text": " Then I gave color according to c red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 134.1,
+            "end": 136.1,
+            "text": " Did purple apply because it was below?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 136.1,
+            "end": 140.1,
+            "text": " Or purple applied because it is a class here?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 140.1,
+            "end": 141.1,
+            "text": " This is a class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 141.1,
+            "end": 144.1,
+            "text": " On what basis do things get decided in CSS?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 144.1,
+            "end": 146.1,
+            "text": " I will tell you today."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 146.1,
+            "end": 148.1,
+            "text": " See, if I put h1 below."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 148.1,
+            "end": 150.1,
+            "text": " And now I show, it is still purple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 150.1,
+            "end": 152.1,
+            "text": " So what is it that is deciding?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 152.1,
+            "end": 154.1,
+            "text": " What color, what conflicting property will be applied?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 154.1,
+            "end": 156.1,
+            "text": " So here I want to tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 156.1,
+            "end": 159.1,
+            "text": " That in CSS, there is an algorithm."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 159.1,
+            "end": 161.1,
+            "text": " Its name is cascade algorithm."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 161.1,
+            "end": 163.1,
+            "text": " CSS stands for Cascading Style Sheets."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 163.1,
+            "end": 165.1,
+            "text": " And to resolve any kind of conflicts."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 165.1,
+            "end": 168.1,
+            "text": " Cascade algorithm is used in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 168.1,
+            "end": 170.1,
+            "text": " This algorithm determines."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 170.1,
+            "end": 172.1,
+            "text": " Which property will be applied in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 172.1,
+            "end": 174.1,
+            "text": " And which will not be done."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 174.1,
+            "end": 176.1,
+            "text": " Now see here we have a lot of."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 176.1,
+            "end": 178.1,
+            "text": " Color properties have been applied."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 178.1,
+            "end": 180.1,
+            "text": " In the same element in different ways."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 180.1,
+            "end": 182.1,
+            "text": " Which property will win here?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 182.1,
+            "end": 184.1,
+            "text": " Which will be the winning property?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 184.1,
+            "end": 186.1,
+            "text": " This cascade algorithm determines."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 186.1,
+            "end": 188.1,
+            "text": " So there are four rules in cascade algorithm."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 188.1,
+            "end": 190.1,
+            "text": " At a very high level."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 190.1,
+            "end": 192.1,
+            "text": " The first rule says that."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 192.1,
+            "end": 194.1,
+            "text": " Position and order of appearance are important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 194.1,
+            "end": 196.1,
+            "text": " If you have kept the position of anything later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 196.1,
+            "end": 198.1,
+            "text": " For example, here you saw that."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 198.1,
+            "end": 200.1,
+            "text": " The H1 is kept above."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 200.1,
+            "end": 202.1,
+            "text": " And you saw here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 202.1,
+            "end": 204.1,
+            "text": " The dot C purple was applied."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 204.1,
+            "end": 206.1,
+            "text": " If I put the dot C red later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 206.1,
+            "end": 208.1,
+            "text": " Then it will be applied."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 208.1,
+            "end": 210.1,
+            "text": " That is, they are using the class selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 210.1,
+            "end": 212.1,
+            "text": " And these three are using the class selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 212.1,
+            "end": 214.1,
+            "text": " So these three are equal in a way."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 214.1,
+            "end": 216.1,
+            "text": " So even after using the class selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 216.1,
+            "end": 218.1,
+            "text": " The one that is the lowest."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 218.1,
+            "end": 220.1,
+            "text": " That is, the one that is the last."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 220.1,
+            "end": 222.1,
+            "text": " Like the variable is overwritten in programming languages."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 222.1,
+            "end": 224.1,
+            "text": " In the same way, it can also be overwritten."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 224.1,
+            "end": 226.1,
+            "text": " If the same type of selector is there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 226.1,
+            "end": 228.1,
+            "text": " Okay, then look here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 228.1,
+            "end": 230.1,
+            "text": " If C is red, then the color will be red here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 230.1,
+            "end": 232.1,
+            "text": " C red will be red later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 232.1,
+            "end": 234.1,
+            "text": " But where the way of the selector changes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 234.1,
+            "end": 236.1,
+            "text": " Specificity is used there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 236.1,
+            "end": 238.1,
+            "text": " Now what is this specificity?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 238.1,
+            "end": 240.1,
+            "text": " Specificity is calculated."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 240.1,
+            "end": 242.1,
+            "text": " For a particular selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 242.1,
+            "end": 244.1,
+            "text": " I will tell you this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 244.1,
+            "end": 246.1,
+            "text": " So let's understand the position and order of appearance first."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 246.1,
+            "end": 248.1,
+            "text": " What is the effect of position?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 248.1,
+            "end": 250.1,
+            "text": " See what you will write later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 250.1,
+            "end": 252.1,
+            "text": " If the same selector is there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 252.1,
+            "end": 254.1,
+            "text": " If you are using the element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 254.1,
+            "end": 256.1,
+            "text": " And you are using only the class selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 256.1,
+            "end": 258.1,
+            "text": " So what will happen later will win."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 258.1,
+            "end": 260.1,
+            "text": " Suppose I was not using this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 260.1,
+            "end": 262.1,
+            "text": " I will comment it out."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 262.1,
+            "end": 264.1,
+            "text": " So dot yellow, dot C purple and dot C red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 264.1,
+            "end": 266.1,
+            "text": " He will win, which is the last."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 266.1,
+            "end": 268.1,
+            "text": " If I do dot yellow first, then he will win."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 268.1,
+            "end": 270.1,
+            "text": " That is, if the selector is of the same type."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 270.1,
+            "end": 272.1,
+            "text": " Like class selector, ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 272.1,
+            "end": 274.1,
+            "text": " Or any one."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 274.1,
+            "end": 276.1,
+            "text": " Means all three are the same type of selectors."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 276.1,
+            "end": 278.1,
+            "text": " So in all three, the conflict will be resolved."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 278.1,
+            "end": 280.1,
+            "text": " Which is later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 280.1,
+            "end": 282.1,
+            "text": " So the one who was later, won."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 282.1,
+            "end": 284.1,
+            "text": " Here it is yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 284.1,
+            "end": 286.1,
+            "text": " But where we change the selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 286.1,
+            "end": 288.1,
+            "text": " Like I make it ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 288.1,
+            "end": 290.1,
+            "text": " Or I make it an element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 290.1,
+            "end": 292.1,
+            "text": " Like H1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 292.1,
+            "end": 294.1,
+            "text": " So here we use specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 294.1,
+            "end": 296.1,
+            "text": " Now the specificity of all this will be calculated."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 296.1,
+            "end": 298.1,
+            "text": " What is specificity?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 298.1,
+            "end": 300.1,
+            "text": " I will tell you what specificity is."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 300.1,
+            "end": 302.1,
+            "text": " Specificity is basically calculated as a value."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 302.1,
+            "end": 304.1,
+            "text": " Specificity says."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 304.1,
+            "end": 306.1,
+            "text": " Which CSS selector is the most specific."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 306.1,
+            "end": 308.1,
+            "text": " Like."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 308.1,
+            "end": 310.1,
+            "text": " Here I show you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 310.1,
+            "end": 312.1,
+            "text": " So ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 312.1,
+            "end": 314.1,
+            "text": " Which is considered the most specific."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 314.1,
+            "end": 316.1,
+            "text": " But more specific than that."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 316.1,
+            "end": 318.1,
+            "text": " Inline style is considered."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 318.1,
+            "end": 320.1,
+            "text": " If you have put inline style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 320.1,
+            "end": 322.1,
+            "text": " Means style is equal to."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 322.1,
+            "end": 324.1,
+            "text": " So that will be considered as a mantra."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 324.1,
+            "end": 326.1,
+            "text": " Like I tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 326.1,
+            "end": 328.1,
+            "text": " If I."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 328.1,
+            "end": 330.1,
+            "text": " Style is equal to."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 330.1,
+            "end": 332.1,
+            "text": " Color blue."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 332.1,
+            "end": 334.1,
+            "text": " So the thing is over."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 334.1,
+            "end": 336.1,
+            "text": " Style attribute is the most priority."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 336.1,
+            "end": 338.1,
+            "text": " So it will not even see."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 338.1,
+            "end": 340.1,
+            "text": " What you have written in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 340.1,
+            "end": 342.1,
+            "text": " Color will apply blue."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 342.1,
+            "end": 344.1,
+            "text": " Now if I show you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 344.1,
+            "end": 346.1,
+            "text": " If I remove this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 346.1,
+            "end": 348.1,
+            "text": " Then it will come to specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 348.1,
+            "end": 350.1,
+            "text": " Which is the most specific selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 350.1,
+            "end": 352.1,
+            "text": " Specificity of all will be calculated."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 352.1,
+            "end": 354.1,
+            "text": " Now how to calculate specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 354.1,
+            "end": 356.1,
+            "text": " I will show you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 356.1,
+            "end": 358.1,
+            "text": " If you have very simple selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 358.1,
+            "end": 360.1,
+            "text": " Like inline style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 360.1,
+            "end": 362.1,
+            "text": " Is given the most priority."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 362.1,
+            "end": 364.1,
+            "text": " After this comes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 364.1,
+            "end": 366.1,
+            "text": " ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 366.1,
+            "end": 368.1,
+            "text": " If anything is selected from ID."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 368.1,
+            "end": 370.1,
+            "text": " That is the most specific."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 370.1,
+            "end": 372.1,
+            "text": " Means if you have put in ID."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 372.1,
+            "end": 374.1,
+            "text": " Then it will be applicable."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 374.1,
+            "end": 376.1,
+            "text": " More than if you have put in class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 376.1,
+            "end": 378.1,
+            "text": " Or if you have used attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 378.1,
+            "end": 380.1,
+            "text": " What is attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 380.1,
+            "end": 382.1,
+            "text": " I will tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 382.1,
+            "end": 384.1,
+            "text": " Let's say."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 384.1,
+            "end": 386.1,
+            "text": " Area."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 386.1,
+            "end": 388.1,
+            "text": " Or I put something like this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 388.1,
+            "end": 390.1,
+            "text": " Data x is equal to 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 390.1,
+            "end": 392.1,
+            "text": " Or data x is equal to a."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 392.1,
+            "end": 394.1,
+            "text": " I will tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 394.1,
+            "end": 396.1,
+            "text": " Where data x value."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 396.1,
+            "end": 398.1,
+            "text": " What I will say."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 398.1,
+            "end": 400.1,
+            "text": " Data x value is a."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 400.1,
+            "end": 402.1,
+            "text": " I will put equals to a."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 402.1,
+            "end": 404.1,
+            "text": " What I will do there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 404.1,
+            "end": 406.1,
+            "text": " Background color will be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 406.1,
+            "end": 408.1,
+            "text": " So data x is equal to a."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 408.1,
+            "end": 410.1,
+            "text": " I will show you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 410.1,
+            "end": 412.1,
+            "text": " Background color is red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 412.1,
+            "end": 414.1,
+            "text": " This is attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 414.1,
+            "end": 416.1,
+            "text": " Means I am saying."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 416.1,
+            "end": 418.1,
+            "text": " That element where data x value is a."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 418.1,
+            "end": 420.1,
+            "text": " This is attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 420.1,
+            "end": 422.1,
+            "text": " I was telling you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 422.1,
+            "end": 424.1,
+            "text": " So most specific will be inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 424.1,
+            "end": 426.1,
+            "text": " After that will be ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 426.1,
+            "end": 428.1,
+            "text": " After that will be class or attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 428.1,
+            "end": 430.1,
+            "text": " Then element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 430.1,
+            "end": 432.1,
+            "text": " Then universal selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 432.1,
+            "end": 434.1,
+            "text": " So you will always try."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 434.1,
+            "end": 436.1,
+            "text": " Use specific selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 436.1,
+            "end": 438.1,
+            "text": " Why? Because it will be easy to overwrite."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 438.1,
+            "end": 440.1,
+            "text": " Like I have written any style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 440.1,
+            "end": 442.1,
+            "text": " By using universal selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 442.1,
+            "end": 444.1,
+            "text": " Now I am in mood to overwrite."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 444.1,
+            "end": 446.1,
+            "text": " So I will use element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 446.1,
+            "end": 448.1,
+            "text": " I want to overwrite this too."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 448.1,
+            "end": 450.1,
+            "text": " I overwrote it by using class or attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 450.1,
+            "end": 452.1,
+            "text": " I want to overwrite this too."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 452.1,
+            "end": 454.1,
+            "text": " I overwrote it by using ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 454.1,
+            "end": 456.1,
+            "text": " But where I used inline style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 456.1,
+            "end": 458.1,
+            "text": " It will be difficult to overwrite."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 458.1,
+            "end": 460.1,
+            "text": " Then what will I do?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 460.1,
+            "end": 462.1,
+            "text": " This thing gives a little problem."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 462.1,
+            "end": 464.1,
+            "text": " So here you see."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 464.1,
+            "end": 466.1,
+            "text": " The position matters."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 466.1,
+            "end": 468.1,
+            "text": " If there is only one type of selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 468.1,
+            "end": 470.1,
+            "text": " Selector is exactly the same."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 470.1,
+            "end": 472.1,
+            "text": " Specificity is exactly the same."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 472.1,
+            "end": 474.1,
+            "text": " So you will see the position."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 474.1,
+            "end": 476.1,
+            "text": " Specificity will be applied later."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 476.1,
+            "end": 478.1,
+            "text": " I will teach you exact value."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 478.1,
+            "end": 480.1,
+            "text": " But I have told you at a high level."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 480.1,
+            "end": 482.1,
+            "text": " Inline style is their priority."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 482.1,
+            "end": 484.1,
+            "text": " Then after that."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 484.1,
+            "end": 486.1,
+            "text": " If you have used ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 486.1,
+            "end": 488.1,
+            "text": " Then class selector will be given priority."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 488.1,
+            "end": 490.1,
+            "text": " Then comes origin."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 490.1,
+            "end": 492.1,
+            "text": " The order in which CSS appears."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 492.1,
+            "end": 494.1,
+            "text": " And where it comes from."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 494.1,
+            "end": 496.1,
+            "text": " Now here origin is very important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 496.1,
+            "end": 498.1,
+            "text": " Because if your."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 498.1,
+            "end": 500.1,
+            "text": " CSS is coming from your browser style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 500.1,
+            "end": 502.1,
+            "text": " Because if you have not applied CSS in any element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 502.1,
+            "end": 504.1,
+            "text": " Then the browser will not be able to see it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 504.1,
+            "end": 506.1,
+            "text": " If you have not applied CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 506.1,
+            "end": 508.1,
+            "text": " Then the browser has its own style sheet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 508.1,
+            "end": 510.1,
+            "text": " Which is called user agent style sheet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 510.1,
+            "end": 512.1,
+            "text": " If I write here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 512.1,
+            "end": 514.1,
+            "text": " And inspect it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 514.1,
+            "end": 516.1,
+            "text": " Then assume this is the effect of position."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 516.1,
+            "end": 518.1,
+            "text": " So here some styles are coming from the user agent style sheet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 518.1,
+            "end": 520.1,
+            "text": " I will show you here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 520.1,
+            "end": 522.1,
+            "text": " Now see the user agent style sheet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 522.1,
+            "end": 524.1,
+            "text": " This means that the browser has put it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 524.1,
+            "end": 526.1,
+            "text": " So where is it coming from?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 526.1,
+            "end": 528.1,
+            "text": " What is its priority?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 528.1,
+            "end": 530.1,
+            "text": " If you have written the style."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 530.1,
+            "end": 532.1,
+            "text": " Then they will overwrite the user agent style sheet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 532.1,
+            "end": 534.1,
+            "text": " This is very important to know about it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 534.1,
+            "end": 536.1,
+            "text": " After this comes importance."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 536.1,
+            "end": 538.1,
+            "text": " If you have put importance somewhere."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 538.1,
+            "end": 540.1,
+            "text": " Then it will be the most important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 540.1,
+            "end": 542.1,
+            "text": " So what will happen if you have put importance?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 542.1,
+            "end": 544.1,
+            "text": " Then it will be very important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 544.1,
+            "end": 546.1,
+            "text": " And then it will have to be applied."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 546.1,
+            "end": 548.1,
+            "text": " That is, it will overwrite the inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 548.1,
+            "end": 550.1,
+            "text": " Like if I have made its color inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 550.1,
+            "end": 552.1,
+            "text": " Assume red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 552.1,
+            "end": 554.1,
+            "text": " Style is equal to."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 554.1,
+            "end": 556.1,
+            "text": " If I have colored it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 556.1,
+            "end": 558.1,
+            "text": " I have its aqua."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 558.1,
+            "end": 560.1,
+            "text": " I do not do aqua."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 560.1,
+            "end": 562.1,
+            "text": " I do maroon."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 562.1,
+            "end": 564.1,
+            "text": " Now if I have to overwrite it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 564.1,
+            "end": 566.1,
+            "text": " Then only one thing can be overwritten."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 566.1,
+            "end": 568.1,
+            "text": " That is important in CSS."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 568.1,
+            "end": 570.1,
+            "text": " If I do it like this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 570.1,
+            "end": 572.1,
+            "text": " Color blue."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 572.1,
+            "end": 574.1,
+            "text": " Actually I am putting it on the style of the element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 574.1,
+            "end": 576.1,
+            "text": " That is, I am putting inline styles in it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 576.1,
+            "end": 578.1,
+            "text": " That's why it is changing here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 578.1,
+            "end": 580.1,
+            "text": " But I will reload it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 580.1,
+            "end": 582.1,
+            "text": " And what will I do here?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 582.1,
+            "end": 584.1,
+            "text": " The class that is not being applied in it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 584.1,
+            "end": 586.1,
+            "text": " As you know, I put it here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 586.1,
+            "end": 588.1,
+            "text": " If I do color blue."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 588.1,
+            "end": 590.1,
+            "text": " Color blue is important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 590.1,
+            "end": 592.1,
+            "text": " That is, the yellow one in my class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 592.1,
+            "end": 594.1,
+            "text": " I put color blue important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 594.1,
+            "end": 596.1,
+            "text": " And if I do it here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 596.1,
+            "end": 598.1,
+            "text": " Important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 598.1,
+            "end": 600.1,
+            "text": " So it will be blue."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 600.1,
+            "end": 602.1,
+            "text": " So the most important thing is that it will overwrite the inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 602.1,
+            "end": 604.1,
+            "text": " So this is specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 604.1,
+            "end": 606.1,
+            "text": " In this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 606.1,
+            "end": 608.1,
+            "text": " In the coming time, I will tell you a note."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 608.1,
+            "end": 610.1,
+            "text": " It is a very important note."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 610.1,
+            "end": 612.1,
+            "text": " And it is so important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 612.1,
+            "end": 614.1,
+            "text": " That you will also clap."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 614.1,
+            "end": 616.1,
+            "text": " You have said a lot of knowledge."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 616.1,
+            "end": 618.1,
+            "text": " So I want to tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 618.1,
+            "end": 620.1,
+            "text": " How to do specificity calculation of any particular element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 620.1,
+            "end": 622.1,
+            "text": " I want to tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 622.1,
+            "end": 624.1,
+            "text": " This is very important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 624.1,
+            "end": 626.1,
+            "text": " Now in specificity calculation."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 626.1,
+            "end": 628.1,
+            "text": " You give 0 points to the universal selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 628.1,
+            "end": 630.1,
+            "text": " If there is an element selector or pseudo element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 630.1,
+            "end": 632.1,
+            "text": " Then give it 1 point."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 632.1,
+            "end": 634.1,
+            "text": " If there is a class selector, attribute selector or pseudo class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 634.1,
+            "end": 636.1,
+            "text": " Then give it 10 points."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 636.1,
+            "end": 638.1,
+            "text": " After this, give 100 points to the ID selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 638.1,
+            "end": 640.1,
+            "text": " Give 1000 points to inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 640.1,
+            "end": 642.1,
+            "text": " So according to these values."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 642.1,
+            "end": 644.1,
+            "text": " You will give points."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 644.1,
+            "end": 646.1,
+            "text": " Now it becomes easy to solve."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 646.1,
+            "end": 648.1,
+            "text": " I will tell you how."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 648.1,
+            "end": 650.1,
+            "text": " Suppose."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 650.1,
+            "end": 652.1,
+            "text": " You have to calculate."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 652.1,
+            "end": 654.1,
+            "text": " How much specificity is there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 654.1,
+            "end": 656.1,
+            "text": " So how will you do."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 656.1,
+            "end": 658.1,
+            "text": " You can see here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 658.1,
+            "end": 660.1,
+            "text": " We have different types of selectors."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 660.1,
+            "end": 662.1,
+            "text": " I told you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 662.1,
+            "end": 664.1,
+            "text": " How much specificity is there in the element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 664.1,
+            "end": 666.1,
+            "text": " You give it 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 666.1,
+            "end": 668.1,
+            "text": " If there is a universal selector, then give it 0."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 668.1,
+            "end": 670.1,
+            "text": " And the element selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 670.1,
+            "end": 672.1,
+            "text": " You give it 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 672.1,
+            "end": 674.1,
+            "text": " The specificity of this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 674.1,
+            "end": 676.1,
+            "text": " Is 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 676.1,
+            "end": 678.1,
+            "text": " I will comment it here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 678.1,
+            "end": 680.1,
+            "text": " I will give it 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 680.1,
+            "end": 682.1,
+            "text": " Then the class selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 682.1,
+            "end": 684.1,
+            "text": " What is its specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 684.1,
+            "end": 686.1,
+            "text": " It is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 686.1,
+            "end": 688.1,
+            "text": " And same goes for this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 688.1,
+            "end": 690.1,
+            "text": " It will also be 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 690.1,
+            "end": 692.1,
+            "text": " I will copy it easily."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 692.1,
+            "end": 694.1,
+            "text": " It will also be 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 694.1,
+            "end": 696.1,
+            "text": " I will document it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 696.1,
+            "end": 698.1,
+            "text": " I will write here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 698.1,
+            "end": 700.1,
+            "text": " This is an example of."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 702.1,
+            "end": 704.1,
+            "text": " Example of."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 704.1,
+            "end": 706.1,
+            "text": " Attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 706.1,
+            "end": 708.1,
+            "text": " And the specificity of the attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 708.1,
+            "end": 710.1,
+            "text": " What will happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 710.1,
+            "end": 712.1,
+            "text": " The specificity of the attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 712.1,
+            "end": 714.1,
+            "text": " Is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 714.1,
+            "end": 716.1,
+            "text": " Element attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 716.1,
+            "end": 718.1,
+            "text": " Is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 718.1,
+            "end": 720.1,
+            "text": " I told you this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 720.1,
+            "end": 722.1,
+            "text": " Now you will see."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 722.1,
+            "end": 724.1,
+            "text": " Whose specificity is the most."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 724.1,
+            "end": 726.1,
+            "text": " The most specificity of these three."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 726.1,
+            "end": 728.1,
+            "text": " There is a tie in these three."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 728.1,
+            "end": 730.1,
+            "text": " To break the tie."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 730.1,
+            "end": 732.1,
+            "text": " The color of the tie is different."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 732.1,
+            "end": 734.1,
+            "text": " The yellow is coming after all."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 734.1,
+            "end": 736.1,
+            "text": " I will remove the inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 736.1,
+            "end": 738.1,
+            "text": " I have kept inline styles to give you an example."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 738.1,
+            "end": 740.1,
+            "text": " You can see here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 740.1,
+            "end": 742.1,
+            "text": " The color of the tie."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 742.1,
+            "end": 744.1,
+            "text": " I will preview it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 744.1,
+            "end": 746.1,
+            "text": " If I make any of these below."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 746.1,
+            "end": 748.1,
+            "text": " For example, I make this C red below."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 748.1,
+            "end": 750.1,
+            "text": " Then obviously its color will be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 750.1,
+            "end": 752.1,
+            "text": " No surprise is there."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 752.1,
+            "end": 754.1,
+            "text": " Its color will be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 754.1,
+            "end": 756.1,
+            "text": " No surprise."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 756.1,
+            "end": 758.1,
+            "text": " You will not get any gift."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 758.1,
+            "end": 760.1,
+            "text": " Here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 760.1,
+            "end": 762.1,
+            "text": " This is an example of attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 762.1,
+            "end": 764.1,
+            "text": " I will do one thing."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 764.1,
+            "end": 766.1,
+            "text": " Its specificity is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 766.1,
+            "end": 768.1,
+            "text": " I want to show you one thing."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 768.1,
+            "end": 770.1,
+            "text": " I will maroon the color."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 770.1,
+            "end": 772.1,
+            "text": " Now you guys write to me in the comment section."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 772.1,
+            "end": 774.1,
+            "text": " What color will H1 get."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 774.1,
+            "end": 776.1,
+            "text": " Everyone tell below."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 776.1,
+            "end": 778.1,
+            "text": " And please comment."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 778.1,
+            "end": 780.1,
+            "text": " Because two way interaction is happy from the heart."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 780.1,
+            "end": 782.1,
+            "text": " Your comment makes the day."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 782.1,
+            "end": 784.1,
+            "text": " Especially when you solve problems."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 784.1,
+            "end": 786.1,
+            "text": " Then my day is made."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 786.1,
+            "end": 788.1,
+            "text": " You are following things."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 788.1,
+            "end": 790.1,
+            "text": " So tell me in the comment section."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 790.1,
+            "end": 792.1,
+            "text": " What color will be of this H1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 792.1,
+            "end": 794.1,
+            "text": " I hope you all have commented."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 794.1,
+            "end": 796.1,
+            "text": " And you have commented correctly."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 796.1,
+            "end": 798.1,
+            "text": " If you said maroon."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 798.1,
+            "end": 800.1,
+            "text": " Because the specificity is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 800.1,
+            "end": 802.1,
+            "text": " But if I make it up."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 802.1,
+            "end": 804.1,
+            "text": " Cut it from here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 804.1,
+            "end": 806.1,
+            "text": " Then what will happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 806.1,
+            "end": 808.1,
+            "text": " Then what will happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 808.1,
+            "end": 810.1,
+            "text": " If you said red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 810.1,
+            "end": 812.1,
+            "text": " Then obviously it will be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 812.1,
+            "end": 814.1,
+            "text": " Why will it be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 814.1,
+            "end": 816.1,
+            "text": " Because its specificity is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 816.1,
+            "end": 818.1,
+            "text": " And because its specificity is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 818.1,
+            "end": 820.1,
+            "text": " Then what we will do."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 820.1,
+            "end": 822.1,
+            "text": " We will make its color red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 822.1,
+            "end": 824.1,
+            "text": " Because it is coming after all."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 824.1,
+            "end": 826.1,
+            "text": " Now I tell you one thing."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 826.1,
+            "end": 828.1,
+            "text": " And listen to this very carefully."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 828.1,
+            "end": 830.1,
+            "text": " Because it is very important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 830.1,
+            "end": 832.1,
+            "text": " These are simple selectors."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 832.1,
+            "end": 834.1,
+            "text": " But the selectors are not always simple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 834.1,
+            "end": 836.1,
+            "text": " You also know this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 836.1,
+            "end": 838.1,
+            "text": " Sometimes selectors are like this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 838.1,
+            "end": 840.1,
+            "text": " A.C red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 840.1,
+            "end": 842.1,
+            "text": " And inside it paragraph."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 842.1,
+            "end": 844.1,
+            "text": " So we have complex selectors."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 844.1,
+            "end": 846.1,
+            "text": " How to calculate their specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 846.1,
+            "end": 848.1,
+            "text": " I will tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 848.1,
+            "end": 850.1,
+            "text": " To calculate their specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 850.1,
+            "end": 852.1,
+            "text": " You have to simply add values."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 852.1,
+            "end": 854.1,
+            "text": " Like I write here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 854.1,
+            "end": 856.1,
+            "text": " H1.yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 856.1,
+            "end": 858.1,
+            "text": " So because of H1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 858.1,
+            "end": 860.1,
+            "text": " How much will be its specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 860.1,
+            "end": 862.1,
+            "text": " Because H1 is an element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 862.1,
+            "end": 864.1,
+            "text": " It will be 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 864.1,
+            "end": 866.1,
+            "text": " And because of dot yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 866.1,
+            "end": 868.1,
+            "text": " Its specificity will be 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 868.1,
+            "end": 870.1,
+            "text": " So 1 plus 10 is 0."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 870.1,
+            "end": 872.1,
+            "text": " And here its specificity will be 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 872.1,
+            "end": 874.1,
+            "text": " So 1 plus 10 is 11."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 874.1,
+            "end": 876.1,
+            "text": " Now here its specificity has increased."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 876.1,
+            "end": 878.1,
+            "text": " So now the color will be yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 878.1,
+            "end": 880.1,
+            "text": " Now because its specificity has increased."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 880.1,
+            "end": 882.1,
+            "text": " So the color will be yellow."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 882.1,
+            "end": 884.1,
+            "text": " Why?"
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 884.1,
+            "end": 886.1,
+            "text": " Because because of element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 886.1,
+            "end": 888.1,
+            "text": " It got 1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 888.1,
+            "end": 890.1,
+            "text": " And because of class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 890.1,
+            "end": 892.1,
+            "text": " So it got 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 892.1,
+            "end": 894.1,
+            "text": " So this way."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 894.1,
+            "end": 896.1,
+            "text": " Specificity values are calculated."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 896.1,
+            "end": 898.1,
+            "text": " For any selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 898.1,
+            "end": 900.1,
+            "text": " So you can see."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 900.1,
+            "end": 902.1,
+            "text": " If you have seen this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 902.1,
+            "end": 904.1,
+            "text": " And you are watching this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 904.1,
+            "end": 906.1,
+            "text": " So I need your focus more."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 906.1,
+            "end": 908.1,
+            "text": " So I will recommend."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 908.1,
+            "end": 910.1,
+            "text": " Watch this video again."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 910.1,
+            "end": 912.1,
+            "text": " If you didn't understand."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 912.1,
+            "end": 914.1,
+            "text": " Because I have explained things very well."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 914.1,
+            "end": 916.1,
+            "text": " And I will give you the link of this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 916.1,
+            "end": 918.1,
+            "text": " In the description."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 918.1,
+            "end": 920.1,
+            "text": " You can read this tutorial."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 920.1,
+            "end": 922.1,
+            "text": " I have explained this very well."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 922.1,
+            "end": 924.1,
+            "text": " So you can read this too."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 924.1,
+            "end": 926.1,
+            "text": " And you don't need to remember values."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 926.1,
+            "end": 928.1,
+            "text": " I was thinking that I will tell you one thing."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 928.1,
+            "end": 930.1,
+            "text": " That thing is also coming."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 930.1,
+            "end": 932.1,
+            "text": " But here you have seen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 932.1,
+            "end": 934.1,
+            "text": " Inline styles have 1000 specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 934.1,
+            "end": 936.1,
+            "text": " And if you put important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 936.1,
+            "end": 938.1,
+            "text": " Then its specificity will be added to 10,000 points."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 938.1,
+            "end": 940.1,
+            "text": " If you put important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 940.1,
+            "end": 942.1,
+            "text": " And it becomes very difficult to overwrite it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 942.1,
+            "end": 944.1,
+            "text": " So I hope you have understood all these things."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 944.1,
+            "end": 946.1,
+            "text": " Now I have given a quick quiz here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 946.1,
+            "end": 948.1,
+            "text": " That its."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 948.1,
+            "end": 950.1,
+            "text": " Specificity value."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 950.1,
+            "end": 952.1,
+            "text": " Please don't cheat."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 952.1,
+            "end": 954.1,
+            "text": " I have also given a solution in this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 954.1,
+            "end": 956.1,
+            "text": " So tell me what will happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 956.1,
+            "end": 958.1,
+            "text": " If there is such a class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 958.1,
+            "end": 960.1,
+            "text": " Tell me quickly by commenting."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 960.1,
+            "end": 962.1,
+            "text": " Pause the video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 962.1,
+            "end": 964.1,
+            "text": " Because I will solve it directly."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 964.1,
+            "end": 966.1,
+            "text": " But you tell me."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 966.1,
+            "end": 968.1,
+            "text": " What will be its specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 968.1,
+            "end": 970.1,
+            "text": " And here I will definitely change the color."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 970.1,
+            "end": 972.1,
+            "text": " And I will make the color."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 972.1,
+            "end": 974.1,
+            "text": " Blue violet."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 974.1,
+            "end": 976.1,
+            "text": " And I hope you are understanding."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 976.1,
+            "end": 978.1,
+            "text": " I am waiting for your comment."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 978.1,
+            "end": 980.1,
+            "text": " So I hope you have commented."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 980.1,
+            "end": 982.1,
+            "text": " So let's calculate its specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 982.1,
+            "end": 984.1,
+            "text": " What will be the specificity due to A."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 984.1,
+            "end": 986.1,
+            "text": " Specificity due to A."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 986.1,
+            "end": 988.1,
+            "text": " Because it is an element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 988.1,
+            "end": 990.1,
+            "text": " Then due to class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 990.1,
+            "end": 992.1,
+            "text": " 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 992.1,
+            "end": 994.1,
+            "text": " Due to Rohan class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 994.1,
+            "end": 996.1,
+            "text": " Then here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 996.1,
+            "end": 998.1,
+            "text": " Href is given."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 998.1,
+            "end": 1000.1,
+            "text": " This is an attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1000.1,
+            "end": 1002.1,
+            "text": " And it says if H1."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1002.1,
+            "end": 1004.1,
+            "text": " If I have written H1 here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1004.1,
+            "end": 1006.1,
+            "text": " I told you the attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1006.1,
+            "end": 1008.1,
+            "text": " If you have written data x is equal to A."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1008.1,
+            "end": 1010.1,
+            "text": " It means that the value of data x is A."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1010.1,
+            "end": 1012.1,
+            "text": " But if you have taken only data x."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1012.1,
+            "end": 1014.1,
+            "text": " It means that if data x is given in the element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1014.1,
+            "end": 1016.1,
+            "text": " Then."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1016.1,
+            "end": 1018.1,
+            "text": " It means that if Href is given."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1018.1,
+            "end": 1020.1,
+            "text": " Then."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1020.1,
+            "end": 1022.1,
+            "text": " After this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1022.1,
+            "end": 1024.1,
+            "text": " Attribute selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1024.1,
+            "end": 1026.1,
+            "text": " Which is 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1026.1,
+            "end": 1028.1,
+            "text": " As I told you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1028.1,
+            "end": 1030.1,
+            "text": " It will get one more 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1030.1,
+            "end": 1032.1,
+            "text": " And here I told you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1032.1,
+            "end": 1034.1,
+            "text": " Due to pseudo class."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1034.1,
+            "end": 1036.1,
+            "text": " It gets 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1036.1,
+            "end": 1038.1,
+            "text": " So here it is plus 10."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1038.1,
+            "end": 1040.1,
+            "text": " So its specificity is 41."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1040.1,
+            "end": 1042.1,
+            "text": " I hope you all got 41."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1042.1,
+            "end": 1044.1,
+            "text": " If you got 41."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1044.1,
+            "end": 1046.1,
+            "text": " Then it is absolutely correct."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1046.1,
+            "end": 1048.1,
+            "text": " And the more specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1048.1,
+            "end": 1050.1,
+            "text": " The more specific this style will be."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1050.1,
+            "end": 1052.1,
+            "text": " And the probability of its application."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1052.1,
+            "end": 1054.1,
+            "text": " Is more."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1054.1,
+            "end": 1056.1,
+            "text": " If there is no specificity anywhere."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1056.1,
+            "end": 1058.1,
+            "text": " That is, the one who targets this element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1058.1,
+            "end": 1060.1,
+            "text": " No other selector is so specific."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1060.1,
+            "end": 1062.1,
+            "text": " Then what will happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1062.1,
+            "end": 1064.1,
+            "text": " Then the same."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1064.1,
+            "end": 1066.1,
+            "text": " Properties will be applied."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1066.1,
+            "end": 1068.1,
+            "text": " So 41."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1068.1,
+            "end": 1070.1,
+            "text": " And I have explained its solution here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1070.1,
+            "end": 1072.1,
+            "text": " Why did 41 come."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1072.1,
+            "end": 1074.1,
+            "text": " And I have given values here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1074.1,
+            "end": 1076.1,
+            "text": " How much value is obtained from whom."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1076.1,
+            "end": 1078.1,
+            "text": " Now I will tell you what I was talking about."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1078.1,
+            "end": 1080.1,
+            "text": " I told you about specificity."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1080.1,
+            "end": 1082.1,
+            "text": " I told you what is important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1082.1,
+            "end": 1084.1,
+            "text": " I also told you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1084.1,
+            "end": 1086.1,
+            "text": " How specificity is calculated."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1086.1,
+            "end": 1088.1,
+            "text": " I told you all this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1088.1,
+            "end": 1090.1,
+            "text": " And I have to tell you one thing."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1090.1,
+            "end": 1092.1,
+            "text": " Whenever you write your CSS classes or styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1092.1,
+            "end": 1094.1,
+            "text": " Ensure that you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1094.1,
+            "end": 1096.1,
+            "text": " Do not leave any confusion in the mind of any reader."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1096.1,
+            "end": 1098.1,
+            "text": " Or in the mind of a fellow programmer."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1098.1,
+            "end": 1100.1,
+            "text": " Why do you have to target any element again and again."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1100.1,
+            "end": 1102.1,
+            "text": " Why do you have to write classes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1102.1,
+            "end": 1104.1,
+            "text": " You are saying that the color of H1 should be red."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1104.1,
+            "end": 1106.1,
+            "text": " And you are saying for the same class element."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1106.1,
+            "end": 1108.1,
+            "text": " That this thing should happen."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1108.1,
+            "end": 1110.1,
+            "text": " Why do you have to do this."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1110.1,
+            "end": 1112.1,
+            "text": " Make your website simple."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1112.1,
+            "end": 1114.1,
+            "text": " If you have targeted someone with ID."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1114.1,
+            "end": 1116.1,
+            "text": " Then you are sure."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1116.1,
+            "end": 1118.1,
+            "text": " That I will not need to overwrite it."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1118.1,
+            "end": 1120.1,
+            "text": " That's why I am using such a specific selector."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1120.1,
+            "end": 1122.1,
+            "text": " Avoid inline styles."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1122.1,
+            "end": 1124.1,
+            "text": " It is possible only with importance."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1124.1,
+            "end": 1126.1,
+            "text": " And avoid the important."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1126.1,
+            "end": 1128.1,
+            "text": " Because we do not want to go so specific."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1128.1,
+            "end": 1130.1,
+            "text": " In our web pages."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1130.1,
+            "end": 1132.1,
+            "text": " You try to use classes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1132.1,
+            "end": 1134.1,
+            "text": " So that you can reuse."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1134.1,
+            "end": 1136.1,
+            "text": " And whatever properties are inside those classes."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1136.1,
+            "end": 1138.1,
+            "text": " You have to apply."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1138.1,
+            "end": 1140.1,
+            "text": " So you can apply easily."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1140.1,
+            "end": 1142.1,
+            "text": " I hope you are understanding."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1142.1,
+            "end": 1144.1,
+            "text": " What I want to say here."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1144.1,
+            "end": 1146.1,
+            "text": " But if you give an interview to web dev."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1146.1,
+            "end": 1148.1,
+            "text": " Then these things are asked."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1148.1,
+            "end": 1150.1,
+            "text": " And this is what is trapped."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1150.1,
+            "end": 1152.1,
+            "text": " I wanted to tell you."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1152.1,
+            "end": 1154.1,
+            "text": " You should know what is cascade algorithm."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1154.1,
+            "end": 1156.1,
+            "text": " These are the four things."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1156.1,
+            "end": 1158.1,
+            "text": " On which it decides."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1158.1,
+            "end": 1160.1,
+            "text": " What property value pairs to apply."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1160.1,
+            "end": 1162.1,
+            "text": " So you should understand all these things."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1162.1,
+            "end": 1164.1,
+            "text": " This was very important from the theory point of view."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1166.1,
+            "end": 1168.1,
+            "text": " If you have not liked the video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1168.1,
+            "end": 1170.1,
+            "text": " Then like the video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1170.1,
+            "end": 1172.1,
+            "text": " Access this playlist."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1172.1,
+            "end": 1174.1,
+            "text": " Click and bookmark."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1174.1,
+            "end": 1176.1,
+            "text": " Click and save."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1176.1,
+            "end": 1178.1,
+            "text": " Share with your friends."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1178.1,
+            "end": 1180.1,
+            "text": " That's all for this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1180.1,
+            "end": 1182.1,
+            "text": " Thank you so much for watching this video."
+        },
+        {
+            "number": "21",
+            "title": "CSS Specificity",
+            "start": 1182.1,
+            "end": 1184.1,
+            "text": " I will see you next time."
+        }
+    ],
+    "text": " In today's video, I will tell you about specificity in CSS. Assume you have an element that has been styled in two ways through CSS. That is, we have used two types of selectors to style it. And both styles are saying two different things. Let's say one style is saying make the background color red. And the other style is saying make the background color yellow. Which one will be applied? This thing will be determined with the help of specificity in CSS. In this video, I will tell you all the rules. How does specificity work in CSS? Do write Sigma Batch OP in the comments below. Let's go to the computer screen and let's roll the intro. Intro I have entered my computer screen. And today's video is going to be important because in today's video, I am going to tell you. How is it decided which of the conflicted classes is which? Which property value will be applied in CSS? I will quickly make a folder named video 21 here. And I will open it in my VS Code. I will make index.html. And I will start this video with a question. The question I am going to ask you is that, Let's say you have a div in it. You have this h1. And in this h1, it is written CSS. Oops, I pressed the control s by mistake. Specificity. Let's say it is written. And I have added two classes in it. Let's say yellow. One c red. One c purple. I have added three classes. Now I put style here. And I say that the color of h1 is red. Or do aqua. And after this, I say that the yellow is our class. Dot yellow. On its basis, color it yellow. And along with that, the c red class is ours. Color red. And along with that, our c purple is dot c purple. According to that, the color is purple. So I put it here. And I will click here to show you. That its color is purple. It is applied in it. On what basis was purple color applied? Why didn't it turn yellow? Because I gave color aqua in h1. I gave color according to dot yellow. Then I gave color according to c red. Did purple apply because it was below? Or purple applied because it is a class here? This is a class. On what basis do things get decided in CSS? I will tell you today. See, if I put h1 below. And now I show, it is still purple. So what is it that is deciding? What color, what conflicting property will be applied? So here I want to tell you. That in CSS, there is an algorithm. Its name is cascade algorithm. CSS stands for Cascading Style Sheets. And to resolve any kind of conflicts. Cascade algorithm is used in CSS. This algorithm determines. Which property will be applied in CSS. And which will not be done. Now see here we have a lot of. Color properties have been applied. In the same element in different ways. Which property will win here? Which will be the winning property? This cascade algorithm determines. So there are four rules in cascade algorithm. At a very high level. The first rule says that. Position and order of appearance are important. If you have kept the position of anything later. For example, here you saw that. The H1 is kept above. And you saw here. The dot C purple was applied. If I put the dot C red later. Then it will be applied. That is, they are using the class selector. And these three are using the class selector. So these three are equal in a way. So even after using the class selector. The one that is the lowest. That is, the one that is the last. Like the variable is overwritten in programming languages. In the same way, it can also be overwritten. If the same type of selector is there. Okay, then look here. If C is red, then the color will be red here. C red will be red later. But where the way of the selector changes. Specificity is used there. Now what is this specificity? Specificity is calculated. For a particular selector. I will tell you this. So let's understand the position and order of appearance first. What is the effect of position? See what you will write later. If the same selector is there. If you are using the element selector. And you are using only the class selector. So what will happen later will win. Suppose I was not using this. I will comment it out. So dot yellow, dot C purple and dot C red. He will win, which is the last. If I do dot yellow first, then he will win. That is, if the selector is of the same type. Like class selector, ID selector. Or any one. Means all three are the same type of selectors. So in all three, the conflict will be resolved. Which is later. So the one who was later, won. Here it is yellow. But where we change the selector. Like I make it ID selector. Or I make it an element selector. Like H1. So here we use specificity. Now the specificity of all this will be calculated. What is specificity? I will tell you what specificity is. Specificity is basically calculated as a value. Specificity says. Which CSS selector is the most specific. Like. Here I show you. So ID selector. Which is considered the most specific. But more specific than that. Inline style is considered. If you have put inline style. Means style is equal to. So that will be considered as a mantra. Like I tell you. If I. Style is equal to. Color blue. So the thing is over. Style attribute is the most priority. So it will not even see. What you have written in CSS. Color will apply blue. Now if I show you. If I remove this. Then it will come to specificity. Which is the most specific selector. Specificity of all will be calculated. Now how to calculate specificity. I will show you. If you have very simple selector. Like inline style. Is given the most priority. After this comes. ID selector. If anything is selected from ID. That is the most specific. Means if you have put in ID. Then it will be applicable. More than if you have put in class. Or if you have used attribute selector. What is attribute selector. I will tell you. Let's say. Area. Or I put something like this. Data x is equal to 1. Or data x is equal to a. I will tell you. Where data x value. What I will say. Data x value is a. I will put equals to a. What I will do there. Background color will be red. So data x is equal to a. I will show you. Background color is red. This is attribute selector. Means I am saying. That element where data x value is a. This is attribute selector. I was telling you. So most specific will be inline styles. After that will be ID selector. After that will be class or attribute selector. Then element selector. Then universal selector. So you will always try. Use specific selector. Why? Because it will be easy to overwrite. Like I have written any style. By using universal selector. Now I am in mood to overwrite. So I will use element selector. I want to overwrite this too. I overwrote it by using class or attribute selector. I want to overwrite this too. I overwrote it by using ID selector. But where I used inline style. It will be difficult to overwrite. Then what will I do? This thing gives a little problem. So here you see. The position matters. If there is only one type of selector. Selector is exactly the same. Specificity is exactly the same. So you will see the position. Specificity will be applied later. I will teach you exact value. But I have told you at a high level. Inline style is their priority. Then after that. If you have used ID selector. Then class selector will be given priority. Then comes origin. The order in which CSS appears. And where it comes from. Now here origin is very important. Because if your. CSS is coming from your browser style. Because if you have not applied CSS in any element. Then the browser will not be able to see it. If you have not applied CSS. Then the browser has its own style sheet. Which is called user agent style sheet. If I write here. And inspect it. Then assume this is the effect of position. So here some styles are coming from the user agent style sheet. I will show you here. Now see the user agent style sheet. This means that the browser has put it. So where is it coming from? What is its priority? If you have written the style. Then they will overwrite the user agent style sheet. This is very important to know about it. After this comes importance. If you have put importance somewhere. Then it will be the most important. So what will happen if you have put importance? Then it will be very important. And then it will have to be applied. That is, it will overwrite the inline styles. Like if I have made its color inline styles. Assume red. Style is equal to. If I have colored it. I have its aqua. I do not do aqua. I do maroon. Now if I have to overwrite it. Then only one thing can be overwritten. That is important in CSS. If I do it like this. Color blue. Actually I am putting it on the style of the element. That is, I am putting inline styles in it. That's why it is changing here. But I will reload it. And what will I do here? The class that is not being applied in it. As you know, I put it here. If I do color blue. Color blue is important. That is, the yellow one in my class. I put color blue important. And if I do it here. Important. So it will be blue. So the most important thing is that it will overwrite the inline styles. So this is specificity. In this video. In the coming time, I will tell you a note. It is a very important note. And it is so important. That you will also clap. You have said a lot of knowledge. So I want to tell you. How to do specificity calculation of any particular element. I want to tell you. This is very important. Now in specificity calculation. You give 0 points to the universal selector. If there is an element selector or pseudo element. Then give it 1 point. If there is a class selector, attribute selector or pseudo class. Then give it 10 points. After this, give 100 points to the ID selector. Give 1000 points to inline styles. So according to these values. You will give points. Now it becomes easy to solve. I will tell you how. Suppose. You have to calculate. How much specificity is there. So how will you do. You can see here. We have different types of selectors. I told you. How much specificity is there in the element selector. You give it 1. If there is a universal selector, then give it 0. And the element selector. You give it 1. The specificity of this. Is 1. I will comment it here. I will give it 1. Then the class selector. What is its specificity. It is 10. And same goes for this. It will also be 10. I will copy it easily. It will also be 10. I will document it. I will write here. This is an example of. Example of. Attribute selector. And the specificity of the attribute selector. What will happen. The specificity of the attribute selector. Is 10. Element attribute selector. Is 10. I told you this. Now you will see. Whose specificity is the most. The most specificity of these three. There is a tie in these three. To break the tie. The color of the tie is different. The yellow is coming after all. I will remove the inline styles. I have kept inline styles to give you an example. You can see here. The color of the tie. I will preview it. If I make any of these below. For example, I make this C red below. Then obviously its color will be red. No surprise is there. Its color will be red. No surprise. You will not get any gift. Here. This is an example of attribute selector. I will do one thing. Its specificity is 10. I want to show you one thing. I will maroon the color. Now you guys write to me in the comment section. What color will H1 get. Everyone tell below. And please comment. Because two way interaction is happy from the heart. Your comment makes the day. Especially when you solve problems. Then my day is made. You are following things. So tell me in the comment section. What color will be of this H1. I hope you all have commented. And you have commented correctly. If you said maroon. Because the specificity is 10. But if I make it up. Cut it from here. Then what will happen. Then what will happen. If you said red. Then obviously it will be red. Why will it be red. Because its specificity is 10. And because its specificity is 10. Then what we will do. We will make its color red. Because it is coming after all. Now I tell you one thing. And listen to this very carefully. Because it is very important. These are simple selectors. But the selectors are not always simple. You also know this. Sometimes selectors are like this. A.C red. And inside it paragraph. So we have complex selectors. How to calculate their specificity. I will tell you. To calculate their specificity. You have to simply add values. Like I write here. H1.yellow. So because of H1. How much will be its specificity. Because H1 is an element. It will be 1. And because of dot yellow. Its specificity will be 10. So 1 plus 10 is 0. And here its specificity will be 10. So 1 plus 10 is 11. Now here its specificity has increased. So now the color will be yellow. Now because its specificity has increased. So the color will be yellow. Why? Because because of element. It got 1. And because of class. So it got 10. So this way. Specificity values are calculated. For any selector. So you can see. If you have seen this video. And you are watching this video. So I need your focus more. So I will recommend. Watch this video again. If you didn't understand. Because I have explained things very well. And I will give you the link of this video. In the description. You can read this tutorial. I have explained this very well. So you can read this too. And you don't need to remember values. I was thinking that I will tell you one thing. That thing is also coming. But here you have seen. Inline styles have 1000 specificity. And if you put important. Then its specificity will be added to 10,000 points. If you put important. And it becomes very difficult to overwrite it. So I hope you have understood all these things. Now I have given a quick quiz here. That its. Specificity value. Please don't cheat. I have also given a solution in this. So tell me what will happen. If there is such a class. Tell me quickly by commenting. Pause the video. Because I will solve it directly. But you tell me. What will be its specificity. And here I will definitely change the color. And I will make the color. Blue violet. And I hope you are understanding. I am waiting for your comment. So I hope you have commented. So let's calculate its specificity. What will be the specificity due to A. Specificity due to A. Because it is an element. Then due to class. 10. Due to Rohan class. Then here. Href is given. This is an attribute selector. And it says if H1. If I have written H1 here. I told you the attribute selector. If you have written data x is equal to A. It means that the value of data x is A. But if you have taken only data x. It means that if data x is given in the element. Then. It means that if Href is given. Then. After this. Attribute selector. Which is 10. As I told you. It will get one more 10. And here I told you. Due to pseudo class. It gets 10. So here it is plus 10. So its specificity is 41. I hope you all got 41. If you got 41. Then it is absolutely correct. And the more specificity. The more specific this style will be. And the probability of its application. Is more. If there is no specificity anywhere. That is, the one who targets this element. No other selector is so specific. Then what will happen. Then the same. Properties will be applied. So 41. And I have explained its solution here. Why did 41 come. And I have given values here. How much value is obtained from whom. Now I will tell you what I was talking about. I told you about specificity. I told you what is important. I also told you. How specificity is calculated. I told you all this. And I have to tell you one thing. Whenever you write your CSS classes or styles. Ensure that you. Do not leave any confusion in the mind of any reader. Or in the mind of a fellow programmer. Why do you have to target any element again and again. Why do you have to write classes. You are saying that the color of H1 should be red. And you are saying for the same class element. That this thing should happen. Why do you have to do this. Make your website simple. If you have targeted someone with ID. Then you are sure. That I will not need to overwrite it. That's why I am using such a specific selector. Avoid inline styles. It is possible only with importance. And avoid the important. Because we do not want to go so specific. In our web pages. You try to use classes. So that you can reuse. And whatever properties are inside those classes. You have to apply. So you can apply easily. I hope you are understanding. What I want to say here. But if you give an interview to web dev. Then these things are asked. And this is what is trapped. I wanted to tell you. You should know what is cascade algorithm. These are the four things. On which it decides. What property value pairs to apply. So you should understand all these things. This was very important from the theory point of view. If you have not liked the video. Then like the video. Access this playlist. Click and bookmark. Click and save. Share with your friends. That's all for this video. Thank you so much for watching this video. I will see you next time."
+}

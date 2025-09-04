@@ -1,0 +1,1902 @@
+{
+    "chunks": [
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 0.0,
+            "end": 2.72,
+            "text": " In today's video, we will understand about float and clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 2.72,
+            "end": 7.08,
+            "text": " Since the Flexbox has come, the use of these properties has become very less."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 7.08,
+            "end": 10.0,
+            "text": " But if a client shows you a website"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 10.0,
+            "end": 12.120000000000001,
+            "text": " in which float and clear is given,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 12.120000000000001,
+            "end": 16.48,
+            "text": " then your understanding should be such that you can understand what float and clear is."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 16.48,
+            "end": 18.04,
+            "text": " In this video, we are going to see this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 18.04,
+            "end": 22.04,
+            "text": " Like with high energy and write Sigma Batch OP in the comment section below."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 22.04,
+            "end": 23.44,
+            "text": " Let's go to the computer screen."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 23.44,
+            "end": 24.88,
+            "text": " Let's roll the intro."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 30.0,
+            "end": 35.4,
+            "text": " Guys, I have come inside the computer screen."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 35.4,
+            "end": 39.32,
+            "text": " But in this video, I will say something that you will also say that what have you said?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 39.32,
+            "end": 43.2,
+            "text": " But before that, I want to explain to you how float and clear works."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 43.2,
+            "end": 48.64,
+            "text": " So here you see, I am going to make a folder named video number 34."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 48.64,
+            "end": 52.92,
+            "text": " So I made a folder named video 34 and opened it in VS Code."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 52.92,
+            "end": 58.36,
+            "text": " And what I am going to do here is that I will show you here"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 58.4,
+            "end": 62.36,
+            "text": " that exactly on which HTML we will understand the concept of float and clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 62.36,
+            "end": 66.16,
+            "text": " And the thing I am going to tell you about CSS float and clear,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 66.16,
+            "end": 67.96,
+            "text": " you will say that what have you said?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 67.96,
+            "end": 72.32,
+            "text": " So let's do one thing, we will make a div named .cards"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 72.32,
+            "end": 76.4,
+            "text": " and inside it I will do .card multiply by 3."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 76.4,
+            "end": 79.16,
+            "text": " So there is one card, there are three more cards inside it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 79.16,
+            "end": 83.56,
+            "text": " And I will make card 1, card 2, card 3 like this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 83.56,
+            "end": 87.0,
+            "text": " Here I will make card 2, then I will make card 3."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 87.04,
+            "end": 91.2,
+            "text": " I have written a very simple HTML here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 91.2,
+            "end": 93.36,
+            "text": " I will open it in browser, it looks something like this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 93.36,
+            "end": 95.88,
+            "text": " Great, very nice, very beautiful."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 95.88,
+            "end": 97.8,
+            "text": " Now tell me what is float and clear?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 97.8,
+            "end": 98.8,
+            "text": " So let me tell you."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 98.8,
+            "end": 101.96000000000001,
+            "text": " So what will happen is that I have put an img here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 101.96000000000001,
+            "end": 107.32,
+            "text": " And I take an image from here, open image in new tab."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 107.32,
+            "end": 109.84,
+            "text": " I take another image which has a straight URL."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 109.84,
+            "end": 111.72,
+            "text": " Let's use this image, that's it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 111.72,
+            "end": 113.36,
+            "text": " Let's use this image."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 113.4,
+            "end": 116.28,
+            "text": " And now you see here, as soon as I use this image,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 117.52,
+            "end": 118.52,
+            "text": " this image has come here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 118.52,
+            "end": 121.76,
+            "text": " I will give a width here, I will give width is equal to."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 122.48,
+            "end": 126.28,
+            "text": " So I will put here width is equal to 23 pixels."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 126.72,
+            "end": 128.96,
+            "text": " And let's see, our small image has come here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 128.96,
+            "end": 131.4,
+            "text": " In fact, let's make it 230, so that the image can be seen."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 131.4,
+            "end": 134.56,
+            "text": " So this is our image and below it is card 1, card 2, card 3."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 134.56,
+            "end": 136.56,
+            "text": " I know you said that it looks very good here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 136.56,
+            "end": 137.16,
+            "text": " Tell me further."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 137.16,
+            "end": 141.88,
+            "text": " So the scene is this, let's say that I put a paragraph below it in card 1."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 141.88,
+            "end": 147.48,
+            "text": " So in the div of card 1, I put a paragraph in which I write lorem 34."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 147.48,
+            "end": 150.35999999999999,
+            "text": " So if I write lorem 34 in this, it will come down here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 150.35999999999999,
+            "end": 160.72,
+            "text": " But what will happen if I say that I want to float my image to the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 160.72,
+            "end": 162.44,
+            "text": " Okay, I want to say float left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 162.44,
+            "end": 167.64,
+            "text": " So it will float to the left and allow content on the right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 168.23999999999998,
+            "end": 172.23999999999998,
+            "text": " Before this it was not allowing, but now it will allow content on the right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 172.23999999999998,
+            "end": 173.95999999999998,
+            "text": " So this is our float."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 173.95999999999998,
+            "end": 176.32,
+            "text": " Now I want to show you some things here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 176.32,
+            "end": 179.44,
+            "text": " First of all, I will put a style in dot cards here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 179.44,
+            "end": 183.92,
+            "text": " Which will be border 2 pixels solid black."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 183.92,
+            "end": 187.6,
+            "text": " And along with that, I put this, so see it came in black color."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 187.6,
+            "end": 189.72,
+            "text": " And you will know why I put this border."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 189.72,
+            "end": 196.92,
+            "text": " And I am going to put border 2 pixels solid red in dot card."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 196.92,
+            "end": 199.23999999999998,
+            "text": " Okay, you will know why I put this too."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 199.23999999999998,
+            "end": 200.83999999999997,
+            "text": " So I put this in the cards."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 200.83999999999997,
+            "end": 202.67999999999998,
+            "text": " So there is a red border in every card."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 202.67999999999998,
+            "end": 204.51999999999998,
+            "text": " And there is a black border in the container."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 204.51999999999998,
+            "end": 207.64,
+            "text": " Now you have seen one thing, whenever we use float property."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 207.64,
+            "end": 211.2,
+            "text": " So if the image is overflowing from the container, then it overflows."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 211.2,
+            "end": 214.56,
+            "text": " It does not accommodate in its container."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 214.56,
+            "end": 218.11999999999998,
+            "text": " So we can use this property."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 218.11999999999998,
+            "end": 222.88,
+            "text": " So in our parent container, we can put display."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 222.88,
+            "end": 226.2,
+            "text": " And we can put a flow root in the display."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 226.2,
+            "end": 228.48,
+            "text": " And as soon as we write display flow root here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 228.48,
+            "end": 231.0,
+            "text": " You see that this issue will be solved here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 231.0,
+            "end": 232.16,
+            "text": " Now it will not overflow."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 232.16,
+            "end": 234.72,
+            "text": " So this is one way by putting display flow root."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 234.72,
+            "end": 239.56,
+            "text": " We can fit the elements within the container."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 239.56,
+            "end": 241.6,
+            "text": " What would have happened if I had made it float right?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 241.6,
+            "end": 244.39999999999998,
+            "text": " Nothing, it would have floated to the right and content would have come on the left side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 244.39999999999998,
+            "end": 245.79999999999998,
+            "text": " So you can see here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 245.79999999999998,
+            "end": 248.95999999999998,
+            "text": " And it came to the right and the content is floating here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 248.95999999999998,
+            "end": 253.95999999999998,
+            "text": " If I had written something big in it, not this, I would have written lorem 333."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 254.44,
+            "end": 256.08,
+            "text": " lorem 333"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 256.08,
+            "end": 258.56,
+            "text": " And lorem 333 is a good amount of text."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 258.56,
+            "end": 260.6,
+            "text": " Then you see, the text will not be cut."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 260.6,
+            "end": 262.08,
+            "text": " The image will float here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 262.08,
+            "end": 263.6,
+            "text": " And this will come like this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 263.6,
+            "end": 265.96000000000004,
+            "text": " So this was used a lot earlier."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 265.96000000000004,
+            "end": 268.68,
+            "text": " When we used to make newspaper type content."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 268.68,
+            "end": 270.64,
+            "text": " Mostly in blogs, this thing was needed."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 270.64,
+            "end": 273.40000000000003,
+            "text": " That there will be an image on one side, content on the other."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 273.40000000000003,
+            "end": 276.24,
+            "text": " And the image is floating sometimes on the left, sometimes on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 276.24,
+            "end": 278.12,
+            "text": " And the article is being written."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 278.12,
+            "end": 281.40000000000003,
+            "text": " But modern layouts are not designed like this at all."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 281.4,
+            "end": 285.35999999999996,
+            "text": " Now you see here, I will tell you what is clear and when to use it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 285.35999999999996,
+            "end": 286.76,
+            "text": " So what did we do here?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 286.76,
+            "end": 289.35999999999996,
+            "text": " We said that the image will flow on the right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 289.35999999999996,
+            "end": 292.03999999999996,
+            "text": " We said that these are cards, we put borders on the cards."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 292.03999999999996,
+            "end": 295.0,
+            "text": " We have seen which element is taking exactly where and how much space."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 295.0,
+            "end": 295.84,
+            "text": " We have also seen this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 295.84,
+            "end": 300.0,
+            "text": " Now if I want, this specific div, this one, which has more text."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 300.0,
+            "end": 304.32,
+            "text": " I want it not to allow any element to flow on its right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 304.32,
+            "end": 306.08,
+            "text": " Listen to me carefully, I am repeating."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 306.08,
+            "end": 310.91999999999996,
+            "text": " It should not allow any element to float on the right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 310.96000000000004,
+            "end": 314.96000000000004,
+            "text": " So it will say that no element should float on my right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 314.96000000000004,
+            "end": 317.28000000000003,
+            "text": " And for that we use the clear property."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 317.28000000000003,
+            "end": 325.88,
+            "text": " So we will write here, clear, I will put another class in this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 325.88,
+            "end": 328.56,
+            "text": " But what I will do here, I will say dot card."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 328.56,
+            "end": 331.52000000000004,
+            "text": " And we will use nth child and write 2."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 331.52000000000004,
+            "end": 334.96000000000004,
+            "text": " If the second one is here, then acquire the background color of it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 334.96000000000004,
+            "end": 337.36,
+            "text": " And clear it right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 337.36,
+            "end": 340.08000000000004,
+            "text": " Means I don't want any element on my right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 340.08000000000004,
+            "end": 341.68,
+            "text": " This is what it means, clear right means this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 341.68,
+            "end": 343.12,
+            "text": " So what is this div saying?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 343.12,
+            "end": 345.84000000000003,
+            "text": " This div is saying that I don't want any element on my right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 345.84000000000003,
+            "end": 350.64,
+            "text": " Please remove any float from my right and give me my place."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 350.64,
+            "end": 352.64,
+            "text": " So here you see, this is how it will look."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 352.64,
+            "end": 354.8,
+            "text": " As soon as I did clear right here,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 354.8,
+            "end": 360.0,
+            "text": " so this div has done nth child 2."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 360.0,
+            "end": 363.12,
+            "text": " And let me see which child it has taken here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 363.12,
+            "end": 364.88,
+            "text": " So I should have done nth child 3."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 364.96,
+            "end": 367.44,
+            "text": " Because this is the first child of the image,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 367.44,
+            "end": 368.88,
+            "text": " this is the second child of the cards."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 368.88,
+            "end": 370.15999999999997,
+            "text": " And this is the third child."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 370.15999999999997,
+            "end": 371.6,
+            "text": " So I should have done nth child 3."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 371.6,
+            "end": 373.04,
+            "text": " So see what it said,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 373.04,
+            "end": 376.4,
+            "text": " that I don't want any element floating on my right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 376.4,
+            "end": 377.92,
+            "text": " It said clear right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 377.92,
+            "end": 379.6,
+            "text": " So it was given its place."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 379.6,
+            "end": 381.28,
+            "text": " So it was given its place."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 381.28,
+            "end": 384.08,
+            "text": " But this one will float on its right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 384.08,
+            "end": 387.36,
+            "text": " So whenever you want one of your elements to fall down,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 387.36,
+            "end": 392.4,
+            "text": " then you can clear, clear right, clear left, clear both."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 392.4,
+            "end": 394.4,
+            "text": " Because I don't want any element on both sides."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 394.4,
+            "end": 397.59999999999997,
+            "text": " If you don't want any element on the left and right of this div,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 397.59999999999997,
+            "end": 398.96,
+            "text": " then you can say clear both."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 398.96,
+            "end": 400.4,
+            "text": " Neither will it come on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 400.4,
+            "end": 404.0,
+            "text": " Now if I float it from the left to the right,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 404.0,
+            "end": 405.35999999999996,
+            "text": " then you see what will happen."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 405.35999999999996,
+            "end": 406.79999999999995,
+            "text": " I will make it left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 406.79999999999995,
+            "end": 408.56,
+            "text": " If I float it to the left,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 408.56,
+            "end": 409.76,
+            "text": " then it will float to the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 409.76,
+            "end": 411.67999999999995,
+            "text": " But now this div will allow."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 411.67999999999995,
+            "end": 414.79999999999995,
+            "text": " Because it was saying that don't allow an element on my right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 414.79999999999995,
+            "end": 416.0,
+            "text": " What was on this div?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 416.0,
+            "end": 417.12,
+            "text": " Clear right was there."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 417.12,
+            "end": 418.71999999999997,
+            "text": " And what does clear right mean?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 418.71999999999997,
+            "end": 421.52,
+            "text": " No element is allowed on my right side to float."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 421.52,
+            "end": 422.79999999999995,
+            "text": " But it is allowed on the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 422.88,
+            "end": 424.64,
+            "text": " So it is allowed on the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 424.64,
+            "end": 426.48,
+            "text": " But if I clear both on this,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 426.48,
+            "end": 428.88,
+            "text": " then it means that neither can I see it on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 428.88,
+            "end": 429.36,
+            "text": " Got it?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 429.36,
+            "end": 430.32,
+            "text": " This is what the element is saying."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 430.32,
+            "end": 430.88,
+            "text": " What is it saying?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 430.88,
+            "end": 432.56,
+            "text": " Everyone write to me in the comment section below"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 432.56,
+            "end": 433.84000000000003,
+            "text": " what this div is saying."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 433.84000000000003,
+            "end": 435.76,
+            "text": " This div is saying don't see it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 435.76,
+            "end": 436.56,
+            "text": " Got it?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 436.56,
+            "end": 439.2,
+            "text": " Neither can you see it on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 439.2,
+            "end": 440.72,
+            "text": " Everyone write this in the comment."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 440.72,
+            "end": 441.28000000000003,
+            "text": " Okay?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 441.28000000000003,
+            "end": 442.8,
+            "text": " So what is this div saying?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 442.8,
+            "end": 445.6,
+            "text": " This div is saying don't see it on my right side while floating."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 445.6,
+            "end": 446.48,
+            "text": " Got it?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 446.48,
+            "end": 447.2,
+            "text": " Anyone."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 447.2,
+            "end": 448.40000000000003,
+            "text": " It is telling everyone."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 448.40000000000003,
+            "end": 449.6,
+            "text": " It is announcing."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 449.68,
+            "end": 452.88,
+            "text": " It is saying that I announce that don't see it on my right side."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 452.88,
+            "end": 454.72,
+            "text": " So that's why it is visible on the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 454.72,
+            "end": 455.6,
+            "text": " It can be seen on the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 455.6,
+            "end": 457.92,
+            "text": " This image says that you were not saying no on the left."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 457.92,
+            "end": 459.84000000000003,
+            "text": " Now if it wants to say no on both sides,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 459.84000000000003,
+            "end": 461.36,
+            "text": " then it will clear both."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 461.36,
+            "end": 463.36,
+            "text": " So clear left, clear right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 463.36,
+            "end": 464.72,
+            "text": " By doing clear both,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 464.72,
+            "end": 466.88,
+            "text": " the element says don't see it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 466.88,
+            "end": 468.64000000000004,
+            "text": " Neither can I see it on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 468.64000000000004,
+            "end": 469.28000000000003,
+            "text": " Got it?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 469.28000000000003,
+            "end": 470.08000000000004,
+            "text": " This is what it says."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 470.08000000000004,
+            "end": 471.76000000000005,
+            "text": " Neither can you see it on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 471.76000000000005,
+            "end": 473.44,
+            "text": " Everyone will write this in the comment."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 473.44,
+            "end": 474.0,
+            "text": " I don't know."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 474.0,
+            "end": 475.12,
+            "text": " There should be two-way interaction."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 475.12,
+            "end": 476.72,
+            "text": " I will feel bad if you don't write."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 476.72,
+            "end": 478.56,
+            "text": " And if you write, then my day is made."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 478.56,
+            "end": 479.12,
+            "text": " Write it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 479.44,
+            "end": 480.24,
+            "text": " What is it saying?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 480.24,
+            "end": 481.44,
+            "text": " You have to write this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 481.44,
+            "end": 482.24,
+            "text": " My day is made."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 482.24,
+            "end": 483.76,
+            "text": " Please write a comment below."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 483.76,
+            "end": 485.36,
+            "text": " Now we have seen float."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 485.36,
+            "end": 485.76,
+            "text": " What happens?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 485.76,
+            "end": 486.88,
+            "text": " Left, right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 486.88,
+            "end": 487.6,
+            "text": " We have seen clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 487.6,
+            "end": 488.72,
+            "text": " Left, right and both."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 488.72,
+            "end": 490.0,
+            "text": " So I have done clear both here."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 490.0,
+            "end": 492.08,
+            "text": " So neither will it be visible on the left nor on the right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 492.08,
+            "end": 493.92,
+            "text": " So these are some basics in general."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 493.92,
+            "end": 495.28000000000003,
+            "text": " Now here I have told you"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 495.28000000000003,
+            "end": 497.04,
+            "text": " how to finish the overflow."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 497.04,
+            "end": 498.56,
+            "text": " There are other ways to finish it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 498.56,
+            "end": 500.24,
+            "text": " For example, even if I remove it,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 500.8,
+            "end": 502.24,
+            "text": " even if I remove it,"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 502.24,
+            "end": 504.48,
+            "text": " there are ways to finish it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 504.48,
+            "end": 505.84000000000003,
+            "text": " So what are the ways?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 505.84000000000003,
+            "end": 507.76,
+            "text": " That you set the margin."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 507.76,
+            "end": 509.59999999999997,
+            "text": " Or you can do overflow auto in it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 509.59999999999997,
+            "end": 510.96,
+            "text": " So there are many ways."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 510.96,
+            "end": 512.3199999999999,
+            "text": " It's a simple thing."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 512.3199999999999,
+            "end": 515.12,
+            "text": " But here I will say one such thing about float and clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 515.12,
+            "end": 516.72,
+            "text": " After showing you this video completely."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 516.72,
+            "end": 518.56,
+            "text": " And I will also tell you why I made this video."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 519.28,
+            "end": 520.88,
+            "text": " That I don't want to use it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 520.88,
+            "end": 522.16,
+            "text": " Now you will say, what happened?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 522.16,
+            "end": 523.6,
+            "text": " Now some of you will hold your head."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 523.6,
+            "end": 525.28,
+            "text": " What is this?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 525.28,
+            "end": 528.0,
+            "text": " I mean, after telling so much, what is this?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 528.72,
+            "end": 530.0,
+            "text": " So this is that"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 530.0,
+            "end": 533.4399999999999,
+            "text": " I avoid using float and clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 533.4399999999999,
+            "end": 535.28,
+            "text": " Yes, I am saying clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 535.28,
+            "end": 536.72,
+            "text": " I am not even saying do it sometimes."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 536.72,
+            "end": 538.0,
+            "text": " I am saying it very clearly."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " Neither use float nor clear."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 540.0,
+            "end": 541.44,
+            "text": " You should know these properties."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 541.44,
+            "end": 543.0400000000001,
+            "text": " So that no one asks you."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 543.0400000000001,
+            "end": 543.9200000000001,
+            "text": " You should know."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 543.9200000000001,
+            "end": 545.2,
+            "text": " Because it is a very simple thing."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 545.2,
+            "end": 547.6800000000001,
+            "text": " And if you see or maintain an old website."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 547.6800000000001,
+            "end": 550.5600000000001,
+            "text": " Someone has used float or some other property."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 550.5600000000001,
+            "end": 552.72,
+            "text": " So at least you should be so capable"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 552.72,
+            "end": 554.88,
+            "text": " that you can maintain the website."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 554.88,
+            "end": 557.6800000000001,
+            "text": " So that's why float and clear are very important."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 557.6800000000001,
+            "end": 558.72,
+            "text": " For you to understand."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 558.72,
+            "end": 560.72,
+            "text": " But make modern layouts from CSS Grid."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 560.72,
+            "end": 561.76,
+            "text": " From Flexbox."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 561.76,
+            "end": 562.88,
+            "text": " There are many other ways."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 563.52,
+            "end": 565.0400000000001,
+            "text": " Don't fall in this circus."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 565.0400000000001,
+            "end": 566.1600000000001,
+            "text": " Okay, don't fall at all."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 566.16,
+            "end": 567.4399999999999,
+            "text": " Float left, float right."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 567.4399999999999,
+            "end": 568.8,
+            "text": " It gets a little confusing."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 568.8,
+            "end": 570.7199999999999,
+            "text": " Okay, and this is not the right way"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 570.7199999999999,
+            "end": 572.4,
+            "text": " to create layouts in my opinion."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 572.4,
+            "end": 573.52,
+            "text": " This is my personal opinion."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 573.52,
+            "end": 574.88,
+            "text": " Don't make a layout from this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 574.88,
+            "end": 576.24,
+            "text": " Don't do styling from this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 576.24,
+            "end": 577.6,
+            "text": " Don't do things here and there."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 577.6,
+            "end": 579.68,
+            "text": " Flexbox is very easy."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 579.68,
+            "end": 580.7199999999999,
+            "text": " Very easy."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 580.7199999999999,
+            "end": 581.92,
+            "text": " We will see in two properties."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 581.92,
+            "end": 582.9599999999999,
+            "text": " In the Flexbox video."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 582.9599999999999,
+            "end": 584.3199999999999,
+            "text": " How can we set it?"
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 584.3199999999999,
+            "end": 585.4399999999999,
+            "text": " And the websites I will make."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 585.4399999999999,
+            "end": 586.48,
+            "text": " I will use very little."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 586.48,
+            "end": 587.52,
+            "text": " Even if I do."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 587.52,
+            "end": 588.7199999999999,
+            "text": " Look, I can do it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 588.7199999999999,
+            "end": 590.4,
+            "text": " I am free to use it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 590.4,
+            "end": 591.8399999999999,
+            "text": " You are also free to use it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 591.8399999999999,
+            "end": 592.64,
+            "text": " It works."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 593.1999999999999,
+            "end": 595.28,
+            "text": " But the thing is only this."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 595.28,
+            "end": 596.8,
+            "text": " If you want to make good websites."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 596.8,
+            "end": 598.0799999999999,
+            "text": " Make modern layouts."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 598.0799999999999,
+            "end": 599.6,
+            "text": " Don't use it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 599.6,
+            "end": 600.64,
+            "text": " As simple as that."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 600.64,
+            "end": 601.28,
+            "text": " With that said."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 601.28,
+            "end": 604.56,
+            "text": " If you have not yet accessed the playlist of Sigma Web Dev."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 604.56,
+            "end": 606.0,
+            "text": " Then do access it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 606.0,
+            "end": 607.28,
+            "text": " Click here and bookmark it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 607.28,
+            "end": 608.9599999999999,
+            "text": " Click here and save it."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 608.9599999999999,
+            "end": 610.48,
+            "text": " Access the source code too."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 610.48,
+            "end": 611.28,
+            "text": " Like the video."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 611.28,
+            "end": 612.24,
+            "text": " Subscribe to the channel."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 612.24,
+            "end": 612.9599999999999,
+            "text": " Share the video."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 612.9599999999999,
+            "end": 614.8,
+            "text": " And do it in your village and town."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 614.8,
+            "end": 616.8,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 616.8,
+            "end": 619.28,
+            "text": " And I will see you next time."
+        },
+        {
+            "number": "34",
+            "title": "CSS Float",
+            "start": 625.28,
+            "end": 641.28,
+            "text": " Music."
+        }
+    ],
+    "text": " In today's video, we will understand about float and clear. Since the Flexbox has come, the use of these properties has become very less. But if a client shows you a website in which float and clear is given, then your understanding should be such that you can understand what float and clear is. In this video, we are going to see this. Like with high energy and write Sigma Batch OP in the comment section below. Let's go to the computer screen. Let's roll the intro. Guys, I have come inside the computer screen. But in this video, I will say something that you will also say that what have you said? But before that, I want to explain to you how float and clear works. So here you see, I am going to make a folder named video number 34. So I made a folder named video 34 and opened it in VS Code. And what I am going to do here is that I will show you here that exactly on which HTML we will understand the concept of float and clear. And the thing I am going to tell you about CSS float and clear, you will say that what have you said? So let's do one thing, we will make a div named .cards and inside it I will do .card multiply by 3. So there is one card, there are three more cards inside it. And I will make card 1, card 2, card 3 like this. Here I will make card 2, then I will make card 3. I have written a very simple HTML here. I will open it in browser, it looks something like this. Great, very nice, very beautiful. Now tell me what is float and clear? So let me tell you. So what will happen is that I have put an img here. And I take an image from here, open image in new tab. I take another image which has a straight URL. Let's use this image, that's it. Let's use this image. And now you see here, as soon as I use this image, this image has come here. I will give a width here, I will give width is equal to. So I will put here width is equal to 23 pixels. And let's see, our small image has come here. In fact, let's make it 230, so that the image can be seen. So this is our image and below it is card 1, card 2, card 3. I know you said that it looks very good here. Tell me further. So the scene is this, let's say that I put a paragraph below it in card 1. So in the div of card 1, I put a paragraph in which I write lorem 34. So if I write lorem 34 in this, it will come down here. But what will happen if I say that I want to float my image to the left. Okay, I want to say float left. So it will float to the left and allow content on the right side. Before this it was not allowing, but now it will allow content on the right side. So this is our float. Now I want to show you some things here. First of all, I will put a style in dot cards here. Which will be border 2 pixels solid black. And along with that, I put this, so see it came in black color. And you will know why I put this border. And I am going to put border 2 pixels solid red in dot card. Okay, you will know why I put this too. So I put this in the cards. So there is a red border in every card. And there is a black border in the container. Now you have seen one thing, whenever we use float property. So if the image is overflowing from the container, then it overflows. It does not accommodate in its container. So we can use this property. So in our parent container, we can put display. And we can put a flow root in the display. And as soon as we write display flow root here. You see that this issue will be solved here. Now it will not overflow. So this is one way by putting display flow root. We can fit the elements within the container. What would have happened if I had made it float right? Nothing, it would have floated to the right and content would have come on the left side. So you can see here. And it came to the right and the content is floating here. If I had written something big in it, not this, I would have written lorem 333. lorem 333 And lorem 333 is a good amount of text. Then you see, the text will not be cut. The image will float here. And this will come like this. So this was used a lot earlier. When we used to make newspaper type content. Mostly in blogs, this thing was needed. That there will be an image on one side, content on the other. And the image is floating sometimes on the left, sometimes on the right. And the article is being written. But modern layouts are not designed like this at all. Now you see here, I will tell you what is clear and when to use it. So what did we do here? We said that the image will flow on the right side. We said that these are cards, we put borders on the cards. We have seen which element is taking exactly where and how much space. We have also seen this. Now if I want, this specific div, this one, which has more text. I want it not to allow any element to flow on its right side. Listen to me carefully, I am repeating. It should not allow any element to float on the right side. So it will say that no element should float on my right. And for that we use the clear property. So we will write here, clear, I will put another class in this. But what I will do here, I will say dot card. And we will use nth child and write 2. If the second one is here, then acquire the background color of it. And clear it right. Means I don't want any element on my right. This is what it means, clear right means this. So what is this div saying? This div is saying that I don't want any element on my right. Please remove any float from my right and give me my place. So here you see, this is how it will look. As soon as I did clear right here, so this div has done nth child 2. And let me see which child it has taken here. So I should have done nth child 3. Because this is the first child of the image, this is the second child of the cards. And this is the third child. So I should have done nth child 3. So see what it said, that I don't want any element floating on my right. It said clear right. So it was given its place. So it was given its place. But this one will float on its right side. So whenever you want one of your elements to fall down, then you can clear, clear right, clear left, clear both. Because I don't want any element on both sides. If you don't want any element on the left and right of this div, then you can say clear both. Neither will it come on the left nor on the right. Now if I float it from the left to the right, then you see what will happen. I will make it left. If I float it to the left, then it will float to the left. But now this div will allow. Because it was saying that don't allow an element on my right side. What was on this div? Clear right was there. And what does clear right mean? No element is allowed on my right side to float. But it is allowed on the left. So it is allowed on the left. But if I clear both on this, then it means that neither can I see it on the left nor on the right. Got it? This is what the element is saying. What is it saying? Everyone write to me in the comment section below what this div is saying. This div is saying don't see it. Got it? Neither can you see it on the left nor on the right. Everyone write this in the comment. Okay? So what is this div saying? This div is saying don't see it on my right side while floating. Got it? Anyone. It is telling everyone. It is announcing. It is saying that I announce that don't see it on my right side. So that's why it is visible on the left. It can be seen on the left. This image says that you were not saying no on the left. Now if it wants to say no on both sides, then it will clear both. So clear left, clear right. By doing clear both, the element says don't see it. Neither can I see it on the left nor on the right. Got it? This is what it says. Neither can you see it on the left nor on the right. Everyone will write this in the comment. I don't know. There should be two-way interaction. I will feel bad if you don't write. And if you write, then my day is made. Write it. What is it saying? You have to write this. My day is made. Please write a comment below. Now we have seen float. What happens? Left, right. We have seen clear. Left, right and both. So I have done clear both here. So neither will it be visible on the left nor on the right. So these are some basics in general. Now here I have told you how to finish the overflow. There are other ways to finish it. For example, even if I remove it, even if I remove it, there are ways to finish it. So what are the ways? That you set the margin. Or you can do overflow auto in it. So there are many ways. It's a simple thing. But here I will say one such thing about float and clear. After showing you this video completely. And I will also tell you why I made this video. That I don't want to use it. Now you will say, what happened? Now some of you will hold your head. What is this? I mean, after telling so much, what is this? So this is that I avoid using float and clear. Yes, I am saying clear. I am not even saying do it sometimes. I am saying it very clearly. Neither use float nor clear. You should know these properties. So that no one asks you. You should know. Because it is a very simple thing. And if you see or maintain an old website. Someone has used float or some other property. So at least you should be so capable that you can maintain the website. So that's why float and clear are very important. For you to understand. But make modern layouts from CSS Grid. From Flexbox. There are many other ways. Don't fall in this circus. Okay, don't fall at all. Float left, float right. It gets a little confusing. Okay, and this is not the right way to create layouts in my opinion. This is my personal opinion. Don't make a layout from this. Don't do styling from this. Don't do things here and there. Flexbox is very easy. Very easy. We will see in two properties. In the Flexbox video. How can we set it? And the websites I will make. I will use very little. Even if I do. Look, I can do it. I am free to use it. You are also free to use it. It works. But the thing is only this. If you want to make good websites. Make modern layouts. Don't use it. As simple as that. With that said. If you have not yet accessed the playlist of Sigma Web Dev. Then do access it. Click here and bookmark it. Click here and save it. Access the source code too. Like the video. Subscribe to the channel. Share the video. And do it in your village and town. Thank you so much guys for watching this video. And I will see you next time. Music."
+}

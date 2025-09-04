@@ -1,0 +1,3015 @@
+{
+    "chunks": [
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 0.0,
+            "end": 2.96,
+            "text": " So many of you guys have solved exercise 5"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 2.96,
+            "end": 6.34,
+            "text": " In today's video, I will tell you the solution of exercise 5"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 6.34,
+            "end": 9.34,
+            "text": " Then I will give a shoutout to all of you who have solved this question"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 9.34,
+            "end": 13.3,
+            "text": " Like with high energy and write Sigma patch up in the comment section below"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 13.3,
+            "end": 14.6,
+            "text": " Let's go to the computer screen"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 14.6,
+            "end": 15.8,
+            "text": " Let's roll the intro"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 15.8,
+            "end": 24.6,
+            "text": " Intro"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 24.6,
+            "end": 27.48,
+            "text": " So guys here I have made a folder named video 41"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 27.48,
+            "end": 30.34,
+            "text": " And the first thing I will do is open it in VS code"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 30.34,
+            "end": 35.22,
+            "text": " And I will tell you how we can design this layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 35.22,
+            "end": 37.72,
+            "text": " So I will name it layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 37.72,
+            "end": 40.760000000000005,
+            "text": " And this is going to be the solution of our exercise"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 40.760000000000005,
+            "end": 44.519999999999996,
+            "text": " For you guys, I will toggle the word wrap and screencast mode"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 44.519999999999996,
+            "end": 46.86,
+            "text": " So that you can see what keys I am pressing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 46.86,
+            "end": 50.06,
+            "text": " Now you see carefully here that we have to make this layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 50.06,
+            "end": 52.28,
+            "text": " And we can also use these colors"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 52.28,
+            "end": 54.78,
+            "text": " So the first thing I will do is make a navbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 54.78,
+            "end": 58.980000000000004,
+            "text": " I will say that there will be a header in my body"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 58.980000000000004,
+            "end": 61.28,
+            "text": " And there will be a footer in my body"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 61.28,
+            "end": 63.480000000000004,
+            "text": " There will be a main content and a footer"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 63.480000000000004,
+            "end": 67.28,
+            "text": " I am using HTML semantic tags"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 67.28,
+            "end": 70.28,
+            "text": " And there will be a navbar in my header"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 70.28,
+            "end": 71.98,
+            "text": " And the navbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 71.98,
+            "end": 74.58,
+            "text": " Now see here I will not use flexbox"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 74.58,
+            "end": 78.78,
+            "text": " Because when I gave you this exercise, I did not tell you about flexbox"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 78.78,
+            "end": 80.48,
+            "text": " But I tell you guys here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 80.98,
+            "end": 85.48,
+            "text": " That how we will do it by pinking the background color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 85.48,
+            "end": 89.18,
+            "text": " And we will make its height 133 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 89.18,
+            "end": 91.48,
+            "text": " And I am going to do one more thing here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 91.48,
+            "end": 94.48,
+            "text": " And that is that I have already told you that"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 94.48,
+            "end": 97.98,
+            "text": " You go to settings and go to the live preview extension"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 97.98,
+            "end": 99.98,
+            "text": " This is the live preview extension"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 99.98,
+            "end": 102.98,
+            "text": " I don't want to open it in the new tab here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 102.98,
+            "end": 104.98,
+            "text": " I want to open it in the external browser"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 104.98,
+            "end": 107.98,
+            "text": " So whenever I click here, I will open it directly in the external browser"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 107.98,
+            "end": 109.98,
+            "text": " I will do one more thing here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 109.98,
+            "end": 112.48,
+            "text": " First of all, I will make it 83 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 112.48,
+            "end": 114.98,
+            "text": " And by putting a universal selector"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 114.98,
+            "end": 117.98,
+            "text": " I will make it M0 and P0"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 117.98,
+            "end": 118.98,
+            "text": " What will happen with this?"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 118.98,
+            "end": 120.98,
+            "text": " Margin will be 0, padding will be 0"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 120.98,
+            "end": 123.48,
+            "text": " And the spacing that was visible will not be visible"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 123.48,
+            "end": 126.48,
+            "text": " So here you guys saw that I made the pink color layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 126.48,
+            "end": 129.48000000000002,
+            "text": " After this, what I will do below is I will make a container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 129.48000000000002,
+            "end": 130.98000000000002,
+            "text": " And I will give padding in that container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 130.98000000000002,
+            "end": 133.98000000000002,
+            "text": " I will make a container in my main content"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 133.98000000000002,
+            "end": 135.98000000000002,
+            "text": " So div.container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 135.98000000000002,
+            "end": 138.48000000000002,
+            "text": " I will write here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 138.48,
+            "end": 140.48,
+            "text": " Now what I will do inside this container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 140.48,
+            "end": 142.48,
+            "text": " Inside the dot container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 143.48,
+            "end": 145.48,
+            "text": " I will give a background color red"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 145.48,
+            "end": 147.48,
+            "text": " Now you will say who gives red background color?"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 147.48,
+            "end": 149.48,
+            "text": " I just give it for testing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 149.48,
+            "end": 150.98,
+            "text": " And I will remove it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 150.98,
+            "end": 153.48,
+            "text": " And what I will do here is I will do margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 153.48,
+            "end": 156.48,
+            "text": " From top bottom, say 12 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 156.48,
+            "end": 160.48,
+            "text": " And from left right, 34 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 160.48,
+            "end": 163.98,
+            "text": " So you see here that it did not come"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 163.98,
+            "end": 165.48,
+            "text": " I see what is the problem"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 165.48,
+            "end": 166.48,
+            "text": " Div.container will take"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 166.48,
+            "end": 168.48,
+            "text": " So its height is not of container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 168.48,
+            "end": 171.48,
+            "text": " So I will make its height 233 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 171.48,
+            "end": 172.48,
+            "text": " And you can see here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 172.48,
+            "end": 174.48,
+            "text": " I have given a little more than left right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 174.48,
+            "end": 175.48,
+            "text": " And from top bottom, something like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 175.48,
+            "end": 176.48,
+            "text": " What is the idea?"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 176.48,
+            "end": 178.48,
+            "text": " The idea is to make this layout green"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 178.48,
+            "end": 179.48,
+            "text": " I don't give it green"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 179.48,
+            "end": 181.48,
+            "text": " By the way, why didn't I give green?"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 181.48,
+            "end": 183.48,
+            "text": " I should have given it green"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 183.48,
+            "end": 186.48,
+            "text": " So I make its background green"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 186.48,
+            "end": 188.48,
+            "text": " And you see now it looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 188.48,
+            "end": 189.48,
+            "text": " And there are two boxes inside it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 189.48,
+            "end": 192.48,
+            "text": " One box is of my pink color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 192.48,
+            "end": 194.48,
+            "text": " And one box is of my blue color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 194.48,
+            "end": 199.48,
+            "text": " So I will write here div.box1"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 199.48,
+            "end": 203.48,
+            "text": " And along with that I will also make a box2"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 203.48,
+            "end": 205.48,
+            "text": " So this one is of pink color box1"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 205.48,
+            "end": 207.48,
+            "text": " And I will give css to this box1"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 207.48,
+            "end": 209.48,
+            "text": " And I will remove its height"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 209.48,
+            "end": 211.48,
+            "text": " Of container because it is going to be automatic"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 211.48,
+            "end": 215.48,
+            "text": " So there is a box1 and a box2"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 215.48,
+            "end": 219.48,
+            "text": " So what I will do in my box1"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 219.48,
+            "end": 223.48,
+            "text": " That the color of this box1 will be pink"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 223.48,
+            "end": 225.48,
+            "text": " So background color pink"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 225.48,
+            "end": 227.48,
+            "text": " Okay, let's take this pink"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 227.48,
+            "end": 230.48,
+            "text": " And along with that let's make it blue"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 230.48,
+            "end": 232.48,
+            "text": " Let's make the background color blue"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 232.48,
+            "end": 234.48,
+            "text": " And the obvious thing is that"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 234.48,
+            "end": 237.48,
+            "text": " I will see it in the new tab"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 237.48,
+            "end": 239.48,
+            "text": " Sorry, I will see it in the new line"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 239.48,
+            "end": 241.48,
+            "text": " And I will have to do something about it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 241.48,
+            "end": 243.48,
+            "text": " So now if you see here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 243.48,
+            "end": 245.48,
+            "text": " So I have also removed its height"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 245.48,
+            "end": 247.48,
+            "text": " So I give height to box1 and box2"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 247.48,
+            "end": 249.48,
+            "text": " And I will give height to it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 249.48,
+            "end": 252.48,
+            "text": " Say 240 or I will do one thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 252.48,
+            "end": 254.48,
+            "text": " I will give it a height of 70vh"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 254.48,
+            "end": 256.48,
+            "text": " Okay, 70vh"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 256.48,
+            "end": 259.48,
+            "text": " And I will also give it a height of 70vh to box2"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 259.48,
+            "end": 262.48,
+            "text": " So there can be many ways to make this layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 262.48,
+            "end": 263.48,
+            "text": " If I tell you the truth"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 263.48,
+            "end": 265.48,
+            "text": " And I will make its width"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 265.48,
+            "end": 267.48,
+            "text": " I will make its width 50%"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 267.48,
+            "end": 270.48,
+            "text": " So we will make the width 50%"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 270.48,
+            "end": 272.48,
+            "text": " And as soon as we make the width 50%"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 272.48,
+            "end": 274.48,
+            "text": " Now see here, this came"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 274.48,
+            "end": 276.48,
+            "text": " This is my container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 276.48,
+            "end": 279.48,
+            "text": " There is a box1 and a box2 in the container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 279.48,
+            "end": 283.48,
+            "text": " And the width of box1 is 50%"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 283.48,
+            "end": 285.48,
+            "text": " Height is 70vh"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 285.48,
+            "end": 287.48,
+            "text": " Now you know what the problem is here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 287.48,
+            "end": 289.48,
+            "text": " The problem is that these two came inside it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 289.48,
+            "end": 291.48,
+            "text": " That is, the pink box and this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 291.48,
+            "end": 294.48,
+            "text": " So what do I have to do to bring it in the same line"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 294.48,
+            "end": 296.48,
+            "text": " There is one way to bring it in the same line"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 296.48,
+            "end": 298.48,
+            "text": " That I make both the boxes inline"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 298.48,
+            "end": 300.48,
+            "text": " But this is not a good practice"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 300.48,
+            "end": 302.48,
+            "text": " Okay, let me tell you"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 302.48,
+            "end": 304.48,
+            "text": " I am trying to avoid just flexbox"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 304.48,
+            "end": 306.48,
+            "text": " I could have used float and clear"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 306.48,
+            "end": 308.48,
+            "text": " In fact, I will block it inline"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 308.48,
+            "end": 310.48,
+            "text": " So that it obeys the width"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 310.48,
+            "end": 312.48,
+            "text": " And now you see how it looks"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 312.48,
+            "end": 313.48,
+            "text": " It looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 313.48,
+            "end": 316.48,
+            "text": " And it looks like this because of margin padding"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 316.48,
+            "end": 318.48,
+            "text": " I have to reduce its width a little"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 318.48,
+            "end": 320.48,
+            "text": " So I make it 45-45"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 320.48,
+            "end": 322.48,
+            "text": " Instead of 50-50"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 322.48,
+            "end": 324.48,
+            "text": " I make it 45-45"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 324.48,
+            "end": 326.48,
+            "text": " And you see it looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 326.48,
+            "end": 328.48,
+            "text": " And I have to give padding in it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 328.48,
+            "end": 329.48,
+            "text": " So I do one thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 329.48,
+            "end": 331.48,
+            "text": " I give padding in both"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 331.48,
+            "end": 333.48,
+            "text": " And I will write here padding"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 333.48,
+            "end": 335.48,
+            "text": " Top bottom says 0"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 335.48,
+            "end": 337.48,
+            "text": " And sorry not padding"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 337.48,
+            "end": 339.48,
+            "text": " I had to give margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 339.48,
+            "end": 341.48,
+            "text": " Margin of the spacing around them"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 341.48,
+            "end": 343.48,
+            "text": " And you see"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 343.48,
+            "end": 345.48,
+            "text": " It looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 345.48,
+            "end": 347.48,
+            "text": " It looks like this, it doesn't look like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 347.48,
+            "end": 349.48,
+            "text": " Now I can increase this margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 349.48,
+            "end": 351.48,
+            "text": " So that it pulls more here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 351.48,
+            "end": 353.48,
+            "text": " So I can set it from here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 353.48,
+            "end": 355.48,
+            "text": " And what will I do to set it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 355.48,
+            "end": 357.48,
+            "text": " Simply"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 357.48,
+            "end": 359.48,
+            "text": " I will come here in box 2, I will come in box 1"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 359.48,
+            "end": 361.48,
+            "text": " In fact I can give padding in container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 361.48,
+            "end": 363.48,
+            "text": " This is also an option"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 363.48,
+            "end": 365.48,
+            "text": " This is also an option that I say"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 365.48,
+            "end": 367.48,
+            "text": " That give padding in container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 367.48,
+            "end": 369.48,
+            "text": " Such that it looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 369.48,
+            "end": 371.48,
+            "text": " And to center it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 371.48,
+            "end": 373.48,
+            "text": " I will give text align center in container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 373.48,
+            "end": 375.48,
+            "text": " What will happen with this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 375.48,
+            "end": 377.48,
+            "text": " That it will come in the center"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 377.48,
+            "end": 379.48,
+            "text": " As you can see it has come in the center"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 379.48,
+            "end": 381.48,
+            "text": " I just have to do one more thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 381.48,
+            "end": 383.48,
+            "text": " That the margin I have given in the container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 383.48,
+            "end": 385.48,
+            "text": " That is fine"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 385.48,
+            "end": 387.48,
+            "text": " I should also give padding in the container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 387.48,
+            "end": 389.48,
+            "text": " Which will be 0 pixels from top bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 389.48,
+            "end": 391.48,
+            "text": " And from left right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 391.48,
+            "end": 393.48,
+            "text": " Sorry, 23 pixels from top bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 393.48,
+            "end": 395.48,
+            "text": " And from left right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 395.48,
+            "end": 397.48,
+            "text": " I also want it, so it should look like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 397.48,
+            "end": 399.48,
+            "text": " In fact I will increase it a little from here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 399.48,
+            "end": 401.48,
+            "text": " I will make it 55 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 401.48,
+            "end": 403.48,
+            "text": " So that a little more comes from top bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 403.48,
+            "end": 405.48,
+            "text": " And you see this layout is almost"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 405.48,
+            "end": 407.48,
+            "text": " Designed"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 407.48,
+            "end": 409.48,
+            "text": " After this I have to add welcome to sigma web development express"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 409.48,
+            "end": 411.48,
+            "text": " And after that I have to give footer"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 411.48,
+            "end": 413.48,
+            "text": " So I will first finish my footer"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 413.48,
+            "end": 415.48,
+            "text": " And the height of the footer"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 415.48,
+            "end": 417.48,
+            "text": " I will do 100 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 419.48,
+            "end": 421.48,
+            "text": " And I will do the background color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 421.48,
+            "end": 423.48,
+            "text": " What will I do"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 423.48,
+            "end": 425.48,
+            "text": " I will do this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 425.48,
+            "end": 427.48,
+            "text": " I will do biscuit"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 427.48,
+            "end": 429.48,
+            "text": " You see here my footer has come"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 429.48,
+            "end": 431.48,
+            "text": " My footer has come"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 431.48,
+            "end": 433.48,
+            "text": " And here I told you"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 433.48,
+            "end": 435.48,
+            "text": " That you have to make a sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 435.48,
+            "end": 437.48,
+            "text": " And your navbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 437.48,
+            "end": 439.48,
+            "text": " That should also be sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 439.48,
+            "end": 441.48,
+            "text": " I told you when you scroll up"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 441.48,
+            "end": 443.48,
+            "text": " So I also add this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 443.48,
+            "end": 445.48,
+            "text": " Welcome to sigma web dev express"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 445.48,
+            "end": 447.48,
+            "text": " So here I will add a box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 447.48,
+            "end": 449.48,
+            "text": " And div dot"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 449.48,
+            "end": 451.48,
+            "text": " Text box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 451.48,
+            "end": 453.48,
+            "text": " And what will I do in it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 453.48,
+            "end": 455.48,
+            "text": " I will put a paragraph and write"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 455.48,
+            "end": 457.48,
+            "text": " Welcome to sigma"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 457.48,
+            "end": 459.48,
+            "text": " Web development"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 459.48,
+            "end": 461.48,
+            "text": " Express"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 461.48,
+            "end": 463.48,
+            "text": " And after writing this what will I do"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 463.48,
+            "end": 465.48,
+            "text": " The text box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 465.48,
+            "end": 467.48,
+            "text": " My text box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 467.48,
+            "end": 469.48,
+            "text": " I will give it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 469.48,
+            "end": 471.48,
+            "text": " I will give padding"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 471.48,
+            "end": 473.48,
+            "text": " 34 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 473.48,
+            "end": 475.48,
+            "text": " And after this I will give border"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 475.48,
+            "end": 477.48,
+            "text": " 2 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 477.48,
+            "end": 479.48,
+            "text": " Solid white"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 479.48,
+            "end": 481.48,
+            "text": " And the background of my container"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 481.48,
+            "end": 483.48,
+            "text": " In fact"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 483.48,
+            "end": 485.48,
+            "text": " I will give the background of the main container black"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 485.48,
+            "end": 487.48,
+            "text": " So my main"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 487.48,
+            "end": 489.48,
+            "text": " I gave the background color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 489.48,
+            "end": 491.48,
+            "text": " Black"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 491.48,
+            "end": 493.48,
+            "text": " And text white"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 493.48,
+            "end": 495.48,
+            "text": " The color will be white"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 495.48,
+            "end": 497.48,
+            "text": " Let's see what I made"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 497.48,
+            "end": 499.48,
+            "text": " So I made this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 499.48,
+            "end": 501.48,
+            "text": " And see it looks like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 501.48,
+            "end": 503.48,
+            "text": " Welcome to sigma web dev express"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 503.48,
+            "end": 505.48,
+            "text": " I will definitely have to give margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 505.48,
+            "end": 507.48,
+            "text": " From left to right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 507.48,
+            "end": 509.48,
+            "text": " So how will I give margin in the text box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 509.48,
+            "end": 511.48,
+            "text": " I will say margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 511.48,
+            "end": 513.48,
+            "text": " And I will have to give a little more margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 513.48,
+            "end": 515.48,
+            "text": " So if I give margin of 34vw"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 515.48,
+            "end": 517.48,
+            "text": " It will look like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 517.48,
+            "end": 519.48,
+            "text": " I know that the margin is a little more"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 519.48,
+            "end": 521.48,
+            "text": " So I will make the margin 0 in the top and bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 521.48,
+            "end": 523.48,
+            "text": " I will give margin of 34vw in the left and right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 523.48,
+            "end": 525.48,
+            "text": " So that it becomes the center"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 525.48,
+            "end": 527.48,
+            "text": " And I will give border radius"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 527.48,
+            "end": 529.48,
+            "text": " I will also make it 2m"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 529.48,
+            "end": 531.48,
+            "text": " And I will make the border radius"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 531.48,
+            "end": 533.48,
+            "text": " 13 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 533.48,
+            "end": 535.48,
+            "text": " Let's see where we are"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 535.48,
+            "end": 537.48,
+            "text": " So here we have made it to a large extent"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 537.48,
+            "end": 539.48,
+            "text": " Which I wanted to make"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 539.48,
+            "end": 541.48,
+            "text": " Now I just have to give margin from top to bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 541.48,
+            "end": 543.48,
+            "text": " Which I had made 0"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 543.48,
+            "end": 545.48,
+            "text": " So I will make it 10 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 545.48,
+            "end": 547.48,
+            "text": " I need margin in the top and bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 547.48,
+            "end": 549.48,
+            "text": " So I have made it 10 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 549.48,
+            "end": 551.48,
+            "text": " But what is the problem here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 551.48,
+            "end": 553.48,
+            "text": " I have to see"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 553.48,
+            "end": 555.48,
+            "text": " So this is my paragraph, this is my text box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 555.48,
+            "end": 557.48,
+            "text": " So if I increase the margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 557.48,
+            "end": 559.48,
+            "text": " So this black background"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 559.48,
+            "end": 561.48,
+            "text": " Why is it not taking it, I have to see"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 561.48,
+            "end": 563.48,
+            "text": " So the black background"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 563.48,
+            "end": 565.48,
+            "text": " I have given it in the main"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 565.48,
+            "end": 567.48,
+            "text": " And this is margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 567.48,
+            "end": 569.48,
+            "text": " So margin is coming out"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 569.48,
+            "end": 571.48,
+            "text": " This is the thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 571.48,
+            "end": 573.48,
+            "text": " So I will give padding in the main"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 573.48,
+            "end": 575.48,
+            "text": " Basically I have to give padding in the main"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 575.48,
+            "end": 577.48,
+            "text": " If I want"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 577.48,
+            "end": 579.48,
+            "text": " I get black color from inside"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 579.48,
+            "end": 581.48,
+            "text": " So I have to give padding in the main"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 581.48,
+            "end": 583.48,
+            "text": " So that it comes here like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 583.48,
+            "end": 585.48,
+            "text": " So now"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 585.48,
+            "end": 587.48,
+            "text": " I can increase this margin"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 587.48,
+            "end": 589.48,
+            "text": " If I want, something like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 589.48,
+            "end": 591.48,
+            "text": " So I will make margin 50 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 591.48,
+            "end": 593.48,
+            "text": " I will make margin of my text box 50 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 593.48,
+            "end": 595.48,
+            "text": " I am telling again, I am not making it responsive"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 595.48,
+            "end": 597.48,
+            "text": " I am intentionally mentioning this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 597.48,
+            "end": 599.48,
+            "text": " Because"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 599.48,
+            "end": 601.48,
+            "text": " I am making just this layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 601.48,
+            "end": 603.48,
+            "text": " Maybe I make it responsive later"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 603.48,
+            "end": 605.48,
+            "text": " You can do this, that you have done this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 605.48,
+            "end": 607.48,
+            "text": " Make it responsive later"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 607.48,
+            "end": 609.48,
+            "text": " And later by making responsive"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 609.48,
+            "end": 611.48,
+            "text": " You can do a lot of things"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 611.48,
+            "end": 613.48,
+            "text": " So understand it like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 613.48,
+            "end": 615.48,
+            "text": " That we are making just this layout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 615.48,
+            "end": 617.48,
+            "text": " Then after this, this is done"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 617.48,
+            "end": 619.48,
+            "text": " Everything is done"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 619.48,
+            "end": 621.48,
+            "text": " We have to make our navbar sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 621.48,
+            "end": 623.48,
+            "text": " So in the navbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 623.48,
+            "end": 625.48,
+            "text": " We will say position sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 625.48,
+            "end": 627.48,
+            "text": " Ok"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 627.48,
+            "end": 629.48,
+            "text": " Just put position sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 629.48,
+            "end": 631.48,
+            "text": " And by putting position sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 631.48,
+            "end": 633.48,
+            "text": " It did not work, top zero"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 633.48,
+            "end": 635.48,
+            "text": " Top zero"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 635.48,
+            "end": 637.48,
+            "text": " Ok, put top zero"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 637.48,
+            "end": 639.48,
+            "text": " It still did not work"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 639.48,
+            "end": 641.48,
+            "text": " Position sticky is not working"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 641.48,
+            "end": 643.48,
+            "text": " Because I have not put it in my parent"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 643.48,
+            "end": 645.48,
+            "text": " I should put it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 645.48,
+            "end": 647.48,
+            "text": " On the header"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 647.48,
+            "end": 649.48,
+            "text": " Now I will tell you"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 649.48,
+            "end": 651.48,
+            "text": " One more workaround to do"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 651.48,
+            "end": 653.48,
+            "text": " If I target my header"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 653.48,
+            "end": 655.48,
+            "text": " On my navbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 655.48,
+            "end": 657.48,
+            "text": " If I say this thing here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 657.48,
+            "end": 659.48,
+            "text": " Position sticky top zero"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 659.48,
+            "end": 661.48,
+            "text": " Then you see here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 661.48,
+            "end": 663.48,
+            "text": " This position is sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 663.48,
+            "end": 665.48,
+            "text": " My header is sticky"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 665.48,
+            "end": 667.48,
+            "text": " And after this I have to make this circle"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 667.48,
+            "end": 669.48,
+            "text": " And fix its position"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 669.48,
+            "end": 671.48,
+            "text": " So what I will do here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 671.48,
+            "end": 673.48,
+            "text": " I will write div.orangebox"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 673.48,
+            "end": 675.48,
+            "text": " And after this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 675.48,
+            "end": 677.48,
+            "text": " I will"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 677.48,
+            "end": 679.48,
+            "text": " I can set the orange box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 679.48,
+            "end": 681.48,
+            "text": " So I will do one thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 681.48,
+            "end": 683.48,
+            "text": " I will come here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 683.48,
+            "end": 685.48,
+            "text": " Here is my orange box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 685.48,
+            "end": 687.48,
+            "text": " First of all I will give height"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 687.48,
+            "end": 689.48,
+            "text": " 12 pixels and width"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 689.48,
+            "end": 691.48,
+            "text": " 12 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 691.48,
+            "end": 693.48,
+            "text": " Background"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 693.48,
+            "end": 695.48,
+            "text": " Orange and where did it go"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 695.48,
+            "end": 697.48,
+            "text": " It is somewhere here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 697.48,
+            "end": 699.48,
+            "text": " I will give it fixed position"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 699.48,
+            "end": 701.48,
+            "text": " And bottom"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 701.48,
+            "end": 703.48,
+            "text": " 12 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 703.48,
+            "end": 705.48,
+            "text": " And right"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 705.48,
+            "end": 707.48,
+            "text": " 23 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 707.48,
+            "end": 709.48,
+            "text": " And border radius"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 709.48,
+            "end": 711.48,
+            "text": " 13 pixels"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 711.48,
+            "end": 713.48,
+            "text": " And if you want you can increase its height"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 713.48,
+            "end": 715.48,
+            "text": " It depends on you"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 715.48,
+            "end": 717.48,
+            "text": " Assume I give it 32"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 717.48,
+            "end": 719.48,
+            "text": " And see it is like this"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 719.48,
+            "end": 721.48,
+            "text": " I have to increase border radius"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 721.48,
+            "end": 723.48,
+            "text": " If I want a perfect circle"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 723.48,
+            "end": 725.48,
+            "text": " So I will increase its border radius"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 725.48,
+            "end": 727.48,
+            "text": " Little bit"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 727.48,
+            "end": 729.48,
+            "text": " Maybe I will increase its border radius to 60"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 729.48,
+            "end": 731.48,
+            "text": " So I have to add this thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 731.48,
+            "end": 733.48,
+            "text": " And my work is done here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 733.48,
+            "end": 735.48,
+            "text": " It is fixed here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 735.48,
+            "end": 737.48,
+            "text": " See it is fixed here"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 737.48,
+            "end": 739.48,
+            "text": " So what I was saying"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 739.48,
+            "end": 741.48,
+            "text": " It is done"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 741.48,
+            "end": 743.48,
+            "text": " And orange box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 743.48,
+            "end": 745.48,
+            "text": " I guess its name was orange box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 745.48,
+            "end": 747.48,
+            "text": " It was not orange dash box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 747.48,
+            "end": 749.48,
+            "text": " It was orange box"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 749.48,
+            "end": 751.48,
+            "text": " I guess orange dash box is better"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 751.48,
+            "end": 753.48,
+            "text": " It is readable"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 753.48,
+            "end": 755.48,
+            "text": " So it is done"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 755.48,
+            "end": 757.48,
+            "text": " See what I was talking about"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 757.48,
+            "end": 759.48,
+            "text": " Specifically what is font size"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 759.48,
+            "end": 761.48,
+            "text": " You have to match it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 761.48,
+            "end": 763.48,
+            "text": " Little bit"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 763.48,
+            "end": 765.48,
+            "text": " I should have made its color white"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 765.48,
+            "end": 767.48,
+            "text": " You can make it white"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 767.48,
+            "end": 769.48,
+            "text": " But again you can make your layouts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 769.48,
+            "end": 771.48,
+            "text": " According to your requirement"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 771.48,
+            "end": 773.48,
+            "text": " And it is fun to make layouts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 773.48,
+            "end": 775.48,
+            "text": " I have a hobby"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 775.48,
+            "end": 777.48,
+            "text": " Writing CSS"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 777.48,
+            "end": 779.48,
+            "text": " When things start happening"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 779.48,
+            "end": 781.48,
+            "text": " Making websites"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 781.48,
+            "end": 783.48,
+            "text": " Has become my hobby"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 783.48,
+            "end": 785.48,
+            "text": " I want to shoutout all those people"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 785.48,
+            "end": 787.48,
+            "text": " Who accepted this challenge"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 787.48,
+            "end": 789.48,
+            "text": " And solved it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 789.48,
+            "end": 791.48,
+            "text": " I will scroll down"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 791.48,
+            "end": 793.48,
+            "text": " I know many people solved it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 793.48,
+            "end": 795.48,
+            "text": " And also it is not possible to shoutout everyone"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 795.48,
+            "end": 797.48,
+            "text": " But I try to shoutout randomly"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 797.48,
+            "end": 799.48,
+            "text": " Lakshraj Das"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 799.48,
+            "end": 801.48,
+            "text": " MD Maroop"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 801.48,
+            "end": 803.48,
+            "text": " A.N.I Factual Films"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 803.48,
+            "end": 805.48,
+            "text": " Digital Connect"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 805.48,
+            "end": 807.48,
+            "text": " SKSK"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 807.48,
+            "end": 809.48,
+            "text": " LMOT"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 809.48,
+            "end": 811.48,
+            "text": " Developer Pankaj"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 811.48,
+            "end": 813.48,
+            "text": " Nikhil"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 813.48,
+            "end": 815.48,
+            "text": " Arna Verma"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 815.48,
+            "end": 817.48,
+            "text": " Shubh409"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 817.48,
+            "end": 819.48,
+            "text": " Abhishek"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 819.48,
+            "end": 821.48,
+            "text": " Rathan Veer Arts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 821.48,
+            "end": 823.48,
+            "text": " RRC Gaming"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 823.48,
+            "end": 825.48,
+            "text": " Shakti"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 825.48,
+            "end": 827.48,
+            "text": " Chandan Singh"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 827.48,
+            "end": 829.48,
+            "text": " Jack Odder"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 829.48,
+            "end": 831.48,
+            "text": " Kuldeep Sharma"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 831.48,
+            "end": 833.48,
+            "text": " Oma Ali"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 833.48,
+            "end": 835.48,
+            "text": " SXM"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 835.48,
+            "end": 837.48,
+            "text": " GDN"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 837.48,
+            "end": 839.48,
+            "text": " Random shoutouts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 839.48,
+            "end": 841.48,
+            "text": " Crazy Neha Shorts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 841.48,
+            "end": 843.48,
+            "text": " Pranjal Burman"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 843.48,
+            "end": 845.48,
+            "text": " Rana Tari"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 845.48,
+            "end": 847.48,
+            "text": " Nishant"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 847.48,
+            "end": 849.48,
+            "text": " American Nightmare"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 849.48,
+            "end": 851.48,
+            "text": " Ram Kumbar"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 851.48,
+            "end": 853.48,
+            "text": " When you solve"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 853.48,
+            "end": 855.48,
+            "text": " You will get a satisfaction"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 855.48,
+            "end": 857.48,
+            "text": " My shoutouts"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 857.48,
+            "end": 859.48,
+            "text": " You should not care about it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 859.48,
+            "end": 861.48,
+            "text": " You are here to learn"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 861.48,
+            "end": 863.48,
+            "text": " I try to do everything"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 863.48,
+            "end": 865.48,
+            "text": " I try to make a video"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 865.48,
+            "end": 867.48,
+            "text": " So that you can understand"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 867.48,
+            "end": 869.48,
+            "text": " I made a flexbox video"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 869.48,
+            "end": 871.48,
+            "text": " I tried the same"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 871.48,
+            "end": 873.48,
+            "text": " I tried to take less time"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 873.48,
+            "end": 875.48,
+            "text": " And explain you"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 875.48,
+            "end": 877.48,
+            "text": " I will not take much time"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 877.48,
+            "end": 879.48,
+            "text": " Shoutout to all the people who solved"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 879.48,
+            "end": 881.48,
+            "text": " Remember one thing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 881.48,
+            "end": 883.48,
+            "text": " Your hard work will bring this color"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 883.48,
+            "end": 885.48,
+            "text": " And will make your life better"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 885.48,
+            "end": 887.48,
+            "text": " Will give a big contribution"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 887.48,
+            "end": 889.48,
+            "text": " Keep your hard work as it is"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 889.48,
+            "end": 891.48,
+            "text": " If you have not accessed this playlist"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 891.48,
+            "end": 893.48,
+            "text": " Do it"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 893.48,
+            "end": 895.48,
+            "text": " If you want to get a shoutout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 895.48,
+            "end": 897.48,
+            "text": " Then turn on the notifications"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 897.48,
+            "end": 899.48,
+            "text": " So that the exercise comes"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 899.48,
+            "end": 901.48,
+            "text": " You comment"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 901.48,
+            "end": 903.48,
+            "text": " You will get more chances to get a shoutout"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 903.48,
+            "end": 905.48,
+            "text": " But again I said"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 905.48,
+            "end": 907.48,
+            "text": " Your hard work and what you are doing"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 907.48,
+            "end": 909.48,
+            "text": " It is more important"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 909.48,
+            "end": 911.48,
+            "text": " My effort is always"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 911.48,
+            "end": 913.48,
+            "text": " I take less time"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 913.48,
+            "end": 915.48,
+            "text": " I can teach you with the help of my limited knowledge"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 915.48,
+            "end": 917.48,
+            "text": " So you must access the playlist"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 917.48,
+            "end": 919.48,
+            "text": " And I am updating the source code"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 919.48,
+            "end": 921.48,
+            "text": " That's all for now"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 921.48,
+            "end": 923.48,
+            "text": " Thank you so much for watching"
+        },
+        {
+            "number": "40",
+            "title": "Exercise 5 - Solution",
+            "start": 923.48,
+            "end": 925.48,
+            "text": " And I will see you next time"
+        }
+    ],
+    "text": " So many of you guys have solved exercise 5 In today's video, I will tell you the solution of exercise 5 Then I will give a shoutout to all of you who have solved this question Like with high energy and write Sigma patch up in the comment section below Let's go to the computer screen Let's roll the intro Intro So guys here I have made a folder named video 41 And the first thing I will do is open it in VS code And I will tell you how we can design this layout So I will name it layout And this is going to be the solution of our exercise For you guys, I will toggle the word wrap and screencast mode So that you can see what keys I am pressing Now you see carefully here that we have to make this layout And we can also use these colors So the first thing I will do is make a navbar I will say that there will be a header in my body And there will be a footer in my body There will be a main content and a footer I am using HTML semantic tags And there will be a navbar in my header And the navbar Now see here I will not use flexbox Because when I gave you this exercise, I did not tell you about flexbox But I tell you guys here That how we will do it by pinking the background color And we will make its height 133 pixels And I am going to do one more thing here And that is that I have already told you that You go to settings and go to the live preview extension This is the live preview extension I don't want to open it in the new tab here I want to open it in the external browser So whenever I click here, I will open it directly in the external browser I will do one more thing here First of all, I will make it 83 pixels And by putting a universal selector I will make it M0 and P0 What will happen with this? Margin will be 0, padding will be 0 And the spacing that was visible will not be visible So here you guys saw that I made the pink color layout After this, what I will do below is I will make a container And I will give padding in that container I will make a container in my main content So div.container I will write here Now what I will do inside this container Inside the dot container I will give a background color red Now you will say who gives red background color? I just give it for testing And I will remove it And what I will do here is I will do margin From top bottom, say 12 pixels And from left right, 34 pixels So you see here that it did not come I see what is the problem Div.container will take So its height is not of container So I will make its height 233 pixels And you can see here I have given a little more than left right And from top bottom, something like this What is the idea? The idea is to make this layout green I don't give it green By the way, why didn't I give green? I should have given it green So I make its background green And you see now it looks like this And there are two boxes inside it One box is of my pink color And one box is of my blue color So I will write here div.box1 And along with that I will also make a box2 So this one is of pink color box1 And I will give css to this box1 And I will remove its height Of container because it is going to be automatic So there is a box1 and a box2 So what I will do in my box1 That the color of this box1 will be pink So background color pink Okay, let's take this pink And along with that let's make it blue Let's make the background color blue And the obvious thing is that I will see it in the new tab Sorry, I will see it in the new line And I will have to do something about it So now if you see here So I have also removed its height So I give height to box1 and box2 And I will give height to it Say 240 or I will do one thing I will give it a height of 70vh Okay, 70vh And I will also give it a height of 70vh to box2 So there can be many ways to make this layout If I tell you the truth And I will make its width I will make its width 50% So we will make the width 50% And as soon as we make the width 50% Now see here, this came This is my container There is a box1 and a box2 in the container And the width of box1 is 50% Height is 70vh Now you know what the problem is here The problem is that these two came inside it That is, the pink box and this So what do I have to do to bring it in the same line There is one way to bring it in the same line That I make both the boxes inline But this is not a good practice Okay, let me tell you I am trying to avoid just flexbox I could have used float and clear In fact, I will block it inline So that it obeys the width And now you see how it looks It looks like this And it looks like this because of margin padding I have to reduce its width a little So I make it 45-45 Instead of 50-50 I make it 45-45 And you see it looks like this And I have to give padding in it So I do one thing I give padding in both And I will write here padding Top bottom says 0 And sorry not padding I had to give margin Margin of the spacing around them And you see It looks like this It looks like this, it doesn't look like this Now I can increase this margin So that it pulls more here So I can set it from here And what will I do to set it Simply I will come here in box 2, I will come in box 1 In fact I can give padding in container This is also an option This is also an option that I say That give padding in container Such that it looks like this And to center it I will give text align center in container What will happen with this That it will come in the center As you can see it has come in the center I just have to do one more thing That the margin I have given in the container That is fine I should also give padding in the container Which will be 0 pixels from top bottom And from left right Sorry, 23 pixels from top bottom And from left right I also want it, so it should look like this In fact I will increase it a little from here I will make it 55 pixels So that a little more comes from top bottom And you see this layout is almost Designed After this I have to add welcome to sigma web development express And after that I have to give footer So I will first finish my footer And the height of the footer I will do 100 pixels And I will do the background color What will I do I will do this I will do biscuit You see here my footer has come My footer has come And here I told you That you have to make a sticky And your navbar That should also be sticky I told you when you scroll up So I also add this Welcome to sigma web dev express So here I will add a box And div dot Text box And what will I do in it I will put a paragraph and write Welcome to sigma Web development Express And after writing this what will I do The text box My text box I will give it I will give padding 34 pixels And after this I will give border 2 pixels Solid white And the background of my container In fact I will give the background of the main container black So my main I gave the background color Black And text white The color will be white Let's see what I made So I made this And see it looks like this Welcome to sigma web dev express I will definitely have to give margin From left to right So how will I give margin in the text box I will say margin And I will have to give a little more margin So if I give margin of 34vw It will look like this I know that the margin is a little more So I will make the margin 0 in the top and bottom I will give margin of 34vw in the left and right So that it becomes the center And I will give border radius I will also make it 2m And I will make the border radius 13 pixels Let's see where we are So here we have made it to a large extent Which I wanted to make Now I just have to give margin from top to bottom Which I had made 0 So I will make it 10 pixels I need margin in the top and bottom So I have made it 10 pixels But what is the problem here I have to see So this is my paragraph, this is my text box So if I increase the margin So this black background Why is it not taking it, I have to see So the black background I have given it in the main And this is margin So margin is coming out This is the thing So I will give padding in the main Basically I have to give padding in the main If I want I get black color from inside So I have to give padding in the main So that it comes here like this So now I can increase this margin If I want, something like this So I will make margin 50 pixels I will make margin of my text box 50 pixels I am telling again, I am not making it responsive I am intentionally mentioning this Because I am making just this layout Maybe I make it responsive later You can do this, that you have done this Make it responsive later And later by making responsive You can do a lot of things So understand it like this That we are making just this layout Then after this, this is done Everything is done We have to make our navbar sticky So in the navbar We will say position sticky Ok Just put position sticky And by putting position sticky It did not work, top zero Top zero Ok, put top zero It still did not work Position sticky is not working Because I have not put it in my parent I should put it On the header Now I will tell you One more workaround to do If I target my header On my navbar If I say this thing here Position sticky top zero Then you see here This position is sticky My header is sticky And after this I have to make this circle And fix its position So what I will do here I will write div.orangebox And after this I will I can set the orange box So I will do one thing I will come here Here is my orange box First of all I will give height 12 pixels and width 12 pixels Background Orange and where did it go It is somewhere here I will give it fixed position And bottom 12 pixels And right 23 pixels And border radius 13 pixels And if you want you can increase its height It depends on you Assume I give it 32 And see it is like this I have to increase border radius If I want a perfect circle So I will increase its border radius Little bit Maybe I will increase its border radius to 60 So I have to add this thing And my work is done here It is fixed here See it is fixed here So what I was saying It is done And orange box I guess its name was orange box It was not orange dash box It was orange box I guess orange dash box is better It is readable So it is done See what I was talking about Specifically what is font size You have to match it Little bit I should have made its color white You can make it white But again you can make your layouts According to your requirement And it is fun to make layouts I have a hobby Writing CSS When things start happening Making websites Has become my hobby I want to shoutout all those people Who accepted this challenge And solved it I will scroll down I know many people solved it And also it is not possible to shoutout everyone But I try to shoutout randomly Lakshraj Das MD Maroop A.N.I Factual Films Digital Connect SKSK LMOT Developer Pankaj Nikhil Arna Verma Shubh409 Abhishek Rathan Veer Arts RRC Gaming Shakti Chandan Singh Jack Odder Kuldeep Sharma Oma Ali SXM GDN Random shoutouts Crazy Neha Shorts Pranjal Burman Rana Tari Nishant American Nightmare Ram Kumbar When you solve You will get a satisfaction My shoutouts You should not care about it You are here to learn I try to do everything I try to make a video So that you can understand I made a flexbox video I tried the same I tried to take less time And explain you I will not take much time Shoutout to all the people who solved Remember one thing Your hard work will bring this color And will make your life better Will give a big contribution Keep your hard work as it is If you have not accessed this playlist Do it If you want to get a shoutout Then turn on the notifications So that the exercise comes You comment You will get more chances to get a shoutout But again I said Your hard work and what you are doing It is more important My effort is always I take less time I can teach you with the help of my limited knowledge So you must access the playlist And I am updating the source code That's all for now Thank you so much for watching And I will see you next time"
+}

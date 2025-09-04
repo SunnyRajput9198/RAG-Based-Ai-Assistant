@@ -1,0 +1,1783 @@
+{
+    "chunks": [
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 0.0,
+            "end": 2.54,
+            "text": " We read about different lists in HTML"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 2.54,
+            "end": 6.24,
+            "text": " We saw that there are ordered list, unordered list, definition list"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 6.24,
+            "end": 7.92,
+            "text": " There are list items in it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 7.92,
+            "end": 11.34,
+            "text": " If you are making a website, then in the navigation bar, for example"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 11.34,
+            "end": 14.84,
+            "text": " You will have to put list items in an unordered list"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 14.84,
+            "end": 17.62,
+            "text": " There you have to change a lot of things"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 17.62,
+            "end": 20.76,
+            "text": " I will tell you in this video that on list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 20.76,
+            "end": 25.84,
+            "text": " And along with that, what kind of CSS properties can be applied to their list and changed"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 25.84,
+            "end": 32.22,
+            "text": " And now we are going to reach our first project by completing all these properties"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 32.22,
+            "end": 35.3,
+            "text": " So write Sigma Batch OP in the comment section below"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 35.3,
+            "end": 36.8,
+            "text": " Let's go to the computer screen"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 36.8,
+            "end": 38.3,
+            "text": " Let's roll the intro"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 38.3,
+            "end": 46.84,
+            "text": " Intro"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 46.84,
+            "end": 49.34,
+            "text": " So guys I have come to my computer screen"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 49.34,
+            "end": 52.84,
+            "text": " The first thing I will do is make a video 25"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 52.84,
+            "end": 57.040000000000006,
+            "text": " And here I will open with code by right-clicking"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 57.040000000000006,
+            "end": 59.84,
+            "text": " See people celebrate the century"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 59.84,
+            "end": 61.84,
+            "text": " They celebrate 50 and a half century"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 61.84,
+            "end": 63.5,
+            "text": " I will also celebrate the quarter century"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 63.5,
+            "end": 66.54,
+            "text": " 25 videos have been done, write congratulations in the comment section"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 66.54,
+            "end": 69.84,
+            "text": " Now here while making index.html"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 69.84,
+            "end": 73.34,
+            "text": " I will tell you how to style a list"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 73.34,
+            "end": 76.34,
+            "text": " List styling is so important"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 76.34,
+            "end": 83.34,
+            "text": " If you want to make a new bar, then you will use list items 70-80% of the time"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 83.34,
+            "end": 87.34,
+            "text": " Now here I will quickly toggle the word wrap"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 87.34,
+            "end": 90.84,
+            "text": " And turn on the screencast mode so that you can see what I am doing"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 90.84,
+            "end": 92.84,
+            "text": " And I will write CSS list here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 92.84,
+            "end": 94.84,
+            "text": " Suppose I want to make a new bar"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 94.84,
+            "end": 98.84,
+            "text": " I start with a typical example which you will use"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 98.84,
+            "end": 101.84,
+            "text": " After writing nav, I will say make an unordered list"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 101.84,
+            "end": 103.84,
+            "text": " Make an ali, write home there"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 103.84,
+            "end": 106.84,
+            "text": " And along with this make some more alias"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 106.84,
+            "end": 111.34,
+            "text": " Suppose write about here and write contact here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 111.34,
+            "end": 113.84,
+            "text": " So I wrote about here and wrote contact here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 113.84,
+            "end": 115.84,
+            "text": " Now first of all, you access this playlist"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 115.84,
+            "end": 118.84,
+            "text": " Otherwise I will come to your house and I will snatch your computer and access it myself"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 118.84,
+            "end": 120.84,
+            "text": " I will bookmark the playlist in your computer"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 120.84,
+            "end": 122.84,
+            "text": " You will like it, you will not like it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 122.84,
+            "end": 123.84,
+            "text": " So you do it yourself"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 123.84,
+            "end": 130.34,
+            "text": " Now here you can see that I have given you all the source code in github.com slash code with ari slash sigma web dev course"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 130.34,
+            "end": 131.84,
+            "text": " You have to access this too"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 131.84,
+            "end": 134.34,
+            "text": " Okay, if you do all these things yourself, I will like it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 134.34,
+            "end": 137.34,
+            "text": " Now here you see, I open it in the browser and show you"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 137.34,
+            "end": 140.34,
+            "text": " And here you can see that it is rendered in this way"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 140.34,
+            "end": 141.84,
+            "text": " Which is a default behavior"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 141.84,
+            "end": 144.84,
+            "text": " Now you can do some styling inside the list"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 144.84,
+            "end": 147.84,
+            "text": " Which has a big use"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 147.84,
+            "end": 150.34,
+            "text": " That you want to show it as a nav bar"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 150.34,
+            "end": 153.34,
+            "text": " Now see whenever a list is made by default"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 153.34,
+            "end": 155.84,
+            "text": " If I talk about this list, I will inspect it and show you"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 155.84,
+            "end": 157.34,
+            "text": " And hide my face"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 157.34,
+            "end": 160.84,
+            "text": " So that you can see below what I am pointing at"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 160.84,
+            "end": 163.84,
+            "text": " Now see here its display property is a list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 163.84,
+            "end": 166.84,
+            "text": " As we read about the display block"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 166.84,
+            "end": 169.84,
+            "text": " We read about the display inline"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 169.84,
+            "end": 172.84,
+            "text": " We read about the display flex and grid"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 172.84,
+            "end": 175.84,
+            "text": " Its display value is a list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 175.84,
+            "end": 178.84,
+            "text": " Which means that there will be a marker in it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 178.84,
+            "end": 179.84,
+            "text": " And there will be an item, okay"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 179.84,
+            "end": 182.84,
+            "text": " Now if you want to change its display"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 182.84,
+            "end": 183.84,
+            "text": " You can change it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 183.84,
+            "end": 185.84,
+            "text": " If I block its display"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 185.84,
+            "end": 187.84,
+            "text": " Then its display will be blocked"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 187.84,
+            "end": 190.84,
+            "text": " This is not a good approach to remove this marker"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 190.84,
+            "end": 193.84,
+            "text": " If you want to remove its marker, then how will you do it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 193.84,
+            "end": 196.84,
+            "text": " To remove its marker, see there is a marker in the li"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 196.84,
+            "end": 199.84,
+            "text": " And the content inside it is that"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 199.84,
+            "end": 202.84,
+            "text": " In the other li, there is a marker and this is it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 202.84,
+            "end": 204.84,
+            "text": " So how does it get it?"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 204.84,
+            "end": 206.84,
+            "text": " Its display is a list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 206.84,
+            "end": 207.84,
+            "text": " That's why it is getting all this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 207.84,
+            "end": 209.84,
+            "text": " There are two things in it"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 209.84,
+            "end": 212.84,
+            "text": " It comprises of a marker and list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 212.84,
+            "end": 214.84,
+            "text": " Now there are some properties in it that we will talk about"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 214.84,
+            "end": 217.84,
+            "text": " The most important property is list style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 217.84,
+            "end": 219.84,
+            "text": " If you make list style none"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 219.84,
+            "end": 221.84,
+            "text": " Then you see here, this circle will disappear"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 221.84,
+            "end": 223.84,
+            "text": " That is, the marker will disappear"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 223.84,
+            "end": 226.84,
+            "text": " If you keep any value of list style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 226.84,
+            "end": 228.84,
+            "text": " Let's say any of these"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 228.84,
+            "end": 229.84,
+            "text": " See how it is changing up"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 229.84,
+            "end": 231.84,
+            "text": " See up, I will circle"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 231.84,
+            "end": 234.84,
+            "text": " All these values can be used here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 234.84,
+            "end": 236.84,
+            "text": " Devnagri is also there"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 236.84,
+            "end": 238.84,
+            "text": " If you do Devnagri, then 1, 2, 3, 4 will come"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 238.84,
+            "end": 240.84,
+            "text": " You can also do Devnagri for list style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 240.84,
+            "end": 241.84,
+            "text": " But what we usually do"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 241.84,
+            "end": 243.84,
+            "text": " Is target this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 243.84,
+            "end": 245.84,
+            "text": " Let's target this list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 245.84,
+            "end": 247.84,
+            "text": " Let's say I write here style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 247.84,
+            "end": 249.84,
+            "text": " And I say inside nav, inside ul"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 249.84,
+            "end": 251.84,
+            "text": " Li is there"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 251.84,
+            "end": 253.84,
+            "text": " What do you do about it?"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 253.84,
+            "end": 255.84,
+            "text": " Do list style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 255.84,
+            "end": 256.84000000000003,
+            "text": " List style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 256.84000000000003,
+            "end": 258.84000000000003,
+            "text": " See if I want to make a new bar"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 258.84000000000003,
+            "end": 260.84000000000003,
+            "text": " Then what I will do is I will make list style none"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 260.84000000000003,
+            "end": 262.84000000000003,
+            "text": " But I will just show you by doing Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 262.84000000000003,
+            "end": 264.84000000000003,
+            "text": " And as soon as I did Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 264.84000000000003,
+            "end": 266.84000000000003,
+            "text": " Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 266.84000000000003,
+            "end": 268.84000000000003,
+            "text": " I think"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 268.84000000000003,
+            "end": 270.84000000000003,
+            "text": " Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 270.84,
+            "end": 272.84,
+            "text": " See Devnagri spelling is wrong"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 272.84,
+            "end": 274.84,
+            "text": " And you see here as soon as I do Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 274.84,
+            "end": 276.84,
+            "text": " Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 276.84,
+            "end": 278.84,
+            "text": " D-E-V-A-N-A-G-R-I"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 278.84,
+            "end": 280.84,
+            "text": " Devnagri"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 280.84,
+            "end": 282.84,
+            "text": " Now see here 1, 2, 3"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 282.84,
+            "end": 284.84,
+            "text": " Which is"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 284.84,
+            "end": 286.84,
+            "text": " You will get to see"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 286.84,
+            "end": 288.84,
+            "text": " So this way you can change"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 288.84,
+            "end": 290.84,
+            "text": " By changing the list style property"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 290.84,
+            "end": 292.84,
+            "text": " Now you see here that its marker"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 292.84,
+            "end": 294.84,
+            "text": " And the content is made by combining these two"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 294.84,
+            "end": 296.84,
+            "text": " Now I show you one thing"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 296.84,
+            "end": 298.84,
+            "text": " If I make its background"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 298.84,
+            "end": 300.84,
+            "text": " Yellow"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 300.84,
+            "end": 302.84,
+            "text": " Yellow"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 302.84,
+            "end": 304.84,
+            "text": " Here I have made its background yellow"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 304.84,
+            "end": 306.84,
+            "text": " So now see the marker is left"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 306.84,
+            "end": 308.84,
+            "text": " Marker means it is outside the list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 308.84,
+            "end": 310.84,
+            "text": " It is not inside the list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 310.84,
+            "end": 312.84,
+            "text": " But I want my marker"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 312.84,
+            "end": 314.84,
+            "text": " Come inside the list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 314.84,
+            "end": 316.84,
+            "text": " How will I do it? By using list style position"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 316.84,
+            "end": 318.84,
+            "text": " So I will come here and I will say"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 318.84,
+            "end": 320.84,
+            "text": " The list style position"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 320.84,
+            "end": 322.84,
+            "text": " Inside"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 322.84,
+            "end": 324.84,
+            "text": " Means take the marker inside"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 324.84,
+            "end": 326.84,
+            "text": " And now my marker is inside"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 326.84,
+            "end": 328.84,
+            "text": " Means any background will be put"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 328.84,
+            "end": 330.84,
+            "text": " Border will be put"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 330.84,
+            "end": 332.84,
+            "text": " I will show you by putting border"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 332.84,
+            "end": 334.84,
+            "text": " I will show you by putting border"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 334.84,
+            "end": 336.84,
+            "text": " Border 2px"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 336.84,
+            "end": 338.84,
+            "text": " Solid"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 338.84,
+            "end": 340.84,
+            "text": " Black"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 340.84,
+            "end": 342.84,
+            "text": " And you see here as soon as I put 2px"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 342.84,
+            "end": 344.84,
+            "text": " Solid black border"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 344.84,
+            "end": 346.84,
+            "text": " Your markers are inside. Why?"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 346.84,
+            "end": 348.84,
+            "text": " Because I have made list style position inside"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 348.84,
+            "end": 350.84,
+            "text": " And whenever I will make list style position"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 350.84,
+            "end": 352.84,
+            "text": " Inside it means"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 352.84,
+            "end": 354.84,
+            "text": " My marker is inside my li"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 354.84,
+            "end": 356.84,
+            "text": " Can I replace it with an image?"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 356.84,
+            "end": 358.84,
+            "text": " Yes I can"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 358.84,
+            "end": 360.84,
+            "text": " So I can use"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 360.84,
+            "end": 362.84,
+            "text": " List style image property"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 362.84,
+            "end": 364.84,
+            "text": " And here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 364.84,
+            "end": 366.84,
+            "text": " I can put an image url"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 366.84,
+            "end": 368.84,
+            "text": " So url"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 368.84,
+            "end": 370.84,
+            "text": " And here I can put an image url"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 370.84,
+            "end": 372.84,
+            "text": " Let us say I"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 372.84,
+            "end": 374.84,
+            "text": " An image url which is this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 374.84,
+            "end": 376.84,
+            "text": " I will show you"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 376.84,
+            "end": 378.84,
+            "text": " If I want to use this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 378.84,
+            "end": 380.84,
+            "text": " So why it is not here?"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 380.84,
+            "end": 382.84,
+            "text": " Let me see"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 382.84,
+            "end": 384.84,
+            "text": " Actually that image was not accessible"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 384.84,
+            "end": 386.84,
+            "text": " So I used this image"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 386.84,
+            "end": 388.84,
+            "text": " And you can see here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 388.84,
+            "end": 390.84,
+            "text": " This image is here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 390.84,
+            "end": 392.84,
+            "text": " I will show you one more thing"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 392.84,
+            "end": 394.84,
+            "text": " I will comment this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 394.84,
+            "end": 396.84,
+            "text": " Obviously"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 396.84,
+            "end": 398.84,
+            "text": " I can do here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 398.84,
+            "end": 400.84,
+            "text": " I can set list style type"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 400.84,
+            "end": 402.84,
+            "text": " To an emoji"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 402.84,
+            "end": 404.84,
+            "text": " And let us say"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 404.84,
+            "end": 406.84,
+            "text": " I set monkey emoji"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 406.84,
+            "end": 408.84,
+            "text": " And you can see monkey"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 408.84,
+            "end": 410.84,
+            "text": " So if you want to put monkey"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 410.84,
+            "end": 412.84,
+            "text": " And after this I want to tell you about a syntax"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 412.84,
+            "end": 414.84,
+            "text": " You can list style type"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 414.84,
+            "end": 416.84,
+            "text": " Let us say"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 416.84,
+            "end": 418.84,
+            "text": " I want to make it a disk"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 418.84,
+            "end": 420.84,
+            "text": " And after this I want to make position"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 420.84,
+            "end": 422.84,
+            "text": " Inside"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 422.84,
+            "end": 424.84,
+            "text": " And along with that I want to set image"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 424.84,
+            "end": 426.84,
+            "text": " To this url"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 426.84,
+            "end": 428.84,
+            "text": " I can do all three at once"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 428.84,
+            "end": 430.84,
+            "text": " You can see here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 430.84,
+            "end": 432.84,
+            "text": " As soon as I did this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 432.84,
+            "end": 434.84,
+            "text": " And I will comment this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 434.84,
+            "end": 436.84,
+            "text": " So you can see here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 436.84,
+            "end": 438.84,
+            "text": " If I remove this url"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 438.84,
+            "end": 440.84,
+            "text": " Disk will come here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 440.84,
+            "end": 442.84,
+            "text": " And obviously if I remove disk"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 442.84,
+            "end": 444.84,
+            "text": " Then url will come here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 444.84,
+            "end": 446.84,
+            "text": " So if I remove disk"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 446.84,
+            "end": 448.84,
+            "text": " Then inside url will come here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 448.84,
+            "end": 450.84,
+            "text": " You can use disk or url at once"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 450.84,
+            "end": 452.84,
+            "text": " So you should know this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 452.84,
+            "end": 454.84,
+            "text": " But for the syntax sake"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 454.84,
+            "end": 456.84,
+            "text": " I will keep all three like this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 456.84,
+            "end": 458.84,
+            "text": " Either you will use both of them"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 458.84,
+            "end": 460.84,
+            "text": " At once or both of them"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 460.84,
+            "end": 462.84,
+            "text": " For obvious reasons"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 462.84,
+            "end": 464.84,
+            "text": " Because either your image will be visible"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 464.84,
+            "end": 466.84,
+            "text": " Or disk will be visible"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 466.84,
+            "end": 468.84,
+            "text": " And you will understand list style image"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 468.84,
+            "end": 470.84,
+            "text": " How to use short end property"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 470.84,
+            "end": 472.84,
+            "text": " I will comment this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 472.84,
+            "end": 474.84,
+            "text": " And will keep it as disk"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 474.84,
+            "end": 476.84,
+            "text": " In fact I like this monkey"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 476.84,
+            "end": 478.84,
+            "text": " Or if I keep a smiley"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 478.84,
+            "end": 480.84,
+            "text": " Or fire will be good"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 480.84,
+            "end": 482.84,
+            "text": " So I can keep fire like this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 482.84,
+            "end": 484.84,
+            "text": " It looks pretty good"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 484.84,
+            "end": 486.84,
+            "text": " So list is used a lot"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 486.84,
+            "end": 488.84,
+            "text": " Like I told you to make navbar"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 488.84,
+            "end": 490.84,
+            "text": " We usually do some work like this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 490.84,
+            "end": 492.84,
+            "text": " I will show you"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 492.84,
+            "end": 494.84,
+            "text": " All the things I have put on my li"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 494.84,
+            "end": 496.84,
+            "text": " I will remove all this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 496.84,
+            "end": 498.84,
+            "text": " Usually what we do here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 498.84,
+            "end": 500.84,
+            "text": " We do none for list style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 500.84,
+            "end": 502.84,
+            "text": " In fact I will do this in li"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 502.84,
+            "end": 504.84,
+            "text": " So that it will apply in all"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 504.84,
+            "end": 506.84,
+            "text": " List style none"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 506.84,
+            "end": 508.84,
+            "text": " Whenever you write anything here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 508.84,
+            "end": 510.84,
+            "text": " In element.style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 510.84,
+            "end": 512.8399999999999,
+            "text": " I will show you by closing this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 512.8399999999999,
+            "end": 514.8399999999999,
+            "text": " It will be added here as inline style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 514.8399999999999,
+            "end": 516.8399999999999,
+            "text": " You see here whatever I type"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 516.8399999999999,
+            "end": 518.8399999999999,
+            "text": " Whatever I will add here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 518.8399999999999,
+            "end": 520.8399999999999,
+            "text": " Or remove from here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 520.8399999999999,
+            "end": 522.8399999999999,
+            "text": " Whatever will be written in element.style"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 522.84,
+            "end": 524.84,
+            "text": " It will be added as inline CSS"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 524.84,
+            "end": 526.84,
+            "text": " You should know this"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 526.84,
+            "end": 528.84,
+            "text": " So I will not write here"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 528.84,
+            "end": 530.84,
+            "text": " I will write here list style none"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 530.84,
+            "end": 532.84,
+            "text": " And you can see by doing list style none"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 532.84,
+            "end": 534.84,
+            "text": " It is gone. Then usually we"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 534.84,
+            "end": 536.84,
+            "text": " Flex the display so that it becomes horizontal"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 536.84,
+            "end": 538.84,
+            "text": " And we do it on its container"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 538.84,
+            "end": 540.84,
+            "text": " We will not do it here but on ul"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 540.84,
+            "end": 542.84,
+            "text": " So let's flex the display on its container"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 542.84,
+            "end": 544.84,
+            "text": " So that all its items become flex"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 544.84,
+            "end": 546.84,
+            "text": " And what we usually do on list item"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 546.84,
+            "end": 548.84,
+            "text": " What we do is"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 548.84,
+            "end": 550.84,
+            "text": " We set the padding"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 550.84,
+            "end": 552.84,
+            "text": " So that's how our navbar"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 552.84,
+            "end": 554.84,
+            "text": " Is made"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 554.84,
+            "end": 556.84,
+            "text": " But that's not the point of this video"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 556.84,
+            "end": 558.84,
+            "text": " In the coming videos we will make"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 558.84,
+            "end": 560.84,
+            "text": " Great website ideas"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 560.84,
+            "end": 562.84,
+            "text": " Don't take tension"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 562.84,
+            "end": 564.84,
+            "text": " Access the playlist now"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 564.84,
+            "end": 566.84,
+            "text": " Click here to bookmark"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 566.84,
+            "end": 568.84,
+            "text": " Click here to save"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 568.84,
+            "end": 570.84,
+            "text": " Thank you so much guys for watching this video"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 570.84,
+            "end": 572.84,
+            "text": " And I will see you next time"
+        },
+        {
+            "number": "25",
+            "title": "Styling Lists using CSS",
+            "start": 572.84,
+            "end": 590.84,
+            "text": " Music"
+        }
+    ],
+    "text": " We read about different lists in HTML We saw that there are ordered list, unordered list, definition list There are list items in it If you are making a website, then in the navigation bar, for example You will have to put list items in an unordered list There you have to change a lot of things I will tell you in this video that on list item And along with that, what kind of CSS properties can be applied to their list and changed And now we are going to reach our first project by completing all these properties So write Sigma Batch OP in the comment section below Let's go to the computer screen Let's roll the intro Intro So guys I have come to my computer screen The first thing I will do is make a video 25 And here I will open with code by right-clicking See people celebrate the century They celebrate 50 and a half century I will also celebrate the quarter century 25 videos have been done, write congratulations in the comment section Now here while making index.html I will tell you how to style a list List styling is so important If you want to make a new bar, then you will use list items 70-80% of the time Now here I will quickly toggle the word wrap And turn on the screencast mode so that you can see what I am doing And I will write CSS list here Suppose I want to make a new bar I start with a typical example which you will use After writing nav, I will say make an unordered list Make an ali, write home there And along with this make some more alias Suppose write about here and write contact here So I wrote about here and wrote contact here Now first of all, you access this playlist Otherwise I will come to your house and I will snatch your computer and access it myself I will bookmark the playlist in your computer You will like it, you will not like it So you do it yourself Now here you can see that I have given you all the source code in github.com slash code with ari slash sigma web dev course You have to access this too Okay, if you do all these things yourself, I will like it Now here you see, I open it in the browser and show you And here you can see that it is rendered in this way Which is a default behavior Now you can do some styling inside the list Which has a big use That you want to show it as a nav bar Now see whenever a list is made by default If I talk about this list, I will inspect it and show you And hide my face So that you can see below what I am pointing at Now see here its display property is a list item As we read about the display block We read about the display inline We read about the display flex and grid Its display value is a list item Which means that there will be a marker in it And there will be an item, okay Now if you want to change its display You can change it If I block its display Then its display will be blocked This is not a good approach to remove this marker If you want to remove its marker, then how will you do it To remove its marker, see there is a marker in the li And the content inside it is that In the other li, there is a marker and this is it So how does it get it? Its display is a list item That's why it is getting all this There are two things in it It comprises of a marker and list item Now there are some properties in it that we will talk about The most important property is list style If you make list style none Then you see here, this circle will disappear That is, the marker will disappear If you keep any value of list style Let's say any of these See how it is changing up See up, I will circle All these values can be used here Devnagri is also there If you do Devnagri, then 1, 2, 3, 4 will come You can also do Devnagri for list style But what we usually do Is target this Let's target this list item Let's say I write here style And I say inside nav, inside ul Li is there What do you do about it? Do list style List style See if I want to make a new bar Then what I will do is I will make list style none But I will just show you by doing Devnagri And as soon as I did Devnagri Devnagri I think Devnagri See Devnagri spelling is wrong And you see here as soon as I do Devnagri Devnagri D-E-V-A-N-A-G-R-I Devnagri Now see here 1, 2, 3 Which is You will get to see So this way you can change By changing the list style property Now you see here that its marker And the content is made by combining these two Now I show you one thing If I make its background Yellow Yellow Here I have made its background yellow So now see the marker is left Marker means it is outside the list item It is not inside the list item But I want my marker Come inside the list item How will I do it? By using list style position So I will come here and I will say The list style position Inside Means take the marker inside And now my marker is inside Means any background will be put Border will be put I will show you by putting border I will show you by putting border Border 2px Solid Black And you see here as soon as I put 2px Solid black border Your markers are inside. Why? Because I have made list style position inside And whenever I will make list style position Inside it means My marker is inside my li Can I replace it with an image? Yes I can So I can use List style image property And here I can put an image url So url And here I can put an image url Let us say I An image url which is this I will show you If I want to use this So why it is not here? Let me see Actually that image was not accessible So I used this image And you can see here This image is here I will show you one more thing I will comment this Obviously I can do here I can set list style type To an emoji And let us say I set monkey emoji And you can see monkey So if you want to put monkey And after this I want to tell you about a syntax You can list style type Let us say I want to make it a disk And after this I want to make position Inside And along with that I want to set image To this url I can do all three at once You can see here As soon as I did this And I will comment this So you can see here If I remove this url Disk will come here And obviously if I remove disk Then url will come here So if I remove disk Then inside url will come here You can use disk or url at once So you should know this But for the syntax sake I will keep all three like this Either you will use both of them At once or both of them For obvious reasons Because either your image will be visible Or disk will be visible And you will understand list style image How to use short end property I will comment this And will keep it as disk In fact I like this monkey Or if I keep a smiley Or fire will be good So I can keep fire like this It looks pretty good So list is used a lot Like I told you to make navbar We usually do some work like this I will show you All the things I have put on my li I will remove all this Usually what we do here We do none for list style In fact I will do this in li So that it will apply in all List style none Whenever you write anything here In element.style I will show you by closing this It will be added here as inline style You see here whatever I type Whatever I will add here Or remove from here Whatever will be written in element.style It will be added as inline CSS You should know this So I will not write here I will write here list style none And you can see by doing list style none It is gone. Then usually we Flex the display so that it becomes horizontal And we do it on its container We will not do it here but on ul So let's flex the display on its container So that all its items become flex And what we usually do on list item What we do is We set the padding So that's how our navbar Is made But that's not the point of this video In the coming videos we will make Great website ideas Don't take tension Access the playlist now Click here to bookmark Click here to save Thank you so much guys for watching this video And I will see you next time Music"
+}
