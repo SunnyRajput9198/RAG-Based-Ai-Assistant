@@ -1,3 +1,11 @@
-I'm sorry, but I couldn't find any information about "forms" in the course material I have access to. The provided video chunks discuss general course topics, the CSS Box Model, CSS Position Property, and CSS Display Property.
+Yes, the topic of "CSS Media Queries" is thoroughly covered in the course!
 
-If you have questions about these or other topics that are covered, feel free to ask!
+You can find detailed information about CSS Media Queries in **Video 31**, titled "CSS Media Queries". Here are the specific timestamps where it's discussed:
+
+*   **From 312 seconds to 323 seconds:** The video explains how media queries activate or deactivate based on screen width, and how this affects the application of CSS styles.
+*   **From 323 seconds to 337 seconds:** It continues to demonstrate media query activation and provides a summary that media queries are essential for creating responsive designs.
+*   **From 531 seconds to 542 seconds:** The instructor summarizes the understanding of media queries and mentions their extensive use in upcoming projects.
+*   **From 542 seconds to 552 seconds:** This section clarifies when you would typically use media queries – primarily when writing raw CSS, but less so directly when working with frameworks.
+*   **From 562 seconds to 572 seconds:** The video also touches on demonstrating media query usage and introduces another type of media query.
+
+To learn about CSS Media Queries, please refer to **Video 31: "CSS Media Queries"** and check out these specific time ranges!

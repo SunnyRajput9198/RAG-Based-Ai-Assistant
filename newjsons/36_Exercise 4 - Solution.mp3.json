@@ -1,0 +1,565 @@
+{
+    "chunks": [
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 0.0,
+            "end": 10.0,
+            "text": " Many of you solved exercise 4  In today's video, I will shoutout all of you  who solved exercise 4  and we will also see the solution of exercise 4  Keep liking the video"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 10.0,
+            "end": 28.0,
+            "text": " and do write sigma batch op in the comment section  Let's go to the computer screen  Let's roll the intro  So guys this is my folder  of sigma web development course"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 28.0,
+            "end": 38.0,
+            "text": " I will open it in ps code  Actually someone suggested me  to open it directly  So that's a matter of preference  You can approach it in any way"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 38.0,
+            "end": 48.0,
+            "text": " People say it looks better  But that's fine  I can also do it from here  It's totally same according to me  I will make a folder named video 36"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 48.0,
+            "end": 58.0,
+            "text": " I made it in video 34  Let's take it out  It will come out  Come out  And after doing this"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 58.0,
+            "end": 68.0,
+            "text": " Our video 36 is empty  It has an index.html  And as always  I will solve this question  first and then"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 68.0,
+            "end": 78.0,
+            "text": " we will take things from there  So let's get started  I guess it was video 34  No it was video 33  In which we had to make a multicolor website"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 78.0,
+            "end": 88.0,
+            "text": " Which can change color using  CSS variables  According to me it was a very basic  exercise  So let's go"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 88.0,
+            "end": 98.0,
+            "text": " CSS multicolor website  I will write it like this  And here I will put  a style tag  I have to write it in small"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 98.0,
+            "end": 108.0,
+            "text": " style  And after doing this what I will do  First I will make a header tag  Then I will make a nav tag  Then I will make a ul"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 108.0,
+            "end": 118.0,
+            "text": " Then I will make a li  After doing this I will write home  After this I will replicate it  And how I replicated it  To show you"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 118.0,
+            "end": 128.0,
+            "text": " I will open screencast mode  I used alt shift and down arrow  Although you can  Go to VS code settings  And change it"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 128.0,
+            "end": 138.0,
+            "text": " It happens by keyboard shortcuts  If you can't see it then I will show you  Here it happens by keyboard shortcuts  And now you must have seen it  Here about"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 138.0,
+            "end": 148.0,
+            "text": " And here I write about  Here I write services  And here contact us  I can write contact us  Contact us"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 148.0,
+            "end": 158.0,
+            "text": " And after this you can see  Our website looks like this  I can do previews here and there  So I can say  The li in ul"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 158.0,
+            "end": 168.0,
+            "text": " The list style  Make it none  And after that I can say  The ul  If I want"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 168.0,
+            "end": 178.0,
+            "text": " All of them to come horizontally  And I don't want to use flexbox  So how I will do it, you tell me in the comment section  Then I will show you  If you have guessed correctly"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 178.0,
+            "end": 188.0,
+            "text": " I will make ul and li display inline  I will make it inline  And it comes like this  Although it is not a very good approach  But again if you"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 188.0,
+            "end": 198.0,
+            "text": " Make it display inline  Then what will happen to you  It will come like this  And if you give it a 23 pixel padding  It will come like this"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 198.0,
+            "end": 208.0,
+            "text": " So we can  Put this kind of navbar  And I can say that my nav  Color it's background  I will take a good background color"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 208.0,
+            "end": 218.0,
+            "text": " And I will do this  And I will put a star  M0 and P0  I will also write P0  I want to keep this"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 218.0,
+            "end": 228.0,
+            "text": " And I open it in the browser  If you have not yet  Accessed the playlist of sigma web development  Then do it  What are you doing"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 228.0,
+            "end": 238.0,
+            "text": " So I will  Open it in the browser  So that it is visible here  I can change its font  I can do a lot of things"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 238.0,
+            "end": 248.0,
+            "text": " But now I will focus  On making it multicolor  So I will give padding 12 pixels from top bottom  I will give 0 from left right  And I will do it like this"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 248.0,
+            "end": 258.0,
+            "text": " And obviously I will not put media query  I will make it a very simple navbar  As you can see here  It is a very simple navbar  Now I will search on google"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 258.0,
+            "end": 268.0,
+            "text": " Google font popins  And I will take a style of popins  And I just want to tell you  How will you do  I will remove the ballu bhai"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 268.0,
+            "end": 278.0,
+            "text": " I will minus ballu bhai  I will keep only popins  And I will copy it and put it here  I will say that I have to do the whole side of popins  And I will copy this import statement"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 278.0,
+            "end": 288.0,
+            "text": " And put it in my style tag  Or I will copy the whole style tag  You can put more than one style tag  If you don't know  I hope you know"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 288.0,
+            "end": 298.0,
+            "text": " I will do the format document  It will look like this  And now it is appearing like this  If you want you can reduce the font size of the ally  Although I will tell you one thing"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 298.0,
+            "end": 308.0,
+            "text": " If I reset it, it will look like this  You can change the font weight  I know what I do  I change the font weight here  Here"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 308.0,
+            "end": 318.0,
+            "text": " I inspect it  And here I  Font weight  I want to make it bolder  So I make it bolder"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 318.0,
+            "end": 328.0,
+            "text": " I want to make the color white  So this is a very basic  Navbar  And this is a very basic Navbar  I will copy and paste the properties"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 328.0,
+            "end": 338.0,
+            "text": " I don't have any figma file  I have not made anything  Which I can refer  But one thing  I will show you"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 338.0,
+            "end": 350.0,
+            "text": " Oops, I made a mistake  What did I do  Ok, I have removed the padding  And the font weight  I will format it now"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 350.0,
+            "end": 360.0,
+            "text": " Yes, so now our website is looking like this  Our Navbar is looking like this  But if you want  To change the color of it  You know how you will change it"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 360.0,
+            "end": 370.0,
+            "text": " The color is on Navbar  So let's say you don't want to keep blue  You want to keep this color  Or you want to keep blue  You can keep any color you want"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 370.0,
+            "end": 380.0,
+            "text": " So you can keep any color you want  So if you like this color  Or this color  You can keep anything  But you know what I will do"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 380.0,
+            "end": 390.0,
+            "text": " I will store it in CSS variable  So what I will do here  The root  I will  Primary color"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 390.0,
+            "end": 400.0,
+            "text": " Primary color  I want to make primary color  This color  Not blue violet  This color which I have chosen"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 400.0,
+            "end": 410.0,
+            "text": " I have changed it by mistake  I will change the opacity  Little less  I guess this is good  This is good actually"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 410.0,
+            "end": 420.0,
+            "text": " Hmm, yes  Ok, I will copy this color  I will do it now  So I have told you syntax  Already, where did I tell you"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 420.0,
+            "end": 430.0,
+            "text": " In the video of CSS variables  Where is the video of CSS variables  The video of CSS variables was  Video number 30  So I will show you in video number 30"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 430.0,
+            "end": 440.0,
+            "text": " How we made variables in CSS variables  So the way we  Learned to make variables in video number 30  We will make it in the same way  Now after this I will do a secondary"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 440.0,
+            "end": 450.0,
+            "text": " I will do a work  I will keep text color  And my text color will be  White and what I will do here  I will say"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 450.0,
+            "end": 460.0,
+            "text": " Secondary color  Secondary color  I will keep  Not primary color  I will keep this color but I will change it a little"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 460.0,
+            "end": 470.0,
+            "text": " I will show you how I will change it  So we will change it  In this way  It will be little light, it will be my background color  So I will say"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 470.0,
+            "end": 480.0,
+            "text": " The body  The body  The background color of it  So use variable  Secondary color"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 480.0,
+            "end": 490.0,
+            "text": " And what I have used  Use variable  And what should I do? Primary color  And here  The text color"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 490.0,
+            "end": 500.0,
+            "text": " Use that  So the color I was using in the nav  I will bring it from the variable  And here I will say that the text color  Use that, will there be any difference"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 500.0,
+            "end": 510.0,
+            "text": " To the site? There will be no difference to the site  The site will be exactly the same here  But now you see here  If I want, I can change it here  I can change the color by changing only one variable"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 510.0,
+            "end": 520.0,
+            "text": " And now changing one variable  Will change my whole website  Now see I will  Obviously build this website a little more  When I make it in reality"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 520.0,
+            "end": 530.0,
+            "text": " The second thing is that if you feel  That it looks a little weird, then I want to show you one more thing  I want to show you one more thing  That you put anchor tag in li  Like this, okay"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 530.0,
+            "end": 540.0,
+            "text": " Put anchor tag like this, now see what I am doing here  I did this, then pressed end, then  Did control v, here it is written which key  To press, press and do all this  I wrote here"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 540.0,
+            "end": 550.0,
+            "text": " A actually and  I will do control z once, I have to bring all these  Things here  So you guys  Can do this, you can also use multi cursor functionality"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 550.0,
+            "end": 560.0,
+            "text": " In VS Code  As you feel right, you can do  See in li  I put it here, now I will  Home it"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 560.0,
+            "end": 570.0,
+            "text": " I will do home like this  Then you see here  I have put a in li  So this is  An anchor tag and here"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 570.0,
+            "end": 580.0,
+            "text": " I will put href is equal to slash  href is equal to slash  And you guys see these links are made  Now obviously the thing I  Did for li"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 580.0,
+            "end": 590.0,
+            "text": " I have to do for a also because  For a there are some  By default styles, so  I will write here ul  li a and"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 590.0,
+            "end": 600.0,
+            "text": " The color is ours  I will take it from here and text decoration  I will do none, text decoration by doing none  What happens is that this is our anchor tag  The underline below it goes"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 600.0,
+            "end": 610.0,
+            "text": " If I remove it, then see the underline came here  You see I am toggling and  You know the color, why do you have to change the color  Okay, so this thing is done  Now let's see how we can make"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 610.0,
+            "end": 620.0,
+            "text": " Different variants of our own website  So see if I  Change these colors and let's say  I say that  I want green, so one darker green"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 620.0,
+            "end": 630.0,
+            "text": " And one white  And this is  Lighter green and do it  Comment out  Something like this and you guys see"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 630.0,
+            "end": 640.0,
+            "text": " Our same website is made  In green theme, I will make it a little  Darker so that it gets a little dark  Because there is white text on it  So see our green theme is made"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 640.0,
+            "end": 650.0,
+            "text": " Now suppose you want to make blue theme from it  Make blue theme from it, change it here  Make blue theme  Dark blue theme, no problem  You did the blue theme here"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 650.0,
+            "end": 660.0,
+            "text": " You take it a little  Towards the white and take it  Your blue theme is made  If you see it towards purple and you  Want it to stay blue, then you"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 660.0,
+            "end": 670.0,
+            "text": " Can make it blue, it became blue  Okay, so you  Sky is the limit, you can do anything  If you hover on it, then this hand is going here  And as soon as I click here, see"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 670.0,
+            "end": 680.0,
+            "text": " It is bringing me to the index  So we have made a very good website  If I put a logo in it  It will look better and it is not  A big thing, I will put a div here"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 680.0,
+            "end": 690.0,
+            "text": " And put an image and a logo  So in this way we can make a website of multiple colors  Now what I will do here  I will give a shout out to those people  Who have solved this exercise"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 690.0,
+            "end": 700.0,
+            "text": " So I quickly load it all  The comments and a lot of people  Have commented and let me tell you  That all of you  Whoever has commented, your hard work"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 700.0,
+            "end": 710.0,
+            "text": " Will not go waste, solving the exercise  For you and for your web  Development career, a lot of work is going to be done  So what will I do here, I will give a shout out from below  I will go to Vishnu, Ankit"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 710.0,
+            "end": 720.0,
+            "text": " To Heli, Alok, Amit  To the developer, Shubh  To Enchanted Gamer, The Great  Navid Khan, Rajesh, Ankit  To Yook, Local, Sahil Rehman"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 720.0,
+            "end": 730.0,
+            "text": " To Aishwarya Tech, Developer  Foundation, Amit Mohli  To Itsmeed Dileep, Awais Mughal Fan  To Rohit, Ankit Sahu  To Parmar, Abdul"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 730.0,
+            "end": 740.0,
+            "text": " To Sponge Gaming, Patel  To Manan  To Aman Negi 2016, Akash  To Machchi, Yook Gaming  To Ansh, Girish"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 740.0,
+            "end": 750.0,
+            "text": " I will give some random shout outs  To Developer Foundation, Sourav  Then after you will come here  Tharan Ansari, MD Athar Ansari  Then to Use Nothing, Swastik"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 750.0,
+            "end": 760.0,
+            "text": " To Shiv Mahapuriya  To Mahapuran, Manas  To Python  To Anish, Anish  Then I will give a shout out to Amit"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 760.0,
+            "end": 770.0,
+            "text": " To One Show, Python Krishna  And here to Ankit Sahu  Who is Bhupendra Jogi  And here to Codefest  To User, Jade, EZio"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 770.0,
+            "end": 780.0,
+            "text": " And to Bhupendra Jogi  Sorry to Enchanted Gamer, Bhupendra Jogi  I will give a shout out to Ankit Kumar  And here to Kaman  To Haldar, Web Development"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 780.0,
+            "end": 790.0,
+            "text": " To Code with Rohit, Use Nothing  And see this, Zubair Khan has solved it  He has put the right approach  And I hope that you guys  Will be able to work with this approach"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 790.0,
+            "end": 800.0,
+            "text": " The code will be updated very soon  And I hope that you guys  Have accessed this playlist  That's it for this video  Thank you so much guys for watching this video"
+        },
+        {
+            "number": "36",
+            "title": "Exercise 4 - Solution",
+            "start": 800.0,
+            "end": 825.0,
+            "text": " And I will see you next time  Outro Music"
+        }
+    ],
+    "text": " Many of you solved exercise 4 In today's video, I will shoutout all of you who solved exercise 4 and we will also see the solution of exercise 4 Keep liking the video and do write sigma batch op in the comment section Let's go to the computer screen Let's roll the intro So guys this is my folder of sigma web development course I will open it in ps code Actually someone suggested me to open it directly So that's a matter of preference You can approach it in any way People say it looks better But that's fine I can also do it from here It's totally same according to me I will make a folder named video 36 I made it in video 34 Let's take it out It will come out Come out And after doing this Our video 36 is empty It has an index.html And as always I will solve this question first and then we will take things from there So let's get started I guess it was video 34 No it was video 33 In which we had to make a multicolor website Which can change color using CSS variables According to me it was a very basic exercise So let's go CSS multicolor website I will write it like this And here I will put a style tag I have to write it in small style And after doing this what I will do First I will make a header tag Then I will make a nav tag Then I will make a ul Then I will make a li After doing this I will write home After this I will replicate it And how I replicated it To show you I will open screencast mode I used alt shift and down arrow Although you can Go to VS code settings And change it It happens by keyboard shortcuts If you can't see it then I will show you Here it happens by keyboard shortcuts And now you must have seen it Here about And here I write about Here I write services And here contact us I can write contact us Contact us And after this you can see Our website looks like this I can do previews here and there So I can say The li in ul The list style Make it none And after that I can say The ul If I want All of them to come horizontally And I don't want to use flexbox So how I will do it, you tell me in the comment section Then I will show you If you have guessed correctly I will make ul and li display inline I will make it inline And it comes like this Although it is not a very good approach But again if you Make it display inline Then what will happen to you It will come like this And if you give it a 23 pixel padding It will come like this So we can Put this kind of navbar And I can say that my nav Color it's background I will take a good background color And I will do this And I will put a star M0 and P0 I will also write P0 I want to keep this And I open it in the browser If you have not yet Accessed the playlist of sigma web development Then do it What are you doing So I will Open it in the browser So that it is visible here I can change its font I can do a lot of things But now I will focus On making it multicolor So I will give padding 12 pixels from top bottom I will give 0 from left right And I will do it like this And obviously I will not put media query I will make it a very simple navbar As you can see here It is a very simple navbar Now I will search on google Google font popins And I will take a style of popins And I just want to tell you How will you do I will remove the ballu bhai I will minus ballu bhai I will keep only popins And I will copy it and put it here I will say that I have to do the whole side of popins And I will copy this import statement And put it in my style tag Or I will copy the whole style tag You can put more than one style tag If you don't know I hope you know I will do the format document It will look like this And now it is appearing like this If you want you can reduce the font size of the ally Although I will tell you one thing If I reset it, it will look like this You can change the font weight I know what I do I change the font weight here Here I inspect it And here I Font weight I want to make it bolder So I make it bolder I want to make the color white So this is a very basic Navbar And this is a very basic Navbar I will copy and paste the properties I don't have any figma file I have not made anything Which I can refer But one thing I will show you Oops, I made a mistake What did I do Ok, I have removed the padding And the font weight I will format it now Yes, so now our website is looking like this Our Navbar is looking like this But if you want To change the color of it You know how you will change it The color is on Navbar So let's say you don't want to keep blue You want to keep this color Or you want to keep blue You can keep any color you want So you can keep any color you want So if you like this color Or this color You can keep anything But you know what I will do I will store it in CSS variable So what I will do here The root I will Primary color Primary color I want to make primary color This color Not blue violet This color which I have chosen I have changed it by mistake I will change the opacity Little less I guess this is good This is good actually Hmm, yes Ok, I will copy this color I will do it now So I have told you syntax Already, where did I tell you In the video of CSS variables Where is the video of CSS variables The video of CSS variables was Video number 30 So I will show you in video number 30 How we made variables in CSS variables So the way we Learned to make variables in video number 30 We will make it in the same way Now after this I will do a secondary I will do a work I will keep text color And my text color will be White and what I will do here I will say Secondary color Secondary color I will keep Not primary color I will keep this color but I will change it a little I will show you how I will change it So we will change it In this way It will be little light, it will be my background color So I will say The body The body The background color of it So use variable Secondary color And what I have used Use variable And what should I do? Primary color And here The text color Use that So the color I was using in the nav I will bring it from the variable And here I will say that the text color Use that, will there be any difference To the site? There will be no difference to the site The site will be exactly the same here But now you see here If I want, I can change it here I can change the color by changing only one variable And now changing one variable Will change my whole website Now see I will Obviously build this website a little more When I make it in reality The second thing is that if you feel That it looks a little weird, then I want to show you one more thing I want to show you one more thing That you put anchor tag in li Like this, okay Put anchor tag like this, now see what I am doing here I did this, then pressed end, then Did control v, here it is written which key To press, press and do all this I wrote here A actually and I will do control z once, I have to bring all these Things here So you guys Can do this, you can also use multi cursor functionality In VS Code As you feel right, you can do See in li I put it here, now I will Home it I will do home like this Then you see here I have put a in li So this is An anchor tag and here I will put href is equal to slash href is equal to slash And you guys see these links are made Now obviously the thing I Did for li I have to do for a also because For a there are some By default styles, so I will write here ul li a and The color is ours I will take it from here and text decoration I will do none, text decoration by doing none What happens is that this is our anchor tag The underline below it goes If I remove it, then see the underline came here You see I am toggling and You know the color, why do you have to change the color Okay, so this thing is done Now let's see how we can make Different variants of our own website So see if I Change these colors and let's say I say that I want green, so one darker green And one white And this is Lighter green and do it Comment out Something like this and you guys see Our same website is made In green theme, I will make it a little Darker so that it gets a little dark Because there is white text on it So see our green theme is made Now suppose you want to make blue theme from it Make blue theme from it, change it here Make blue theme Dark blue theme, no problem You did the blue theme here You take it a little Towards the white and take it Your blue theme is made If you see it towards purple and you Want it to stay blue, then you Can make it blue, it became blue Okay, so you Sky is the limit, you can do anything If you hover on it, then this hand is going here And as soon as I click here, see It is bringing me to the index So we have made a very good website If I put a logo in it It will look better and it is not A big thing, I will put a div here And put an image and a logo So in this way we can make a website of multiple colors Now what I will do here I will give a shout out to those people Who have solved this exercise So I quickly load it all The comments and a lot of people Have commented and let me tell you That all of you Whoever has commented, your hard work Will not go waste, solving the exercise For you and for your web Development career, a lot of work is going to be done So what will I do here, I will give a shout out from below I will go to Vishnu, Ankit To Heli, Alok, Amit To the developer, Shubh To Enchanted Gamer, The Great Navid Khan, Rajesh, Ankit To Yook, Local, Sahil Rehman To Aishwarya Tech, Developer Foundation, Amit Mohli To Itsmeed Dileep, Awais Mughal Fan To Rohit, Ankit Sahu To Parmar, Abdul To Sponge Gaming, Patel To Manan To Aman Negi 2016, Akash To Machchi, Yook Gaming To Ansh, Girish I will give some random shout outs To Developer Foundation, Sourav Then after you will come here Tharan Ansari, MD Athar Ansari Then to Use Nothing, Swastik To Shiv Mahapuriya To Mahapuran, Manas To Python To Anish, Anish Then I will give a shout out to Amit To One Show, Python Krishna And here to Ankit Sahu Who is Bhupendra Jogi And here to Codefest To User, Jade, EZio And to Bhupendra Jogi Sorry to Enchanted Gamer, Bhupendra Jogi I will give a shout out to Ankit Kumar And here to Kaman To Haldar, Web Development To Code with Rohit, Use Nothing And see this, Zubair Khan has solved it He has put the right approach And I hope that you guys Will be able to work with this approach The code will be updated very soon And I hope that you guys Have accessed this playlist That's it for this video Thank you so much guys for watching this video And I will see you next time Outro Music"
+}
