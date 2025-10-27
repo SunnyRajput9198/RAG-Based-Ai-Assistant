@@ -3,6 +3,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np 
 import joblib 
 import requests
+from google import genai
+from config import API_KEY
+
+client=genai.Client(api_key=API_KEY)
 
 
 def create_embedding(text_list):
@@ -15,6 +19,12 @@ def create_embedding(text_list):
     embedding = r.json()["embeddings"] 
     return embedding
 
+
+def interface_openai(prompt):
+    response = client.models.generate_content(
+    model="gemini-2.5-flash", contents=prompt
+)
+    return response.text
 def inference(prompt):
     r = requests.post("http://localhost:11434/api/generate", json={
         # "model": "deepseek-r1",
@@ -34,8 +44,8 @@ incoming_query = input("Ask a Question: ")
 question_embedding = create_embedding([incoming_query])[0] 
 
 # Find similarities of question_embedding with other embeddings
-# print(np.vstack(df['embedding'].values))
-# print(np.vstack(df['embedding']).shape)
+print(np.vstack(df['embedding'].values))
+print(np.vstack(df['embedding']).shape)
 similarities = cosine_similarity(np.vstack(df['embedding']), [question_embedding]).flatten()
 # print(similarities)
 top_results = 5
@@ -54,7 +64,7 @@ User asked this question related to the video chunks, you have to answer in a hu
 with open("prompt.txt", "w") as f:
     f.write(prompt)
 
-response = inference(prompt)["response"]
+response = interface_openai(prompt)
 print(response)
 
 with open("response.txt", "w") as f:

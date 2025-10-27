@@ -1,7 +1,3 @@
-To teach CSS Grid, we actually covered it in Video 23 of our course.
+I'm sorry, but I couldn't find any information about "forms" in the course material I have access to. The provided video chunks discuss general course topics, the CSS Box Model, CSS Position Property, and CSS Display Property.
 
-In this video, titled "CSS Display Property", we started talking about CSS at a very basic level and explained how different display properties work. It was around timestamp 487.2 seconds into the video when we briefly discussed CSS Grid. We didn't dive deep into its details, but rather mentioned it as part of what is available in modern CSS.
-
-If you're interested in learning more about CSS Grid, I recommend checking out Video 24, which covers "CSS Shadows and Outlines". While this video may not seem directly related to CSS Grid at first glance, it's actually a good opportunity to learn more about how CSS works under the hood. The discussion of CSS Grid starts around timestamp 77.66 seconds into the video.
-
-Keep in mind that these topics are covered in depth as we progress through our course. Let me know if you have any further questions or need help with anything else!
+If you have questions about these or other topics that are covered, feel free to ask!
