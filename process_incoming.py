@@ -3,28 +3,37 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np 
 import joblib 
 import requests
-from google import genai
-from config import API_KEY
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from dotenv import load_dotenv
+load_dotenv()
 
-client=genai.Client(api_key=API_KEY)
 
+# # Initialize the Gemini chat model
+llm = ChatGoogleGenerativeAI(
+    model="models/gemini-2.5-flash",
+    temperature=0.7
+)
+
+# Initialize embedding model
+embedding_model = GoogleGenerativeAIEmbeddings(
+    model="models/text-embedding-004"
+)
 
 def create_embedding(text_list):
-    # https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings
-    r = requests.post("http://localhost:11434/api/embed", json={
-        "model": "bge-m3",
-        "input": text_list
-    })
-
-    embedding = r.json()["embeddings"] 
-    return embedding
+    """
+    Create embeddings using Google Gemini's embedding model.
+    """
+    embeddings = embedding_model.embed_documents(text_list)
+    return embeddings
 
 
-def interface_openai(prompt):
-    response = client.models.generate_content(
-    model="gemini-2.5-flash", contents=prompt
-)
-    return response.text
+def interface_gemini(prompt):
+    """
+    Generate response using Google Gemini via LangChain.
+    """
+    response = llm.invoke(prompt)
+    return response.content
+
 def inference(prompt):
     r = requests.post("http://localhost:11434/api/generate", json={
         # "model": "deepseek-r1",
@@ -64,7 +73,7 @@ User asked this question related to the video chunks, you have to answer in a hu
 with open("prompt.txt", "w") as f:
     f.write(prompt)
 
-response = interface_openai(prompt)
+response = interface_gemini(prompt)
 print(response)
 
 with open("response.txt", "w") as f:

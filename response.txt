@@ -1,11 +1,12 @@
-Yes, the topic of "CSS Media Queries" is thoroughly covered in the course!
+It looks like flexbox is discussed in a few different places within your course. Here's where you can find information about it:
 
-You can find detailed information about CSS Media Queries in **Video 31**, titled "CSS Media Queries". Here are the specific timestamps where it's discussed:
+*   **CSS Variables (Video 30)**: You mention `Display flex` and making elements horizontal using flex from **224.4 to 234.4 seconds**.
+*   **CSS Display Property (Video 23)**: Flexbox is mentioned in the context of setting display properties from **475.0 to 485.2 seconds**.
+*   **Exercise 5 - Solution (Video 40)**:
+    *   You discuss avoiding flexbox initially, but it's part of the context from **294.48 to 304.48 seconds**.
+    *   Later in the same video, you state, "I made a flexbox video," and discuss trying to explain it efficiently from **865.48 to 875.48 seconds**.
 
-*   **From 312 seconds to 323 seconds:** The video explains how media queries activate or deactivate based on screen width, and how this affects the application of CSS styles.
-*   **From 323 seconds to 337 seconds:** It continues to demonstrate media query activation and provides a summary that media queries are essential for creating responsive designs.
-*   **From 531 seconds to 542 seconds:** The instructor summarizes the understanding of media queries and mentions their extensive use in upcoming projects.
-*   **From 542 seconds to 552 seconds:** This section clarifies when you would typically use media queries – primarily when writing raw CSS, but less so directly when working with frameworks.
-*   **From 562 seconds to 572 seconds:** The video also touches on demonstrating media query usage and introduces another type of media query.
-
-To learn about CSS Media Queries, please refer to **Video 31: "CSS Media Queries"** and check out these specific time ranges!
+To learn more about CSS Flexbox, I recommend checking out:
+*   **Video 30: "CSS Variables"** starting around **224 seconds**.
+*   **Video 23: "CSS Display Property"** around **475 seconds**.
+*   **Video 40: "Exercise 5 - Solution"** around **294 seconds** and again at **865 seconds**.
