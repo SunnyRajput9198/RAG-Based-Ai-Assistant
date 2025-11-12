@@ -1,12 +1,9 @@
-It looks like flexbox is discussed in a few different places within your course. Here's where you can find information about it:
+The topic of "SEO" is covered in detail in **Video 6: SEO and Core Web Vitals in HTML**.
 
-*   **CSS Variables (Video 30)**: You mention `Display flex` and making elements horizontal using flex from **224.4 to 234.4 seconds**.
-*   **CSS Display Property (Video 23)**: Flexbox is mentioned in the context of setting display properties from **475.0 to 485.2 seconds**.
-*   **Exercise 5 - Solution (Video 40)**:
-    *   You discuss avoiding flexbox initially, but it's part of the context from **294.48 to 304.48 seconds**.
-    *   Later in the same video, you state, "I made a flexbox video," and discuss trying to explain it efficiently from **865.48 to 875.48 seconds**.
+Here's where you can find the relevant content:
 
-To learn more about CSS Flexbox, I recommend checking out:
-*   **Video 30: "CSS Variables"** starting around **224 seconds**.
-*   **Video 23: "CSS Display Property"** around **475 seconds**.
-*   **Video 40: "Exercise 5 - Solution"** around **294 seconds** and again at **865 seconds**.
+*   At **6 minutes and 3.78 seconds** (06:03.78), the video introduces "What is SEO" and discusses Meta descriptions.
+*   Around **10 minutes and 51.8 seconds** (10:51.8), it delves into "What is SEO in Meta keyword" and how it relates to page ranking.
+*   Further on, at approximately **11 minutes and 13.82 seconds** (11:13.82), the video explains how the value of your content helps in ranking.
+
+I recommend watching Video 6 from the beginning to get a comprehensive understanding of SEO and Core Web Vitals.

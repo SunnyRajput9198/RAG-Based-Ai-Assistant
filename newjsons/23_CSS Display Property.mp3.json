@@ -4,477 +4,64 @@
             "number": "23",
             "title": "CSS Display Property",
             "start": 0.0,
-            "end": 20.8,
-            "text": " If you remember, we saw in HTML that there are some inline elements and some block elements.  There we talked that we can change this property.  In today's video, I will tell you how to change the display property with the help of CSS.  And what is the display property in CSS?  There are some default values of the elements, how to change them?"
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 20.8,
-            "end": 35.0,
-            "text": " And what kind of changes we will get to see in their appearance by changing?  What is inline, what is inline block, what is flex?  I am going to tell you all these things in this video.  Let's go to the computer screen.  Do write sigma batch op in the comment."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 35.0,
-            "end": 58.7,
-            "text": " Let's roll the intro.  So guys, I have come to my computer screen and today we will talk about the display property.  It is a very important property.  I had already told you in the tutorial of HTML that there are some inline elements and some block elements.  Now I will tell you some more things here."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 58.7,
-            "end": 73.7,
-            "text": " There will be some openings in this video about inline and block property.  And you guys think about anything else.  Now what I will do here is quickly make a folder.  I will put it in the name of video 23.  And after video 23, I will click on the shift right and open with code."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 73.7,
-            "end": 93.4,
-            "text": " And after opening with code, index.html, by putting your exclamation mark.  And here I will write in place of document.  CSS display property.  And if you say, I will also turn on the screencast mode here.  So here we have to see about the display property of CSS."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 93.4,
-            "end": 106.4,
-            "text": " I will make a style tag here.  And as I told you guys already.  That there are some elements that are our inline elements.  Like if I make a div here, I write I am a box.  And after that I will preview it and show it to you."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 106.60000000000001,
-            "end": 118.60000000000001,
-            "text": " So you will say, yes, I know, I am a box display will be done.  Nothing new in that.  But if I tell you guys.  That actually you can convert it into an inline element.  And this div will also be there."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 118.60000000000001,
-            "end": 128.6,
-            "text": " What does that even mean?  Let's do one thing here.  I do class=\"box\".  And here I put a CSS.  .box"
+            "end": 149.79999999999998,
+            "text": " If you remember, we saw in HTML that there are some inline elements and some block elements.  There we talked that we can change this property.  In today's video, I will tell you how to change the display property with the help of CSS.  And what is the display property in CSS?  There are some default values of the elements, how to change them?  And what kind of changes we will get to see in their appearance by changing?  What is inline, what is inline block, what is flex?  I am going to tell you all these things in this video.  Let's go to the computer screen.  Do write sigma batch op in the comment.  Let's roll the intro.  So guys, I have come to my computer screen and today we will talk about the display property.  It is a very important property.  I had already told you in the tutorial of HTML that there are some inline elements and some block elements.  Now I will tell you some more things here.  There will be some openings in this video about inline and block property.  And you guys think about anything else.  Now what I will do here is quickly make a folder.  I will put it in the name of video 23.  And after video 23, I will click on the shift right and open with code.  And after opening with code, index.html, by putting your exclamation mark.  And here I will write in place of document.  CSS display property.  And if you say, I will also turn on the screencast mode here.  So here we have to see about the display property of CSS.  I will make a style tag here.  And as I told you guys already.  That there are some elements that are our inline elements.  Like if I make a div here, I write I am a box.  And after that I will preview it and show it to you.  So you will say, yes, I know, I am a box display will be done.  Nothing new in that.  But if I tell you guys.  That actually you can convert it into an inline element.  And this div will also be there.  What does that even mean?  Let's do one thing here.  I do class=\"box\".  And here I put a CSS.  .box  Now I give you a pro tip here.  Many people are worried that we should indent our code.  I will say when you are coding, then write it completely rough.  Indent in the opposite place.  Listen to me completely.  Don't listen to half.  Indent in the opposite place.  I am writing here, I wrote box.  And I am writing border 2px solid blue.  Assume I have written."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 128.6,
-            "end": 140.79999999999998,
-            "text": " Now I give you a pro tip here.  Many people are worried that we should indent our code.  I will say when you are coding, then write it completely rough.  Indent in the opposite place.  Listen to me completely."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 140.79999999999998,
-            "end": 149.79999999999998,
-            "text": " Don't listen to half.  Indent in the opposite place.  I am writing here, I wrote box.  And I am writing border 2px solid blue.  Assume I have written."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 149.79999999999998,
-            "end": 159.79999999999998,
-            "text": " And you will write and document the format.  So automatically your code will be beautified.  By VS code.  So your VS code is already working for you.  So why do you do it?"
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 159.79999999999998,
-            "end": 170.0,
-            "text": " Okay.  So you guys see here the content is only I am a box.  But it took the full width.  I will also put a universal selector.  And I will say that see the margin."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 170.0,
-            "end": 176.0,
-            "text": " Make it zero.  And the padding.  Make it zero.  Thank you.  And it will go up."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 176.0,
-            "end": 189.0,
-            "text": " And it has given a border around it.  Blue color which I requested from him.  Give a 2px border of blue color.  Now I want it to work like an inline element.  Can I do it?"
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 189.0,
-            "end": 194.0,
-            "text": " Yes I can.  How will I tell you now?  Assume I have written a span here.  I am a good wrote.  Then wrote another span."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 194.2,
-            "end": 204.2,
-            "text": " And then wrote boy.  So span because it is an inline element.  It is a block level element.  So what will happen?  It will come in the same line."
+            "end": 219.2,
+            "text": " Now I give you a pro tip here.  Many people are worried that we should indent our code.  I will say when you are coding, then write it completely rough.  Indent in the opposite place.  Listen to me completely.  Don't listen to half.  Indent in the opposite place.  I am writing here, I wrote box.  And I am writing border 2px solid blue.  Assume I have written.  And you will write and document the format.  So automatically your code will be beautified.  By VS code.  So your VS code is already working for you.  So why do you do it?  Okay.  So you guys see here the content is only I am a box.  But it took the full width.  I will also put a universal selector.  And I will say that see the margin.  Make it zero.  And the padding.  Make it zero.  Thank you.  And it will go up.  And it has given a border around it.  Blue color which I requested from him.  Give a 2px border of blue color.  Now I want it to work like an inline element.  Can I do it?  Yes I can.  How will I tell you now?  Assume I have written a span here.  I am a good wrote.  Then wrote another span.  And then wrote boy.  So span because it is an inline element.  It is a block level element.  So what will happen?  It will come in the same line.  Something like this.  See I am a good boy.  Okay.  It didn't break.  But if I write another div after div.  And also a nice box.  Okay.  So you see also a nice box came down.  Okay.  It didn't come in the same line."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 204.2,
-            "end": 210.2,
-            "text": " Something like this.  See I am a good boy.  Okay.  It didn't break.  But if I write another div after div."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 210.2,
-            "end": 219.2,
-            "text": " And also a nice box.  Okay.  So you see also a nice box came down.  Okay.  It didn't come in the same line."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 219.2,
-            "end": 230.39999999999998,
-            "text": " It took the full width.  Now I want that this I am a box.  This becomes an inline element.  So I can set its display property here.  I can say display inline."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 230.39999999999998,
-            "end": 239.39999999999998,
-            "text": " And as soon as I do display inline.  You see here.  This has become an inline element.  That is, if I put any other box after this.  Assume I give class is equal to box."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 239.39999999999998,
-            "end": 253.6,
-            "text": " This too.  So this will also become an inline element.  Because I have set the display property in the class box.  Now because I have set it as an inline element.  That's why it has become like this."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 253.6,
-            "end": 260.6,
-            "text": " This inline element has become.  And this was inline.  So inline elements come side by side.  Okay.  Let's do one thing."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 260.6,
-            "end": 266.6,
-            "text": " Let's give padding inside it.  It will be great fun.  Let's give padding.  It's going to be great fun.  I will give padding."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 266.6,
-            "end": 272.6,
-            "text": " My box will be great fun.  I will give padding.  How much padding should I give?  I will give padding inside it.  I will give."
+            "end": 284.8,
+            "text": " Something like this.  See I am a good boy.  Okay.  It didn't break.  But if I write another div after div.  And also a nice box.  Okay.  So you see also a nice box came down.  Okay.  It didn't come in the same line.  It took the full width.  Now I want that this I am a box.  This becomes an inline element.  So I can set its display property here.  I can say display inline.  And as soon as I do display inline.  You see here.  This has become an inline element.  That is, if I put any other box after this.  Assume I give class is equal to box.  This too.  So this will also become an inline element.  Because I have set the display property in the class box.  Now because I have set it as an inline element.  That's why it has become like this.  This inline element has become.  And this was inline.  So inline elements come side by side.  Okay.  Let's do one thing.  Let's give padding inside it.  It will be great fun.  Let's give padding.  It's going to be great fun.  I will give padding.  My box will be great fun.  I will give padding.  How much padding should I give?  I will give padding inside it.  I will give.  Which money is being spent on padding?  I will give 45 pixels.  Wow.  Very good padding will be applied from all sides.  It will be fun.  What is this?  Why didn't the padding come from the top?  Why didn't the padding come from the top?  Did I do something wrong?  No, I didn't do anything wrong."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 272.6,
-            "end": 278.6,
-            "text": " Which money is being spent on padding?  I will give 45 pixels.  Wow.  Very good padding will be applied from all sides.  It will be fun."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 278.6,
-            "end": 284.8,
-            "text": " What is this?  Why didn't the padding come from the top?  Why didn't the padding come from the top?  Did I do something wrong?  No, I didn't do anything wrong."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 284.8,
-            "end": 296.8,
-            "text": " Actually, the padding on the top does not respect.  If your element is inline.  So what will you have to do?  If you add margin in it.  So it will behave in the same way."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 296.8,
-            "end": 303.8,
-            "text": " Let's say margin is 34 pixels.  So the margin is applied from all sides.  But it didn't come from the top.  You can see.  If you want this behavior to be fine."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 303.8,
-            "end": 314.0,
-            "text": " Then you can block it inline.  As you can see here.  I have blocked it inline.  If I remove the inline block.  And try to set its width."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 314.0,
-            "end": 324.0,
-            "text": " Let's say I want to set its width to 344 pixels.  It doesn't make any difference.  I will increase its width.  If I increase its width.  There is no difference in increasing."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 324.0,
-            "end": 336.0,
-            "text": " And here Google Chrome is also telling me.  Google Chrome is telling me.  Display inline property prevents width from having an effect.  So you can't do this.  Google Chrome is saying."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 336.0,
-            "end": 344.2,
-            "text": " Now I will say.  I have to set its width.  I have promised Google Chrome.  That I will increase its width.  So you have to use the inline block property."
+            "end": 364.2,
+            "text": " Which money is being spent on padding?  I will give 45 pixels.  Wow.  Very good padding will be applied from all sides.  It will be fun.  What is this?  Why didn't the padding come from the top?  Why didn't the padding come from the top?  Did I do something wrong?  No, I didn't do anything wrong.  Actually, the padding on the top does not respect.  If your element is inline.  So what will you have to do?  If you add margin in it.  So it will behave in the same way.  Let's say margin is 34 pixels.  So the margin is applied from all sides.  But it didn't come from the top.  You can see.  If you want this behavior to be fine.  Then you can block it inline.  As you can see here.  I have blocked it inline.  If I remove the inline block.  And try to set its width.  Let's say I want to set its width to 344 pixels.  It doesn't make any difference.  I will increase its width.  If I increase its width.  There is no difference in increasing.  And here Google Chrome is also telling me.  Google Chrome is telling me.  Display inline property prevents width from having an effect.  So you can't do this.  Google Chrome is saying.  Now I will say.  I have to set its width.  I have promised Google Chrome.  That I will increase its width.  So you have to use the inline block property.  If you want.  That your width and margins are perfectly obeyed.  Then you have to do something like this.  Okay.  You can see here.  I have set its width.  You can see here.  The box is taking its width.  And the padding is also set very well.  I have also given it a border."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 344.2,
-            "end": 354.2,
-            "text": " If you want.  That your width and margins are perfectly obeyed.  Then you have to do something like this.  Okay.  You can see here."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 354.2,
-            "end": 364.2,
-            "text": " I have set its width.  You can see here.  The box is taking its width.  And the padding is also set very well.  I have also given it a border."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 364.2,
-            "end": 374.4,
-            "text": " So everything is done.  So inline block property.  Is useful for you.  Now I will tell you.  About display none and display block."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 374.4,
-            "end": 384.4,
-            "text": " If you agree.  I will do one more thing for this.  I will go to my settings.  And you will say.  I will show you what I am doing."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 384.4,
-            "end": 394.4,
-            "text": " I will go to settings.  And I have made my face disappear.  So that you don't have any problem.  And I will do live preview.  This is my setting."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 394.59999999999997,
-            "end": 404.59999999999997,
-            "text": " And I will do embedded preview.  And after doing embedded preview.  I will preview it.  And you can see the preview here.  Why did I do this?"
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 404.59999999999997,
-            "end": 414.59999999999997,
-            "text": " I want to tell you some properties.  If I don't block the inline.  And I make the display none.  If I make the display none.  Then it will disappear."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 414.59999999999997,
-            "end": 424.8,
-            "text": " And I do one thing.  This box.  I will add one more class.  Box1  And after adding box1."
+            "end": 444.8,
+            "text": " If you want.  That your width and margins are perfectly obeyed.  Then you have to do something like this.  Okay.  You can see here.  I have set its width.  You can see here.  The box is taking its width.  And the padding is also set very well.  I have also given it a border.  So everything is done.  So inline block property.  Is useful for you.  Now I will tell you.  About display none and display block.  If you agree.  I will do one more thing for this.  I will go to my settings.  And you will say.  I will show you what I am doing.  I will go to settings.  And I have made my face disappear.  So that you don't have any problem.  And I will do live preview.  This is my setting.  And I will do embedded preview.  And after doing embedded preview.  I will preview it.  And you can see the preview here.  Why did I do this?  I want to tell you some properties.  If I don't block the inline.  And I make the display none.  If I make the display none.  Then it will disappear.  And I do one thing.  This box.  I will add one more class.  Box1  And after adding box1.  I will do.  I will do.  .box1  And I will make the display none.  As I made the display none.  It made the space and the box disappear.  And if I remove it.  Then what will happen?  IMO box will appear.  So I made the display none."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 424.8,
-            "end": 434.8,
-            "text": " I will do.  I will do.  .box1  And I will make the display none.  As I made the display none."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 434.8,
-            "end": 444.8,
-            "text": " It made the space and the box disappear.  And if I remove it.  Then what will happen?  IMO box will appear.  So I made the display none."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 444.8,
-            "end": 455.0,
-            "text": " And as I make the display none.  The space that was giving the box.  Will also disappear.  But there is a visibility property.  If I make the visibility hidden."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 455.0,
-            "end": 465.0,
-            "text": " Then the box will disappear.  But the space will remain.  So you use the visibility hidden.  When you want the space to remain.  And as you put it."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 465.0,
-            "end": 475.0,
-            "text": " And remove it.  The space will remain intact.  But if you put the display none.  Then the space that was taking will also go.  So this display none."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 475.0,
-            "end": 485.2,
-            "text": " Is used here.  I hope you understood something.  If you want to set the display.  Then you can set the inline blocks.  In flexbox and grid."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 485.2,
-            "end": 495.2,
-            "text": " We will learn what is display flex.  And what is display grid.  But I want to show you a great example.  I want to show you a great example.  I want to show you a great example."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 495.2,
-            "end": 505.2,
-            "text": " In flexbox.  You can make anything flexbox.  And I will say 70 to 80 percent of the time.  You will be using flexbox to center things.  Or you will be using it to scratch."
+            "end": 525.4,
+            "text": " I will do.  I will do.  .box1  And I will make the display none.  As I made the display none.  It made the space and the box disappear.  And if I remove it.  Then what will happen?  IMO box will appear.  So I made the display none.  And as I make the display none.  The space that was giving the box.  Will also disappear.  But there is a visibility property.  If I make the visibility hidden.  Then the box will disappear.  But the space will remain.  So you use the visibility hidden.  When you want the space to remain.  And as you put it.  And remove it.  The space will remain intact.  But if you put the display none.  Then the space that was taking will also go.  So this display none.  Is used here.  I hope you understood something.  If you want to set the display.  Then you can set the inline blocks.  In flexbox and grid.  We will learn what is display flex.  And what is display grid.  But I want to show you a great example.  I want to show you a great example.  I want to show you a great example.  In flexbox.  You can make anything flexbox.  And I will say 70 to 80 percent of the time.  You will be using flexbox to center things.  Or you will be using it to scratch.  So here you will see.  Here is the box.  I want to center this box.  So I will say.  Display flex.  Justify content center.  You can see it is centered.  I will tell you flex in the coming videos.  So don't worry.  So it is centered."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 505.2,
-            "end": 515.4,
-            "text": " So here you will see.  Here is the box.  I want to center this box.  So I will say.  Display flex."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 515.4,
-            "end": 525.4,
-            "text": " Justify content center.  You can see it is centered.  I will tell you flex in the coming videos.  So don't worry.  So it is centered."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 525.4,
-            "end": 535.4,
-            "text": " By flexing.  I hope you can understand.  And.  Inline flex is.  It will come in the same line."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 535.6,
-            "end": 545.6,
-            "text": " So I was flexing.  So I dropped everything.  But by inline flex.  It will not drop anything.  I will tell you flex."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 545.6,
-            "end": 555.6,
-            "text": " Don't worry.  After this there is a display grid.  When you flex inline.  You can change flex direction.  And flex wrap."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 555.6,
-            "end": 565.8000000000001,
-            "text": " I will tell you all this in the coming videos.  Don't worry.  If I grid the display.  It will tell you about the grid properties.  I will tell you about grid in the coming videos."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 565.8000000000001,
-            "end": 575.8000000000001,
-            "text": " For now you can understand.  Grid is a display property.  We can do inline grid.  I have curated the link of MDN.  For you."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 575.8000000000001,
-            "end": 585.8000000000001,
-            "text": " I will copy and paste it.  In which you will see all the properties.  You can see.  It is inline block.  Display is gone from none."
+            "end": 606.0,
+            "text": " So here you will see.  Here is the box.  I want to center this box.  So I will say.  Display flex.  Justify content center.  You can see it is centered.  I will tell you flex in the coming videos.  So don't worry.  So it is centered.  By flexing.  I hope you can understand.  And.  Inline flex is.  It will come in the same line.  So I was flexing.  So I dropped everything.  But by inline flex.  It will not drop anything.  I will tell you flex.  Don't worry.  After this there is a display grid.  When you flex inline.  You can change flex direction.  And flex wrap.  I will tell you all this in the coming videos.  Don't worry.  If I grid the display.  It will tell you about the grid properties.  I will tell you about grid in the coming videos.  For now you can understand.  Grid is a display property.  We can do inline grid.  I have curated the link of MDN.  For you.  I will copy and paste it.  In which you will see all the properties.  You can see.  It is inline block.  Display is gone from none.  Display flex is gone.  I am telling you.  These are all the properties.  You can use it.  But most used.  99% of the websites.  You will make from this.  I will give you the link.  I will close it.  I will give you the link."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 585.8000000000001,
-            "end": 596.0,
-            "text": " Display flex is gone.  I am telling you.  These are all the properties.  You can use it.  But most used."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 596.0,
-            "end": 606.0,
-            "text": " 99% of the websites.  You will make from this.  I will give you the link.  I will close it.  I will give you the link."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 606.0,
-            "end": 616.0,
-            "text": " Exhaustive list.  You can see the list.  You can pick it up.  We are going to learn that matters.  I told you earlier."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 616.0,
-            "end": 626.2,
-            "text": " We will learn only what matters.  If we go behind the list.  Our time is limited.  We have to learn in less time.  I hope you understood."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 626.2,
-            "end": 636.2,
-            "text": " If you have not accessed the playlist.  Access it.  Click bookmark.  I want to request you.  If you have seen the videos."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 636.2,
-            "end": 646.2,
-            "text": " Go to the first video.  Give me a review.  Those who are underestimating.  I have received many comments.  Your course is free."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 646.2,
-            "end": 656.4000000000001,
-            "text": " Will it be good?  I want to tell you.  I wanted to keep this course as a paid course.  But I have made it free.  Many people know."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 656.4000000000001,
-            "end": 666.4000000000001,
-            "text": " I want you to tell in the first video.  Not based on.  What I am saying.  Do not influence yourself.  Based on your learning."
+            "end": 686.6,
+            "text": " Display flex is gone.  I am telling you.  These are all the properties.  You can use it.  But most used.  99% of the websites.  You will make from this.  I will give you the link.  I will close it.  I will give you the link.  Exhaustive list.  You can see the list.  You can pick it up.  We are going to learn that matters.  I told you earlier.  We will learn only what matters.  If we go behind the list.  Our time is limited.  We have to learn in less time.  I hope you understood.  If you have not accessed the playlist.  Access it.  Click bookmark.  I want to request you.  If you have seen the videos.  Go to the first video.  Give me a review.  Those who are underestimating.  I have received many comments.  Your course is free.  Will it be good?  I want to tell you.  I wanted to keep this course as a paid course.  But I have made it free.  Many people know.  I want you to tell in the first video.  Not based on.  What I am saying.  Do not influence yourself.  Based on your learning.  Comment in the first video.  Did this course help you?  Did this course make you a better developer?  As you have learned.  I hope you know.  What kind of developer you will be.  After the coming videos.  I want you to give me a 5 out of 5.  Starts.  I will give 5 out of 5."
         },
         {
             "number": "23",
             "title": "CSS Display Property",
             "start": 666.4000000000001,
-            "end": 676.4000000000001,
-            "text": " Comment in the first video.  Did this course help you?  Did this course make you a better developer?  As you have learned.  I hope you know."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 676.6,
-            "end": 686.6,
-            "text": " What kind of developer you will be.  After the coming videos.  I want you to give me a 5 out of 5.  Starts.  I will give 5 out of 5."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 686.6,
-            "end": 696.6,
-            "text": " What kind of course is this?  I will like it.  Your comment will make my day.  I hope you like the videos.  I have given you the link."
-        },
-        {
-            "number": "23",
-            "title": "CSS Display Property",
-            "start": 696.6,
             "end": 704.6,
-            "text": " To the cheat sheets.  You have accessed it.  Thank you so much for watching.  I will see you next time."
+            "text": " Comment in the first video.  Did this course help you?  Did this course make you a better developer?  As you have learned.  I hope you know.  What kind of developer you will be.  After the coming videos.  I want you to give me a 5 out of 5.  Starts.  I will give 5 out of 5.  What kind of course is this?  I will like it.  Your comment will make my day.  I hope you like the videos.  I have given you the link.  To the cheat sheets.  You have accessed it.  Thank you so much for watching.  I will see you next time."
         }
     ],
     "text": " If you remember, we saw in HTML that there are some inline elements and some block elements. There we talked that we can change this property. In today's video, I will tell you how to change the display property with the help of CSS. And what is the display property in CSS? There are some default values of the elements, how to change them? And what kind of changes we will get to see in their appearance by changing? What is inline, what is inline block, what is flex? I am going to tell you all these things in this video. Let's go to the computer screen. Do write sigma batch op in the comment. Let's roll the intro. So guys, I have come to my computer screen and today we will talk about the display property. It is a very important property. I had already told you in the tutorial of HTML that there are some inline elements and some block elements. Now I will tell you some more things here. There will be some openings in this video about inline and block property. And you guys think about anything else. Now what I will do here is quickly make a folder. I will put it in the name of video 23. And after video 23, I will click on the shift right and open with code. And after opening with code, index.html, by putting your exclamation mark. And here I will write in place of document. CSS display property. And if you say, I will also turn on the screencast mode here. So here we have to see about the display property of CSS. I will make a style tag here. And as I told you guys already. That there are some elements that are our inline elements. Like if I make a div here, I write I am a box. And after that I will preview it and show it to you. So you will say, yes, I know, I am a box display will be done. Nothing new in that. But if I tell you guys. That actually you can convert it into an inline element. And this div will also be there. What does that even mean? Let's do one thing here. I do class=\"box\". And here I put a CSS. .box Now I give you a pro tip here. Many people are worried that we should indent our code. I will say when you are coding, then write it completely rough. Indent in the opposite place. Listen to me completely. Don't listen to half. Indent in the opposite place. I am writing here, I wrote box. And I am writing border 2px solid blue. Assume I have written. And you will write and document the format. So automatically your code will be beautified. By VS code. So your VS code is already working for you. So why do you do it? Okay. So you guys see here the content is only I am a box. But it took the full width. I will also put a universal selector. And I will say that see the margin. Make it zero. And the padding. Make it zero. Thank you. And it will go up. And it has given a border around it. Blue color which I requested from him. Give a 2px border of blue color. Now I want it to work like an inline element. Can I do it? Yes I can. How will I tell you now? Assume I have written a span here. I am a good wrote. Then wrote another span. And then wrote boy. So span because it is an inline element. It is a block level element. So what will happen? It will come in the same line. Something like this. See I am a good boy. Okay. It didn't break. But if I write another div after div. And also a nice box. Okay. So you see also a nice box came down. Okay. It didn't come in the same line. It took the full width. Now I want that this I am a box. This becomes an inline element. So I can set its display property here. I can say display inline. And as soon as I do display inline. You see here. This has become an inline element. That is, if I put any other box after this. Assume I give class is equal to box. This too. So this will also become an inline element. Because I have set the display property in the class box. Now because I have set it as an inline element. That's why it has become like this. This inline element has become. And this was inline. So inline elements come side by side. Okay. Let's do one thing. Let's give padding inside it. It will be great fun. Let's give padding. It's going to be great fun. I will give padding. My box will be great fun. I will give padding. How much padding should I give? I will give padding inside it. I will give. Which money is being spent on padding? I will give 45 pixels. Wow. Very good padding will be applied from all sides. It will be fun. What is this? Why didn't the padding come from the top? Why didn't the padding come from the top? Did I do something wrong? No, I didn't do anything wrong. Actually, the padding on the top does not respect. If your element is inline. So what will you have to do? If you add margin in it. So it will behave in the same way. Let's say margin is 34 pixels. So the margin is applied from all sides. But it didn't come from the top. You can see. If you want this behavior to be fine. Then you can block it inline. As you can see here. I have blocked it inline. If I remove the inline block. And try to set its width. Let's say I want to set its width to 344 pixels. It doesn't make any difference. I will increase its width. If I increase its width. There is no difference in increasing. And here Google Chrome is also telling me. Google Chrome is telling me. Display inline property prevents width from having an effect. So you can't do this. Google Chrome is saying. Now I will say. I have to set its width. I have promised Google Chrome. That I will increase its width. So you have to use the inline block property. If you want. That your width and margins are perfectly obeyed. Then you have to do something like this. Okay. You can see here. I have set its width. You can see here. The box is taking its width. And the padding is also set very well. I have also given it a border. So everything is done. So inline block property. Is useful for you. Now I will tell you. About display none and display block. If you agree. I will do one more thing for this. I will go to my settings. And you will say. I will show you what I am doing. I will go to settings. And I have made my face disappear. So that you don't have any problem. And I will do live preview. This is my setting. And I will do embedded preview. And after doing embedded preview. I will preview it. And you can see the preview here. Why did I do this? I want to tell you some properties. If I don't block the inline. And I make the display none. If I make the display none. Then it will disappear. And I do one thing. This box. I will add one more class. Box1 And after adding box1. I will do. I will do. .box1 And I will make the display none. As I made the display none. It made the space and the box disappear. And if I remove it. Then what will happen? IMO box will appear. So I made the display none. And as I make the display none. The space that was giving the box. Will also disappear. But there is a visibility property. If I make the visibility hidden. Then the box will disappear. But the space will remain. So you use the visibility hidden. When you want the space to remain. And as you put it. And remove it. The space will remain intact. But if you put the display none. Then the space that was taking will also go. So this display none. Is used here. I hope you understood something. If you want to set the display. Then you can set the inline blocks. In flexbox and grid. We will learn what is display flex. And what is display grid. But I want to show you a great example. I want to show you a great example. I want to show you a great example. In flexbox. You can make anything flexbox. And I will say 70 to 80 percent of the time. You will be using flexbox to center things. Or you will be using it to scratch. So here you will see. Here is the box. I want to center this box. So I will say. Display flex. Justify content center. You can see it is centered. I will tell you flex in the coming videos. So don't worry. So it is centered. By flexing. I hope you can understand. And. Inline flex is. It will come in the same line. So I was flexing. So I dropped everything. But by inline flex. It will not drop anything. I will tell you flex. Don't worry. After this there is a display grid. When you flex inline. You can change flex direction. And flex wrap. I will tell you all this in the coming videos. Don't worry. If I grid the display. It will tell you about the grid properties. I will tell you about grid in the coming videos. For now you can understand. Grid is a display property. We can do inline grid. I have curated the link of MDN. For you. I will copy and paste it. In which you will see all the properties. You can see. It is inline block. Display is gone from none. Display flex is gone. I am telling you. These are all the properties. You can use it. But most used. 99% of the websites. You will make from this. I will give you the link. I will close it. I will give you the link. Exhaustive list. You can see the list. You can pick it up. We are going to learn that matters. I told you earlier. We will learn only what matters. If we go behind the list. Our time is limited. We have to learn in less time. I hope you understood. If you have not accessed the playlist. Access it. Click bookmark. I want to request you. If you have seen the videos. Go to the first video. Give me a review. Those who are underestimating. I have received many comments. Your course is free. Will it be good? I want to tell you. I wanted to keep this course as a paid course. But I have made it free. Many people know. I want you to tell in the first video. Not based on. What I am saying. Do not influence yourself. Based on your learning. Comment in the first video. Did this course help you? Did this course make you a better developer? As you have learned. I hope you know. What kind of developer you will be. After the coming videos. I want you to give me a 5 out of 5. Starts. I will give 5 out of 5. What kind of course is this? I will like it. Your comment will make my day. I hope you like the videos. I have given you the link. To the cheat sheets. You have accessed it. Thank you so much for watching. I will see you next time."
