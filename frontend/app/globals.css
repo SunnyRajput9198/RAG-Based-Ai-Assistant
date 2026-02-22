@@ -123,6 +123,40 @@
     @apply bg-background text-foreground;
   }
 }
+/* Add this to your global CSS file (globals.css or app.css) */
+
+/* Custom Scrollbar Styling for Sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted));
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.3);
+  background-clip: padding-box;
+}
+
+/* For Firefox */
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--muted)) transparent;
+}
+
+/* Smooth scrolling */
+.sidebar-scroll {
+  scroll-behavior: smooth;
+}
 
 @layer utilities {
   .delay-100 {
