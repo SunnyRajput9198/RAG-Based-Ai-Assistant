@@ -4,6 +4,8 @@ A powerful **Retrieval-Augmented Generation (RAG)** based AI assistant that lear
 
 ---
 
+
+
 ## 🚀 Features
 
 - 🎥 Converts video lectures into searchable knowledge
