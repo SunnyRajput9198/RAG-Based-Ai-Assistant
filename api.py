@@ -12,6 +12,9 @@ from langchain_anthropic import ChatAnthropic
 from langchain.agents import create_agent
 from langgraph.checkpoint.memory import InMemorySaver
 from dotenv import load_dotenv
+from process_youtube import process_and_save
+
+
 load_dotenv()
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -24,6 +27,8 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 df = joblib.load('data.embeddings.joblib')
 config = {"configurable": {"thread_id": "1"}}
 
+class VideoRequest(BaseModel):
+    url: str
 def get_embedding(text):
     return model.encode(text).tolist()
 class Query(BaseModel):
@@ -56,14 +61,18 @@ async def chat(query: Query):
     new_df = search_df.iloc[top_indices]
 
     # 3️⃣ Prompt
-    prompt = f'''
-Sigma Web Development course ke video chunks:
+    prompt = f'''You are EduBot, an AI teaching assistant for the Sigma Web Development course.
+
+Use ONLY the following video transcript chunks to answer the question:
 {new_df[["title", "number", "start", "end", "text"]].to_json(orient="records")}
 
-Question: "{query.message}"
+User Question: "{query.message}"
 
-Answer ONLY from the above context.
-Include video number and timestamp.
+Instructions:
+- Answer clearly and in detail based on the context above
+- Mention the video title and timestamp where relevant
+- If the answer is not in the context, say "I don't have information about this in the current videos"
+- Use simple language, explain like a teacher
 '''
 
     response = agent.invoke(
@@ -73,14 +82,13 @@ Include video number and timestamp.
 
     # 4️⃣ Sources
     sources = [
-        {
-            "VideoId": int(row["number"]),
-            "videoTitle": row["title"],
-            "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}"
-        }
-        for _, row in new_df.iterrows()
-    ]
-
+    {
+        "videoId": str(row["number"]),
+        "videoTitle": row["title"],
+        "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}"
+    }
+    for _, row in new_df.iterrows()
+]
     return {
         "content": response["messages"][-1].content,
         "sources": sources
@@ -101,9 +109,18 @@ async def get_videos():
         seconds = duration_sec % 60
 
         result.append({
-            "id": int(row["number"]),
-            "title": row["title"],
-            "duration": f"{minutes}:{seconds:02d}"
-        })
+    "id": str(row["number"]),
+    "title": row["title"],
+    "duration": f"{minutes}:{seconds:02d}"
+})
 
     return result
+
+@app.post("/process")
+async def process_video(req: VideoRequest):
+    global df
+    result = process_and_save(req.url)
+    if result:
+        df = joblib.load('data.embeddings.joblib')  # reload
+        return {"success": True, "title": result["title"], "chunks": result["chunks"]}
+    return {"success": False}

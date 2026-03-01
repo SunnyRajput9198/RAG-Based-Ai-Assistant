@@ -4,3 +4,6 @@ config.py
 venv/
 __pycache__/
 *.pyc
+node_modules
+venv_new
+.vscode
