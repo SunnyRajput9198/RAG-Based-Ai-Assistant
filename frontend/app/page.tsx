@@ -6,7 +6,7 @@ import { VideoSidebar } from '@/components/video-sidebar'
 import { ChatInterface } from '@/components/chat-interface'
 import { ChatInput } from '@/components/chat-input'
 import { Button } from '@/components/ui/button'
-import { Trash2, RotateCcw } from 'lucide-react'
+import { Trash2 } from 'lucide-react'
 import {
   AlertDialog,
   AlertDialogAction,
@@ -19,14 +19,19 @@ import {
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog'
 
+// Source interface
+interface Source {
+  videoId: string
+  videoTitle: string
+  timestamp: string
+  similarity: number
+  text_preview: string
+}
+
 interface Message {
   role: 'user' | 'assistant'
   content: string
-  sources?: Array<{
-    VideoId: number
-    videoTitle: string
-    timestamp: string
-  }>
+  sources?: Source[]  // Updated type
 }
 
 export default function Home() {
@@ -48,25 +53,19 @@ export default function Home() {
         body: JSON.stringify({ message, VideoId: selectedVideoId }),
       })
 
-      const reader = res.body?.getReader()
-      const decoder = new TextDecoder()
-      let fullText = ""
+      const data = await res.json()
 
-      if (!reader) return
+      // Update the last assistant message with content AND sources
+      setMessages(prev => {
+        const updated = [...prev]
+        updated[updated.length - 1] = {
+          role: 'assistant',
+          content: data.content,
+          sources: data.sources  // Add sources here
+        }
+        return updated
+      })
 
-      while (true) {
-        const { value, done } = await reader.read()
-        if (done) break
-
-        fullText += decoder.decode(value)
-
-        // Update the last assistant message
-        setMessages(prev => {
-          const updated = [...prev]
-          updated[updated.length - 1].content = fullText
-          return updated
-        })
-      }
     } catch (error) {
       console.error('Error sending message:', error)
       // Update last message with error
@@ -107,7 +106,7 @@ export default function Home() {
               <div className="text-xs text-muted-foreground bg-card/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-border shadow-sm">
                 {messageCount} {messageCount === 1 ? 'question' : 'questions'} asked
               </div>
-              
+
               <AlertDialog>
                 <AlertDialogTrigger asChild>
                   <Button
@@ -144,7 +143,7 @@ export default function Home() {
           <div className="flex-1 overflow-y-auto min-h-0">
             <ChatInterface messages={messages} />
           </div>
-          
+
           {/* Input area - Fixed at bottom, never scrolls away */}
           <div className="flex-shrink-0">
             <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />

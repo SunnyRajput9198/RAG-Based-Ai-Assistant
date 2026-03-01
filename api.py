@@ -81,14 +81,20 @@ Instructions:
     )
 
     # 4️⃣ Sources
-    sources = [
-    {
+    # 4️⃣ Sources with similarity scores
+    sources = []
+    for idx, (_, row) in enumerate(new_df.iterrows()):
+        original_idx = top_indices[idx]  # Get original index
+        similarity_score = similarities[original_idx]  # Get similarity
+    
+        sources.append({
         "videoId": str(row["number"]),
         "videoTitle": row["title"],
-        "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}"
-    }
-    for _, row in new_df.iterrows()
-]
+        "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}",
+        "similarity": round(float(similarity_score), 3),  # Add this
+        "text_preview": row["text"][:150] + "..."  # Add this (first 150 chars)
+    })
+
     return {
         "content": response["messages"][-1].content,
         "sources": sources

@@ -8,9 +8,11 @@ import { Check, Copy } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 
 interface Source {
-  VideoId: number
+  videoId: string
   videoTitle: string
   timestamp: string
+  similarity: number      // 🆕 Added
+  text_preview: string    // 🆕 Added
 }
 
 interface ChatMessageProps {
@@ -139,6 +141,7 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
           </div>
         </div>
 
+        {/* SOURCES SECTION - Updated with similarity and text_preview */}
         {sources && sources.length > 0 && (
           <div className="pl-11 animate-in fade-in duration-500">
             <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide flex items-center gap-2">
@@ -151,19 +154,35 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
                   key={idx}
                   className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all cursor-pointer group"
                 >
-                  <div className="flex items-center justify-between gap-3">
+                  {/* Header: Title and Similarity Score */}
+                  <div className="flex items-center justify-between gap-3 mb-2">
                     <div className="flex-1 min-w-0">
                       <p className="text-xs font-medium text-foreground truncate group-hover:text-primary transition-colors">
-                        📹 Video {source.VideoId}: {source.videoTitle}
+                        📹 {source.videoTitle}
                       </p>
                     </div>
-                    <Badge
-                      variant="secondary"
-                      className="flex-shrink-0 bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 hover:bg-primary/40 transition-colors whitespace-nowrap text-xs"
-                    >
-                      ⏱ {source.timestamp}
-                    </Badge>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      {/* Similarity Badge */}
+                      <Badge
+                        variant="outline"
+                        className="bg-primary/10 text-primary border-primary/30 font-semibold text-xs"
+                      >
+                        {(source.similarity * 100).toFixed(1)}%
+                      </Badge>
+                      {/* Timestamp Badge */}
+                      <Badge
+                        variant="secondary"
+                        className="bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 hover:bg-primary/40 transition-colors whitespace-nowrap text-xs"
+                      >
+                        ⏱ {source.timestamp}
+                      </Badge>
+                    </div>
                   </div>
+
+                  {/* Text Preview */}
+                  <p className="text-xs text-muted-foreground leading-relaxed bg-muted/30 p-2 rounded border border-border/30">
+                    {source.text_preview}
+                  </p>
                 </Card>
               ))}
             </div>

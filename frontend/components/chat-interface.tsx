@@ -4,14 +4,18 @@ import { useEffect, useRef } from 'react'
 import { ChatMessage } from '@/components/chat-message'
 import { MessageSquare, Sparkles } from 'lucide-react'
 
+interface Source {
+  videoId: string
+  videoTitle: string
+  timestamp: string
+  similarity: number
+  text_preview: string
+}
+
 interface Message {
   role: 'user' | 'assistant'
   content: string
-  sources?: {
-    VideoId: number
-    videoTitle: string
-    timestamp: string
-  }[]
+  sources?: Source[]
 }
 
 interface ChatInterfaceProps {
