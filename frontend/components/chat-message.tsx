@@ -4,16 +4,18 @@ import { useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Check, Copy, FileText, Video } from 'lucide-react'
+import { Check, Copy, FileText, Video, ExternalLink } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 
 interface Source {
   videoId: string
   videoTitle: string
   timestamp: string
+  timestamp_seconds?: number  // 🆕 For video links
   similarity: number
   text_preview: string
-  source_type?: 'video' | 'pdf'  // 🆕 Added
+  source_type?: 'video' | 'pdf'
+  video_url?: string | null  // 🆕 YouTube URL
 }
 
 interface ChatMessageProps {
@@ -142,7 +144,7 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
           </div>
         </div>
 
-        {/* SOURCES SECTION - Updated with PDF/Video icons */}
+        {/* SOURCES SECTION - Updated with clickable timestamps */}
         {sources && sources.length > 0 && (
           <div className="pl-11 animate-in fade-in duration-500">
             <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide flex items-center gap-2">
@@ -150,48 +152,92 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
               Sources ({sources.length})
             </p>
             <div className="space-y-2">
-              {sources.map((source, idx) => (
-                <Card
-                  key={idx}
-                  className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all cursor-pointer group"
-                >
-                  {/* Header: Icon, Title and Similarity Score */}
-                  <div className="flex items-center justify-between gap-3 mb-2">
-                    <div className="flex items-center gap-2 flex-1 min-w-0">
-                      {/* Source Type Icon */}
-                      {source.source_type === 'pdf' ? (
-                        <FileText className="h-4 w-4 text-orange-500 flex-shrink-0" />
-                      ) : (
-                        <Video className="h-4 w-4 text-blue-500 flex-shrink-0" />
-                      )}
-                      <p className="text-xs font-medium text-foreground truncate group-hover:text-primary transition-colors">
-                        {source.videoTitle}
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-2 flex-shrink-0">
-                      {/* Similarity Badge */}
-                      <Badge
-                        variant="outline"
-                        className="bg-primary/10 text-primary border-primary/30 font-semibold text-xs"
-                      >
-                        {(source.similarity * 100).toFixed(1)}%
-                      </Badge>
-                      {/* Timestamp/Page Badge */}
-                      <Badge
-                        variant="secondary"
-                        className="bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 hover:bg-primary/40 transition-colors whitespace-nowrap text-xs"
-                      >
-                        {source.source_type === 'pdf' ? '📖' : '⏱'} {source.timestamp}
-                      </Badge>
-                    </div>
-                  </div>
+              {sources.map((source, idx) => {
+                // 🆕 Build clickable YouTube link with timestamp
+                const videoLink = source.video_url && source.timestamp_seconds !== undefined
+                  ? `${source.video_url}&t=${source.timestamp_seconds}s`
+                  : null
 
-                  {/* Text Preview */}
-                  <p className="text-xs text-muted-foreground leading-relaxed bg-muted/30 p-2 rounded border border-border/30">
-                    {source.text_preview}
-                  </p>
-                </Card>
-              ))}
+                return (
+                  <Card
+                    key={idx}
+                    className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all group"
+                  >
+                    {/* Header: Icon, Title and Similarity Score */}
+                    <div className="flex items-center justify-between gap-3 mb-2">
+                      <div className="flex items-center gap-2 flex-1 min-w-0">
+                        {/* Source Type Icon */}
+                        {source.source_type === 'pdf' ? (
+                          <FileText className="h-4 w-4 text-orange-500 flex-shrink-0" />
+                        ) : (
+                          <Video className="h-4 w-4 text-blue-500 flex-shrink-0" />
+                        )}
+                        <p className="text-xs font-medium text-foreground truncate group-hover:text-primary transition-colors">
+                          {source.videoTitle}
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        {/* Similarity Badge */}
+                        <Badge
+                          variant="outline"
+                          className="bg-primary/10 text-primary border-primary/30 font-semibold text-xs"
+                        >
+                          {(source.similarity * 100).toFixed(1)}%
+                        </Badge>
+                        
+                        {/* Timestamp/Page Badge - Clickable for videos */}
+                        {videoLink ? (
+                          <a
+                            href={videoLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block"
+                          >
+                            <Badge
+                              variant="secondary"
+                              className="bg-gradient-to-r from-blue-500/30 to-purple-500/20 text-blue-600 dark:text-blue-400 border border-blue-500/40 hover:bg-blue-500/40 hover:scale-105 transition-all cursor-pointer whitespace-nowrap text-xs flex items-center gap-1"
+                            >
+                              ▶ {source.timestamp}
+                              <ExternalLink className="h-3 w-3" />
+                            </Badge>
+                          </a>
+                        ) : (
+                          <Badge
+                            variant="secondary"
+                            className="bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 whitespace-nowrap text-xs"
+                          >
+                            {source.source_type === 'pdf' ? '📖' : '⏱'} {source.timestamp}
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Text Preview */}
+                    <p className="text-xs text-muted-foreground leading-relaxed bg-muted/30 p-2 rounded border border-border/30">
+                      {source.text_preview}
+                    </p>
+                    
+                    {/* "Watch at this moment" button for videos */}
+                    {videoLink && (
+                      <a
+                        href={videoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-2 inline-flex"
+                      >
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="h-7 text-xs gap-1.5 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:bg-blue-500/10"
+                        >
+                          <ExternalLink className="h-3 w-3" />
+                          Watch at this moment
+                        </Button>
+                      </a>
+                    )}
+                  </Card>
+                )
+              })}
             </div>
           </div>
         )}

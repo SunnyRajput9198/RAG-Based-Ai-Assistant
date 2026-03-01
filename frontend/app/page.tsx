@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { Navbar } from '@/components/navbar'
 import { VideoSidebar } from '@/components/video-sidebar'
 import { ChatInterface } from '@/components/chat-interface'
@@ -24,20 +24,31 @@ interface Source {
   videoId: string
   videoTitle: string
   timestamp: string
+  timestamp_seconds?: number  // 🆕 For clickable links
   similarity: number
   text_preview: string
+  source_type?: 'video' | 'pdf'
+  video_url?: string | null  // 🆕 YouTube URL
 }
 
 interface Message {
   role: 'user' | 'assistant'
   content: string
-  sources?: Source[]  // Updated type
+  sources?: Source[]
 }
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([])
   const [selectedVideoId, setSelectedVideoId] = useState<number | null>(null)
   const [isLoading, setIsLoading] = useState(false)
+  const [sessionId, setSessionId] = useState<string>('')  // 🆕 Session tracking
+
+  // 🆕 Generate session ID on mount
+  useEffect(() => {
+    const newSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+    setSessionId(newSessionId)
+    console.log('🧠 New session created:', newSessionId)
+  }, [])
 
   const handleSendMessage = useCallback(async (message: string) => {
     setMessages(prev => [...prev, { role: 'user', content: message }])
@@ -50,7 +61,11 @@ export default function Home() {
       const res = await fetch("http://localhost:8000/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, VideoId: selectedVideoId }),
+        body: JSON.stringify({ 
+          message, 
+          VideoId: selectedVideoId,
+          session_id: sessionId  // 🆕 Send session ID
+        }),
       })
 
       const data = await res.json()
@@ -61,7 +76,7 @@ export default function Home() {
         updated[updated.length - 1] = {
           role: 'assistant',
           content: data.content,
-          sources: data.sources  // Add sources here
+          sources: data.sources  // Includes video_url and timestamp_seconds
         }
         return updated
       })
@@ -77,10 +92,28 @@ export default function Home() {
     } finally {
       setIsLoading(false)
     }
-  }, [selectedVideoId])
+  }, [selectedVideoId, sessionId])
 
-  const handleClearChat = () => {
+  const handleClearChat = async () => {
+    // 🆕 Clear chat on frontend AND backend
     setMessages([])
+    
+    // Clear backend conversation history
+    try {
+      await fetch("http://localhost:8000/clear-history", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(sessionId)
+      })
+      console.log('🧹 Conversation history cleared')
+    } catch (error) {
+      console.error('Failed to clear backend history:', error)
+    }
+    
+    // Generate new session ID for fresh start
+    const newSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+    setSessionId(newSessionId)
+    console.log('🆕 New session started:', newSessionId)
   }
 
   const messageCount = messages.filter(m => m.role === 'user').length
@@ -122,7 +155,7 @@ export default function Home() {
                   <AlertDialogHeader>
                     <AlertDialogTitle>Clear conversation?</AlertDialogTitle>
                     <AlertDialogDescription>
-                      This will delete all messages in the current chat. This action cannot be undone.
+                      This will delete all messages and conversation memory. This action cannot be undone.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>

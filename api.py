@@ -15,7 +15,8 @@ from langgraph.checkpoint.memory import InMemorySaver
 from dotenv import load_dotenv
 from process_youtube import process_and_save
 from process_pdf import process_and_save_pdf
-
+import uuid
+from typing import Optional, List, Dict
 
 load_dotenv()
 
@@ -27,34 +28,73 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 df = joblib.load('data.embeddings.joblib')
-config = {"configurable": {"thread_id": "1"}}
+# ─── Add this helper near the top (after imports) ───────────────────────────
+def sanitize_float(value, default=0.0):
+    """Replace NaN/Inf with a safe default."""
+    try:
+        f = float(value)
+        if np.isnan(f) or np.isinf(f):
+            return default
+        return f
+    except (TypeError, ValueError):
+        return default
+    
+def sanitize_val(value):
+    """Convert NaN/Inf pandas values to None for JSON safety."""
+    if value is None:
+        return None
+    try:
+        if pd.isna(value):
+            return None
+    except (TypeError, ValueError):
+        pass
+    return value
+# 🧠 CONVERSATION MEMORY STORE
+# Format: {session_id: [{"role": "user", "content": "..."}, ...]}
+conversation_store: Dict[str, List[Dict[str, str]]] = {}
+
+def get_embedding(text):
+    embedding = model.encode([text])[0]   # always 1D vector
+    embedding = np.nan_to_num(embedding)  # remove NaN / Inf
+    return embedding
+class Query(BaseModel):
+    message: str
+    VideoId: int | None = None
+    session_id: Optional[str] = None  # 🆕 Session tracking
 
 class VideoRequest(BaseModel):
     url: str
 
-def get_embedding(text):
-    return model.encode(text).tolist()
-
-class Query(BaseModel):
-    message: str
-    VideoId: int | None = None
-
 @app.post("/chat")
 async def chat(query: Query):
-    # 1️⃣ Decide search space
+    # ════════════════════════════════════════════════════════════════
+    # 1️⃣ SESSION MANAGEMENT
+    # ════════════════════════════════════════════════════════════════
+    session_id = query.session_id or str(uuid.uuid4())
+    
+    # Initialize session if new
+    if session_id not in conversation_store:
+        conversation_store[session_id] = []
+    
+    # Get conversation history (last 10 messages for context)
+    conversation_history = conversation_store[session_id][-10:]
+    
+    # ════════════════════════════════════════════════════════════════
+    # 2️⃣ SEARCH SPACE SELECTION
+    # ════════════════════════════════════════════════════════════════
     search_df = df
-
     if query.VideoId is not None:
         search_df = df[df["number"] == query.VideoId]
-
-        # Safety check
         if search_df.empty:
             return {
                 "content": "No content found for the selected video.",
-                "sources": []
+                "sources": [],
+                "session_id": session_id
             }
 
-    # 2️⃣ Compute similarity
+    # ════════════════════════════════════════════════════════════════
+    # 3️⃣ SIMILARITY SEARCH
+    # ════════════════════════════════════════════════════════════════
     question_embedding = get_embedding(query.message)
     similarities = cosine_similarity(
         np.vstack(search_df['embedding']),
@@ -64,68 +104,110 @@ async def chat(query: Query):
     top_indices = similarities.argsort()[::-1][:5]
     new_df = search_df.iloc[top_indices]
 
-    # 3️⃣ Prompt
+    # ════════════════════════════════════════════════════════════════
+    # 4️⃣ BUILD CONTEXT WITH HISTORY
+    # ════════════════════════════════════════════════════════════════
+    # Format conversation history for context
+    history_text = ""
+    if conversation_history:
+        history_text = "\n\nPrevious Conversation:\n"
+        for msg in conversation_history[-6:]:  # Last 3 exchanges
+            role = "Student" if msg["role"] == "user" else "EduBot"
+            history_text += f"{role}: {msg['content']}\n"
+    
     prompt = f'''You are EduBot, an AI teaching assistant for the Sigma Web Development course.
 
-Use ONLY the following video transcript chunks to answer the question:
+Use ONLY the following video/document chunks to answer the question:
 {new_df[["title", "number", "start", "end", "text"]].to_json(orient="records")}
+{history_text}
 
-User Question: "{query.message}"
+Current Question: "{query.message}"
 
 Instructions:
 - Answer clearly and in detail based on the context above
-- Mention the video title and timestamp where relevant
-- If the answer is not in the context, say "I don't have information about this in the current videos"
+- If this question relates to previous conversation, acknowledge and build upon it
+- Mention the video/document title and timestamp/page where relevant
+- If the answer is not in the context, say "I don't have information about this in the current videos/documents"
 - Use simple language, explain like a teacher
+- Keep your answer concise but complete
 '''
 
+    # ════════════════════════════════════════════════════════════════
+    # 5️⃣ GET AI RESPONSE
+    # ════════════════════════════════════════════════════════════════
+    config = {"configurable": {"thread_id": session_id}}
     response = agent.invoke(
         {"messages": [{"role": "user", "content": prompt}]},
         config
     )
+    
+    assistant_reply = response["messages"][-1].content
 
-    # 4️⃣ Sources with similarity scores
+    # ════════════════════════════════════════════════════════════════
+    # 6️⃣ SAVE TO CONVERSATION HISTORY
+    # ════════════════════════════════════════════════════════════════
+    conversation_store[session_id].append({
+        "role": "user",
+        "content": query.message
+    })
+    conversation_store[session_id].append({
+        "role": "assistant", 
+        "content": assistant_reply
+    })
+   # ════════════════════════════════════════════════════════════════
+    # 7️⃣ BUILD SOURCES WITH CLICKABLE LINKS
+    # ════════════════════════════════════════════════════════════════
     sources = []
     for idx, (_, row) in enumerate(new_df.iterrows()):
         original_idx = top_indices[idx]
-        similarity_score = similarities[original_idx]
-        
-        # Check if source is PDF or video
+        similarity_score = round(sanitize_float(similarities[original_idx]), 3)
         source_type = row.get('source_type', 'video')
-        
+
         if source_type == 'pdf':
-            # PDF source - no timestamp, show page estimate
             sources.append({
                 "videoId": str(row["number"]),
-                "videoTitle": row["title"],
-                "timestamp": f"Page ~{row.get('page_estimate', 0)}",
-                "similarity": round(float(similarity_score), 3),
-                "text_preview": row["text"][:150] + "...",
-                "source_type": "pdf"
+                "videoTitle": str(row["title"]),
+                "timestamp": f"Page ~{int(sanitize_float(row.get('page_estimate', 0)))}",
+                "similarity": similarity_score,
+                "text_preview": str(row["text"])[:150] + "...",
+                "source_type": "pdf",
+                "video_url": None
             })
         else:
-            # Video source - with timestamp
+            start_seconds = int(sanitize_float(row.get('start', 0)))
+            minutes = start_seconds // 60
+            seconds = start_seconds % 60
+
             sources.append({
                 "videoId": str(row["number"]),
                 "videoTitle": row["title"],
-                "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}",
-                "similarity": round(float(similarity_score), 3),
-                "text_preview": row["text"][:150] + "...",
-                "source_type": "video"
+                "timestamp": f"{minutes}:{seconds:02d}",
+                "timestamp_seconds": start_seconds,
+                "similarity": similarity_score,
+                "text_preview": str(row["text"])[:150] + "...",
+                "source_type": "video",
+                "video_url": sanitize_val(row.get('video_url'))
             })
 
     return {
-        "content": response["messages"][-1].content,
-        "sources": sources
+        "content": assistant_reply,
+        "sources": sources,
+        "session_id": session_id  # 🆕 Return session ID
     }
+
+@app.post("/clear-history")
+async def clear_history(session_id: str):
+    """Clear conversation history for a session"""
+    if session_id in conversation_store:
+        conversation_store[session_id] = []
+        return {"success": True, "message": "Conversation cleared"}
+    return {"success": False, "message": "Session not found"}
 
 @app.get("/videos")
 async def get_videos():
-    """Get all videos"""
-    # Check if 'start' column exists (videos have start/end, PDFs don't)
     if 'start' not in df.columns:
         return []
-    
+
     videos = (
         df[df['start'].notna()][["number", "title", "start", "end"]]
         .drop_duplicates(subset=["number"])
@@ -134,7 +216,8 @@ async def get_videos():
 
     result = []
     for _, row in videos.iterrows():
-        duration_sec = int(row["end"] - row["start"])
+        # ✅ Sanitize before int conversion
+        duration_sec = int(sanitize_float(row["end"]) - sanitize_float(row["start"]))
         minutes = duration_sec // 60
         seconds = duration_sec % 60
 
@@ -150,7 +233,6 @@ async def get_videos():
 @app.get("/documents")
 async def get_documents():
     """Get all documents (PDFs)"""
-    # Filter only PDFs
     if 'source_type' not in df.columns:
         return []
     
@@ -163,7 +245,6 @@ async def get_documents():
 
     result = []
     for _, row in documents.iterrows():
-        # Count chunks for this PDF
         chunk_count = len(df[df['number'] == row['number']])
         
         result.append({
@@ -181,31 +262,20 @@ async def process_video(req: VideoRequest):
     global df
     result = process_and_save(req.url)
     if result:
-        df = joblib.load('data.embeddings.joblib')  # reload
+        df = joblib.load('data.embeddings.joblib')
         return {"success": True, "title": result["title"], "chunks": result["chunks"]}
     return {"success": False}
 
 @app.post("/upload-pdf")
 async def upload_pdf(file: UploadFile = File(...)):
-    """
-    Upload and process a PDF file
-    
-    Returns:
-        success: bool
-        title: str
-        pdf_id: str
-        chunks: int
-    """
+    """Upload and process a PDF file"""
     global df
     
-    # Validate file type
     if not file.filename.endswith('.pdf'):
         raise HTTPException(status_code=400, detail="Only PDF files are allowed")
     
-    # Create uploads directory
     os.makedirs("uploads", exist_ok=True)
     
-    # Save uploaded file
     file_path = f"uploads/{file.filename}"
     try:
         with open(file_path, "wb") as buffer:
@@ -213,15 +283,11 @@ async def upload_pdf(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save file: {str(e)}")
     
-    # Process PDF
     try:
         result = process_and_save_pdf(file_path)
         
         if result['success']:
-            # Reload embeddings
             df = joblib.load('data.embeddings.joblib')
-            
-            # Clean up uploaded file
             os.remove(file_path)
             
             return {
@@ -231,12 +297,10 @@ async def upload_pdf(file: UploadFile = File(...)):
                 "chunks": result['chunks']
             }
         else:
-            # Clean up on failure
             os.remove(file_path)
             raise HTTPException(status_code=400, detail=result.get('error', 'Processing failed'))
             
     except Exception as e:
-        # Clean up on error
         if os.path.exists(file_path):
             os.remove(file_path)
         raise HTTPException(status_code=500, detail=f"Processing error: {str(e)}")
