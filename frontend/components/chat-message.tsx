@@ -4,15 +4,16 @@ import { useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Check, Copy } from 'lucide-react'
+import { Check, Copy, FileText, Video } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 
 interface Source {
   videoId: string
   videoTitle: string
   timestamp: string
-  similarity: number      // 🆕 Added
-  text_preview: string    // 🆕 Added
+  similarity: number
+  text_preview: string
+  source_type?: 'video' | 'pdf'  // 🆕 Added
 }
 
 interface ChatMessageProps {
@@ -141,7 +142,7 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
           </div>
         </div>
 
-        {/* SOURCES SECTION - Updated with similarity and text_preview */}
+        {/* SOURCES SECTION - Updated with PDF/Video icons */}
         {sources && sources.length > 0 && (
           <div className="pl-11 animate-in fade-in duration-500">
             <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide flex items-center gap-2">
@@ -154,11 +155,17 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
                   key={idx}
                   className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all cursor-pointer group"
                 >
-                  {/* Header: Title and Similarity Score */}
+                  {/* Header: Icon, Title and Similarity Score */}
                   <div className="flex items-center justify-between gap-3 mb-2">
-                    <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-1 min-w-0">
+                      {/* Source Type Icon */}
+                      {source.source_type === 'pdf' ? (
+                        <FileText className="h-4 w-4 text-orange-500 flex-shrink-0" />
+                      ) : (
+                        <Video className="h-4 w-4 text-blue-500 flex-shrink-0" />
+                      )}
                       <p className="text-xs font-medium text-foreground truncate group-hover:text-primary transition-colors">
-                        📹 {source.videoTitle}
+                        {source.videoTitle}
                       </p>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0">
@@ -169,12 +176,12 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
                       >
                         {(source.similarity * 100).toFixed(1)}%
                       </Badge>
-                      {/* Timestamp Badge */}
+                      {/* Timestamp/Page Badge */}
                       <Badge
                         variant="secondary"
                         className="bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 hover:bg-primary/40 transition-colors whitespace-nowrap text-xs"
                       >
-                        ⏱ {source.timestamp}
+                        {source.source_type === 'pdf' ? '📖' : '⏱'} {source.timestamp}
                       </Badge>
                     </div>
                   </div>

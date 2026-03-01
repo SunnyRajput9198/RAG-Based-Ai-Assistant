@@ -1,0 +1,41 @@
+{
+  "title": "Sunny_Aiml (2)",
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "text": "SUNNY\n \nRAJ\n \nHamirpur(U.P)\n \n•\n \nGithub\n \n•\n \nrajputsny22@gmail\n \n•\n \n+919198834159\n \n•\n \nLinkedIn\n \n•\n \nPortfolio\n \n \nAI/ML\n \nEngineer\n \n \nExpertise\n \nin\n \ndesigning,\n \ntraining,\n \nand\n \ndeploying\n \nmachine\n \nlearning\n \nand\n \ndeep\n \nlearning\n \nmodels\n \nfor\n \nreal-world\n \napplications.\n \nSkilled\n \nin\n \nNLP,\n \nRAG\n \nsystems,\n \nembeddings,\n \nand\n \nneural\n \nnetworks,\n \nwith\n \nstrong\n \nmodel\n \noptimization\n \nknowledge.\n \nExperienced\n \nin\n \nbuilding\n \nend-to-end\n \nAI\n \npipelines,\n \nincluding\n \ndata\n \npreprocessing,\n \nmodel\n \ntraining,\n \nevaluation,\n \nand\n \ndeployment.\n \nProficient\n \nin\n \nPython,\n \nTensorFlow,\n \nKeras,\n \nand\n \nvector\n \ndatabases,\n \nintegrating\n \nAI\n \ninto\n \nscalable\n \napplications.\n \n \nEducation\n \n \nKamla\n \nNehru\n \nInstitute\n \nof\n \nTechnology,Sultanpur\n \nB.Tech,\n \nCGPA\n \n:\n \n8.0\n \nSep\n \n2023-Jun\n \n2027\n \n \nProjects\n \n \nRAG-Based\n \nAI\n \nAssistant\n Aug 2024 – Sep 2024 \n●\n \nBuilt\n \na\n \nRetrieval-Augmented\n \nGeneration\n \n(RAG)\n \nsystem\n \nto\n \nprovide\n \naccurate,\n \ncontext-aware",
+      "char_start": 0,
+      "char_end": 1000,
+      "chunk_length": 1000,
+      "number": "b18ed7ea",
+      "title": "Sunny_Aiml (2)",
+      "source_type": "pdf",
+      "page_estimate": 0
+    },
+    {
+      "chunk_id": 1,
+      "text": "t\n \na\n \nRetrieval-Augmented\n \nGeneration\n \n(RAG)\n \nsystem\n \nto\n \nprovide\n \naccurate,\n \ncontext-aware\n \nanswers\n \nfrom\n \nvideo\n \nand\n \naudio\n \nsources.\n \n●\n \nImplemented\n \ndata\n \npipelines\n \nfor\n \nspeech-to-text\n \nconversion,\n \ntranscript\n \nprocessing,\n \nembedding\n \ngeneration,\n \nand\n \nsemantic\n \nsearch.\n \n●\n \nDeveloped\n \ncontext-driven\n \nprompt\n \ngeneration\n \nthat\n \ncombines\n \nretrieved\n \ninformation\n \nwith\n \nuser\n \nqueries\n \nfor\n \nprecise\n \noutputs.\n \n●\n \nIntegrated\n \nend-to-end\n \nmodules\n \nfor\n \ndata\n \ningestion,\n \nindexing,\n \nand\n \ninteractive\n \nquestion\n \nanswering.\n \n \nSmart\n \nStudy\n \nSchedular\n Sep 2024 – present \n●\n \nDeveloped\n \na\n \nsmart\n \nstudy\n \nplanner\n \nwith\n \npersonalized\n \ntimetables\n,\n \nadaptive\n \nscheduling\n,\n \nand\n \nauto-rescheduling\n \nfor\n \nmissed\n \nsessions.\n \n●\n \nIntegrated\n \nproductivity\n \ntools\n \nincluding\n \nPomodoro\n \ntimer,\n \nreminders,\n \nfocus\n \nmode,\n \nand\n \ndaily/weekly\n \nprogress\n \ntracking.\n \n●\n \nDesigned\n \nanalytics\n \nfeatures\n \nlike\n \nstudy\n \nstreaks,\n \ns",
+      "char_start": 900,
+      "char_end": 1900,
+      "chunk_length": 1000,
+      "number": "b18ed7ea",
+      "title": "Sunny_Aiml (2)",
+      "source_type": "pdf",
+      "page_estimate": 0
+    },
+    {
+      "chunk_id": 2,
+      "text": "ly/weekly\n \nprogress\n \ntracking.\n \n●\n \nDesigned\n \nanalytics\n \nfeatures\n \nlike\n \nstudy\n \nstreaks,\n \nsubject-wise\n \nreports,\n \nperformance\n \ninsights,\n \nand\n \nexam\n \ncountdowns\n.\n \n●\n \nEnhanced\n \nlearning\n \nwith\n \nAI-powered\n \nrevision\n \nsuggestions,\n \nspaced\n \nrepetition\n \nplanning,\n \nand\n \nmotivational\n \ninsights.\n.\n \nPosition\n \nof\n \nResponsibility\n \n \n●\n \nCoordinated\n \nand\n \nmanaged\n \ncampus\n \nplacement\n \noperations,\n \ncollaborating\n \nwith\n \nrecruiters\n \nand\n \ninstitutional\n \nstakeholders.\n \n●\n \nMentored\n \nstudents\n \nin\n \nresume\n \nbuilding,\n \ntechnical\n \ninterview\n \npreparation,\n \nand\n \nplacement\n \nreadiness.",
+      "char_start": 1800,
+      "char_end": 2417,
+      "chunk_length": 617,
+      "number": "b18ed7ea",
+      "title": "Sunny_Aiml (2)",
+      "source_type": "pdf",
+      "page_estimate": 0
+    }
+  ],
+  "pdf_id": "b18ed7ea",
+  "total_chunks": 3,
+  "total_chars": 2417
+}

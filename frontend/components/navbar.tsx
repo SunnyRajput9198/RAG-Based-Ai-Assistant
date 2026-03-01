@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Moon, Sun } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
+import { PdfUpload } from '@/components/pdf_upload'
 
 export function Navbar() {
   const { theme, setTheme } = useTheme()
@@ -12,6 +13,12 @@ export function Navbar() {
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  const handlePdfUploadComplete = () => {
+    // Optionally refresh documents list or show notification
+    console.log('PDF uploaded successfully!')
+    // You can add a toast notification here if you want
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 h-16 border-b border-border bg-gradient-to-r from-card to-card/80 backdrop-blur-xl z-50">
@@ -30,22 +37,28 @@ export function Navbar() {
           </div>
         </div>
 
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="hover:bg-muted"
-        >
-          {mounted ? (
-            theme === 'dark' ? (
-              <Sun className="h-5 w-5" />
+        <div className="flex items-center gap-2">
+          {/* PDF Upload Button */}
+          <PdfUpload onUploadComplete={handlePdfUploadComplete} />
+          
+          {/* Theme Toggle */}
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            className="hover:bg-muted"
+          >
+            {mounted ? (
+              theme === 'dark' ? (
+                <Sun className="h-5 w-5" />
+              ) : (
+                <Moon className="h-5 w-5" />
+              )
             ) : (
-              <Moon className="h-5 w-5" />
-            )
-          ) : (
-            <Sun className="h-5 w-5" />
-          )}
-        </Button>
+              <Sun className="h-5 w-5" />
+            )}
+          </Button>
+        </div>
       </div>
     </nav>
   )

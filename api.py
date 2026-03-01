@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
@@ -6,6 +6,7 @@ import requests
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import os
+import shutil
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 from langchain_anthropic import ChatAnthropic
@@ -13,6 +14,7 @@ from langchain.agents import create_agent
 from langgraph.checkpoint.memory import InMemorySaver
 from dotenv import load_dotenv
 from process_youtube import process_and_save
+from process_pdf import process_and_save_pdf
 
 
 load_dotenv()
@@ -29,11 +31,13 @@ config = {"configurable": {"thread_id": "1"}}
 
 class VideoRequest(BaseModel):
     url: str
+
 def get_embedding(text):
     return model.encode(text).tolist()
+
 class Query(BaseModel):
     message: str
-    VideoId: int|None=None
+    VideoId: int | None = None
 
 @app.post("/chat")
 async def chat(query: Query):
@@ -80,20 +84,35 @@ Instructions:
         config
     )
 
-    # 4️⃣ Sources
     # 4️⃣ Sources with similarity scores
     sources = []
     for idx, (_, row) in enumerate(new_df.iterrows()):
-        original_idx = top_indices[idx]  # Get original index
-        similarity_score = similarities[original_idx]  # Get similarity
-    
-        sources.append({
-        "videoId": str(row["number"]),
-        "videoTitle": row["title"],
-        "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}",
-        "similarity": round(float(similarity_score), 3),  # Add this
-        "text_preview": row["text"][:150] + "..."  # Add this (first 150 chars)
-    })
+        original_idx = top_indices[idx]
+        similarity_score = similarities[original_idx]
+        
+        # Check if source is PDF or video
+        source_type = row.get('source_type', 'video')
+        
+        if source_type == 'pdf':
+            # PDF source - no timestamp, show page estimate
+            sources.append({
+                "videoId": str(row["number"]),
+                "videoTitle": row["title"],
+                "timestamp": f"Page ~{row.get('page_estimate', 0)}",
+                "similarity": round(float(similarity_score), 3),
+                "text_preview": row["text"][:150] + "...",
+                "source_type": "pdf"
+            })
+        else:
+            # Video source - with timestamp
+            sources.append({
+                "videoId": str(row["number"]),
+                "videoTitle": row["title"],
+                "timestamp": f"{int(row['start']) // 60}:{int(row['start']) % 60:02d}",
+                "similarity": round(float(similarity_score), 3),
+                "text_preview": row["text"][:150] + "...",
+                "source_type": "video"
+            })
 
     return {
         "content": response["messages"][-1].content,
@@ -102,8 +121,13 @@ Instructions:
 
 @app.get("/videos")
 async def get_videos():
+    """Get all videos"""
+    # Check if 'start' column exists (videos have start/end, PDFs don't)
+    if 'start' not in df.columns:
+        return []
+    
     videos = (
-        df[["number", "title", "start", "end"]]
+        df[df['start'].notna()][["number", "title", "start", "end"]]
         .drop_duplicates(subset=["number"])
         .sort_values("number")
     )
@@ -115,18 +139,104 @@ async def get_videos():
         seconds = duration_sec % 60
 
         result.append({
-    "id": str(row["number"]),
-    "title": row["title"],
-    "duration": f"{minutes}:{seconds:02d}"
-})
+            "id": str(row["number"]),
+            "title": row["title"],
+            "duration": f"{minutes}:{seconds:02d}",
+            "type": "video"
+        })
+
+    return result
+
+@app.get("/documents")
+async def get_documents():
+    """Get all documents (PDFs)"""
+    # Filter only PDFs
+    if 'source_type' not in df.columns:
+        return []
+    
+    pdf_df = df[df['source_type'] == 'pdf']
+    
+    documents = (
+        pdf_df[["number", "title"]]
+        .drop_duplicates(subset=["number"])
+    )
+
+    result = []
+    for _, row in documents.iterrows():
+        # Count chunks for this PDF
+        chunk_count = len(df[df['number'] == row['number']])
+        
+        result.append({
+            "id": str(row["number"]),
+            "title": row["title"],
+            "chunks": chunk_count,
+            "type": "pdf"
+        })
 
     return result
 
 @app.post("/process")
 async def process_video(req: VideoRequest):
+    """Process YouTube video"""
     global df
     result = process_and_save(req.url)
     if result:
         df = joblib.load('data.embeddings.joblib')  # reload
         return {"success": True, "title": result["title"], "chunks": result["chunks"]}
     return {"success": False}
+
+@app.post("/upload-pdf")
+async def upload_pdf(file: UploadFile = File(...)):
+    """
+    Upload and process a PDF file
+    
+    Returns:
+        success: bool
+        title: str
+        pdf_id: str
+        chunks: int
+    """
+    global df
+    
+    # Validate file type
+    if not file.filename.endswith('.pdf'):
+        raise HTTPException(status_code=400, detail="Only PDF files are allowed")
+    
+    # Create uploads directory
+    os.makedirs("uploads", exist_ok=True)
+    
+    # Save uploaded file
+    file_path = f"uploads/{file.filename}"
+    try:
+        with open(file_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to save file: {str(e)}")
+    
+    # Process PDF
+    try:
+        result = process_and_save_pdf(file_path)
+        
+        if result['success']:
+            # Reload embeddings
+            df = joblib.load('data.embeddings.joblib')
+            
+            # Clean up uploaded file
+            os.remove(file_path)
+            
+            return {
+                "success": True,
+                "title": result['title'],
+                "pdf_id": result['pdf_id'],
+                "chunks": result['chunks']
+            }
+        else:
+            # Clean up on failure
+            os.remove(file_path)
+            raise HTTPException(status_code=400, detail=result.get('error', 'Processing failed'))
+            
+    except Exception as e:
+        # Clean up on error
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        raise HTTPException(status_code=500, detail=f"Processing error: {str(e)}")
