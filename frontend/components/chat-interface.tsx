@@ -12,7 +12,7 @@ interface Source {
   similarity: number
   text_preview: string
   source_type?: 'video' | 'pdf'
-  video_url?: string
+  video_url?: string | null
   timestamp_seconds?: number
 }
 

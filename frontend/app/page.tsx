@@ -35,6 +35,7 @@ interface Message {
   role: 'user' | 'assistant'
   content: string
   sources?: Source[]
+
 }
 
 export default function Home() {
@@ -64,7 +65,7 @@ export default function Home() {
         body: JSON.stringify({ 
           message, 
           VideoId: selectedVideoId,
-          session_id: sessionId  // 🆕 Send session ID
+          session_id: sessionId || null // 🆕 Send session ID
         }),
       })
 
@@ -178,7 +179,7 @@ export default function Home() {
           </div>
 
           {/* Input area - Fixed at bottom, never scrolls away */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
           </div>
         </div>

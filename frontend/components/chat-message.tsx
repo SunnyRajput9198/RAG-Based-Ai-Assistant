@@ -15,7 +15,7 @@ interface Source {
   similarity: number
   text_preview: string
   source_type?: 'video' | 'pdf'
-  video_url?: string
+  video_url?: string | null
   timestamp_seconds?: number
 }
 
@@ -176,7 +176,7 @@ export function ChatMessage({
             <div className="space-y-2">
               {sources.map((source, idx) => {
                 const timestampUrl = source.source_type === 'video' 
-                  ? getYouTubeTimestampUrl(source.video_url, source.timestamp_seconds)
+                  ? getYouTubeTimestampUrl(source.video_url!, source.timestamp_seconds)
                   : null
 
                 return (

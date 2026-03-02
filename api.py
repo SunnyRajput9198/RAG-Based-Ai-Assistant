@@ -68,7 +68,7 @@ def get_embedding(text):
 
 class Query(BaseModel):
     message: str
-    VideoId: int | None = None
+    VideoId: Optional[str] = None
     session_id: Optional[str] = None  # 🆕 ADDED: Session tracking
 
 class VideoRequest(BaseModel):
