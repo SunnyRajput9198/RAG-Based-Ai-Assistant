@@ -1,7 +1,9 @@
 'use client'
 
+'use client'
+
 import { useState, useCallback } from 'react'
-import { Upload, FileText, X, CheckCircle2, AlertCircle } from 'lucide-react'
+import { Upload, FileText, X, CheckCircle2, AlertCircle, FileUp, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
@@ -13,6 +15,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog'
+import { cn } from '@/lib/utils'
 
 interface UploadResult {
   success: boolean
@@ -65,7 +68,6 @@ export function PdfUpload({ onUploadComplete }: PdfUploadProps) {
 
   const handleUpload = async () => {
     if (!selectedFile) return
-
     setIsUploading(true)
     setUploadProgress(0)
     setResult(null)
@@ -74,10 +76,9 @@ export function PdfUpload({ onUploadComplete }: PdfUploadProps) {
     formData.append('file', selectedFile)
 
     try {
-      // Simulate progress
       const progressInterval = setInterval(() => {
-        setUploadProgress(prev => Math.min(prev + 10, 90))
-      }, 200)
+        setUploadProgress(prev => Math.min(prev + 5, 95))
+      }, 150)
 
       const response = await fetch('http://localhost:8000/upload-pdf', {
         method: 'POST',
@@ -86,34 +87,20 @@ export function PdfUpload({ onUploadComplete }: PdfUploadProps) {
 
       clearInterval(progressInterval)
       setUploadProgress(100)
-
       const data = await response.json()
 
       if (response.ok && data.success) {
-        setResult({
-          success: true,
-          title: data.title,
-          pdf_id: data.pdf_id,
-          chunks: data.chunks,
-        })
-        
-        // Call callback after 2 seconds
+        setResult({ success: true, title: data.title, pdf_id: data.pdf_id, chunks: data.chunks })
         setTimeout(() => {
           onUploadComplete?.()
           handleReset()
           setIsOpen(false)
-        }, 2000)
+        }, 2500)
       } else {
-        setResult({
-          success: false,
-          error: data.detail || 'Upload failed',
-        })
+        setResult({ success: false, error: data.detail || 'Upload failed' })
       }
     } catch (error) {
-      setResult({
-        success: false,
-        error: error instanceof Error ? error.message : 'Network error',
-      })
+      setResult({ success: false, error: 'Network error: Check your connection' })
     } finally {
       setIsUploading(false)
     }
@@ -130,147 +117,112 @@ export function PdfUpload({ onUploadComplete }: PdfUploadProps) {
       <DialogTrigger asChild>
         <Button
           variant="outline"
-          className="gap-2 bg-card/50 hover:bg-card border-dashed border-2 hover:border-primary/50"
+          className="group relative overflow-hidden h-9 px-4 gap-2 bg-zinc-900 text-white dark:bg-white dark:text-black hover:opacity-90 transition-all border-none"
         >
-          <Upload className="h-4 w-4" />
-          Upload PDF
+          <FileUp className="h-4 w-4 transition-transform group-hover:-translate-y-1" />
+          <span className="text-xs font-semibold">Upload PDF</span>
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md border-border/40 bg-card/95 backdrop-blur-2xl">
         <DialogHeader>
-          <DialogTitle>Upload PDF Document</DialogTitle>
-          <DialogDescription>
-            Upload a PDF to add it to the knowledge base
+          <DialogTitle className="text-xl font-bold tracking-tight">Add Knowledge</DialogTitle>
+          <DialogDescription className="text-xs text-muted-foreground/70 italic">
+            Your PDF will be vectorized into searchable context chunks.
           </DialogDescription>
         </DialogHeader>
 
-        <div className="space-y-4 py-4">
+        <div className="py-2">
           {/* File Drop Zone */}
           {!selectedFile && !result && (
             <div
               onDragOver={handleDragOver}
               onDragLeave={handleDragLeave}
               onDrop={handleDrop}
-              className={`border-2 border-dashed rounded-lg p-8 text-center transition-all cursor-pointer ${
-                isDragging
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-primary/50 hover:bg-card/50'
-              }`}
+              className={cn(
+                "group relative border-2 border-dashed rounded-2xl p-10 text-center transition-all duration-300",
+                isDragging 
+                  ? "border-primary bg-primary/5 scale-[0.98]" 
+                  : "border-border/60 hover:border-primary/40 hover:bg-muted/30"
+              )}
             >
-              <input
-                type="file"
-                accept=".pdf"
-                onChange={handleFileSelect}
-                className="hidden"
-                id="pdf-upload"
-              />
-              <label htmlFor="pdf-upload" className="cursor-pointer">
-                <Upload className="h-12 w-12 mx-auto mb-3 text-muted-foreground" />
-                <p className="text-sm font-medium mb-1">
-                  Drag & drop or click to select
-                </p>
-                <p className="text-xs text-muted-foreground">
-                  PDF files only (max 50MB)
+              <input type="file" accept=".pdf" onChange={handleFileSelect} className="hidden" id="pdf-upload" />
+              <label htmlFor="pdf-upload" className="cursor-pointer flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Upload className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
+                </div>
+                <p className="text-sm font-semibold text-foreground">Drop your syllabus or notes here</p>
+                <p className="text-[11px] text-muted-foreground mt-1.5 uppercase tracking-wider font-medium">
+                  PDF up to 50MB
                 </p>
               </label>
             </div>
           )}
 
-          {/* Selected File */}
+          {/* Processing / Selected File Card */}
           {selectedFile && !result && (
-            <Card className="p-4 bg-card/50">
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex items-start gap-3 flex-1">
-                  <FileText className="h-8 w-8 text-primary flex-shrink-0" />
+            <div className="space-y-4">
+              <Card className="p-4 border-border/40 bg-muted/20 shadow-none">
+                <div className="flex items-center gap-4">
+                  <div className="p-3 bg-primary/10 rounded-xl">
+                    <FileText className="h-6 w-6 text-primary" />
+                  </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium truncate">
-                      {selectedFile.name}
-                    </p>
-                    <p className="text-xs text-muted-foreground">
+                    <p className="text-sm font-bold truncate text-foreground">{selectedFile.name}</p>
+                    <p className="text-[10px] font-mono text-muted-foreground uppercase">
                       {(selectedFile.size / 1024 / 1024).toFixed(2)} MB
                     </p>
                   </div>
-                </div>
-                {!isUploading && (
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={handleReset}
-                    className="h-8 w-8 flex-shrink-0"
-                  >
-                    <X className="h-4 w-4" />
-                  </Button>
-                )}
-              </div>
-
-              {isUploading && (
-                <div className="mt-4 space-y-2">
-                  <Progress value={uploadProgress} className="h-2" />
-                  <p className="text-xs text-center text-muted-foreground">
-                    {uploadProgress < 100 ? 'Processing...' : 'Finalizing...'}
-                  </p>
-                </div>
-              )}
-            </Card>
-          )}
-
-          {/* Result */}
-          {result && (
-            <Card className={`p-4 ${result.success ? 'bg-green-50 dark:bg-green-950/20' : 'bg-red-50 dark:bg-red-950/20'}`}>
-              <div className="flex items-start gap-3">
-                {result.success ? (
-                  <CheckCircle2 className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
-                ) : (
-                  <AlertCircle className="h-5 w-5 text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
-                )}
-                <div className="flex-1">
-                  <p className={`text-sm font-medium ${result.success ? 'text-green-900 dark:text-green-100' : 'text-red-900 dark:text-red-100'}`}>
-                    {result.success ? 'Upload Successful!' : 'Upload Failed'}
-                  </p>
-                  {result.success ? (
-                    <div className="mt-1 text-xs text-green-700 dark:text-green-300">
-                      <p className="font-medium">{result.title}</p>
-                      <p className="mt-1">Created {result.chunks} searchable chunks</p>
-                    </div>
-                  ) : (
-                    <p className="mt-1 text-xs text-red-700 dark:text-red-300">
-                      {result.error}
-                    </p>
+                  {!isUploading && (
+                    <Button variant="ghost" size="icon" onClick={handleReset} className="rounded-full hover:bg-destructive/10 hover:text-destructive">
+                      <X className="h-4 w-4" />
+                    </Button>
                   )}
                 </div>
-              </div>
-            </Card>
+
+                {isUploading && (
+                  <div className="mt-6 space-y-3">
+                    <div className="flex justify-between text-[10px] font-bold uppercase tracking-tighter">
+                      <span className="text-primary animate-pulse">Chunking & Vectorizing...</span>
+                      <span>{uploadProgress}%</span>
+                    </div>
+                    <Progress value={uploadProgress} className="h-1.5 bg-muted" />
+                  </div>
+                )}
+              </Card>
+
+              {!isUploading && (
+                <Button onClick={handleUpload} className="w-full h-11 rounded-xl font-bold bg-primary shadow-lg shadow-primary/20">
+                  Confirm & Process
+                </Button>
+              )}
+            </div>
           )}
 
-          {/* Actions */}
-          {selectedFile && !result && (
-            <div className="flex gap-2">
-              <Button
-                variant="outline"
-                onClick={handleReset}
-                disabled={isUploading}
-                className="flex-1"
-              >
-                Cancel
-              </Button>
-              <Button
-                onClick={handleUpload}
-                disabled={isUploading}
-                className="flex-1 gap-2"
-              >
-                {isUploading ? (
-                  <>
-                    <div className="h-4 w-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                    Uploading...
-                  </>
-                ) : (
-                  <>
-                    <Upload className="h-4 w-4" />
-                    Upload
-                  </>
-                )}
-              </Button>
+          {/* Success / Error States */}
+          {result && (
+            <div className={cn(
+              "rounded-2xl p-6 text-center animate-in zoom-in-95 duration-300",
+              result.success ? "bg-green-500/5 border border-green-500/20" : "bg-red-500/5 border border-red-500/20"
+            )}>
+              {result.success ? (
+                <div className="space-y-3">
+                  <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center mx-auto">
+                    <CheckCircle2 className="h-6 w-6 text-green-500" />
+                  </div>
+                  <h3 className="text-md font-bold text-foreground">Indexing Complete</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    Successfully generated <span className="text-primary font-mono font-bold">{result.chunks}</span> searchable vectors from your document.
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  <AlertCircle className="h-10 w-10 text-destructive mx-auto" />
+                  <h3 className="text-md font-bold text-foreground">Upload Blocked</h3>
+                  <p className="text-xs text-muted-foreground">{result.error}</p>
+                  <Button onClick={handleReset} variant="outline" size="sm" className="mt-2">Try Again</Button>
+                </div>
+              )}
             </div>
           )}
         </div>

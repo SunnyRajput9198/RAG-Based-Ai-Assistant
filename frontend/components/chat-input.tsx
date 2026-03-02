@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Send, Sparkles, Command } from 'lucide-react'
+import { Send, Sparkles, CornerDownLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -10,44 +10,37 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
+import { useRef } from 'react'
+import { cn } from '@/lib/utils'
+import { SuggestedQuestions } from './suggested-questions'
 
 interface ChatInputProps {
   onSendMessage: (message: string) => void
-  isLoading?: boolean
+  suggestedQuestions?: string[]  // 🆕 ADDED
+  onSuggestedQuestionClick?: (question: string) => void  // 🆕 ADDED
+  isLoading?: boolean  // 🆕 ADDED
 }
 
-const SUGGESTED_QUESTIONS = [
-  'What is Flexbox?',
-  'Explain CSS Grid',
-  'How to use media queries?',
-]
 
-export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) {
+export function ChatInput({
+  onSendMessage,
+  suggestedQuestions = [],
+  onSuggestedQuestionClick,
+  isLoading = false
+}: ChatInputProps) {
   const [input, setInput] = useState('')
-  const [showShortcuts, setShowShortcuts] = useState(false)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
+  // Auto-focus on mount
   useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      // Show shortcuts with Cmd/Ctrl + /
-      if ((e.metaKey || e.ctrlKey) && e.key === '/') {
-        e.preventDefault()
-        setShowShortcuts(!showShortcuts)
-      }
-      // Focus input with Cmd/Ctrl + K
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-        e.preventDefault()
-        document.getElementById('chat-input')?.focus()
-      }
-    }
-
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [showShortcuts])
+    textareaRef.current?.focus()
+  }, [])
 
   const handleSend = () => {
     if (input.trim() && !isLoading) {
       onSendMessage(input)
       setInput('')
+      if (textareaRef.current) textareaRef.current.style.height = 'auto'
     }
   }
 
@@ -58,122 +51,111 @@ export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) 
     }
   }
 
-  const handleSuggestedQuestion = (question: string) => {
-    if (!isLoading) {
-      onSendMessage(question)
-    }
-  }
-
-  const charCount = input.length
-
   return (
-    <div className="border-t border-border bg-gradient-to-b from-background to-card/30 backdrop-blur-sm">
-      <div className="px-4 sm:px-6 lg:px-8 py-4 max-w-4xl mx-auto w-full">
-        {/* Suggested Questions */}
-        <div className="mb-3 flex flex-wrap gap-2 items-center">
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-7 px-2 text-xs text-muted-foreground hover:text-foreground"
-                  onClick={() => setShowShortcuts(!showShortcuts)}
-                >
-                  <Command className="h-3 w-3 mr-1" />
-                  Shortcuts
-                </Button>
-              </TooltipTrigger>
-              <TooltipContent side="top" className="text-xs">
-                <div className="space-y-1">
-                  <p><kbd className="px-1.5 py-0.5 bg-muted rounded text-xs">⌘/Ctrl + K</kbd> Focus input</p>
-                  <p><kbd className="px-1.5 py-0.5 bg-muted rounded text-xs">Enter</kbd> Send message</p>
-                  <p><kbd className="px-1.5 py-0.5 bg-muted rounded text-xs">Shift + Enter</kbd> New line</p>
-                </div>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+    <div className="sticky bottom-0 border-t border-border/40 bg-background/80 backdrop-blur-xl transition-all duration-300">
+      <div className="px-4 pb-6 pt-4 max-w-4xl mx-auto w-full space-y-4">
+        
+        {/* Suggested Questions: Positioned slightly above input */}
+        {suggestedQuestions.length > 0 && onSuggestedQuestionClick && (
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
+            <Sparkles className="h-3 w-3 text-primary shrink-0 animate-pulse" />
+            <SuggestedQuestions
+              questions={suggestedQuestions}
+              onQuestionClick={onSuggestedQuestionClick}
+              isLoading={isLoading}
+            />
+          </div>
+        )}
 
-          {SUGGESTED_QUESTIONS.map((question, idx) => (
-            <Badge
-              key={idx}
-              variant="outline"
-              className="cursor-pointer px-3 py-1.5 bg-card border-border hover:bg-primary/10 hover:border-primary/50 hover:shadow-sm transition-all text-foreground text-xs font-normal group"
-              onClick={() => handleSuggestedQuestion(question)}
-            >
-              <Sparkles className="h-3 w-3 mr-1.5 text-primary group-hover:rotate-12 transition-transform" />
-              {question}
-            </Badge>
-          ))}
-        </div>
-
-        {/* Input Area */}
-        <div className="relative">
-          <div
-            className={`flex gap-3 bg-card border-2 rounded-2xl p-3 shadow-lg transition-all ${
-              isLoading
-                ? 'border-muted cursor-not-allowed opacity-60'
-                : 'border-border hover:border-primary/30 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/10'
-            }`}
-          >
+        {/* Input Area Wrapper */}
+        <div className="relative group">
+          {/* Subtle Glow Effect on Focus */}
+          <div className="absolute -inset-1 bg-linear-to-r from-primary/20 to-secondary/20 rounded-[22px] blur opacity-0 group-focus-within:opacity-100 transition duration-500" />
+          
+          <div className={cn(
+            "relative flex flex-col bg-card border border-border/60 rounded-2xl shadow-2xl transition-all duration-200 overflow-hidden",
+            isLoading ? "opacity-80" : "group-hover:border-border group-focus-within:border-primary/40 group-focus-within:shadow-primary/5"
+          )}>
+            
             <textarea
+              ref={textareaRef}
               id="chat-input"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyPress}
-              placeholder="Ask anything about the course..."
+              placeholder="Ask a question about the course materials..."
               disabled={isLoading}
               rows={1}
-              className="flex-1 bg-transparent text-sm outline-none text-foreground placeholder-muted-foreground disabled:cursor-not-allowed resize-none max-h-32"
-              maxLength={500}
-              style={{
-                minHeight: '24px',
-                height: 'auto',
-              }}
+              className="w-full bg-transparent text-[15px] px-4 pt-4 pb-2 outline-none text-foreground placeholder:text-muted-foreground/60 resize-none min-h-14 max-h-40"
               onInput={(e) => {
                 const target = e.target as HTMLTextAreaElement
                 target.style.height = 'auto'
-                target.style.height = target.scrollHeight + 'px'
+                target.style.height = `${target.scrollHeight}px`
               }}
             />
 
-            <Button
-              onClick={handleSend}
-              disabled={!input.trim() || isLoading}
-              size="sm"
-              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-primary-foreground disabled:opacity-50 disabled:cursor-not-allowed gap-2 shadow-md hover:shadow-lg transition-all self-end"
-            >
-              {isLoading ? (
-                <>
-                  <div className="h-4 w-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span className="hidden sm:inline">Thinking...</span>
-                </>
-              ) : (
-                <>
-                  <Send className="h-4 w-4" />
-                  <span className="hidden sm:inline">Send</span>
-                </>
-              )}
-            </Button>
-          </div>
+            <div className="flex items-center justify-between px-3 pb-3">
+              {/* Keyboard Shortcut Hints */}
+              <div className="flex items-center gap-3">
+                <TooltipProvider delayDuration={0}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <div className="flex items-center gap-1.5 text-[10px] font-medium text-muted-foreground/60 cursor-help hover:text-muted-foreground transition-colors">
+                        <kbd className="px-1.5 py-0.5 rounded border border-border bg-muted/50 font-sans">Enter</kbd>
+                        <span>to send</span>
+                      </div>
+                    </TooltipTrigger>
+                    <TooltipContent side="top" className="bg-popover text-[11px] border-border/40">
+                      Use <span className="font-bold text-primary">Shift + Enter</span> for a new line
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              </div>
 
-          {/* Character Counter */}
-          {charCount > 0 && (
-            <p
-              className={`absolute -bottom-5 right-0 text-xs transition-colors ${
-                charCount > 450 ? 'text-destructive' : 'text-muted-foreground'
-              }`}
-            >
-              {charCount}/500
-            </p>
-          )}
+              {/* Action Buttons */}
+              <div className="flex items-center gap-2">
+                {input.length > 0 && (
+                   <span className={cn(
+                     "text-[10px] font-mono mr-2",
+                     input.length > 450 ? "text-destructive" : "text-muted-foreground/40"
+                   )}>
+                     {input.length}/500
+                   </span>
+                )}
+                
+                <Button
+                  onClick={handleSend}
+                  disabled={!input.trim() || isLoading}
+                  size="sm"
+                  className={cn(
+                    "h-8 px-4 rounded-xl transition-all duration-300",
+                    "bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200",
+                    "shadow-[0_0_20px_-5px_rgba(0,0,0,0.2)]"
+                  )}
+                >
+                  {isLoading ? (
+                    <div className="flex items-center gap-2">
+                      <div className="h-3 w-3 border-2 border-current/30 border-t-current rounded-full animate-spin" />
+                      <span className="text-xs font-semibold">Thinking</span>
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-xs font-semibold">Send</span>
+                      <CornerDownLeft className="h-3 w-3 opacity-50" />
+                    </div>
+                  )}
+                </Button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <p className="text-xs text-muted-foreground mt-6 text-center flex items-center justify-center gap-2">
-          <span className="w-1 h-1 rounded-full bg-primary" />
-          EduBot provides AI-generated answers with video source citations
-          <span className="w-1 h-1 rounded-full bg-primary" />
-        </p>
+        {/* Brand Footer */}
+        <div className="flex flex-col items-center gap-1">
+          <p className="text-[11px] text-muted-foreground/50 flex items-center gap-2 font-medium">
+            EduBot v1.0 • Powered by RAG & Video-LLM
+          </p>
+        </div>
       </div>
     </div>
   )

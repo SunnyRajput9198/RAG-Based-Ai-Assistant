@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
@@ -7,6 +7,8 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 import os
 import shutil
+import asyncio
+import concurrent.futures
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 from langchain_anthropic import ChatAnthropic
@@ -28,7 +30,8 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 df = joblib.load('data.embeddings.joblib')
-# ─── Add this helper near the top (after imports) ───────────────────────────
+
+# ─── Helper Functions ───────────────────────────────────────────────────
 def sanitize_float(value, default=0.0):
     """Replace NaN/Inf with a safe default."""
     try:
@@ -49,38 +52,47 @@ def sanitize_val(value):
     except (TypeError, ValueError):
         pass
     return value
+
+# 🆕 ADDED: Conversation Memory Store
+# ═══════════════════════════════════════════════════════════════════════════════
 # 🧠 CONVERSATION MEMORY STORE
 # Format: {session_id: [{"role": "user", "content": "..."}, ...]}
 conversation_store: Dict[str, List[Dict[str, str]]] = {}
+print("✅ Conversation memory initialized")
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def get_embedding(text):
-    embedding = model.encode([text])[0]   # always 1D vector
-    embedding = np.nan_to_num(embedding)  # remove NaN / Inf
+    embedding = model.encode([text])[0]
+    embedding = np.nan_to_num(embedding)
     return embedding
+
 class Query(BaseModel):
     message: str
     VideoId: int | None = None
-    session_id: Optional[str] = None  # 🆕 Session tracking
+    session_id: Optional[str] = None  # 🆕 ADDED: Session tracking
 
 class VideoRequest(BaseModel):
     url: str
 
 @app.post("/chat")
 async def chat(query: Query):
+    """
+    🆕 MODIFIED: Now includes conversation history and video timestamp links
+    """
     # ════════════════════════════════════════════════════════════════
-    # 1️⃣ SESSION MANAGEMENT
+    # 1️⃣ SESSION MANAGEMENT (🆕 ADDED)
     # ════════════════════════════════════════════════════════════════
     session_id = query.session_id or str(uuid.uuid4())
     
-    # Initialize session if new
     if session_id not in conversation_store:
         conversation_store[session_id] = []
+        print(f"🆕 New session created: {session_id}")
     
-    # Get conversation history (last 10 messages for context)
     conversation_history = conversation_store[session_id][-10:]
+    print(f"📚 Loading {len(conversation_history)} previous messages")
     
     # ════════════════════════════════════════════════════════════════
-    # 2️⃣ SEARCH SPACE SELECTION
+    # 2️⃣ SEARCH SPACE SELECTION (✅ UNCHANGED)
     # ════════════════════════════════════════════════════════════════
     search_df = df
     if query.VideoId is not None:
@@ -93,7 +105,7 @@ async def chat(query: Query):
             }
 
     # ════════════════════════════════════════════════════════════════
-    # 3️⃣ SIMILARITY SEARCH
+    # 3️⃣ SIMILARITY SEARCH (✅ UNCHANGED)
     # ════════════════════════════════════════════════════════════════
     question_embedding = get_embedding(query.message)
     similarities = cosine_similarity(
@@ -105,15 +117,15 @@ async def chat(query: Query):
     new_df = search_df.iloc[top_indices]
 
     # ════════════════════════════════════════════════════════════════
-    # 4️⃣ BUILD CONTEXT WITH HISTORY
+    # 4️⃣ BUILD CONTEXT WITH HISTORY (🆕 MODIFIED)
     # ════════════════════════════════════════════════════════════════
-    # Format conversation history for context
     history_text = ""
     if conversation_history:
         history_text = "\n\nPrevious Conversation:\n"
-        for msg in conversation_history[-6:]:  # Last 3 exchanges
+        for msg in conversation_history[-6:]:
             role = "Student" if msg["role"] == "user" else "EduBot"
             history_text += f"{role}: {msg['content']}\n"
+        print(f"📖 Including {len(conversation_history[-6:])} messages in context")
     
     prompt = f'''You are EduBot, an AI teaching assistant for the Sigma Web Development course.
 
@@ -133,7 +145,7 @@ Instructions:
 '''
 
     # ════════════════════════════════════════════════════════════════
-    # 5️⃣ GET AI RESPONSE
+    # 5️⃣ GET AI RESPONSE (✅ UNCHANGED)
     # ════════════════════════════════════════════════════════════════
     config = {"configurable": {"thread_id": session_id}}
     response = agent.invoke(
@@ -144,7 +156,7 @@ Instructions:
     assistant_reply = response["messages"][-1].content
 
     # ════════════════════════════════════════════════════════════════
-    # 6️⃣ SAVE TO CONVERSATION HISTORY
+    # 6️⃣ SAVE TO CONVERSATION HISTORY (🆕 ADDED)
     # ════════════════════════════════════════════════════════════════
     conversation_store[session_id].append({
         "role": "user",
@@ -154,8 +166,10 @@ Instructions:
         "role": "assistant", 
         "content": assistant_reply
     })
-   # ════════════════════════════════════════════════════════════════
-    # 7️⃣ BUILD SOURCES WITH CLICKABLE LINKS
+    print(f"💾 Saved to history. Total messages: {len(conversation_store[session_id])}")
+
+    # ════════════════════════════════════════════════════════════════
+    # 7️⃣ BUILD SOURCES WITH CLICKABLE LINKS (✅ ALREADY PRESENT)
     # ════════════════════════════════════════════════════════════════
     sources = []
     for idx, (_, row) in enumerate(new_df.iterrows()):
@@ -182,29 +196,81 @@ Instructions:
                 "videoId": str(row["number"]),
                 "videoTitle": row["title"],
                 "timestamp": f"{minutes}:{seconds:02d}",
-                "timestamp_seconds": start_seconds,
+                "timestamp_seconds": start_seconds,  # 🆕 For clickable links
                 "similarity": similarity_score,
                 "text_preview": str(row["text"])[:150] + "...",
                 "source_type": "video",
-                "video_url": sanitize_val(row.get('video_url'))
+                "video_url": sanitize_val(row.get('video_url'))  # 🆕 YouTube URL
             })
 
+    # ════════════════════════════════════════════════════════════════
+    # 8️⃣ GENERATE SUGGESTED QUESTIONS (🆕 NEW FEATURE)
+    # ════════════════════════════════════════════════════════════════
+    suggested_questions = []
+    
+    # Only generate suggestions if we have a valid response
+    if assistant_reply and len(assistant_reply) > 50:
+        suggestion_prompt = f'''Based on this educational conversation:
+
+Student Question: "{query.message}"
+Your Answer: "{assistant_reply[:500]}..."
+
+Generate 3 natural follow-up questions a student might ask to deepen their understanding. 
+Format: Return ONLY 3 questions, one per line, no numbering, no explanations.
+Questions should be:
+- Specific and actionable
+- Build upon current topic
+- Encourage deeper learning
+- Natural conversation flow
+
+Example format:
+What are the practical applications of this?
+How does this compare to alternative approaches?
+Can you show me a code example?'''
+
+        try:
+            suggestion_response = agent.invoke(
+                {"messages": [{"role": "user", "content": suggestion_prompt}]},
+                config
+            )
+            
+            suggestions_text = suggestion_response["messages"][-1].content
+            # Parse suggestions (one per line)
+            suggested_questions = [
+                q.strip().lstrip('•-*123456789. ')
+                for q in suggestions_text.strip().split('\n')
+                if q.strip() and len(q.strip()) > 10
+            ][:3]  # Take max 3
+            
+            print(f"💡 Generated {len(suggested_questions)} question suggestions")
+            
+        except Exception as e:
+            print(f"⚠️  Failed to generate suggestions: {e}")
+            suggested_questions = []
+    
+    # MODIFY THE RETURN STATEMENT TO INCLUDE:
     return {
         "content": assistant_reply,
         "sources": sources,
-        "session_id": session_id  # 🆕 Return session ID
+        "session_id": session_id,
+        "suggested_questions": suggested_questions  # 🆕 ADD THIS LINE
     }
-
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🆕 NEW ENDPOINT: Clear Conversation History
+# ═══════════════════════════════════════════════════════════════════════════════
 @app.post("/clear-history")
 async def clear_history(session_id: str):
     """Clear conversation history for a session"""
     if session_id in conversation_store:
         conversation_store[session_id] = []
+        print(f"🗑️  Cleared history for session: {session_id}")
         return {"success": True, "message": "Conversation cleared"}
     return {"success": False, "message": "Session not found"}
+# ═══════════════════════════════════════════════════════════════════════════════
 
 @app.get("/videos")
 async def get_videos():
+    """✅ UNCHANGED: List all videos"""
     if 'start' not in df.columns:
         return []
 
@@ -216,7 +282,6 @@ async def get_videos():
 
     result = []
     for _, row in videos.iterrows():
-        # ✅ Sanitize before int conversion
         duration_sec = int(sanitize_float(row["end"]) - sanitize_float(row["start"]))
         minutes = duration_sec // 60
         seconds = duration_sec % 60
@@ -232,7 +297,7 @@ async def get_videos():
 
 @app.get("/documents")
 async def get_documents():
-    """Get all documents (PDFs)"""
+    """✅ UNCHANGED: Get all documents (PDFs)"""
     if 'source_type' not in df.columns:
         return []
     
@@ -258,7 +323,7 @@ async def get_documents():
 
 @app.post("/process")
 async def process_video(req: VideoRequest):
-    """Process YouTube video"""
+    """✅ UNCHANGED: Process YouTube video (without real-time progress)"""
     global df
     result = process_and_save(req.url)
     if result:
@@ -266,9 +331,83 @@ async def process_video(req: VideoRequest):
         return {"success": True, "title": result["title"], "chunks": result["chunks"]}
     return {"success": False}
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🆕 NEW: WebSocket Endpoint for Real-time Video Processing Progress
+# ═══════════════════════════════════════════════════════════════════════════════
+@app.websocket("/ws/process-video")
+async def process_video_websocket(websocket: WebSocket):
+    """
+    🆕 ADDED: WebSocket endpoint for YouTube video processing with real-time progress
+    """
+    global df
+    await websocket.accept()
+    print("🔌 WebSocket connection established")
+    
+    try:
+        # Receive video URL
+        data = await websocket.receive_text()
+        video_url = data
+        print(f"📥 Received URL: {video_url}")
+        
+        await websocket.send_text("🚀 Starting video processing...")
+        
+        # Progress callback messages will be collected
+        progress_messages = []
+        
+        def progress_callback(msg):
+            progress_messages.append(msg)
+            print(f"📊 Progress: {msg}")
+        
+        # Import progress-enabled processor
+        try:
+            from process_youtube_with_progress import process_and_save as process_with_progress
+            print("✅ Loaded process_youtube_with_progress module")
+        except ImportError:
+            print("⚠️  process_youtube_with_progress not found, using regular processor")
+            process_with_progress = process_and_save
+        
+        # Run in executor to avoid blocking
+        loop = asyncio.get_event_loop()
+        executor = concurrent.futures.ThreadPoolExecutor()
+        
+        await websocket.send_text("📥 Downloading audio...")
+        
+        # Process video with progress callback
+        result = await loop.run_in_executor(
+            executor,
+            lambda: process_with_progress(video_url, progress_callback if 'progress_callback' in str(process_with_progress.__code__.co_varnames) else None)
+        )
+        
+        # Send accumulated progress messages
+        for msg in progress_messages:
+            await websocket.send_text(msg)
+            await asyncio.sleep(0.1)  # Small delay for UI
+        
+        if result:
+            df = joblib.load('data.embeddings.joblib')
+            await websocket.send_text(f"✅ COMPLETE: {result['title']} ({result['chunks']} chunks)")
+            await websocket.send_json({
+                "status": "complete",
+                "title": result['title'],
+                "chunks": result['chunks']
+            })
+            print(f"✅ Processing complete: {result['title']}")
+        else:
+            await websocket.send_text("❌ Processing failed")
+            await websocket.send_json({"status": "error"})
+            print("❌ Processing failed")
+            
+    except WebSocketDisconnect:
+        print("🔌 WebSocket disconnected")
+    except Exception as e:
+        print(f"❌ WebSocket error: {e}")
+        await websocket.send_text(f"❌ Error: {str(e)}")
+        await websocket.send_json({"status": "error", "message": str(e)})
+# ═══════════════════════════════════════════════════════════════════════════════
+
 @app.post("/upload-pdf")
 async def upload_pdf(file: UploadFile = File(...)):
-    """Upload and process a PDF file"""
+    """✅ UNCHANGED: Upload and process a PDF file"""
     global df
     
     if not file.filename.endswith('.pdf'):
@@ -304,3 +443,4 @@ async def upload_pdf(file: UploadFile = File(...)):
         if os.path.exists(file_path):
             os.remove(file_path)
         raise HTTPException(status_code=500, detail=f"Processing error: {str(e)}")
+

@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import { SuggestedQuestions } from '@/components/suggested-questions'
 import { Check, Copy, FileText, Video, ExternalLink } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 
@@ -11,17 +12,20 @@ interface Source {
   videoId: string
   videoTitle: string
   timestamp: string
-  timestamp_seconds?: number  // 🆕 For video links
   similarity: number
   text_preview: string
   source_type?: 'video' | 'pdf'
-  video_url?: string | null  // 🆕 YouTube URL
+  video_url?: string
+  timestamp_seconds?: number
 }
 
 interface ChatMessageProps {
   role: 'user' | 'assistant'
   content: string
   sources?: Source[]
+  suggestedQuestions?: string[]  // 🆕 ADDED
+  onSuggestedQuestionClick?: (question: string) => void  // 🆕 ADDED
+  isLoading?: boolean  // 🆕 ADDED
 }
 
 function CodeBlock({ children, inline }: { children: string; inline?: boolean }) {
@@ -62,12 +66,30 @@ function CodeBlock({ children, inline }: { children: string; inline?: boolean })
   )
 }
 
-export function ChatMessage({ role, content, sources }: ChatMessageProps) {
+export function ChatMessage({ 
+  role, 
+  content, 
+  sources,
+  suggestedQuestions,  // 🆕 ADDED
+  onSuggestedQuestionClick,  // 🆕 ADDED
+  isLoading = false  // 🆕 ADDED
+}: ChatMessageProps) {
+  const getYouTubeTimestampUrl = (videoUrl: string | undefined, seconds: number | undefined) => {
+    if (!videoUrl || seconds === undefined) return null
+    
+    if (videoUrl.includes('youtube.com/watch')) {
+      return `${videoUrl}&t=${seconds}s`
+    } else if (videoUrl.includes('youtu.be/')) {
+      return `${videoUrl}?t=${seconds}s`
+    }
+    return videoUrl
+  }
+
   // USER MESSAGE
   if (role === 'user') {
     return (
       <div className="flex justify-end mb-4 animate-in slide-in-from-right duration-300">
-        <div className="max-w-[80%] lg:max-w-2xl bg-gradient-to-r from-primary/90 to-secondary/70 text-primary-foreground rounded-2xl rounded-tr-sm px-5 py-3 shadow-lg">
+        <div className="max-w-[80%] lg:max-w-2xl bg-linear-to-r from-primary/90 to-secondary/70 text-primary-foreground rounded-2xl rounded-tr-sm px-5 py-3 shadow-lg">
           <p className="text-sm leading-relaxed">{content}</p>
         </div>
       </div>
@@ -82,7 +104,7 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
       <div className="max-w-[85%] lg:max-w-3xl w-full">
         <div className="bg-card border border-border rounded-2xl rounded-tl-sm px-5 py-4 shadow-lg mb-3 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-xs font-bold shadow-md">
+            <div className="shrink-0 w-8 h-8 rounded-lg bg-linear-to-br from-primary to-secondary flex items-center justify-center text-white text-xs font-bold shadow-md">
               AI
             </div>
 
@@ -144,7 +166,7 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
           </div>
         </div>
 
-        {/* SOURCES SECTION - Updated with clickable timestamps */}
+        {/* SOURCES SECTION */}
         {sources && sources.length > 0 && (
           <div className="pl-11 animate-in fade-in duration-500">
             <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide flex items-center gap-2">
@@ -153,31 +175,27 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
             </p>
             <div className="space-y-2">
               {sources.map((source, idx) => {
-                // 🆕 Build clickable YouTube link with timestamp
-                const videoLink = source.video_url && source.timestamp_seconds !== undefined
-                  ? `${source.video_url}&t=${source.timestamp_seconds}s`
+                const timestampUrl = source.source_type === 'video' 
+                  ? getYouTubeTimestampUrl(source.video_url, source.timestamp_seconds)
                   : null
 
                 return (
                   <Card
                     key={idx}
-                    className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all group"
+                    className="p-3 bg-card/50 border border-border/60 hover:border-primary/50 hover:bg-card/80 hover:shadow-md transition-all cursor-pointer group"
                   >
-                    {/* Header: Icon, Title and Similarity Score */}
                     <div className="flex items-center justify-between gap-3 mb-2">
                       <div className="flex items-center gap-2 flex-1 min-w-0">
-                        {/* Source Type Icon */}
                         {source.source_type === 'pdf' ? (
-                          <FileText className="h-4 w-4 text-orange-500 flex-shrink-0" />
+                          <FileText className="h-4 w-4 text-orange-500 shrink-0" />
                         ) : (
-                          <Video className="h-4 w-4 text-blue-500 flex-shrink-0" />
+                          <Video className="h-4 w-4 text-blue-500 shrink-0" />
                         )}
                         <p className="text-xs font-medium text-foreground truncate group-hover:text-primary transition-colors">
                           {source.videoTitle}
                         </p>
                       </div>
-                      <div className="flex items-center gap-2 flex-shrink-0">
-                        {/* Similarity Badge */}
+                      <div className="flex items-center gap-2 shrink-0">
                         <Badge
                           variant="outline"
                           className="bg-primary/10 text-primary border-primary/30 font-semibold text-xs"
@@ -185,26 +203,25 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
                           {(source.similarity * 100).toFixed(1)}%
                         </Badge>
                         
-                        {/* Timestamp/Page Badge - Clickable for videos */}
-                        {videoLink ? (
+                        {timestampUrl ? (
                           <a
-                            href={videoLink}
+                            href={timestampUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block"
+                            className="inline-flex items-center gap-1"
                           >
                             <Badge
                               variant="secondary"
-                              className="bg-gradient-to-r from-blue-500/30 to-purple-500/20 text-blue-600 dark:text-blue-400 border border-blue-500/40 hover:bg-blue-500/40 hover:scale-105 transition-all cursor-pointer whitespace-nowrap text-xs flex items-center gap-1"
+                              className="bg-linear-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 hover:bg-primary/40 transition-colors whitespace-nowrap text-xs cursor-pointer"
                             >
-                              ▶ {source.timestamp}
-                              <ExternalLink className="h-3 w-3" />
+                              ⏱ {source.timestamp}
+                              <ExternalLink className="h-3 w-3 ml-1" />
                             </Badge>
                           </a>
                         ) : (
                           <Badge
                             variant="secondary"
-                            className="bg-gradient-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 whitespace-nowrap text-xs"
+                            className="bg-linear-to-r from-primary/30 to-secondary/20 text-primary border border-primary/30 whitespace-nowrap text-xs"
                           >
                             {source.source_type === 'pdf' ? '📖' : '⏱'} {source.timestamp}
                           </Badge>
@@ -212,34 +229,23 @@ export function ChatMessage({ role, content, sources }: ChatMessageProps) {
                       </div>
                     </div>
 
-                    {/* Text Preview */}
                     <p className="text-xs text-muted-foreground leading-relaxed bg-muted/30 p-2 rounded border border-border/30">
                       {source.text_preview}
                     </p>
-                    
-                    {/* "Watch at this moment" button for videos */}
-                    {videoLink && (
-                      <a
-                        href={videoLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-2 inline-flex"
-                      >
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          className="h-7 text-xs gap-1.5 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:bg-blue-500/10"
-                        >
-                          <ExternalLink className="h-3 w-3" />
-                          Watch at this moment
-                        </Button>
-                      </a>
-                    )}
                   </Card>
                 )
               })}
             </div>
           </div>
+        )}
+
+        {/* 🆕 SUGGESTED QUESTIONS SECTION - NEW! */}
+        {suggestedQuestions && suggestedQuestions.length > 0 && onSuggestedQuestionClick && (
+          <SuggestedQuestions
+            questions={suggestedQuestions}
+            onQuestionClick={onSuggestedQuestionClick}
+            isLoading={isLoading}
+          />
         )}
       </div>
     </div>
