@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Send, Sparkles, CornerDownLeft } from 'lucide-react'
+import { Send, Sparkles, CornerDownLeft, Mic } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -20,6 +20,12 @@ interface ChatInputProps {
   onSuggestedQuestionClick?: (question: string) => void  // 🆕 ADDED
   isLoading?: boolean  // 🆕 ADDED
 }
+declare global {
+  interface Window {
+    SpeechRecognition: any
+    webkitSpeechRecognition: any
+  }
+}
 
 
 export function ChatInput({
@@ -30,6 +36,7 @@ export function ChatInput({
 }: ChatInputProps) {
   const [input, setInput] = useState('')
   const textareaRef = useRef<HTMLTextAreaElement>(null)
+  const [isListening, setIsListening] = useState(false)
 
   // Auto-focus on mount
   useEffect(() => {
@@ -43,6 +50,22 @@ export function ChatInput({
       if (textareaRef.current) textareaRef.current.style.height = 'auto'
     }
   }
+  // docs for voice input
+  // https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/start
+  const handleVoiceInput = () => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
+    if (!SpeechRecognition) return
+
+    const recognition = new SpeechRecognition()
+    recognition.lang = 'en-US'
+    recognition.onstart = () => setIsListening(true)
+    recognition.onend = () => setIsListening(false)
+    recognition.onresult = (event: any) => {
+      const transcript = event.results[0][0].transcript
+      setInput(transcript)
+    }
+    recognition.start()
+  }
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -52,9 +75,9 @@ export function ChatInput({
   }
 
   return (
-    <div className="sticky bottom-0 border-t border-border/40 bg-background/80 backdrop-blur-xl transition-all duration-300">
+<div className="border-t border-border/40 bg-background/80 backdrop-blur-xl transition-all duration-300">
       <div className="px-4 pb-6 pt-4 max-w-4xl mx-auto w-full space-y-4">
-        
+
         {/* Suggested Questions: Positioned slightly above input */}
         {suggestedQuestions.length > 0 && onSuggestedQuestionClick && (
           <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
@@ -71,12 +94,12 @@ export function ChatInput({
         <div className="relative group">
           {/* Subtle Glow Effect on Focus */}
           <div className="absolute -inset-1 bg-linear-to-r from-primary/20 to-secondary/20 rounded-[22px] blur opacity-0 group-focus-within:opacity-100 transition duration-500" />
-          
+
           <div className={cn(
             "relative flex flex-col bg-card border border-border/60 rounded-2xl shadow-2xl transition-all duration-200 overflow-hidden",
             isLoading ? "opacity-80" : "group-hover:border-border group-focus-within:border-primary/40 group-focus-within:shadow-primary/5"
           )}>
-            
+
             <textarea
               ref={textareaRef}
               id="chat-input"
@@ -115,14 +138,14 @@ export function ChatInput({
               {/* Action Buttons */}
               <div className="flex items-center gap-2">
                 {input.length > 0 && (
-                   <span className={cn(
-                     "text-[10px] font-mono mr-2",
-                     input.length > 450 ? "text-destructive" : "text-muted-foreground/40"
-                   )}>
-                     {input.length}/500
-                   </span>
+                  <span className={cn(
+                    "text-[10px] font-mono mr-2",
+                    input.length > 450 ? "text-destructive" : "text-muted-foreground/40"
+                  )}>
+                    {input.length}/500
+                  </span>
                 )}
-                
+
                 <Button
                   onClick={handleSend}
                   disabled={!input.trim() || isLoading}
@@ -144,6 +167,18 @@ export function ChatInput({
                       <CornerDownLeft className="h-3 w-3 opacity-50" />
                     </div>
                   )}
+                </Button>
+                <Button
+                  onClick={handleVoiceInput}
+                  disabled={isLoading}
+                  size="sm"
+                  variant="ghost"
+                  className={cn(
+                    "h-8 w-8 rounded-xl",
+                    isListening && "text-red-500 animate-pulse"
+                  )}
+                >
+                  <Mic className="h-4 w-4" />
                 </Button>
               </div>
             </div>

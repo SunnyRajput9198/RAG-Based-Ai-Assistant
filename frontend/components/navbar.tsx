@@ -5,9 +5,15 @@ import { Moon, Sun, Sparkles } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
 import { PdfUpload } from '@/components/pdf_upload'
+import { generatePDF } from '@/components/generate-pdf' 
 import { motion } from 'framer-motion'
 import { VideoProcessor } from '@/components/video-processor'
-export function Navbar() {
+
+interface NavbarProps {
+  messages?: {role: 'user' | 'assistant', content: string}[]
+}
+
+export function Navbar({ messages }: NavbarProps) {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
@@ -74,10 +80,17 @@ export function Navbar() {
             )}
             <span className="sr-only">Toggle theme</span>
           </Button>
-
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => generatePDF(messages!)}
+            className="hidden sm:flex items-center gap-1 text-xs"
+          >
+            📝 Export Notes
+          </Button>
           {/* Profile/User Placeholder (Optional but adds "Completeness") */}
           <div className="w-8 h-8 rounded-full bg-linear-to-tr from-zinc-800 to-zinc-700 border border-white/10 flex items-center justify-center text-[10px] font-medium">
-            JD
+            Profile
           </div>
         </div>
       </div>
