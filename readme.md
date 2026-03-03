@@ -1,12 +1,19 @@
 <div align="center">
-# 🎓 EduBot — AI Teaching Assistant
 
+# 🎓 EduBot — AI Teaching Assistant  
 
-<img src="Images/edubot-home.png" width="400"/>
+<br/>
 
-<img src="Images/edubot-dashboard.png" width="400"/>
+<p float="left">
+  <img src="Images/edubot-home.png" width="45%" />
+  <img src="Images/edubot-dashboard.png" width="45%" />
+</p>
 
-<img src="Images/edubot-chat.png" width="400"/>
+<p float="left">
+  <img src="Images/edubot-chat.png" width="45%" />
+</p>
+
+</div>
 
 
 ### *Chat with your course videos and documents using RAG*
