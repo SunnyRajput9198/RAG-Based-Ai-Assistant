@@ -1,22 +1,22 @@
 <div align="center">
 
-# 🎓 EduBot — AI Teaching Assistant  
+<h1>🎓 EduBot — AI Teaching Assistant</h1>
+
+<p><i>Chat with your course videos and documents using RAG</i></p>
 
 <br/>
 
-<p float="left">
-  <img src="Images/edubot-home.png" width="45%" />
-  <img src="Images/edubot-dashboard.png" width="45%" />
-</p>
+<img src="Images/edubot-home.png" width="50%" />
+<br/><br/>
 
-<p float="left">
-  <img src="Images/edubot-chat.png" width="45%" />
-</p>
+<img src="Images/edubot-dashboard.png" width="50%" />
+<br/><br/>
+
+<img src="Images/edubot-chat.png" width="50%" />
 
 </div>
 
-
-### *Chat with your course videos and documents using RAG*
+## Chat with your course videos and documents using RAG
 
 [![Claude Sonnet 4](https://img.shields.io/badge/AI-Claude%20Sonnet%204-blue?style=flat-square)](https://anthropic.com)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square)](https://fastapi.tiangolo.com)
