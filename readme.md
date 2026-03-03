@@ -1,112 +1,131 @@
-# 🎓 RAG-Based AI Teaching Assistant
+# EduBot - AI Teaching Assistant
 
-A powerful **Retrieval-Augmented Generation (RAG)** based AI assistant that learns from your own video content and answers questions based on it. Built with Google Gemini, LangChain, and Whisper.
+An AI-powered teaching assistant that lets you chat with your course videos and documents using RAG (Retrieval-Augmented Generation).
 
----
+![EduBot](https://img.shields.io/badge/AI-Claude%20Sonnet%204-blue) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green) ![Next.js](https://img.shields.io/badge/Frontend-Next.js-black)
 
+## Features
 
+- 🎥 **YouTube Video Processing** — Paste a YouTube URL, audio gets downloaded, transcribed, and indexed automatically
+- 📄 **PDF Upload & Search** — Upload PDF documents and ask questions from them
+- 🤖 **RAG-based Q&A** — Answers grounded in your actual video/document content using Claude Sonnet 4
+- 💬 **Conversation Memory** — Remembers previous questions in a session
+- 🔗 **Clickable Timestamps** — Sources show exact video timestamps
+- 💡 **Suggested Questions** — Auto-generates follow-up questions after each answer
+- ⚡ **Real-time Progress** — WebSocket-based live progress during video processing
 
-## 🚀 Features
+## Tech Stack
 
-- 🎥 Converts video lectures into searchable knowledge
-- 🔊 Transcribes audio using OpenAI Whisper
-- 🧠 Generates embeddings using Google Generative AI
-- 🔍 Retrieves the most relevant context using cosine similarity
-- 💬 Answers questions using Google Gemini LLM
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Next.js, TypeScript, Tailwind CSS, shadcn/ui |
+| Backend | FastAPI, Python |
+| AI | Claude Sonnet 4 (Anthropic) |
+| Embeddings | sentence-transformers (all-MiniLM-L6-v2) |
+| Transcription | OpenAI Whisper (CPU) |
+| Audio Download | yt-dlp |
+| Memory | LangGraph InMemorySaver |
+| Vector Search | scikit-learn cosine similarity |
+| Storage | joblib (local) |
 
----
+## Project Structure
 
-## 🛠️ Installation
+```
+RAG-Based-Ai-Assistant/
+├── api.py                  # FastAPI backend
+├── create_chunks.py        # YouTube/audio transcription pipeline
+├── preprocess_json.py      # Embedding generation
+├── process_youtube.py      # YouTube processor (used by API)
+├── process_pdf.py          # PDF processor
+├── jsons/                  # Transcript JSON files
+├── audios/                 # Temporary audio files
+├── data.embeddings.joblib  # Vector store
+├── frontend/               # Next.js app
+└── .env                    # API keys
+```
+
+## Setup
+
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/SunnyRajput9198/RAG-Based-Ai-Assistant.git
 cd RAG-Based-Ai-Assistant
+```
+
+### 2. Backend Setup
+
+```bash
 python -m venv venv
-source venv/Scripts/activate  # On Windows
+source venv/Scripts/activate  # Windows
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the root directory and add your API key:
-
+Create `.env` file:
 ```
-GOOGLE_API_KEY=your_google_api_key_here
+ANTHROPIC_API_KEY=your_api_key_here
 ```
 
----
-
-## 📋 How to Use
-
-### Step 1 — Collect Your Videos
-Move all your video files into the `videos/` folder.
-
-### Step 2 — Convert Videos to MP3
-Run the following script to extract audio from all video files:
+### 3. Add Content
 
 ```bash
-python video_to_mp3.py
-```
+# Transcribe a YouTube video
+python create_chunks.py
+# Paste YouTube URL when prompted
 
-### Step 3 — Transcribe MP3 to JSON
-Convert all MP3 files to structured JSON transcripts using Whisper:
-
-```bash
-python mp3_to_json.py
-```
-
-### Step 4 — Generate Embeddings
-Process the JSON transcripts into a vector dataframe and save it as a joblib pickle:
-
-```bash
+# Generate embeddings
 python preprocess_json.py
 ```
 
-### Step 5 — Ask Questions
-Load the embeddings, find the most relevant context, and query the LLM:
+### 4. Start Backend
 
 ```bash
-python read_chunks.py
+uvicorn api:app --reload
+# Runs on http://localhost:8000
 ```
 
----
+### 5. Start Frontend
 
-## 🗂️ Project Structure
-
-```
-RAG-Based-Ai-Assistant/
-│
-├── videos/               # Input video files
-├── audios/               # Extracted MP3 files
-├── jsons/                # Whisper transcription output
-├── video_to_mp3.py       # Video to audio converter
-├── mp3_to_json.py        # Audio to JSON transcriber
-├── preprocess_json.py    # Embedding generator
-├── read_chunks.py        # RAG query engine
-├── data.embeddings.joblib # Vector store (gitignored)
-├── requirements.txt      # Dependencies
-└── .env                  # API keys (gitignored)
+```bash
+cd frontend
+npm install
+npx next dev
+# Runs on http://localhost:3000
 ```
 
----
+## How It Works
 
-## 🧰 Tech Stack
+```
+YouTube URL → yt-dlp → Whisper (transcription) → JSON chunks
+                                                        ↓
+PDF Upload → text extraction → JSON chunks      → Embeddings
+                                                        ↓
+User Question → Embedding → Cosine Similarity → Top 5 chunks
+                                                        ↓
+                                              Claude Sonnet 4
+                                                        ↓
+                                    Answer + Sources + Suggestions
+```
 
-| Tool | Purpose |
-|------|---------|
-| OpenAI Whisper | Audio transcription |
-| Google Gemini | LLM for answer generation |
-| LangChain | LLM framework |
-| Scikit-learn | Cosine similarity search |
-| Joblib | Embedding storage |
-| Python-dotenv | Environment management |
+## API Endpoints
 
----
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/chat` | Ask a question |
+| GET | `/videos` | List all videos |
+| GET | `/documents` | List all PDFs |
+| POST | `/process` | Add YouTube video |
+| POST | `/upload-pdf` | Upload PDF |
+| WS | `/ws/process-video` | Real-time video processing |
+| POST | `/clear-history` | Clear chat history |
 
-## 👨‍💻 Author
+## Requirements
 
-**Sunny Rajput** — [GitHub](https://github.com/SunnyRajput9198)
+- Python 3.11+
+- Node.js 18+
+- ffmpeg (for audio processing)
+- Anthropic API key
 
----
+## License
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+MIT

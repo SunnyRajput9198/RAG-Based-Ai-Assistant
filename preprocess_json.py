@@ -1,143 +1,89 @@
 import os
 import json
-import pandas as pd
-import joblib
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
+from qdrant_client import QdrantClient, models
 
 load_dotenv()
 
+# Client mein timeout badhao
+qdrant_client = QdrantClient(
+    url=os.getenv("QDRANT_URL"),
+    api_key=os.getenv("QDRANT_API_KEY"),
+    timeout=60
+)
+COLLECTION_NAME = "edubot"
+
+if not qdrant_client.collection_exists(COLLECTION_NAME):
+    qdrant_client.create_collection(
+        collection_name=COLLECTION_NAME,
+        vectors_config=models.VectorParams(size=384, distance=models.Distance.COSINE),
+    )
+    print("✅ Collection created")
+
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-def create_embedding(text_list):
-    return model.encode(text_list).tolist()
+# Existing titles aur chunk_id Qdrant se fetch karo
+existing = qdrant_client.scroll(collection_name=COLLECTION_NAME, limit=10000, with_payload=["title"], with_vectors=False)[0]
+existing_titles = list(set(p.payload["title"] for p in existing))
+chunk_id = qdrant_client.count(COLLECTION_NAME).count
+print(f"📊 Existing: {chunk_id} chunks from {len(existing_titles)} videos/PDFs")
 
-# ════════════════════════════════════════════════════════════════
-# LOAD EXISTING DATA
-# ════════════════════════════════════════════════════════════════
-if os.path.exists("data.embeddings.joblib"):
-    existing_df = joblib.load("data.embeddings.joblib")
-    my_dicts = existing_df.to_dict('records')
-    chunk_id = len(my_dicts)
-    existing_titles = existing_df['title'].unique().tolist()
-    print(f"📊 Existing data: {len(my_dicts)} chunks from {len(existing_titles)} videos/PDFs")
-else:
-    my_dicts = []
-    chunk_id = 0
-    existing_titles = []
-    print("📊 No existing data found. Starting fresh.")
-
-# ════════════════════════════════════════════════════════════════
-# PROCESS JSON FILES
-# ════════════════════════════════════════════════════════════════
 jsons = [f for f in os.listdir("jsons") if f.endswith('.json')]
-
 if not jsons:
-    print("⚠️  No JSON files found in jsons/ directory!")
+    print("⚠️ No JSON files found!")
     exit()
-
-print(f"\n🔍 Found {len(jsons)} JSON files to check\n")
 
 processed_count = 0
 
 for json_file in jsons:
-    json_path = f"jsons/{json_file}"
-    
-    # 🔧 FIX 1: Open with UTF-8 encoding
     try:
-        with open(json_path, 'r', encoding='utf-8') as f:
+        with open(f"jsons/{json_file}", 'r', encoding='utf-8', errors='ignore') as f:
             content = json.load(f)
-    except UnicodeDecodeError as e:
-        print(f"⚠️  Warning: Unicode error in {json_file}, trying with error handling...")
-        try:
-            with open(json_path, 'r', encoding='utf-8', errors='ignore') as f:
-                content = json.load(f)
-        except Exception as e2:
-            print(f"❌ Failed to read {json_file}: {e2}")
-            continue
     except Exception as e:
-        print(f"❌ Failed to read {json_file}: {e}")
+        print(f"❌ Failed: {json_file} — {e}")
         continue
-    
-    # Check if chunks exist
+
     if 'chunks' not in content or not content['chunks']:
-        print(f"⚠️  Skipping {json_file} - no chunks found")
         continue
-    
-    # Already processed hai toh skip karo
+
     title = content['chunks'][0].get('title', 'Unknown')
     if title in existing_titles:
-        print(f"⏭️  Skipping {json_file} - already processed")
+        print(f"⏭️ Skipping {json_file}")
         continue
 
-    print(f"🔄 Creating Embeddings for {json_file}")
-    
-    # Create embeddings for all chunks
-    texts = [c.get('text', '') for c in content['chunks']]
-    
-    # Filter out empty texts
     valid_chunks = [c for c in content['chunks'] if c.get('text', '').strip()]
-    valid_texts = [c['text'] for c in valid_chunks]
-    
-    if not valid_texts:
-        print(f"⚠️  No valid text found in {json_file}")
+    if not valid_chunks:
         continue
-    
-    embeddings = create_embedding(valid_texts)
 
-    # 🔧 FIX 2: Add video_url and source_type support
-    video_url = content.get('video_url', None)  # Get from metadata
-    
+    print(f"🔄 Embedding: {json_file}")
+    embeddings = model.encode([c['text'] for c in valid_chunks]).tolist()
+    video_url = content.get('video_url', None)
+
+    points = []
     for i, chunk in enumerate(valid_chunks):
-        # Add chunk data
-        chunk['chunk_id'] = chunk_id
-        chunk['embedding'] = embeddings[i]
-        
-        # 🆕 Add video_url if not present in chunk
-        if 'video_url' not in chunk:
-            chunk['video_url'] = video_url
-        
-        # 🆕 Add source_type if not present
-        if 'source_type' not in chunk:
-            # Determine type based on fields
-            if 'page_estimate' in chunk:
-                chunk['source_type'] = 'pdf'
-            else:
-                chunk['source_type'] = 'video'
-        
+        points.append(models.PointStruct(
+            id=chunk_id,
+            vector=embeddings[i],
+            payload={
+                "number": chunk.get("number"),
+                "title": chunk.get("title"),
+                "start": chunk.get("start"),
+                "end": chunk.get("end"),
+                "text": chunk.get("text"),
+                "video_url": chunk.get("video_url") or video_url,
+                "source_type": "pdf" if "page_estimate" in chunk else "video",
+            }
+        ))
         chunk_id += 1
-        my_dicts.append(chunk)
-    
-    processed_count += 1
-    print(f"✅ Processed {len(valid_chunks)} chunks from {json_file}")
 
-# ════════════════════════════════════════════════════════════════
-# SAVE TO JOBLIB
-# ════════════════════════════════════════════════════════════════
-if processed_count == 0:
-    print("\n⚠️  No new files to process!")
-else:
-    df = pd.DataFrame.from_records(my_dicts)
-    
-    # Ensure required columns exist
-    required_cols = ['video_url', 'source_type']
-    for col in required_cols:
-        if col not in df.columns:
-            df[col] = None
-    
-    print(f"\n{'='*60}")
-    print(f"✅ PROCESSING COMPLETE!")
-    print(f"{'='*60}")
-    print(f"📊 Total chunks: {len(df)}")
-    print(f"🎥 Videos: {len(df[df['source_type'] == 'video'])} chunks")
-    print(f"📄 PDFs: {len(df[df['source_type'] == 'pdf'])} chunks")
-    print(f"🔗 Chunks with video_url: {df['video_url'].notna().sum()}")
-    print(f"💾 Saved to: data.embeddings.joblib")
-    print(f"{'='*60}\n")
-    
-    # Show sample
-    print("📝 Sample data (first 3 rows):")
-    print(df[['number', 'title', 'start', 'end', 'video_url', 'source_type']].head(3))
-    
-    joblib.dump(df, "data.embeddings.joblib")
-    print("\n✅ Saved!")
+    # Ek saath sab mat bhejo — 50-50 ke batches mein
+BATCH_SIZE = 50
+for i in range(0, len(points), BATCH_SIZE):
+    batch = points[i:i+BATCH_SIZE]
+    qdrant_client.upsert(collection_name=COLLECTION_NAME, points=batch)
+    print(f"  Uploaded {min(i+BATCH_SIZE, len(points))}/{len(points)} points")
+    processed_count += 1
+    print(f"✅ {len(valid_chunks)} chunks saved — {title}")
+
+print(f"\n✅ Done! {processed_count} new files processed. Total: {chunk_id} chunks")
