@@ -91,7 +91,7 @@ export default function Home() {
   const messageCount = messages.filter(m => m.role === 'user').length
 
   return (
-    <div>
+    <div className="h-screen overflow-hidden">
       <Navbar />
 
       {/* Full remaining height below fixed navbar */}
@@ -135,7 +135,7 @@ export default function Home() {
           )}
 
           {/* Messages — flex-1 + min-h-0, NO overflow-y here, ChatInterface scrolls itself */}
-          <div className="flex-1 min-h-0">
+          <div className="flex-1 min-h-0 " style={{ overflow: 'clip' }}>
             <ChatInterface messages={messages} isLoading={isLoading} />
           </div>
 
