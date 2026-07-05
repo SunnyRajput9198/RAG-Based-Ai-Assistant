@@ -1,0 +1,41 @@
+# API Server
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+# OpenAI (chat streaming, embeddings, whisper transcription)
+openai
+
+# Vector Database
+qdrant-client
+
+# YouTube Audio Download
+yt-dlp
+
+# Audio Splitting (for files > 25MB before sending to Whisper API)
+pydub
+
+# PDF Processing — layout-aware extraction
+pdfplumber
+
+# OCR fallback for scanned PDF pages
+easyocr
+
+# Semantic Chunking — sentence tokenization
+nltk
+
+# Reranking — cross-encoder model
+sentence-transformers
+
+# Database — PostgreSQL + SQLite fallback
+sqlmodel
+psycopg2-binary     # PostgreSQL driver
+
+# Database migrations
+alembic
+
+# Rate limiting
+slowapi
+
+# Environment Variables
+python-dotenv

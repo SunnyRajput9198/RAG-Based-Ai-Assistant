@@ -13,7 +13,7 @@ export function VideoProcessor() {
   const [progress, setProgress] = useState(0)
   const [status, setStatus] = useState('')
   const [isOpen, setIsOpen] = useState(false)
-  const [result, setResult] = useState<any>(null)
+  const [result, setResult] = useState<{ success: boolean; title?: string; chunks?: number; message?: string } | null>(null)
   const wsRef = useRef<WebSocket | null>(null)
 
   const processVideo = () => {
@@ -53,9 +53,11 @@ export function VideoProcessor() {
           setResult({ success: true, title: data.title, chunks: data.chunks })
           setIsProcessing(false)
           wsRef.current = null
-          
-          // 🆕 TRIGGER SIDEBAR REFRESH
           window.dispatchEvent(new Event('refreshVideos'))
+        } else if (data.status === 'error') {
+          setResult({ success: false, message: data.message || 'Processing failed' })
+          setIsProcessing(false)
+          wsRef.current = null
         }
       } catch (e) {}
     }
@@ -155,7 +157,12 @@ export function VideoProcessor() {
               {result?.success && (
                 <div className="rounded-lg bg-primary/5 border border-primary/20 p-3">
                   <p className="text-sm font-medium">✅ {result.title}</p>
-                  <p className="text-xs text-muted-foreground">{result.chunks} chunks</p>
+                  <p className="text-xs text-muted-foreground">{result.chunks} chunks indexed</p>
+                </div>
+              )}
+              {result && !result.success && result.message && (
+                <div className="rounded-lg bg-destructive/5 border border-destructive/20 p-3">
+                  <p className="text-sm font-medium text-destructive">⚠️ {result.message}</p>
                 </div>
               )}
             </div>

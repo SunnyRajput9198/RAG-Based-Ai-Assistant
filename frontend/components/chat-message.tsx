@@ -25,6 +25,7 @@ interface ChatMessageProps {
   sources?: Source[]
   suggestedQuestions?: string[]
   onSuggestedQuestionClick?: (question: string) => void
+  isStreaming?: boolean
   isLoading?: boolean
 }
 
@@ -63,7 +64,7 @@ function CodeBlock({ children, inline }: { children: string; inline?: boolean })
 }
 
 export function ChatMessage({
-  role, content, sources, suggestedQuestions, onSuggestedQuestionClick, isLoading = false
+  role, content, sources, suggestedQuestions, onSuggestedQuestionClick, isStreaming = false, isLoading = false
 }: ChatMessageProps) {
   const [isSpeaking, setIsSpeaking] = useState(false)
 
@@ -100,7 +101,7 @@ export function ChatMessage({
     )
   }
 
-  const isTyping = content === ''
+  const isTyping = content === '' && isStreaming
 
   return (
     <div className="flex justify-start mb-6 animate-in slide-in-from-left duration-300">
@@ -112,6 +113,7 @@ export function ChatMessage({
             </div>
 
             {isTyping ? (
+              /* Waiting for first token — show bouncing dots */
               <div className="flex gap-1 pt-2">
                 <div className="w-2 h-2 rounded-full bg-primary animate-bounce" />
                 <div className="w-2 h-2 rounded-full bg-secondary animate-bounce [animation-delay:0.1s]" />
@@ -134,13 +136,14 @@ export function ChatMessage({
                     h4: ({ children }) => <h4 className="text-sm font-semibold text-foreground mt-3 mb-1">{children}</h4>,
                   }}
                 >
-                  {content}
+                  {/* Append blinking cursor while tokens are streaming in */}
+                  {isStreaming ? content + '▍' : content}
                 </ReactMarkdown>
               </div>
             )}
 
-            {/* 🔊 Speaker Button */}
-            {!isTyping && (
+            {/* Speaker button — only show when stream is complete */}
+            {!isTyping && !isStreaming && (
               <button
                 onClick={speak}
                 className="shrink-0 p-1.5 rounded-lg hover:bg-muted transition-colors"
@@ -152,7 +155,7 @@ export function ChatMessage({
           </div>
         </div>
 
-        {sources && sources.length > 0 && (
+        {!isStreaming && sources && sources.length > 0 && (
           <div className="pl-11 animate-in fade-in duration-500">
             <p className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-primary" />
@@ -203,7 +206,7 @@ export function ChatMessage({
           </div>
         )}
 
-        {suggestedQuestions && suggestedQuestions.length > 0 && onSuggestedQuestionClick && (
+        {!isStreaming && suggestedQuestions && suggestedQuestions.length > 0 && onSuggestedQuestionClick && (
           <SuggestedQuestions
             questions={suggestedQuestions}
             onQuestionClick={onSuggestedQuestionClick}

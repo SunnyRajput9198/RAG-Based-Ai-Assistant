@@ -1,7 +1,5 @@
 'use client'
 
-'use client'
-
 import { useState, useCallback } from 'react'
 import { Upload, FileText, X, CheckCircle2, AlertCircle, FileUp, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -91,6 +89,7 @@ export function PdfUpload({ onUploadComplete }: PdfUploadProps) {
 
       if (response.ok && data.success) {
         setResult({ success: true, title: data.title, pdf_id: data.pdf_id, chunks: data.chunks })
+        window.dispatchEvent(new Event('refreshDocuments'))
         setTimeout(() => {
           onUploadComplete?.()
           handleReset()

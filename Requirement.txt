@@ -7,6 +7,5 @@ joblib
 requests
 langchain
 langchain-anthropic
-langgraph
-sentence-transformers
+langgraphsentence-transformers
 python-dotenv

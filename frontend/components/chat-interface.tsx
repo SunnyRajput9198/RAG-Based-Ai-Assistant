@@ -78,26 +78,22 @@ export function ChatInterface({
   return (
     <div className="h-full overflow-y-auto scroll-smooth">
       <div className="max-w-3xl mx-auto px-4 pt-6 pb-4 sm:px-6 space-y-4">
-        {messages.map((message, idx) => (
-          <ChatMessage
-            key={idx}
-            role={message.role}
-            content={message.content}
-            sources={message.sources}
-            suggestedQuestions={message.suggestedQuestions}
-            onSuggestedQuestionClick={onSuggestedQuestionClick}
-            isLoading={isLoading && idx === messages.length - 1}
-          />
-        ))}
-        {isLoading && messages[messages.length - 1].role === 'user' && (
-          <div className="animate-pulse flex space-x-4 pl-2 py-4">
-            <div className="rounded-lg bg-muted h-8 w-8" />
-            <div className="flex-1 space-y-4 py-1">
-              <div className="h-2 bg-muted rounded w-3/4" />
-              <div className="h-2 bg-muted rounded w-1/2" />
-            </div>
-          </div>
-        )}
+        {messages.map((message, idx) => {
+          const isLastMessage = idx === messages.length - 1
+          const isStreaming = isLoading && isLastMessage && message.role === 'assistant'
+          return (
+            <ChatMessage
+              key={idx}
+              role={message.role}
+              content={message.content}
+              sources={message.sources}
+              suggestedQuestions={message.suggestedQuestions}
+              onSuggestedQuestionClick={onSuggestedQuestionClick}
+              isStreaming={isStreaming}
+              isLoading={isLoading && isLastMessage}
+            />
+          )
+        })}
         <div ref={messagesEndRef} className="h-4" />
       </div>
     </div>

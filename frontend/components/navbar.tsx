@@ -5,8 +5,7 @@ import { Moon, Sun, Sparkles } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
 import { PdfUpload } from '@/components/pdf_upload'
-import { generatePDF } from '@/components/generate-pdf' 
-import { motion } from 'framer-motion'
+import { generatePDF } from '@/components/generate-pdf'
 import { VideoProcessor } from '@/components/video-processor'
 
 interface NavbarProps {
@@ -83,7 +82,8 @@ export function Navbar({ messages }: NavbarProps) {
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => generatePDF(messages!)}
+            onClick={() => generatePDF(messages ?? [])}
+            disabled={!messages || messages.length === 0}
             className="hidden sm:flex items-center gap-1 text-xs"
           >
             📝 Export Notes

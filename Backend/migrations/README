@@ -1,0 +1,25 @@
+EduBot Alembic Migrations
+=========================
+
+## Setup (first time)
+
+1. Install dependencies:
+   pip install alembic psycopg2-binary
+
+2. Set DATABASE_URL in Backend/.env:
+   DATABASE_URL=postgresql://postgres:postgres@localhost:5432/edubot
+
+3. Generate the initial migration from your SQLModel models:
+   cd Backend
+   alembic revision --autogenerate -m "initial schema"
+
+4. Apply the migration:
+   alembic upgrade head
+
+## Common commands
+
+  alembic upgrade head          — apply all pending migrations
+  alembic downgrade -1          — roll back one migration
+  alembic revision --autogenerate -m "add column x"  — generate a new migration
+  alembic history               — show migration history
+  alembic current               — show current DB revision

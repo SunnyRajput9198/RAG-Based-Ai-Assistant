@@ -5,7 +5,9 @@ interface Message {
   content: string
 }
 // https://www.geeksforgeeks.org/html/how-to-generate-pdf-file-using-jspdf-library/
-export function generatePDF(messages: Message[], title: string = "EduBot Notes"): void {
+export function generatePDF(messages: Message[] | undefined, title: string = "EduBot Notes"): void {
+  if (!messages || messages.length === 0) return
+
   const doc = new jsPDF()
   
   let y = 20 // vertical position

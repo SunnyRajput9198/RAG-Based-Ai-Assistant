@@ -1,9 +1,50 @@
-data.embeddings.joblib
-config.py
-.env
-venv/
+# ── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
-node_modules
-venv_new
-.vscode
+
+# Virtual environments
+.venv/
+venv/
+venv_new/
+env/
+.env/
+
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+data.embeddings.joblib
+
+# ── Uploads & generated files ─────────────────────────────────────────────────
+Backend/uploads/
+Backend/audios/
+Backend/jsons/
+Backend/newjsons/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+config.py
+*.log
